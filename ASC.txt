@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.0.9
+	name: Arpiwum Clicker v.0.9.1
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 09.02.2025
 
