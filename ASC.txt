@@ -2889,14 +2889,14 @@ Upgrades
 		tag:eventUpgrade
 
 
-//	*Event1
-//	name:After Party
-//	desc:Z Arpiwum Clickerem dobra zabawa nigdy się nie kończy. Czas na afterka przy dobrych trunkach. <//> <//><b><u>Efekt działania:</u></b></#><.>Przypływ <b>Subskrybentów</b> z twoich filmów zostaje zwiększony o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich źródeł zostaje zwiększony o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> z twoich filmów zostaje zwiększony o <b><#00ff00>40%</b></#><//> <//>Czas trwania wydarzenia:<//><b>10.03 - 16.03.2025</b>
-//	tag:eventUpgrade
-//	hidden
-//	passive:multiply yield of PLN by 1.12
-//	passive:multiply Minuty yield of tag:normalbuilding by 1.4
-//	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
+	*Event1
+	name:After Party
+	desc:Z Arpiwum Clickerem dobra zabawa nigdy się nie kończy. Czas na afterka przy dobrych trunkach. <//> <//><b><u>Efekt działania:</u></b></#><.>Przypływ <b>Subskrybentów</b> z twoich filmów zostaje zwiększony o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich źródeł zostaje zwiększony o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> z twoich filmów zostaje zwiększony o <b><#00ff00>40%</b></#><//> <//>Czas trwania wydarzenia:<//><b>10.03 - 16.03.2025</b>
+	tag:eventUpgrade
+	hidden
+	passive:multiply yield of PLN by 1.12
+	passive:multiply Minuty yield of tag:normalbuilding by 1.4
+	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
 
 
 
