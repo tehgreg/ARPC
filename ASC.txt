@@ -1421,6 +1421,40 @@ always hidden
 always hidden
 
 
+//SEZONOWE TRACKER HELPERS
+
+
+*Event0Resource
+always hidden
+*Event1Resource
+always hidden
+*Event2Resource
+always hidden
+*Event3Resource
+always hidden
+*Event4Resource
+always hidden
+*Event5Resource
+always hidden
+*Event6Resource
+always hidden
+*Event7Resource
+always hidden
+*Event8Resource
+always hidden
+*Event9Resource
+always hidden
+*Event10Resource
+always hidden
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2887,6 +2921,7 @@ Upgrades
 	name:Wszystkiego najlepszego!
 	desc: Pieniędzy, pieniędzy i jeszcze raz pieniędzy. Może w tym Wydarzeniu Sezonowym nie ma żadnych benefitów, bo zaburzyło by to ekonomię na początku gry, ale dostaniesz za to piękne Osiągnięcie.
 	tag:eventUpgrade
+	on earn:yield 1 Event0Resource
 
 
 
@@ -13632,7 +13667,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event0Reward
 	name:☼ Wszystkiego najlepszego! ☼
 	desc:Zdrowia, szczęścia i jeszcze raz pieniędzy! Aczik przyznany za kliknięcie urodzinowego Wydarzenia Sezonowego.
-	req:1 Event0
+	req:1 Event0Resource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
@@ -13640,14 +13675,14 @@ passive:grant 1 WyzwaniaAchievs
 *Event1Reward
 	name:☼ Dobra zabawa ☼
 	desc:Wziąłeś udział w afterparty po imprezie urodzinowej.
-	req:1 Event1
+	req:1 Event1Resource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
 *Event2Reward
 	name:☼ Rocznica: Ourang Medan ☼
 	desc:Wziąłeś udział w obchodach rocznicy filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"
-	req:1 Event2
+	req:1 Event2Resource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
