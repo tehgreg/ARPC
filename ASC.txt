@@ -2882,14 +2882,14 @@ Upgrades
 
 
 
-	*Event0
-		hidden
-		name:Wszystkiego najlepszego!
-		desc: Pieniędzy, pieniędzy i jeszcze raz pieniędzy. Może w tym Wydarzeniu Sezonowym nie ma żadnych benefitów, bo zaburzyło by to ekonomię na początku gry, ale dostaniesz za to piękne Osiągnięcie.
-		tag:eventUpgrade
+*Event0
+	hidden
+	name:Wszystkiego najlepszego!
+	desc: Pieniędzy, pieniędzy i jeszcze raz pieniędzy. Może w tym Wydarzeniu Sezonowym nie ma żadnych benefitów, bo zaburzyło by to ekonomię na początku gry, ale dostaniesz za to piękne Osiągnięcie.
+	tag:eventUpgrade
 
 
-	*Event1
+*Event1
 	name:After Party
 	desc:Z Arpiwum Clickerem dobra zabawa nigdy się nie kończy. Czas na afterka przy dobrych trunkach. <//> <//><b><u>Efekt działania:</u></b></#><.>Przypływ <b>Subskrybentów</b> z twoich filmów zostaje zwiększony o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich źródeł zostaje zwiększony o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> z twoich filmów zostaje zwiększony o <b><#00ff00>40%</b></#><//> <//>Czas trwania wydarzenia:<//><b>10.03 - 16.03.2025</b>
 	tag:eventUpgrade
@@ -2897,6 +2897,23 @@ Upgrades
 	passive:multiply yield of PLN by 1.12
 	passive:multiply Minuty yield of tag:normalbuilding by 1.4
 	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
+
+*Event2
+	name:Ourang Medan - Rocznica Filmu
+	desc:W tym tygodniu wypada rocznica publikacji twojego filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"<//> <//><b><u>Efekt działania:</u></b></#><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> z tego filmu rośnie <b><#00ff00>5x</b></#>.<//> <//>Czas trwania wydarzenia:<//><b>17.03 - 23.03.2025</b>
+	tag:eventUpgrade
+	hidden
+	passive:multiply yield of ArpiwumMovie13 by 5
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -13635,13 +13652,19 @@ passive:grant 1 WyzwaniaAchievs
 	passive:grant 1 SezonAchievs
 
 
-//*Event0Reward
-//	name:☼ Dobra zabawa ☼
-//	desc:Wziąłeś udział w afterparty po imprezie urodzinowej.
-//	req:1 Event1
-//	passive:grant 1 TotalAchievs
-//	passive:grant 1 SezonAchievs
+*Event1Reward
+	name:☼ Dobra zabawa ☼
+	desc:Wziąłeś udział w afterparty po imprezie urodzinowej.
+	req:1 Event1
+	passive:grant 1 TotalAchievs
+	passive:grant 1 SezonAchievs
 
+*Event2Reward
+	name:☼ Rocznica: Ourang Medan ☼
+	desc:Wziąłeś udział w obchodach rocznicy filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"
+	req:1 Event2
+	passive:grant 1 TotalAchievs
+	passive:grant 1 SezonAchievs
 
 
 
