@@ -2923,15 +2923,15 @@ Upgrades
 	tag:eventUpgrade
 	on earn:yield 1 Event0Resource
 
-*Event1
-	hidden
-	name:Afterparty
-	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>12%</b></#>
-	tag:eventUpgrade
-	on earn:yield 1 Event1Resource
-	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
-	passive:multiply Minuty yield of tag:normalbuilding by 1.40
-	passive:multiply yield of PLN by 1.12
+//*Event1
+//	hidden
+//	name:Afterparty
+//	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#>
+//	tag:eventUpgrade
+//	on earn:yield 1 Event1Resource
+//	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
+//	passive:multiply Minuty yield of tag:normalbuilding by 1.40
+//	passive:multiply yield of PLN by 1.12
 
 
 
