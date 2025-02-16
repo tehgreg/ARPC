@@ -2933,14 +2933,14 @@ Upgrades
 	passive:multiply Minuty yield of tag:normalbuilding by 1.40
 	passive:multiply yield of PLN by 1.12
 
-*Event2
-	hidden
-	name:Event 2 Test
-	tag:eventUpgrade
-	on earn:yield 1 Event2Resource
-	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
-	passive:multiply Minuty yield of tag:normalbuilding by 1.40
-	passive:multiply yield of PLN by 1.12
+//*Event2
+//	hidden
+//	name:Event 2 Test
+//	tag:eventUpgrade
+//	on earn:yield 1 Event2Resource
+//	passive:multiply yield of tag:normalbuilding by 1.06
+//	passive:multiply yield of tag:normalbuilding by 1.40
+//	passive:multiply yield of PLN by 1.12
 
 
 
