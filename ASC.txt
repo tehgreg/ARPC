@@ -2926,21 +2926,20 @@ Upgrades
 *Event1
 	hidden
 	name:Afterparty
-	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#>
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia:</b></u>10.03.2025 - 16.03.2025
 	tag:eventUpgrade
 	on earn:yield 1 Event1Resource
 	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
 	passive:multiply Minuty yield of tag:normalbuilding by 1.40
 	passive:multiply yield of PLN by 1.12
 
-//*Event2
-//	hidden
-//	name:Event 2 Test
-//	tag:eventUpgrade
-//	on earn:yield 1 Event2Resource
-//	passive:multiply yield of tag:normalbuilding by 1.06
-//	passive:multiply yield of tag:normalbuilding by 1.40
-//	passive:multiply yield of PLN by 1.12
+*Event2
+	hidden
+	name:Rocznica: Ourang Medan
+	desc:Nadchodzi rocznica publikacji twojego filmu: "Z Arpiwum X: Ourang Medan - prawda czy fikcja?". Promujesz swój film i zyskujesz wielu nowych entuzjastów tematu.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> tego filmu rośnie <b><#00ff00>5x</b></#><//> <//><b><u>Czas trwania wydarzenia:</b></u>17.03.2025 - 23.03.2025
+	tag:eventUpgrade
+	on earn:yield 1 Event2Resource
+	passive:multiply yield of ArpiwumMovie13 by 5
 
 
 
@@ -4315,14 +4314,14 @@ req:1 ArpiwumMovie16UpV
 		*NowyKanalPlus
 		name:Nowa Gra+
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Aby rozwijać swoją karierę na Youtubie, będziesz musiał pomyśleć o zawarciu lepszych umów z platformą. Niestety Youtube zwęszył, że od nich nie uciekniesz i zaczął stawiać warunki. Ich spełnienie będzie kłopotliwe, ale pozwoli ci na dalszą ekspansję twojego trukrajmowego imperium.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>10,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 800,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału (10,000x więcej niż do tej pory).<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Aby rozwijać swoją karierę na Youtubie, będziesz musiał pomyśleć o zawarciu lepszych umów z platformą. Niestety Youtube zwęszył, że od nich nie uciekniesz i zaczął stawiać warunki. Ich spełnienie będzie kłopotliwe, ale pozwoli ci na dalszą ekspansję twojego trukrajmowego imperium.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>10,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 800,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		cost:10000 Kanaly
 
 		*NowyKanalPlus2
 		name:Nowa Gra++
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kombinuje coraz bardziej, ale ty nie dajesz za wygraną. Niewyobrażalne bogatctwo jest w zasięgu ręki, tylko musisz podpisać odpowiedni aneks do umowy.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>100,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 8,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału (10,000x więcej niż do tej pory).<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kombinuje coraz bardziej, ale ty nie dajesz za wygraną. Niewyobrażalne bogatctwo jest w zasięgu ręki, tylko musisz podpisać odpowiedni aneks do umowy.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>100,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 8,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		req:NowyKanalPlus
 		cost:100000 Kanaly
@@ -4330,7 +4329,7 @@ req:1 ArpiwumMovie16UpV
 		*NowyKanalPlus3
 		name:Nowa Gra+++ 
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kontynuuje swoje machlojki ze stawkami, reklamami i innymi elementami mającymi wpływ na twoje zarabianie pieniędzy. W końcu będziesz musiał ulec i podpisać kolejny aneks.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>1,000,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału (10,000x więcej niż do tej pory).<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kontynuuje swoje machlojki ze stawkami, reklamami i innymi elementami mającymi wpływ na twoje zarabianie pieniędzy. W końcu będziesz musiał ulec i podpisać kolejny aneks.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>1,000,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		req:NowyKanalPlus2
 		cost:1000000 Kanaly
