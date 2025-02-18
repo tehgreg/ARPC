@@ -13756,26 +13756,26 @@ passive:grant 1 WyzwaniaAchievs
 	passive:grant 1 SezonAchievs
 
 
-*Event1Reward
-	name:☼ Dobra zabawa ☼
-	desc:Wziąłeś udział w afterparty po imprezie urodzinowej.
-	req:1 Event1Resource
-	passive:grant 1 TotalAchievs
-	passive:grant 1 SezonAchievs
+//*Event1Reward
+//	name:☼ Dobra zabawa ☼
+//	desc:Wziąłeś udział w afterparty po imprezie urodzinowej.
+//	req:1 Event1Resource
+//	passive:grant 1 TotalAchievs
+//	passive:grant 1 SezonAchievs
 
-*Event2Reward
-	name:☼ Rocznica: Ourang Medan ☼
-	desc:Wziąłeś udział w obchodach rocznicy filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"
-	req:1 Event2Resource
-	passive:grant 1 TotalAchievs
-	passive:grant 1 SezonAchievs
+//*Event2Reward
+//	name:☼ Rocznica: Ourang Medan ☼
+//	desc:Wziąłeś udział w obchodach rocznicy filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"
+//	req:1 Event2Resource
+//	passive:grant 1 TotalAchievs
+//	passive:grant 1 SezonAchievs
 
-*Event3Reward
-	name:☼ Plan Tygodniowy I ☼
-	desc:Wypełniłeś wszystkie zadania w Planie Tygodniowym I
-	req:1 Event3Resource
-	passive:grant 1 TotalAchievs
-	passive:grant 1 SezonAchievs
+//*Event3Reward
+//	name:☼ Plan Tygodniowy I ☼
+//	desc:Wypełniłeś wszystkie zadania w Planie Tygodniowym I.
+//	req:1 Event3Resource
+//	passive:grant 1 TotalAchievs
+//	passive:grant 1 SezonAchievs
 
 
 
