@@ -2922,6 +2922,12 @@ Upgrades
 	on click:yield 999999999999999999999999999999999999999 Minuty
 	on click:yield 999999999999999999999999999999999999999 Subskrybent
 
+*Event0000001
+	name:DEV Mniejszy
+	desc: DEV
+	on click:yield 9999999999999999 PLN
+	on click:yield 9999999999999999 Minuty
+	on click:yield 9999999999999999 Subskrybent
 
 
 
