@@ -2941,47 +2941,47 @@ Upgrades
 	tag:eventUpgrade
 	on earn:yield 1 Event0Resource
 
-//*Event1
-//	hidden
-//	name:Afterparty
-//	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia: </b></u>10.03.2025 - 16.03.2025
-//	tag:eventUpgrade
-//	on earn:yield 1 Event1Resource
-//	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
-//	passive:multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by 1.06
-//	passive:multiply ArpMovie2TotalSub yield of ArpiwumMovie2 by 1.06
-//	passive:multiply ArpMovie3TotalSub yield of ArpiwumMovie3 by 1.06
-//	passive:multiply ArpMovie4TotalSub yield of ArpiwumMovie4 by 1.06
-//	passive:multiply ArpMovie5TotalSub yield of ArpiwumMovie5 by 1.06
-//	passive:multiply ArpMovie6TotalSub yield of ArpiwumMovie6 by 1.06
-//	passive:multiply ArpMovie7TotalSub yield of ArpiwumMovie7 by 1.06
-//	passive:multiply ArpMovie8TotalSub yield of ArpiwumMovie8 by 1.06
-//	passive:multiply ArpMovie9TotalSub yield of ArpiwumMovie9 by 1.06
-//	passive:multiply ArpMovie10TotalSub yield of ArpiwumMovie10 by 1.06
-//	passive:multiply ArpMovie11TotalSub yield of ArpiwumMovie11 by 1.06
-//	passive:multiply ArpMovie12TotalSub yield of ArpiwumMovie12 by 1.06
-//	passive:multiply ArpMovie13TotalSub yield of ArpiwumMovie13 by 1.06
-//	passive:multiply ArpMovie14TotalSub yield of ArpiwumMovie14 by 1.06
-//	passive:multiply ArpMovie15TotalSub yield of ArpiwumMovie15 by 1.06
-//	passive:multiply ArpMovie16TotalSub yield of ArpiwumMovie16 by 1.06
-//	passive:multiply yield of PLN by 1.12
-//	passive:multiply Minuty yield of tag:normalbuilding by 1.40
-//	passive:multiply ArpMovie1TotalMin yield of ArpiwumMovie1 by 1.40
-//	passive:multiply ArpMovie2TotalMin yield of ArpiwumMovie2 by 1.40
-//	passive:multiply ArpMovie3TotalMin yield of ArpiwumMovie3 by 1.40
-//	passive:multiply ArpMovie4TotalMin yield of ArpiwumMovie4 by 1.40
-//	passive:multiply ArpMovie5TotalMin yield of ArpiwumMovie5 by 1.40
-//	passive:multiply ArpMovie6TotalMin yield of ArpiwumMovie6 by 1.40
-//	passive:multiply ArpMovie7TotalMin yield of ArpiwumMovie7 by 1.40
-//	passive:multiply ArpMovie8TotalMin yield of ArpiwumMovie8 by 1.40
-//	passive:multiply ArpMovie9TotalMin yield of ArpiwumMovie9 by 1.40
-//	passive:multiply ArpMovie10TotalMin yield of ArpiwumMovie10 by 1.40
-//	passive:multiply ArpMovie11TotalMin yield of ArpiwumMovie11 by 1.40
-//	passive:multiply ArpMovie12TotalMin yield of ArpiwumMovie12 by 1.40
-//	passive:multiply ArpMovie13TotalMin yield of ArpiwumMovie13 by 1.40
-//	passive:multiply ArpMovie14TotalMin yield of ArpiwumMovie14 by 1.40
-//	passive:multiply ArpMovie15TotalMin yield of ArpiwumMovie15 by 1.40
-//	passive:multiply ArpMovie16TotalMin yield of ArpiwumMovie16 by 1.40
+*Event1
+	hidden
+	name:Afterparty
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia: </b></u>10.03.2025 - 16.03.2025
+	tag:eventUpgrade
+	on earn:yield 1 Event1Resource
+	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
+	passive:multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by 1.06
+	passive:multiply ArpMovie2TotalSub yield of ArpiwumMovie2 by 1.06
+	passive:multiply ArpMovie3TotalSub yield of ArpiwumMovie3 by 1.06
+	passive:multiply ArpMovie4TotalSub yield of ArpiwumMovie4 by 1.06
+	passive:multiply ArpMovie5TotalSub yield of ArpiwumMovie5 by 1.06
+	passive:multiply ArpMovie6TotalSub yield of ArpiwumMovie6 by 1.06
+	passive:multiply ArpMovie7TotalSub yield of ArpiwumMovie7 by 1.06
+	passive:multiply ArpMovie8TotalSub yield of ArpiwumMovie8 by 1.06
+	passive:multiply ArpMovie9TotalSub yield of ArpiwumMovie9 by 1.06
+	passive:multiply ArpMovie10TotalSub yield of ArpiwumMovie10 by 1.06
+	passive:multiply ArpMovie11TotalSub yield of ArpiwumMovie11 by 1.06
+	passive:multiply ArpMovie12TotalSub yield of ArpiwumMovie12 by 1.06
+	passive:multiply ArpMovie13TotalSub yield of ArpiwumMovie13 by 1.06
+	passive:multiply ArpMovie14TotalSub yield of ArpiwumMovie14 by 1.06
+	passive:multiply ArpMovie15TotalSub yield of ArpiwumMovie15 by 1.06
+	passive:multiply ArpMovie16TotalSub yield of ArpiwumMovie16 by 1.06
+	passive:multiply yield of PLN by 1.12
+	passive:multiply Minuty yield of tag:normalbuilding by 1.40
+	passive:multiply ArpMovie1TotalMin yield of ArpiwumMovie1 by 1.40
+	passive:multiply ArpMovie2TotalMin yield of ArpiwumMovie2 by 1.40
+	passive:multiply ArpMovie3TotalMin yield of ArpiwumMovie3 by 1.40
+	passive:multiply ArpMovie4TotalMin yield of ArpiwumMovie4 by 1.40
+	passive:multiply ArpMovie5TotalMin yield of ArpiwumMovie5 by 1.40
+	passive:multiply ArpMovie6TotalMin yield of ArpiwumMovie6 by 1.40
+	passive:multiply ArpMovie7TotalMin yield of ArpiwumMovie7 by 1.40
+	passive:multiply ArpMovie8TotalMin yield of ArpiwumMovie8 by 1.40
+	passive:multiply ArpMovie9TotalMin yield of ArpiwumMovie9 by 1.40
+	passive:multiply ArpMovie10TotalMin yield of ArpiwumMovie10 by 1.40
+	passive:multiply ArpMovie11TotalMin yield of ArpiwumMovie11 by 1.40
+	passive:multiply ArpMovie12TotalMin yield of ArpiwumMovie12 by 1.40
+	passive:multiply ArpMovie13TotalMin yield of ArpiwumMovie13 by 1.40
+	passive:multiply ArpMovie14TotalMin yield of ArpiwumMovie14 by 1.40
+	passive:multiply ArpMovie15TotalMin yield of ArpiwumMovie15 by 1.40
+	passive:multiply ArpMovie16TotalMin yield of ArpiwumMovie16 by 1.40
 	
 
 //*Event2
