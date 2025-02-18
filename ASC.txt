@@ -2654,7 +2654,7 @@ Buildings
 	no buy
 	limit:1
 	tag:pomocBuilding
-	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 569 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/569)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/2- <b>[(SezonAchievs/2*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
+	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 572 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/4- <b>[(SezonAchievs/4*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
 	req:PrestigeStats
 
 
@@ -2926,7 +2926,7 @@ Upgrades
 *Event1
 	hidden
 	name:Afterparty
-	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia:</b></u>10.03.2025 - 16.03.2025
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia: </b></u>10.03.2025 - 16.03.2025
 	tag:eventUpgrade
 	on earn:yield 1 Event1Resource
 	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
@@ -2936,7 +2936,7 @@ Upgrades
 *Event2
 	hidden
 	name:Rocznica: Ourang Medan
-	desc:Nadchodzi rocznica publikacji twojego filmu: "Z Arpiwum X: Ourang Medan - prawda czy fikcja?". Promujesz swój film i zyskujesz wielu nowych entuzjastów tematu.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> tego filmu rośnie <b><#00ff00>5x</b></#><//> <//><b><u>Czas trwania wydarzenia:</b></u>17.03.2025 - 23.03.2025
+	desc:Nadchodzi rocznica publikacji twojego filmu: "Z Arpiwum X: Ourang Medan - prawda czy fikcja?". Promujesz swój film i zyskujesz wielu nowych entuzjastów tematu.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> tego filmu rośnie <b><#00ff00>5x</b></#><//> <//><b><u>Czas trwania wydarzenia: </b></u>17.03.2025 - 23.03.2025
 	tag:eventUpgrade
 	on earn:yield 1 Event2Resource
 	passive:multiply yield of ArpiwumMovie13 by 5
@@ -13702,6 +13702,12 @@ passive:grant 1 WyzwaniaAchievs
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
+*Event3Reward
+	name:☼ Plan Tygodniowy I ☼
+	desc:Wypełniłeś wszystkie zadania w Planie Tygodniowym I
+	req:1 Event3Resource
+	passive:grant 1 TotalAchievs
+	passive:grant 1 SezonAchievs
 
 
 
