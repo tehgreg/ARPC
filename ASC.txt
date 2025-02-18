@@ -2929,6 +2929,15 @@ Upgrades
 	on click:yield 9999999999999999 Minuty
 	on click:yield 9999999999999999 Subskrybent
 
+*Event0000002
+	name:DEV Patroni
+	desc: DEV
+	on click:yield 1000 PatroniteA
+	on click:yield 1000 PatroniteB
+	on click:yield 1000 PatroniteC
+	on click:yield 1000 PatroniteD
+	on click:yield 1000 PatroniteE
+	on click:yield 1000 PatroniteF
 
 
 
@@ -2944,7 +2953,7 @@ Upgrades
 *Event1
 	hidden
 	name:Afterparty
-	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia: </b></u>10.03.2025 - 16.03.2025
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>12%</b></#><.>Przypływ <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>40%</b></#><//> <//><b><u>Czas trwania wydarzenia:</b></u> 10.03.2025 - 16.03.2025
 	tag:eventUpgrade
 	on earn:yield 1 Event1Resource
 	passive:multiply Subskrybent yield of tag:normalbuilding by 1.06
@@ -2984,20 +2993,20 @@ Upgrades
 	passive:multiply ArpMovie16TotalMin yield of ArpiwumMovie16 by 1.40
 	
 
-//*Event2
-//	hidden
-//	name:Rocznica: Ourang Medan
-//	desc:Nadchodzi rocznica publikacji twojego filmu: "Z Arpiwum X: Ourang Medan - prawda czy fikcja?". Promujesz swój film i zyskujesz wielu nowych entuzjastów tematu.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> tego filmu rośnie <b><#00ff00>5x</b></#><//> <//><b><u>Czas trwania wydarzenia: </b></u>17.03.2025 - 23.03.2025
-//	tag:eventUpgrade
-//	on earn:yield 1 Event2Resource
-//	passive:multiply yield of ArpiwumMovie13 by 5
+*Event2
+	hidden
+	name:Rocznica: Ourang Medan
+	desc:Nadchodzi rocznica publikacji twojego filmu: "Z Arpiwum X: Ourang Medan - prawda czy fikcja?". Promujesz swój film i zyskujesz wielu nowych entuzjastów tematu.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> tego filmu rośnie <b><#00ff00>5x</b></#><//> <//><b><u>Czas trwania wydarzenia:</b></u> 17.03.2025 - 23.03.2025
+	tag:eventUpgrade
+	on earn:yield 1 Event2Resource
+	passive:multiply yield of ArpiwumMovie13 by 5
 
 
 *Event3
 	hidden
 	tag:eventUpgrade
 	name:Plan Tygodniowy I
-	desc:Dobry plan to połowa sukcesu. Aby poprawić swoją działalność na Youtubie planujesz serię zadań, które musisz wykonać w ciągu tygodnia. Z racji, że jest to twój pierwszy plan to wymyślasz sobie zadania, które nie będą zbytnio wymagające.<//> <//><b><u>Jak działa Plan Tygodniowy?</b></u><.>Plan Tygodniowy działa jak zwykłe ulepszenie ale z tym wyjątkiem, że wymaga ono wydania kilku "walut" jednocześnie.<.>Po "zakupie" tego ulepszenia otrzymasz nagrody przedstawione w sekcji poniżej.<.>Dany Plan Tygodniowy można wykonać tylko raz.<//> <//><b><#FFD700>Nagrody:</b></#><.>Otrzymujesz <b><#00ff00>3</b></#> <b>Punkty Sponsorów</b>.<.>Otrzymujesz <b><#00ff00>30,000</b></#> <b>Chęci Do Życia</b>.<.>Otrzymujesz sezonowe <b>Osiągnięcie</b>.<//> <//><b><u>Czas trwania wydarzenia: </b></u>24.03.2025 - 30.03.2025
+	desc:Dobry plan to połowa sukcesu. Aby poprawić swoją działalność na Youtubie planujesz serię zadań, które musisz wykonać w ciągu tygodnia. Z racji, że jest to twój pierwszy plan to wymyślasz sobie zadania, które nie będą zbytnio wymagające.<//> <//><b><u>Jak działa Plan Tygodniowy?</b></u><.>Plan Tygodniowy działa jak zwykłe ulepszenie ale z tym wyjątkiem, że wymaga ono wydania kilku "walut" jednocześnie.<.>Po "zakupie" tego ulepszenia otrzymasz nagrody przedstawione w sekcji poniżej.<.>Dany Plan Tygodniowy można wykonać tylko raz.<//> <//><b><#FFD700>Nagrody:</b></#><.>Otrzymujesz <b><#00ff00>3</b></#> <b>Punkty Sponsorów</b>.<.>Otrzymujesz <b><#00ff00>30,000</b></#> <b>Chęci Do Życia</b>.<.>Otrzymujesz sezonowe <b>Osiągnięcie</b>.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 24.03.2025 - 30.03.2025
 	on earn:yield 1 Event3Resource
 	on earn:yield 3 SponsorPoints
 	on earn:yield 30000 CDZ
