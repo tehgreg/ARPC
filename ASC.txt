@@ -2993,9 +2993,17 @@ Upgrades
 //	passive:multiply yield of ArpiwumMovie13 by 5
 
 
-
-
-
+*Event3
+	hidden
+	tag:eventUpgrade
+	name:Plan Tygodniowy I
+	desc:Dobry plan to połowa sukcesu. Aby poprawić swoją działalność na Youtubie planujesz serię zadań, które musisz wykonać w ciągu tygodnia. Z racji, że jest to twój pierwszy plan to wymyślasz sobie zadania, które nie będą zbytnio wymagające.<//> <//><b><u>Jak działa Plan Tygodniowy?</b></u><.>Plan Tygodniowy działa jak zwykłe ulepszenie ale z tym wyjątkiem, że wymaga ono wydania kilku "walut" jednocześnie.<.>Po "zakupie" tego ulepszenia otrzymasz nagrody przedstawione w sekcji poniżej.<.>Dany Plan Tygodniowy można wykonać tylko raz.<//> <//><b><#FFD700>Nagrody:</b></#><.>Otrzymujesz <b><#00ff00>3</b></#> <b>Punkty Sponsorów</b>.<.>Otrzymujesz <b><#00ff00>30,000</b></#> <b>Chęci Do Życia</b>.<.>Otrzymujesz sezonowe <b>Osiągnięcie</b>.<//> <//><b><u>Czas trwania wydarzenia: </b></u>24.03.2025 - 30.03.2025
+	on earn:yield 1 Event3Resource
+	on earn:yield 3 SponsorPoints
+	on earn:yield 30000 CDZ
+	cost:1000 Kanaly
+	cost:100 PatroniteA
+	cost:50 PatroniteB
 
 
 
