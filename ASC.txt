@@ -2915,57 +2915,12 @@ Upgrades
 //WYDARZENIA SEZONOWE
 
 
-*Event000000
-	name:DEV
-	desc: DEV
-	on click:yield 999999999999999999999999999999999999999 PLN
-	on click:yield 999999999999999999999999999999999999999 Minuty
-	on click:yield 999999999999999999999999999999999999999 Subskrybent
-
-*Event0000001
-	name:DEV Mniejszy
-	desc: DEV
-	on click:yield 9999999999999999 PLN
-	on click:yield 9999999999999999 Minuty
-	on click:yield 9999999999999999 Subskrybent
-
-*Event0000002
-	name:DEV Patroni
-	desc: DEV
-	on click:yield 1000 PatroniteA
-	on click:yield 1000 PatroniteB
-	on click:yield 1000 PatroniteC
-	on click:yield 1000 PatroniteD
-	on click:yield 1000 PatroniteE
-	on click:yield 1000 PatroniteF
-
-
-
-
-
 *Event0
 	hidden
 	name:Wszystkiego najlepszego!
 	desc: Pieniędzy, pieniędzy i jeszcze raz pieniędzy. Może w tym Wydarzeniu Sezonowym nie ma żadnych benefitów, bo zaburzyło by to ekonomię na początku gry, ale dostaniesz za to piękne Osiągnięcie.
 	tag:eventUpgrade
 	on earn:yield 1 Event0Resource
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -13724,6 +13679,7 @@ passive:grant 1 WyzwaniaAchievs
 	req:1 Event3Resource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
+
 
 
 
