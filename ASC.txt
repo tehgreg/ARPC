@@ -3193,7 +3193,7 @@ on click:lose TierXRandom1Helper
 	*Prestige5
 		name:Nowy kanał ∞
 				tag:resetable normalupgrade
-		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
+		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
 req:80000000000000000000000000000 Subskrybent
 req:NowyKanalPlus4
 on click:yield ((Subskrybent / 80000000000000000000000000000)) Kanaly
@@ -4308,7 +4308,7 @@ req:1 ArpiwumMovie16UpV
 		*NowyKanalPlus4
 		name:Nowa Gra ∞
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Po wielotygodniowych dyskusjach, Youtube i ty wreszcie decydujecie się na finalną wersję umowy waszej współpracy. Obie strony są zadowolone, a ty już zacierasz ręce myśląc o potencjalnych przychodach.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punktów Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>jest całkowicie zlikwidowany.</b></#><.><b>Punkty Kanału</b> NIE są trudniejsze do zdobycia i cały czas potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Po wielotygodniowych dyskusjach, Youtube i ty wreszcie decydujecie się na finalną wersję umowy waszej współpracy. Obie strony są zadowolone, a ty już zacierasz ręce myśląc o potencjalnych przychodach.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punktów Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>jest całkowicie zlikwidowany.</b></#><.><b>Punkty Kanału</b> są trudniejsze do zdobycia i od teraz potrzebujesz 80,000,000,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		req:NowyKanalPlus3
 		cost:20000000 Kanaly
