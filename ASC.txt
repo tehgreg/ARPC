@@ -3193,7 +3193,7 @@ on click:lose TierXRandom1Helper
 	*Prestige5
 		name:Nowy kanał ∞
 				tag:resetable normalupgrade
-		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 800,000,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/800000000000000000000000]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
+		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
 req:80000000000000000000000 Subskrybent
 req:NowyKanalPlus4
 on click:yield ((Subskrybent / 80000000000000000000000)) Kanaly
@@ -3626,7 +3626,7 @@ req:1 ArpiwumMovie5UpV
 
 
 	*ArpiwumMovie6UpI
-		name:Epidemia w Stalowej (krótka wersja) I
+		name:Epidemia w Stalowej (wersja skrócona) I
 				tag:resetable normalupgrade
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie6 by 2
@@ -3634,7 +3634,7 @@ cost:16000000 Subskrybent
 req:1 ArpiwumMovie6
 
 	*ArpiwumMovie6UpII
-		name:Epidemia w Stalowej (krótka wersja) II
+		name:Epidemia w Stalowej (wersja skrócona) II
 				tag:resetable normalupgrade
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie6 by 2
@@ -3642,7 +3642,7 @@ cost:160000000 Subskrybent
 req:1 ArpiwumMovie6UpI
 
 	*ArpiwumMovie6UpIII
-		name:Epidemia w Stalowej (krótka wersja) III
+		name:Epidemia w Stalowej (wersja skrócona) III
 				tag:resetable normalupgrade
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie6 by 2
@@ -3650,7 +3650,7 @@ cost:16000000000 Subskrybent
 req:1 ArpiwumMovie6UpII
 
 	*ArpiwumMovie6UpIV
-		name:Epidemia w Stalowej (krótka wersja) IV
+		name:Epidemia w Stalowej (wersja skrócona) IV
 				tag:resetable normalupgrade
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie6 by 3
@@ -3658,7 +3658,7 @@ cost:1600000000000 Subskrybent
 req:1 ArpiwumMovie6UpIII
 
 	*ArpiwumMovie6UpV
-		name:Epidemia w Stalowej (krótka wersja) V
+		name:Epidemia w Stalowej (wersja skrócona) V
 				tag:resetable normalupgrade
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie6 by 3
@@ -3666,7 +3666,7 @@ cost:160000000000000 Subskrybent
 req:1 ArpiwumMovie6UpIV
 
 	*ArpiwumMovie6UpVI
-		name:Epidemia w Stalowej (krótka wersja) ∞ 
+		name:Epidemia w Stalowej (wersja skrócona) ∞ 
 				tag:resetable normalupgrade
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie6 by 5
@@ -4285,14 +4285,14 @@ req:1 ArpiwumMovie16UpV
 		*NowyKanalPlus
 		name:Nowa Gra+
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Aby rozwijać swoją karierę na Youtubie, będziesz musiał pomyśleć o zawarciu lepszych umów z platformą. Niestety Youtube zwęszył, że od nich nie uciekniesz i zaczął stawiać warunki. Ich spełnienie będzie kłopotliwe, ale pozwoli ci na dalszą ekspansję twojego trukrajmowego imperium.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>10,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 800,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Aby rozwijać swoją karierę na Youtubie, będziesz musiał pomyśleć o zawarciu lepszych umów z platformą. Niestety Youtube zwęszył, że od nich nie uciekniesz i zaczął stawiać warunki. Ich spełnienie będzie kłopotliwe, ale pozwoli ci na dalszą ekspansję twojego trukrajmowego imperium.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punktów Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>10,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 800,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		cost:10000 Kanaly
 
 		*NowyKanalPlus2
 		name:Nowa Gra++
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kombinuje coraz bardziej, ale ty nie dajesz za wygraną. Niewyobrażalne bogatctwo jest w zasięgu ręki, tylko musisz podpisać odpowiedni aneks do umowy.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>100,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 8,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kombinuje coraz bardziej, ale ty nie dajesz za wygraną. Niewyobrażalne bogatctwo jest w zasięgu ręki, tylko musisz podpisać odpowiedni aneks do umowy.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punktów Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>100,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 8,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		req:NowyKanalPlus
 		cost:100000 Kanaly
@@ -4300,7 +4300,7 @@ req:1 ArpiwumMovie16UpV
 		*NowyKanalPlus3
 		name:Nowa Gra+++ 
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kontynuuje swoje machlojki ze stawkami, reklamami i innymi elementami mającymi wpływ na twoje zarabianie pieniędzy. W końcu będziesz musiał ulec i podpisać kolejny aneks.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>1,000,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Youtube kontynuuje swoje machlojki ze stawkami, reklamami i innymi elementami mającymi wpływ na twoje zarabianie pieniędzy. W końcu będziesz musiał ulec i podpisać kolejny aneks.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punktów Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>rośnie</b></#> do <b>1,000,000.</b><.><b>Punkty Kanału</b> są trudniejsze do zdobycia - od teraz potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		req:NowyKanalPlus2
 		cost:1000000 Kanaly
@@ -4308,7 +4308,7 @@ req:1 ArpiwumMovie16UpV
 		*NowyKanalPlus4
 		name:Nowa Gra ∞
 		tag:prestigeupgrade
-		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Po wielotygodniowych dyskusjach, Youtube i ty wreszcie decydujecie się na finalną wersję umowy waszej współpracy. Obie strony są zadowolone, a ty już zacierasz ręce myśląc o potencjalnych przychodach.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punków Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>jest całkowicie zlikwidowany.</b></#><.><b>Punkty Kanału</b> NIE są trudniejsze do zdobycia i cały czas potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
+		desc:<b><#f00>PRZECZYTAJ UWAŻNIE:</#></b><//>Po wielotygodniowych dyskusjach, Youtube i ty wreszcie decydujecie się na finalną wersję umowy waszej współpracy. Obie strony są zadowolone, a ty już zacierasz ręce myśląc o potencjalnych przychodach.<//> <//><b><u>Efekt działania:</b></u><.><b>Limit</b> maksymalnie zdobywanych <b>Punktów Kanału</b> podczas zakładania Nowego Kanału <b><#00ff00>jest całkowicie zlikwidowany.</b></#><.><b>Punkty Kanału</b> NIE są trudniejsze do zdobycia i cały czas potrzebujesz 80,000,000,000,000,000,000,000 Subskrybentów aby zdobyć 1 Punkt Kanału.<.>Każdy inny element gry pozostaje bez zmian i nie tracisz dotychczasowego postępu.<//> <//>Zastanów się czy jesteś w stanie podołać nowym wymaganiom, gdyż nie będziesz mógł wrócić do starej umowy  - możesz znacząco spowolnić swój postęp w grze.
 		req:1 TotalResets
 		req:NowyKanalPlus3
 		cost:20000000 Kanaly
@@ -8588,7 +8588,7 @@ cost:180000 Kanaly
 
 
 *Spot6MultiUpgr1
-	name:Remastering I - Epidemia w Stalowej (wersja krótka)
+	name:Remastering I - Epidemia w Stalowej (wersja skrócona)
 	tag:spotifyupgrade
 	desc:Odkrywasz, że przy nagrywaniu tego odcinka miałeś zaznaczoną opcję "Niska Jakość Dźwięku". Nagrywasz odcinek jeszcze raz, co znacząco ulepsza jego jakość audio.<//> <//><b>Efekt działania: </b>Zwiększenie podstawowej wartości zysków z tego podcastu o 1%
 	req:SpotifyUnlock
@@ -8596,7 +8596,7 @@ cost:180000 Kanaly
 	passive:grant 1 Spot6Multi
 
 *Spot6MultiUpgr2
-	name:Remastering II - Epidemia w Stalowej (wersja krótka)
+	name:Remastering II - Epidemia w Stalowej (wersja skrócona)
 	tag:spotifyupgrade
 	desc:Czytasz poradniki na temat najlepszych rozszerzeń plików audio. Nagrywasz odcinek jeszcze raz, ale tym razem zapisujesz go w odpowiednim formacie.<//> <//><b>Efekt działania: </b>Zwiększenie podstawowej wartości zysków z tego podcastu o 1%
 	req:SpotifyUnlock
@@ -8605,7 +8605,7 @@ cost:180000 Kanaly
 	passive:grant 1 Spot6Multi
 
 *Spot6MultiUpgr3
-	name:Remastering III - Epidemia w Stalowej (wersja krótka)
+	name:Remastering III - Epidemia w Stalowej (wersja skrócona)
 	tag:spotifyupgrade
 	desc:Sprzątasz na biurku, co poprawia zdolności akustyczne twojego pokoju. Nagrywasz odcinek jeszcze raz, aby uzyskać perfekcyjne walory dźwiękowe.<//> <//><b>Efekt działania: </b>Zwiększenie podstawowej wartości zysków z tego podcastu o 1%
 	req:SpotifyUnlock
@@ -8614,7 +8614,7 @@ cost:180000 Kanaly
 	passive:grant 1 Spot6Multi
 
 *Spot6MultiUpgr4
-	name:Remastering IV - Epidemia w Stalowej (wersja krótka)
+	name:Remastering IV - Epidemia w Stalowej (wersja skrócona)
 	tag:spotifyupgrade
 	desc:Nie pijesz piwerka przez 1 dzień i zauważasz, że możesz nagrywać lepsze kwestie bez ciągłych cięć na bekanie. Nagrywasz odcinek jeszcze raz, aby poprawić w nim swoją dykcję.<//> <//><b>Efekt działania: </b>Zwiększenie podstawowej wartości zysków z tego podcastu o 1%
 	req:SpotifyUnlock
@@ -8623,7 +8623,7 @@ cost:180000 Kanaly
 	passive:grant 1 Spot6Multi
 
 *Spot6MultiUpgr5
-	name:Remastering V - Epidemia w Stalowej (wersja krótka)
+	name:Remastering V - Epidemia w Stalowej (wersja skrócona)
 	tag:spotifyupgrade
 	desc:Nagrywasz odcinek po raz ostatni, tym razem stosując ci wszystkie znane sztuczki poprawy jakości jednocześnie.<//> <//><b>Efekt działania: </b>Zwiększenie podstawowej wartości zysków z tego podcastu o 1%
 	req:SpotifyUnlock
