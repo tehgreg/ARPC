@@ -3193,10 +3193,10 @@ on click:lose TierXRandom1Helper
 	*Prestige5
 		name:Nowy kanał ∞
 				tag:resetable normalupgrade
-		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/8000000000000000000000000]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
+		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/800000000000000000000000000]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
 req:80000000000000000000000 Subskrybent
 req:NowyKanalPlus4
-on click:yield ((Subskrybent / 8000000000000000000000000)) Kanaly
+on click:yield ((Subskrybent / 800000000000000000000000000)) Kanaly
 on click:if (have EkspertyzaUnlock) yield ArpiwumMovie1 Ekspertyza1Res
 on click:if (have EkspertyzaUnlock) yield ArpiwumMovie2 Ekspertyza2Res
 on click:if (have EkspertyzaUnlock) yield ArpiwumMovie3 Ekspertyza3Res
