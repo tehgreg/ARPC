@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.1.1
+	name: Arpiwum Clicker v.1.1.1
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.02.2025
 
@@ -5641,12 +5641,12 @@ req:100 PatroniteF
 	*Pozycjo0Status
 		name: Pozycjonowanie: Zaginięcie Lisanne Froon i Kris Kremers
 		tag:pozycjoupgrade
-		desc:Zakup to ulepszenie, aby odblokować możliwość Pozycjonowania filmu: Zaginięcie Lisanne Froon i Kris Kremers. Bonusy za Pozycjonowanie aplikowane są tylko do danego filmu.<//> <.><b>Etap 1:</b> poziom podzielny przez 4<//>Status:[?ArpiwumMovie1%4=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Czasu Oglądania filmu: <b>[ArpiwumMovie1:max]x</b> (mnożnik to najwyższy do tej pory osiągniety poziom tego filmu)<//> <.><b>Etap 2:</b> poziom podzielny przez 5<//>Status:[?ArpiwumMovie1%5=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji: <b>[TotalResets*100]x</b> (mnożnik to ilość założonych do tej pory Nowych Kanałów x100)<//> <.><b>Etap 3:</b> poziom podzielny przez 10<//>Status:[?ArpiwumMovie1%10=0 and !(ArpiwumMovie1=0)and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji: <b>[(ArpiwumMovie1+ArpiwumMovie2+ArpiwumMovie3+ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie6+ArpiwumMovie7+ArpiwumMovie8+ArpiwumMovie9+ArpiwumMovie10+ArpiwumMovie11+ArpiwumMovie12+ArpiwumMovie13+ArpiwumMovie14+ArpiwumMovie15)]x</b> (mnożnik to suma wszystkich poziomów wszystkich obecnie posiadanych filmów)<//> <.><b>Etap 4:</b> poziom podzielny przez 15 i poziom "Sub za Sub" jest większy od 0 <//>Status:[?ArpiwumMovie1%15=0 and !(ArpiwumMovie1=0) and SubZaSub>0 and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Czasu Oglądania filmu: <b>[SubZaSub]x</b> (mnożnik to bieżący poziom "Sub za Sub")<//> <.><b>Etap 5:</b> poziom podzielny przez 25<//>Status:[?ArpiwumMovie1%25=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji: [?(SubClick:clicks<10000)|<b>[SubClick:clicks]x</b>|<b>10,000x</b>] (mnożnik to dotychczasowa ilość kliknięć w przycisk <b>Subskrybuj</b>, ale nie więcej niż 10,000)<//> <.><b>Etap 6:</b> poziom podzielny przez 75<//>Status:[?ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji i Czasu Oglądania: <b>[TotalAchievs*100]x</b> (mnożnik to ilość zdobytych Osiągnięć x100)
+		desc:Zakup to ulepszenie, aby odblokować możliwość Pozycjonowania filmu: Zaginięcie Lisanne Froon i Kris Kremers. Bonusy za Pozycjonowanie aplikowane są tylko do danego filmu.<//> <.><b>Etap 1:</b> poziom podzielny przez 4<//>Status:[?ArpiwumMovie1%4=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Czasu Oglądania filmu: <b>[ArpiwumMovie1:max]x</b> (mnożnik to najwyższy do tej pory osiągniety poziom tego filmu)<//> <.><b>Etap 2:</b> poziom podzielny przez 5<//>Status:[?ArpiwumMovie1%5=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji: <b>[TotalResets]x</b> (mnożnik to ilość założonych do tej pory Nowych Kanałów)<//> <.><b>Etap 3:</b> poziom podzielny przez 10<//>Status:[?ArpiwumMovie1%10=0 and !(ArpiwumMovie1=0)and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji: <b>[(ArpiwumMovie1+ArpiwumMovie2+ArpiwumMovie3+ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie6+ArpiwumMovie7+ArpiwumMovie8+ArpiwumMovie9+ArpiwumMovie10+ArpiwumMovie11+ArpiwumMovie12+ArpiwumMovie13+ArpiwumMovie14+ArpiwumMovie15)]x</b> (mnożnik to suma wszystkich poziomów wszystkich obecnie posiadanych filmów)<//> <.><b>Etap 4:</b> poziom podzielny przez 15 i poziom "Sub za Sub" jest większy od 0 <//>Status:[?ArpiwumMovie1%15=0 and !(ArpiwumMovie1=0) and SubZaSub>0 and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Czasu Oglądania filmu: <b>[SubZaSub]x</b> (mnożnik to bieżący poziom "Sub za Sub")<//> <.><b>Etap 5:</b> poziom podzielny przez 25<//>Status:[?ArpiwumMovie1%25=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji: [?(SubClick:clicks<10000)|<b>[SubClick:clicks]x</b>|<b>10,000x</b>] (mnożnik to dotychczasowa ilość kliknięć w przycisk <b>Subskrybuj</b>, ale nie więcej niż 10,000)<//> <.><b>Etap 6:</b> poziom podzielny przez 75<//>Status:[?ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0) and have Pozycjo0Status|<#00ff00> AKTYWNE</#>|<#f00> NIEAKTYWNE</#>]<//><u>Efekt:</u> Bonus do Subskrypcji i Czasu Oglądania: <b>[TotalAchievs*100]x</b> (mnożnik to ilość zdobytych Osiągnięć)
 		req:PozycjoUnlock
 		passive:if (ArpiwumMovie1%4=0 and !(ArpiwumMovie1=0)) multiply Minuty yield of ArpiwumMovie1 by ArpiwumMovie1:max
 		passive:if (ArpiwumMovie1%4=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalMin yield of ArpiwumMovie1 by ArpiwumMovie1:max
-		passive:if (ArpiwumMovie1%5=0 and !(ArpiwumMovie1=0)) multiply Subskrybent yield of ArpiwumMovie1 by TotalResets*100
-		passive:if (ArpiwumMovie1%5=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by TotalResets*100
+		passive:if (ArpiwumMovie1%5=0 and !(ArpiwumMovie1=0)) multiply Subskrybent yield of ArpiwumMovie1 by TotalResets
+		passive:if (ArpiwumMovie1%5=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by TotalResets
 		passive:if (ArpiwumMovie1%10=0 and !(ArpiwumMovie1=0)) multiply Subskrybent yield of ArpiwumMovie1 by (ArpiwumMovie1+ArpiwumMovie2+ArpiwumMovie3+ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie6+ArpiwumMovie7+ArpiwumMovie8+ArpiwumMovie9+ArpiwumMovie10+ArpiwumMovie11+ArpiwumMovie12+ArpiwumMovie13+ArpiwumMovie14+ArpiwumMovie15)
 		passive:if (ArpiwumMovie1%10=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by (ArpiwumMovie1+ArpiwumMovie2+ArpiwumMovie3+ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie6+ArpiwumMovie7+ArpiwumMovie8+ArpiwumMovie9+ArpiwumMovie10+ArpiwumMovie11+ArpiwumMovie12+ArpiwumMovie13+ArpiwumMovie14+ArpiwumMovie15)
 		passive:if (ArpiwumMovie1%15=0 and SubZaSub>0 and !(ArpiwumMovie1=0)) multiply Minuty yield of ArpiwumMovie1 by SubZaSub
@@ -5655,10 +5655,10 @@ req:100 PatroniteF
 		passive:if (ArpiwumMovie1%25=0 and !(ArpiwumMovie1=0) and SubClick:clicks<10000) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by SubClick:clicks
 		passive:if (ArpiwumMovie1%25=0 and !(ArpiwumMovie1=0) and SubClick:clicks>=10000) multiply Subskrybent yield of ArpiwumMovie1 by 10000
 		passive:if (ArpiwumMovie1%25=0 and !(ArpiwumMovie1=0) and SubClick:clicks>=10000) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by 10000
-		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply Subskrybent yield of ArpiwumMovie1 by TotalAchievs*100
-		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by TotalAchievs*100
-		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply Minuty yield of ArpiwumMovie1 by TotalAchievs*100
-		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalMin yield of ArpiwumMovie1 by TotalAchievs*100
+		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply Subskrybent yield of ArpiwumMovie1 by TotalAchievs
+		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalSub yield of ArpiwumMovie1 by TotalAchievs
+		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply Minuty yield of ArpiwumMovie1 by TotalAchievs
+		passive:if (ArpiwumMovie1%75=0 and !(ArpiwumMovie1=0)) multiply ArpMovie1TotalMin yield of ArpiwumMovie1 by TotalAchievs
 		cost:100000 Kanaly
 
 
@@ -9094,7 +9094,7 @@ cost:180000 Kanaly
 
 *Endgame1Upgr
 	name:Przygotowania: Zaginięcie Lisanne Froon i Kris Kremers
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal1Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build1MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza1Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal1Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build1MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza1Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9114,7 +9114,7 @@ cost:180000 Kanaly
 
 *Endgame2Upgr
 	name:Przygotowania: Tragedia na Przełęczy Diatłowa
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal2Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build2MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza2Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal2Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build2MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza2Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9135,7 +9135,7 @@ cost:180000 Kanaly
 
 *Endgame3Upgr
 	name:Przygotowania: Tragedia w Dolinie Jaworowej
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal3Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build3MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza3Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal3Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build3MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza3Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9156,7 +9156,7 @@ cost:180000 Kanaly
 
 *Endgame4Upgr
 	name:Przygotowania: Tajemnica Mary Celeste
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal4Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build4MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza4Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal4Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build4MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza4Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9178,7 +9178,7 @@ cost:180000 Kanaly
 
 *Endgame5Upgr
 	name:Przygotowania: MV Joyita
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal5Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build5MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza5Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal5Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build5MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza5Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9201,7 +9201,7 @@ cost:180000 Kanaly
 
 *Endgame6Upgr
 	name:Przygotowania: Stalowa Wola - Epidemia, której nie było (wersja skrócona)
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal6Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build6MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza6Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal6Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build6MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza6Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9225,7 +9225,7 @@ cost:180000 Kanaly
 
 *Endgame7Upgr
 	name:Przygotowania: Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal7Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build7MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza7Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal7Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build7MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza7Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9248,7 +9248,7 @@ cost:180000 Kanaly
 
 *Endgame8Upgr
 	name:Przygotowania: Przerwane ferie
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal8Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build8MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza8Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal8Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build8MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza8Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9271,7 +9271,7 @@ cost:180000 Kanaly
 
 *Endgame9Upgr
 	name:Przygotowania: Zaginięcie Brandona Swansona
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal9Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build9MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza9Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal9Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build9MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza9Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9294,7 +9294,7 @@ cost:180000 Kanaly
 
 *Endgame10Upgr
 	name:Przygotowania: Piątka z Yuby
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal10Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build10MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza10Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal10Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build10MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza10Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9316,7 +9316,7 @@ cost:180000 Kanaly
 
 *Endgame11Upgr
 	name:Przygotowania: Zaginięcie generała Zagórskiego
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal11Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build11MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza11Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal11Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build11MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza11Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9338,7 +9338,7 @@ cost:180000 Kanaly
 
 *Endgame12Upgr
 	name:Przygotowania: Tajemnica Wyspy Dębów
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal12Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build12MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja12)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza12Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal12Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build12MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja12)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza12Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9361,7 +9361,7 @@ cost:180000 Kanaly
 
 *Endgame13Upgr
 	name:Przygotowania: Ourang Medan - prawda czy fikcja?
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal13Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build13MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja13)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza13Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal13Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build13MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja13)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza13Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9384,7 +9384,7 @@ cost:180000 Kanaly
 
 *Endgame14Upgr
 	name:Przygotowania: Dzieci z Bodom
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal14Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build14MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja14)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza14Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal14Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build14MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja14)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza14Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9407,7 +9407,7 @@ cost:180000 Kanaly
 
 *Endgame15Upgr
 	name:Przygotowania: Frauke Liebs
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal15Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build15MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja15)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza15Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal15Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build15MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja15)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza15Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9430,7 +9430,7 @@ cost:180000 Kanaly
 
 *Endgame16Upgr
 	name:Przygotowania: Kim był Peter Bergmann?
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal16Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build16MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja16)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza16Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal16Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build16MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja16)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza16Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
