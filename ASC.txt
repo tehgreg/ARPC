@@ -1,7 +1,7 @@
 Let's make a game!
-	name: Arpiwum Clicker v.1.0
+	name: Arpiwum Clicker v.1.1
 	by:tehgreg
-	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 09.02.2025
+	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.02.2025
 
 
 
@@ -1426,6 +1426,8 @@ always hidden
 
 *Event0Resource
 always hidden
+*Event01Resource
+always hidden
 *Event1Resource
 always hidden
 *Event2Resource
@@ -2059,7 +2061,7 @@ Buildings
 
 	*Sponsor11
 		name:Reklamy AI - Subskrybcje
-		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodywać negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Subskrybentów/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Subskrybentów/s: <b><#00ff00>[floor(Sponsor11*1.2)],[(Sponsor11*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
+		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Subskrybentów/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Subskrybentów/s: <b><#00ff00>[floor(Sponsor11*1.2)],[(Sponsor11*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
 		tag:sponsorbuilding
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
@@ -2088,7 +2090,7 @@ Buildings
 
 	*Sponsor12
 		name:Reklamy AI - Czas Oglądania
-		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodywać negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Czasu Oglądania/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor12*1.2)],[(Sponsor12*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
+		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Czasu Oglądania/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor12*1.2)],[(Sponsor12*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
 		tag:sponsorbuilding
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
@@ -2117,7 +2119,7 @@ Buildings
 
 	*Sponsor13
 		name:Reklamy AI - Pieniądze
-		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodywać negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>PLN/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor13*1.2)],[(Sponsor13*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
+		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>PLN/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor13*1.2)],[(Sponsor13*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
 		tag:sponsorbuilding
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
@@ -2398,7 +2400,7 @@ Buildings
 
 *ArpiwumMovie4Spot
 	name:Piwne Słuchowisko: Tajemnica Mary Celeste
-	desc:Pierwsze słuchowisko z mini serii o łajbach już dostępne na Spotify. Może warto dodać jakieś efekty dźwiękowe ocenu w tle?<//> <b><u>Efekt działania:</b></u><.>Każdy poziom dostarcza [Spot4Multi]% <b>Czasu Oglądania</b> i <b>Subskrybentów</b>, które aktualnie wytwarza film o tym samym temacie co 1 sekundę.<.>Ten podcast zarabia <b><#00ff00>([ArpiwumMovie4Spot*Spot4Multi]%)</#></b> zysków swojego odpowiednika z Youtube.<//><b><u>Bieżące zyski co sekundę:</b></u> <.>Subskrybenci: [ArpMovie4TotalSub:ps*ArpiwumMovie4Spot/100*Spot4Multi] ([100 * ArpMovie4TotalSubSp:ps / Subskrybent:ps]% całości)<.>Czas Oglądania: [ArpMovie4TotalMin:ps*ArpiwumMovie4Spot/100*Spot4Multi] ([100 * ArpMovie4TotalMinSp:ps / Minuty:ps]% całości)
+	desc:Pierwsze słuchowisko z mini serii o łajbach już dostępne na Spotify. Może warto dodać jakieś efekty dźwiękowe oceanu w tle?<//> <b><u>Efekt działania:</b></u><.>Każdy poziom dostarcza [Spot4Multi]% <b>Czasu Oglądania</b> i <b>Subskrybentów</b>, które aktualnie wytwarza film o tym samym temacie co 1 sekundę.<.>Ten podcast zarabia <b><#00ff00>([ArpiwumMovie4Spot*Spot4Multi]%)</#></b> zysków swojego odpowiednika z Youtube.<//><b><u>Bieżące zyski co sekundę:</b></u> <.>Subskrybenci: [ArpMovie4TotalSub:ps*ArpiwumMovie4Spot/100*Spot4Multi] ([100 * ArpMovie4TotalSubSp:ps / Subskrybent:ps]% całości)<.>Czas Oglądania: [ArpMovie4TotalMin:ps*ArpiwumMovie4Spot/100*Spot4Multi] ([100 * ArpMovie4TotalMinSp:ps / Minuty:ps]% całości)
 	tag:resetable spotifybuilding
 	cost:68950604024779800 PLN
 	on tick:yield (ArpMovie4TotalSub:ps/100*Spot4Multi) Subskrybent
@@ -2487,7 +2489,7 @@ Buildings
 
 *ArpiwumMovie11Spot
 	name:Piwne Słuchowisko: Zaginięcie generała Zagórskiego
-	desc:Spotify początkowo nie chciało się zgodzić na publikację tak długiego materiału, ale kilka emaili uświadomiło im, że nei chcą stracić tak dużej liczby słuchaczy.<//> <b><u>Efekt działania:</b></u><.>Każdy poziom dostarcza [Spot11Multi]% <b>Czasu Oglądania</b> i <b>Subskrybentów</b>, które aktualnie wytwarza film o tym samym temacie co 1 sekundę.<.>Ten podcast zarabia <b><#00ff00>([ArpiwumMovie11Spot*Spot11Multi]%)</#></b> zysków swojego odpowiednika z Youtube.<//><b><u>Bieżące zyski co sekundę:</b></u> <.>Subskrybenci: [ArpMovie11TotalSub:ps*ArpiwumMovie11Spot/100*Spot11Multi] ([100 * ArpMovie11TotalSubSp:ps / Subskrybent:ps]% całości)<.>Czas Oglądania: [ArpMovie11TotalMin:ps*ArpiwumMovie11Spot/100*Spot11Multi] ([100 * ArpMovie11TotalMinSp:ps / Minuty:ps]% całości)
+	desc:Spotify początkowo nie chciało się zgodzić na publikację tak długiego materiału, ale kilka emaili uświadomiło im, że nie chcą stracić tak dużej liczby słuchaczy.<//> <b><u>Efekt działania:</b></u><.>Każdy poziom dostarcza [Spot11Multi]% <b>Czasu Oglądania</b> i <b>Subskrybentów</b>, które aktualnie wytwarza film o tym samym temacie co 1 sekundę.<.>Ten podcast zarabia <b><#00ff00>([ArpiwumMovie11Spot*Spot11Multi]%)</#></b> zysków swojego odpowiednika z Youtube.<//><b><u>Bieżące zyski co sekundę:</b></u> <.>Subskrybenci: [ArpMovie11TotalSub:ps*ArpiwumMovie11Spot/100*Spot11Multi] ([100 * ArpMovie11TotalSubSp:ps / Subskrybent:ps]% całości)<.>Czas Oglądania: [ArpMovie11TotalMin:ps*ArpiwumMovie11Spot/100*Spot11Multi] ([100 * ArpMovie11TotalMinSp:ps / Minuty:ps]% całości)
 	tag:resetable spotifybuilding
 	cost:689506040247798000000000 PLN
 	on tick:yield (ArpMovie11TotalSub:ps/100*Spot11Multi) Subskrybent
@@ -2654,7 +2656,7 @@ Buildings
 	no buy
 	limit:1
 	tag:pomocBuilding
-	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 572 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/5- <b>[(SezonAchievs/5*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
+	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 573 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/6- <b>[(SezonAchievs/6*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
 	req:PrestigeStats
 
 
@@ -2764,7 +2766,7 @@ Upgrades
 		*Pomoc9
 		hidden
 		name:Patronite - Problemy Techniczne
-		desc:W zależności od uzywanej przeglądarki mogą wystąpić pewne problemy z pojawianiem się <b>Patronów</b>. Różne przeglądarki różnie traktują kiedy karta ma przestać być "aktywna" i może zawiesić jej działanie, przez co gra wygeneruje kilku Patronów a następnie przestaną się oni pojawiać.<//><b><u>Jak temu zapobiec:</b></u><.>Jeżeli pozostawiasz komputer włączony na długo i nie robisz nic innego - spraw, aby okno z grą było zawsze na wierzchu i widoczne.<.>Jeden monitor: jeżeli wykonujesz inne zadania na komputerze i chcesz, aby gra dalej działała poprawnie: trzymaj grę otwartą w <b>nowym oknie przeglądarki bez żadnych innych kart</b> i jej nie minimalizuj. Później możesz przejść do wykonywania innych zadań, a gra dalej będzie myślała, że jest "aktywna".<.>Więcej monitorów: przerzuć okno z grą na drugi monitor, a następnie kontynuuj pracę na pozostałych. Gra będzie dalej aktywna i będzie poprawnie generować <b>Patronów</b>.<.>Aby zaszczędzić zasoby Chrome znacznie szybciej deaktywuje karty, natomiast Firefox ma domyślnie dłuższe czasy zanim zdezaktywuje okno/kartę.<.>Pozostałe systemy działają poprawnie nawet gdy gra jest zminimalizowana.
+		desc:W zależności od używanej przeglądarki mogą wystąpić pewne problemy z pojawianiem się <b>Patronów</b>. Różne przeglądarki różnie traktują kiedy karta ma przestać być "aktywna" i może zawiesić jej działanie, przez co gra wygeneruje kilku Patronów a następnie przestaną się oni pojawiać.<//><b><u>Jak temu zapobiec:</b></u><.>Jeżeli pozostawiasz komputer włączony na długo i nie robisz nic innego - spraw, aby okno z grą było zawsze na wierzchu i widoczne.<.>Jeden monitor: jeżeli wykonujesz inne zadania na komputerze i chcesz, aby gra dalej działała poprawnie: trzymaj grę otwartą w <b>nowym oknie przeglądarki bez żadnych innych kart</b> i jej nie minimalizuj. Później możesz przejść do wykonywania innych zadań, a gra dalej będzie myślała, że jest "aktywna".<.>Więcej monitorów: przerzuć okno z grą na drugi monitor, a następnie kontynuuj pracę na pozostałych. Gra będzie dalej aktywna i będzie poprawnie generować <b>Patronów</b>.<.>Aby zaszczędzić zasoby Chrome znacznie szybciej deaktywuje karty, natomiast Firefox ma domyślnie dłuższe czasy zanim zdezaktywuje okno/kartę.<.>Pozostałe systemy działają poprawnie nawet gdy gra jest zminimalizowana.
 		tag:pomocUpgrade
 		req:PatroniteUnlock
 		passive:grant 1 PomocAchievTrack
@@ -2921,6 +2923,24 @@ Upgrades
 	desc: Pieniędzy, pieniędzy i jeszcze raz pieniędzy. Może w tym Wydarzeniu Sezonowym nie ma żadnych benefitów, bo zaburzyło by to ekonomię na początku gry, ale dostaniesz za to piękne Osiągnięcie.
 	tag:eventUpgrade
 	on earn:yield 1 Event0Resource
+
+*Event01
+	hidden
+	name:Aktulizacja 1.1
+	desc:Grzegorz Productions przeprasza za powstałe niedogodności w związku z Nową Grą ∞. Aby uzyskać jednorazową rekompensatę aktywuj to ulepszenie, aby odebrać następujące nagrody:<.>1,000,000 Punktów Kanału,<.>28,800 Chęci Do Życia,<.>1 Punkt Sponsorów,<.>Osiągnięcie.<//> <//>Dziękujemy za wspieranie Arpiwum Clickera i Grzegorz Productions!
+	tag:eventUpgrade
+	on earn:yield 1 Event01Resource
+	on earn:yield 1000000 Kanaly
+	on earn:yield 28800 CDZ
+	on earn:yield 1 SponsorPoints
+
+
+*Event011
+	hidden
+	name:reset pkt kanału
+	desc:reset pkt kanału
+	tag:eventUpgrade
+	on earn:lose 10243060751 Kanaly
 
 
 
@@ -3680,7 +3700,7 @@ req:1 ArpiwumMovie6UpV
 
 
 	*ArpiwumMovie7UpI
-		name:Epidemia w Stalowej (rozszerzona wersja) I
+		name:Epidemia w Stalowej (wersja rozszerzona) I
 				tag:resetable normalupgrade
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie7 by 2
@@ -3688,7 +3708,7 @@ cost:320000000 Subskrybent
 req:1 ArpiwumMovie7
 
 	*ArpiwumMovie7UpII
-		name:Epidemia w Stalowej (rozszerzona wersja) II
+		name:Epidemia w Stalowej (wersja rozszerzona) II
 				tag:resetable normalupgrade
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie7 by 2
@@ -3696,7 +3716,7 @@ cost:3200000000 Subskrybent
 req:1 ArpiwumMovie7UpI
 
 	*ArpiwumMovie7UpIII
-		name:Epidemia w Stalowej (rozszerzona wersja) III
+		name:Epidemia w Stalowej (wersja rozszerzona) III
 				tag:resetable normalupgrade
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie7 by 2
@@ -3704,7 +3724,7 @@ cost:320000000000 Subskrybent
 req:1 ArpiwumMovie7UpII
 
 	*ArpiwumMovie7UpIV
-		name:Epidemia w Stalowej (rozszerzona wersja) IV
+		name:Epidemia w Stalowej (wersja rozszerzona) IV
 				tag:resetable normalupgrade
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie7 by 3
@@ -3712,7 +3732,7 @@ cost:32000000000000 Subskrybent
 req:1 ArpiwumMovie7UpIII
 
 	*ArpiwumMovie7UpV
-		name:Epidemia w Stalowej (rozszerzona wersja) V
+		name:Epidemia w Stalowej (wersja rozszerzona) V
 				tag:resetable normalupgrade
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie7 by 3
@@ -3720,7 +3740,7 @@ cost:3200000000000000 Subskrybent
 req:1 ArpiwumMovie7UpIV
 
 	*ArpiwumMovie7UpVI
-		name:Epidemia w Stalowej (rozszerzona wersja) ∞ 
+		name:Epidemia w Stalowej (wersja rozszerzona) ∞ 
 				tag:resetable normalupgrade
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie7 by 5
@@ -13658,6 +13678,12 @@ passive:grant 1 WyzwaniaAchievs
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
+*Event01Reward
+	name:☼ 10 Myliardów ☼
+	desc:Czy się siedzi, czy się leży, 10 miliardów Punktów Kanału się należy. Przetrwałeś Wielkie Nerfienie Nowej Gry ∞.
+	req:1 Event01Resource
+	passive:grant 1 TotalAchievs
+	passive:grant 1 SezonAchievs
 
 *Event1Reward
 	name:☼ Dobra zabawa ☼
