@@ -2924,6 +2924,23 @@ Upgrades
 	tag:eventUpgrade
 	on earn:yield 1 Event0Resource
 
+*Event01
+	hidden
+	name:Aktualizacja 1.1
+	desc:Grzegorz Productions przeprasza za powstałe niedogodności w związku z Nową Grą ∞. Aby uzyskać jednorazową rekompensatę aktywuj to ulepszenie, aby odebrać następujące nagrody:<//> <//><.><b>1,000,000</b> Punktów Kanału,<.><b>28,800</b> Chęci Do Życia,<.><b>1</b> Punkt Sponsorów,<.><b>Osiągnięcie.</b><//> <//>Dziękujemy za wspieranie Arpiwum Clickera i Grzegorz Productions!
+	tag:eventUpgrade
+	on earn:yield 1 Event01Resource
+	on earn:yield 1000000 Kanaly
+	on earn:yield 28800 CDZ
+	on earn:yield 1 SponsorPoints
+
+
+*Event011
+	hidden
+	name:reset pkt kanału
+	desc:reset pkt kanału
+	tag:eventUpgrade
+	on earn:lose 10243060751 Kanaly
 
 
 
