@@ -2935,14 +2935,6 @@ Upgrades
 	on earn:yield 1 SponsorPoints
 
 
-*Event011
-	hidden
-	name:reset pkt kanału
-	desc:reset pkt kanału
-	tag:eventUpgrade
-	on earn:lose 10243060751 Kanaly
-
-
 
 //NORMAL UPGRADES
 
