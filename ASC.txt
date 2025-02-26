@@ -2588,7 +2588,7 @@ Buildings
 		tag:prestigeupgrade
 		req:10 TotalResets
 		tag:prestigebuilding
-		passive:multiply yield of tag:normalbuilding by (0.01*TotalAchievs)
+		passive:multiply yield of tag:normalbuilding by (1+(0.01*TotalAchievs))
 		cost:100000 Kanaly
 		cost refund:0%
 		cost increase:1500%
@@ -2603,7 +2603,7 @@ Buildings
 		cost refund:0%
 		cost increase:100%
 		cost:20000000 Kanaly
-		passive:multiply yield of tag:normalbuilding by Button24
+		passive:multiply yield of tag:normalbuilding by 2
 		passive:increase cost of Button24 by 1000000
 
 
@@ -2636,7 +2636,7 @@ Buildings
 		desc:Twoje dziecko zrobiło ci ludzika z plasteliny, którego dumnie umieszczasz na swoim biurku. Wraz z każdym poziomem tego ulepszenia dostajesz kolejnego ludzika. Niestety z czasem ludziki się rozpadają i musisz je oddać do przeróbki. Twoje vlogi od teraz zyskują lepsze zasięgi wsród trukrajmowych mamusiek.<//> <//><b><u>Efekt działania:</b></u><.>Każde zdobyte <b>Osiągnięcie</b> zwiększa wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> każdego z twoich filmów o <b><#00ff00>0,5%</b></#><.>Każdy poziom tego ulepszenia zwiększa ten bonus o kolejne 0,5%.<.>Aktualny bonus wynosi: <b><#00ff00>[(TotalAchievs*Order2/2)]%</b></#><//> <//><.>Ulepszenie jest <b><#f00>resetowane</b></#> wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanego <b>Czasu Oglądania</b>.
 		tag:prestigebuilding resetableprestige 
 		req:10 TotalResets
-		passive:multiply yield of tag:normalbuilding by (0.005*TotalAchievs)
+		passive:multiply yield of tag:normalbuilding by (1+(0.005*TotalAchievs))
 		cost:100000000000000000 Minuty
 		cost refund:0%
 		cost increase:1500%
