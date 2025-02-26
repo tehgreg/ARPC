@@ -2595,7 +2595,7 @@ Buildings
 
 	*Button24
 		name:Przycisk na odpierdol +1
-		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>2x</b>.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.
+		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>2x</b>.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>Limit: 250,000
 		tag:prestigeupgrade
 		req:1 TotalResets
 		req:1 Button23
@@ -2605,6 +2605,7 @@ Buildings
 		cost:20000000 Kanaly
 		passive:multiply yield of tag:normalbuilding by 2
 		passive:increase cost of Button24 by 1000000
+		limit:250000
 
 
 
