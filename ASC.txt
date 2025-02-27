@@ -13729,7 +13729,7 @@ Shinies
 *PatroniteBII
 	on click:yield 1 PatrTotalClick2
 	on click:yield 1 PatroniteB
-  	on click:if (have PatroniteBialyBlock) yield (Subskrybent*0.03) Subskrybent
+  	on click:if (have PatroniteBialyBlock and PatroniteB>=1000) yield (Subskrybent*0.03) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/Sawi32O.png
@@ -13742,7 +13742,8 @@ Shinies
 		yield (Subskrybent*0.03) Subskrybent
 	end	
 	on click:if (have PatronBialyProcent and no PatroniteBialyBlock and chance(30%)) do patronbialybonus1
-	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and chance(30%)) do patronbialybonus2
+	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and Patronite<1000 and chance(30%)) do patronbialybonus1
+	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and PatroniteB>=1000 and chance(30%)) do patronbialybonus2
 
 
 *PatroniteCIII
