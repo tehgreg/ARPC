@@ -2119,7 +2119,7 @@ Buildings
 
 	*Sponsor13
 		name:Reklamy AI - Pieniądze
-		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>PLN/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor13*1.2)],[(Sponsor13*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
+		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>PLN/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Pieniędzy/s: <b><#00ff00>[floor(Sponsor13*1.2)],[(Sponsor13*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń  
 		tag:sponsorbuilding
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
@@ -13710,7 +13710,7 @@ Shinies
 *PatroniteAI
 	on click:yield 1 PatrTotalClick1
 	on click:yield 1 PatroniteA
-	on click:if (have PatroniteSzaryBlock) yield (Subskrybent*0.02) Subskrybent
+	on click:if (have PatroniteSzaryBlock and PatroniteA>=1000) yield (Subskrybent*0.02) Subskrybent
 	movement:onBox:main
  	duration:10800
  	icon:https://i.imgur.com/sY3sh1e.png
@@ -13723,7 +13723,8 @@ Shinies
 		yield (Subskrybent*0.02) Subskrybent
 	end
 	on click:if (have PatronSzaryProcent and no PatroniteSzaryBlock and chance(35%)) do patronszarybonus1
- 	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and chance(35%)) do patronszarybonus2
+	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and PatroniteA<1000 and chance(35%)) do patronszarybonus1
+ 	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and PatroniteA>=1000 and chance(35%)) do patronszarybonus2
 
 *PatroniteBII
 	on click:yield 1 PatrTotalClick2
