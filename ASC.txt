@@ -13465,7 +13465,7 @@ Achievements
 
 
 	*Challenge2137
-	name:♦ Papieskia Godzina ♦
+	name:♦ Papieska Godzina ♦
 	desc:Grasz już ponad 21 godzin i 37 minut.
 	req:TimePlayed>77820
 	passive:grant 1 TotalAchievs
@@ -13572,7 +13572,7 @@ passive:grant 1 WyzwaniaAchievs
 
 
 	*Challenge8
-	name:♦ Obieżyświat ♦
+	name:♦ Ryzyk Fizyk ♦
 	desc:Spełniłeś dodatkowe wymagania dla wszystkich <b>Wydarzeń Krytycznych</b>.
 	passive:grant 1 TotalAchievs
 	req:TierXRandom1BoostT>1
