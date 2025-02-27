@@ -13747,7 +13747,7 @@ Shinies
 		yield (Subskrybent*0.03) Subskrybent
 	end	
 	on click:if (have PatronBialyProcent and no PatroniteBialyBlock and chance(30%)) do patronbialybonus1
-	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and Patronite<1000 and chance(30%)) do patronbialybonus1
+	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and PatroniteB<1000 and chance(30%)) do patronbialybonus1
 	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and PatroniteB>=1000 and chance(30%)) do patronbialybonus2
 
 
