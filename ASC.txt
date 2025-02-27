@@ -2708,7 +2708,7 @@ Upgrades
 
 
 	*dev1
-	name:test
+	name:test2
 
 
 	*Pomoc1
@@ -13754,7 +13754,7 @@ Shinies
 *PatroniteCIII
 	on click:yield 1 PatrTotalClick3
 	on click:yield 1 PatroniteC
-	on click:if (have PatroniteNiebBlock) yield (Subskrybent*0.04) Subskrybent
+	on click:if (have PatroniteNiebBlock and PatroniteC>=1000) yield (Subskrybent*0.04) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/jQB84Bd.png
@@ -13767,14 +13767,15 @@ Shinies
 		yield (Subskrybent*0.04) Subskrybent
 	end	
 	on click:if (have PatronNiebProcent and no PatroniteNiebBlock and chance(25%)) do patronniebbonus1
-	on click:if (have PatroniteNiebBlock and have PatronNiebProcent and chance(25%)) do patronniebbonus2 
+	on click:if (have PatroniteNiebBlock and have PatronNiebProcent and PatroniteC<1000 and chance(25%)) do patronniebbonus1
+	on click:if (have PatroniteNiebBlock and have PatronNiebProcent and PatroniteC>=1000 and chance(25%)) do patronniebbonus2 
 
 
 
 *PatroniteDIV
 	on click:yield 1 PatrTotalClick4
 	on click:yield 1 PatroniteD
-	on click:if (have PatroniteFiolBlock) yield (Subskrybent*0.05) Subskrybent
+	on click:if (have PatroniteFiolBlock and PatroniteD>=1000) yield (Subskrybent*0.05) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/vo8vFx4.png
@@ -13787,12 +13788,13 @@ Shinies
 		yield (Subskrybent*0.05) Subskrybent
 	end	
 	on click:if (have PatronFiolProcent and no PatroniteFiolBlock and chance(20%)) do patronfiolbonus1
-	on click:if (have PatroniteFiolBlock and have PatronFiolProcent and chance(20%)) do patronfiolbonus2 
+	on click:if (have PatroniteFiolBlock and have PatronFiolProcent and PatroniteD<1000 and chance(20%)) do patronfiolbonus2 
+	on click:if (have PatroniteFiolBlock and have PatronFiolProcent and PatroniteD>=1000 and chance(20%)) do patronfiolbonus2 
 
 *PatroniteEV
 	on click:yield 1 PatrTotalClick5
 	on click:yield 1 PatroniteE
-	on click:if (have PatroniteZielBlock) yield (Subskrybent*0.06) Subskrybent
+	on click:if (have PatroniteZielBlock and PatroniteE>=1000) yield (Subskrybent*0.06) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/JirDG9m.png
@@ -13805,12 +13807,13 @@ Shinies
 		yield (Subskrybent*0.06) Subskrybent
 	end		
 	on click:if (have PatronZielProcent and no PatroniteZielBlock and chance(15%)) do patronzielbonus1
-  	on click:if (have PatroniteZielBlock and have PatronZielProcent and chance(15%)) do patronzielbonus2 
+	on click:if (have PatroniteZielBlock and have PatronZielProcent and PatroniteE<1000 and chance(15%)) do patronzielbonus1
+  	on click:if (have PatroniteZielBlock and have PatronZielProcent and PatroniteE>=1000 and chance(15%)) do patronzielbonus2 
 
 *PatroniteFVI
 	on click:yield 1 PatrTotalClick6
 	on click:yield 1 PatroniteF
-	on click:if (have PatroniteZoltyBlock) yield (Subskrybent*0.08) Subskrybent
+	on click:if (have PatroniteZoltyBlock and PatroniteF>=1000) yield (Subskrybent*0.08) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/dz5tpLG.png
@@ -13823,12 +13826,13 @@ Shinies
 		yield (Subskrybent*0.08) Subskrybent
 	end		
 	on click:if (have PatronZoltyProcent and no PatroniteZoltyBlock and chance(10%)) do patronzoltybonus1
-	on click:if (have PatroniteZoltyBlock and have PatronZoltyProcent and chance(10%)) do patronzoltybonus2 
+	on click:if (have PatroniteZoltyBlock and have PatronZoltyProcent and PatroniteF<1000 and chance(10%)) do patronzoltybonus1
+	on click:if (have PatroniteZoltyBlock and have PatronZoltyProcent and PatroniteF>=1000 and chance(10%)) do patronzoltybonus2 
 
 *PatroniteGVII
 	on click:yield 1 PatrTotalClick7
   	on click:yield 1 PatroniteG
-	on click:if (have PatroniteZlotyBlock) yield (Subskrybent*0.10) Subskrybent  
+	on click:if (have PatroniteZlotyBlock and PatroniteG>=1000) yield (Subskrybent*0.10) Subskrybent  
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/wu0JNBq.png
@@ -13841,4 +13845,5 @@ Shinies
 		yield (Subskrybent*0.10) Subskrybent
 	end	
 	on click:if (have PatronZlotyProcent and no PatroniteZlotyBlock and chance(5%)) do patronzlotybonus1
-  	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and chance(5%)) do patronzlotybonus2
+	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG<1000 and chance(5%)) do patronzlotybonus1
+  	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG>=1000 and chance(5%)) do patronzlotybonus2
