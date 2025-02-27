@@ -2920,9 +2920,6 @@ Upgrades
 
 //WYDARZENIA SEZONOWE
 
-	*dev1
-	name:test2
-
 *Event0
 	hidden
 	name:Wszystkiego najlepszego!
@@ -2939,29 +2936,6 @@ Upgrades
 	on earn:yield 1000000 Kanaly
 	on earn:yield 28800 CDZ
 	on earn:yield 1 SponsorPoints
-
-
-*Event1
-	hidden
-	name:Afterparty
-	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> ze wszystkich twoich filmów rośnie o <b><#00ff00>6%</b></#><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> ze wszystkich twoich podcastów  rośnie o <b><#00ff00>12%</b><.>Przypływ <b>Pieniędzy</b> ze wszystkich twoich źródeł rośnie o <b><#00ff00>40%</b></#></#><//> <//><b><u>Czas trwania wydarzenia:</b></u> 10.03.2025 - 16.03.2025
-	tag:eventUpgrade
-	on earn:yield 1 Event1Resource
-	passive:multiply yield of tag:normalbuilding by 1.06
-	passive:multiply yield of tag:spotifybuilding by 1.12
-	passive:multiply yield of PLN by 1.4
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
