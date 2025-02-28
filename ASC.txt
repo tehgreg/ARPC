@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.1.1.2
+	name: Arpiwum Clicker v.1.1.3
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 27.02.2025
 
@@ -5072,13 +5072,15 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteNiebieski
 		cost:300 Kanaly	
+		passive:grant 1 Patron3UpgrTrack	
 
 	*PatronNiebTime2
 		name: Patronite Niebieski Próg - Częstotliwość II
 		tag:patroniteupgrade
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime1
-		cost:3000 Kanaly	
+		cost:3000 Kanaly
+		passive:grant 1 Patron3UpgrTrack	
 
 	*PatronNiebTime3
 		name: Patronite Niebieski Próg - Częstotliwość III
@@ -5086,6 +5088,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime2
 		cost:30000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebTime4
 		name: Patronite Niebieski Próg - Częstotliwość IV
@@ -5093,6 +5096,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime3
 		cost:300000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebTime5
 		name: Patronite Niebieski Próg - Częstotliwość V
@@ -5100,6 +5104,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime4
 		cost:3000000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 
 
@@ -5112,6 +5117,7 @@ req:100 PatroniteF
 		req:100 PatroniteC
 		passive:grant 3 PatroniteIII
 		cost:300 Kanaly	
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue2
 		name: Patronite Niebieski Próg - Wartość Podstawowa II
@@ -5123,6 +5129,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue1
 		cost:3000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue3
 		name: Patronite Niebieski Próg - Wartość Podstawowa III
@@ -5134,6 +5141,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue2
 		cost:30000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue4
 		name: Patronite Niebieski Próg - Wartość Podstawowa IV
@@ -5145,6 +5153,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue3
 		cost:300000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue5
 		name: Patronite Niebieski Próg - Wartość Podstawowa V
@@ -5156,6 +5165,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue4
 		cost:3000000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 
 //PATRONFIOL
@@ -5166,6 +5176,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteFioletowy
 		cost:400 Kanaly		
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolTime2
 		name: Patronite Fioletowy Próg - Częstotliwość II
@@ -5173,6 +5184,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime1
 		cost:4000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 		
 
 	*PatronFiolTime3
@@ -5181,6 +5193,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime2
 		cost:40000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolTime4
 		name: Patronite Fioletowy Próg - Częstotliwość IV
@@ -5188,6 +5201,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime3
 		cost:400000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolTime5
 		name: Patronite Fioletowy Próg - Częstotliwość V
@@ -5195,6 +5209,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime4
 		cost:4000000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 
 	*PatronFiolValue1
@@ -5206,6 +5221,7 @@ req:100 PatroniteF
 		req:100 PatroniteD
 		passive:grant 6 PatroniteIV
 		cost:400 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolValue2
 		name: Patronite Fioletowy Próg - Wartość Podstawowa II
@@ -5216,7 +5232,8 @@ req:100 PatroniteF
 		req:200 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue1
-		cost:4000 Kanaly			
+		cost:4000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack		
 
 	*PatronFiolValue3
 		name: Patronite Fioletowy Próg - Wartość Podstawowa III
@@ -5227,7 +5244,8 @@ req:100 PatroniteF
 		req:300 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue2
-		cost:40000 Kanaly			
+		cost:40000 Kanaly		
+		passive:grant 1 Patron4UpgrTrack	
 
 	*PatronFiolValue4
 		name: Patronite Fioletowy Próg - Wartość Podstawowa IV
@@ -5238,7 +5256,8 @@ req:100 PatroniteF
 		req:400 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue3
-		cost:400000 Kanaly			
+		cost:400000 Kanaly		
+		passive:grant 1 Patron4UpgrTrack	
 
 	*PatronFiolValue5
 		name: Patronite Fioletowy Próg - Wartość Podstawowa V
@@ -5249,7 +5268,8 @@ req:100 PatroniteF
 		req:500 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue4
-		cost:4000000 Kanaly			
+		cost:4000000 Kanaly		
+		passive:grant 1 Patron4UpgrTrack	
 
 
 //PATRONZIEL
@@ -5260,6 +5280,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteZielony
 		cost:500 Kanaly	
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime2
 		name: Patronite Zielony Próg - Częstotliwość II
@@ -5267,6 +5288,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime1
 		cost:5000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime3
 		name: Patronite Zielony Próg - Częstotliwość III
@@ -5274,6 +5296,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime2
 		cost:50000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime4
 		name: Patronite Zielony Próg - Częstotliwość IV
@@ -5281,6 +5304,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime3
 		cost:500000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime5
 		name: Patronite Zielony Próg - Częstotliwość V
@@ -5288,6 +5312,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime4
 		cost:5000000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 
 
@@ -5300,6 +5325,7 @@ req:100 PatroniteF
 		req:100 PatroniteE
 		passive:grant 10 PatroniteV
 		cost:500 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue2
 		name: Patronite Zielony Próg - Wartość Podstawowa II
@@ -5311,6 +5337,7 @@ req:100 PatroniteF
 		passive:grant 10 PatroniteV
 		req:PatronZielValue1
 		cost:5000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue3
 		name: Patronite Zielony Próg - Wartość Podstawowa III
@@ -5322,6 +5349,7 @@ req:100 PatroniteF
 		passive:grant 10 PatroniteV
 		req:PatronZielValue2
 		cost:50000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue4
 		name: Patronite Zielony Próg - Wartość Podstawowa IV
@@ -5333,17 +5361,19 @@ req:100 PatroniteF
 		passive:grant 10 PatroniteV
 		req:PatronZielValue3
 		cost:500000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue5
 		name: Patronite Zielony Próg - Wartość Podstawowa V
 		tag:patroniteupgrade
-		desc:Mirosław bieże dłuto i zeskrobuje ultra rzadkie i bardzo przyklejone gabzele z jego biurka. Każdy Patron z zielonego progu może otrzymać od Kompulika ultra rzadki gabzel z bliżej nieokreślonych czasów.<//><b>Efekt działania:</b><.><b>Wartość Podstawowa</b> Patrona z Zielonego Progu Wsparcia jest większa o <b>10</b>.
+		desc:Mirosław bierze dłuto i zeskrobuje ultra rzadkie i bardzo przyklejone gabzle z jego biurka. Każdy Patron z zielonego progu może otrzymać od Kompulika ultra rzadki gabzel z bliżej nieokreślonych czasów.<//><b>Efekt działania:</b><.><b>Wartość Podstawowa</b> Patrona z Zielonego Progu Wsparcia jest większa o <b>10</b>.
 		req:PatroniteUnlock
 		req:PatroniteZielony
 		req:500 PatroniteE
 		passive:grant 10 PatroniteV
 		req:PatronZielValue4
 		cost:5000000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 
 
@@ -5356,6 +5386,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteZolty
 		cost:600 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime2
 		name: Patronite Żółty Próg - Częstotliwość II
@@ -5363,6 +5394,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime1
 		cost:6000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime3
 		name: Patronite Żółty Próg - Częstotliwość III
@@ -5370,6 +5402,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime2
 		cost:60000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime4
 		name: Patronite Żółty Próg - Częstotliwość IV
@@ -5377,6 +5410,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime3
 		cost:600000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime5
 		name: Patronite Żółty Próg - Częstotliwość V
@@ -5384,6 +5418,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime4
 		cost:6000000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 
 
@@ -5397,6 +5432,7 @@ req:100 PatroniteF
 		req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		cost:600 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue2
 		name: Patronite Żółty Próg - Wartość Podstawowa II
@@ -5408,6 +5444,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue1
 		cost:6000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue3
 		name: Patronite Żółty Próg - Wartość Podstawowa III
@@ -5419,6 +5456,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue2
 		cost:60000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue4
 		name: Patronite Żółty Próg - Wartość Podstawowa IV
@@ -5430,6 +5468,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue3
 		cost:600000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue5
 		name: Patronite Żółty Próg - Wartość Podstawowa V
@@ -5441,6 +5480,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue4
 		cost:6000000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 
 //PATRONZLOTY
@@ -5451,6 +5491,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteZloty
 		cost:700 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime2
 		name: Patronite Złoty Próg - Częstotliwość II
@@ -5458,6 +5499,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime1
 		cost:7000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime3
 		name: Patronite Złoty Próg - Częstotliwość III
@@ -5465,6 +5507,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime2
 		cost:70000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime4
 		name: Patronite Złoty Próg - Częstotliwość IV
@@ -5472,6 +5515,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime3
 		cost:700000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime5
 		name: Patronite Złoty Próg - Częstotliwość V
@@ -5479,6 +5523,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime4
 		cost:7000000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 
 
@@ -5491,6 +5536,7 @@ req:100 PatroniteF
 		req:100 PatroniteG
 		passive:grant 20 PatroniteVII
 		cost:700 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue2
 		name: Patronite Złoty Próg - Wartość Podstawowa II
@@ -5502,6 +5548,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue1
 		cost:7000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue3
 		name: Patronite Złoty Próg - Wartość Podstawowa III
@@ -5513,6 +5560,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue2
 		cost:70000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue4
 		name: Patronite Złoty Próg - Wartość Podstawowa IV
@@ -5524,6 +5572,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue3
 		cost:700000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue5
 		name: Patronite Złoty Próg - Wartość Podstawowa V
@@ -5535,6 +5584,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue4
 		cost:7000000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 
 
@@ -10979,10 +11029,6 @@ Achievements
 	req:200 PrestigeClicker2
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PrestigeAchievs
-
-
-
-
 
 *BuyablePrestige77
 	name:Monetyzacja+
