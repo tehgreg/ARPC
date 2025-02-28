@@ -1478,22 +1478,26 @@ Buildings
 
 	*Afterparty1
 	name:Szybki Krafcik
-	desc:Obalasz nowego krafcika prosto od twojego ulubionego lokalnego dystrybutra.<//> <//><.>Otrzymane <b>Promile</b>: <b><#00ff00>0,1‰</b></#><//> <//><b><u>Jak zdobyć jednego krafta?</b></u><.>Kliknij w to ulepszenie, aby kupić 1 krafta za 600 <b>Chęci do życia</b>.
+	desc:Obalasz nowego krafcika prosto od twojego ulubionego lokalnego dystrybutra.<//> <//><.>Otrzymane <b>Promile</b> za 1 krafta: <b><#00ff00>0,1</b></#><//> <//><.>Kliknij w to ulepszenie, aby kupić 1 krafta za 600 <b>Chęci Do Życia</b>.
 	cost:600 CDZ
 	tag:eventBuilding
+	cost increase:100%
+	req:1 Event1
 
 	*Afterparty2
 	name:Parowanie Win
-	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Wypijasz jedno wino co <b>5</b> zebranych Patronów z <b>Białego Progu</b>.<.>Jedno wino daje <b><#00ff00>0,2</b></#><b>Promili.</b>
+	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Otrzymane <b>Promile</b >za 1 wino: <b><#00ff00>0,15</b></#><//> <//><.>Otrzymujesz jedno wino co <b><#00ff00>5</b></#> kliknięć w Patrona z <b>Białego Progu</b>.<//> <//>Następne wino otrzymasz za <b><#00ff00>5</b></#> kliknięć.
 	tag:eventBuilding
 	no buy
+	req:1 Event1	
+	
 
 	*Afterparty3
 	name:Rozpracuj Połówkę
-	desc:Nikt już nie chce z tobą pić, więc rozpijasz pół litra samemu.<//> <//><.>Obalasz jedną flaszkę z każdym założeniem Nowego Kanału.
-	cost:1800 CDZ
+	desc:Nikt już nie chce z tobą pić, więc rozpijasz pół litra samemu.<//> <//><.>Otrzymane <b>Promile</b >za 1 wódkę: <b><#00ff00>0,2</b></#><//> <//><.>
 	tag:eventBuilding
 	no buy
+	req:1 Event1	
 
 
 
@@ -2968,6 +2972,17 @@ Upgrades
 	on earn:yield 1000000 Kanaly
 	on earn:yield 28800 CDZ
 	on earn:yield 1 SponsorPoints
+
+
+*Event1
+	hidden
+	name:Afterparty
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Aktywuj to wydarzenie, aby rozpocząć Afterparty!<.>Po aktywacji możesz rozpocząć najebkę na maksa - zyskujesz możliwość picia piwa, wina lub wódki.<.>W zakładce <b>Wydarzenia Sezonowe</b> otrzymasz dostęp do nowych możliwości w <b>Panelu Zakupów</b>.<.>Spożywanie dowolnego alkoholu zwiększa twój poziom promili we krwi.<.><b>Twoim zadaniem</b> jest pobić absolutny rekord i mieć <b>15</b> Promili alkoholu we krwi do końca trwania Wydarzenia.<//> <//><.>Promile zdobyte z piwa: x <.>Promile zdobyte z wina: x <.>Promile zdobyte z wódki: <.>Suma Promili: X<//> <//><b><#FFD700>Nagroda:</b></#><.>Permanentny wzrost do <b>Subskrybentów</b> i <b>Czasu Oglądania</b> każdego z filmów o <b><#00ff00>10x</b></#><.>Osiągnięcie Sezonowe<//> <//><b><u>Czas trwania wydarzenia:</b></u> 10.03.2025 - 16.03.2025
+	tag:eventUpgrade
+
+
+
+
 
 
 
