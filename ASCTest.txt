@@ -1,7 +1,7 @@
 Let's make a game!
-	name: Arpiwum Clicker v.1.1
+	name: Arpiwum Clicker v.1.1.3
 	by:tehgreg
-	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.02.2025
+	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 27.02.2025
 
 
 
@@ -1473,6 +1473,38 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 
+//SEZONOWE
+
+
+	*Afterparty1
+	name:Szybki Krafcik
+	desc:Obalasz nowego krafcika prosto od twojego ulubionego lokalnego dystrybutra.<//> <//><.>Otrzymane <b>Promile</b>: <b><#00ff00>0,1‰</b></#><//> <//><b><u>Jak zdobyć jednego krafta?</b></u><.>Kliknij w to ulepszenie, aby kupić 1 krafta za 600 <b>Chęci do życia</b>.
+	cost:600 CDZ
+	tag:eventBuilding
+
+	*Afterparty2
+	name:Parowanie Win
+	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Wypijasz jedno wino co <b>5</b> zebranych Patronów z <b>Białego Progu</b>.<.>Jedno wino daje <b><#00ff00>0,2</b></#><b>Promili.</b>
+	tag:eventBuilding
+	no buy
+
+	*Afterparty3
+	name:Rozpracuj Połówkę
+	desc:Nikt już nie chce z tobą pić, więc rozpijasz pół litra samemu.<//> <//><.>Obalasz jedną flaszkę z każdym założeniem Nowego Kanału.
+	cost:1800 CDZ
+	tag:eventBuilding
+	no buy
+
+
+
+
+
+
+
+
+
+//NORMALNE
+
 	*SubZaSub
 		name:Sub za Sub
 		desc:Metoda stara jak świat, ale nadal skuteczna. <//><b><u>Efekt działania:</b></u><.>Każde ulepszenie dodaje 1 dodatkowego <b>Subskrybenta</b> podczas klikania <b>Przycisku</b>.
@@ -2119,7 +2151,7 @@ Buildings
 
 	*Sponsor13
 		name:Reklamy AI - Pieniądze
-		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>PLN/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor13*1.2)],[(Sponsor13*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
+		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>PLN/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Pieniędzy/s: <b><#00ff00>[floor(Sponsor13*1.2)],[(Sponsor13*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń  
 		tag:sponsorbuilding
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
@@ -2595,7 +2627,7 @@ Buildings
 
 	*Button24
 		name:Przycisk na odpierdol +1
-		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>2x</b>.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.
+		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>2x</b>.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>Limit: 250,000
 		tag:prestigeupgrade
 		req:1 TotalResets
 		req:1 Button23
@@ -2605,6 +2637,7 @@ Buildings
 		cost:20000000 Kanaly
 		passive:multiply yield of tag:normalbuilding by 2
 		passive:increase cost of Button24 by 1000000
+		limit:250000
 
 
 
@@ -2704,6 +2737,9 @@ Upgrades
 
 
 //TUTAJ POMOC WŁAŚCIWA
+
+
+
 
 	*Pomoc1
 		name:Ogólne Informacje
@@ -2916,7 +2952,6 @@ Upgrades
 
 //WYDARZENIA SEZONOWE
 
-
 *Event0
 	hidden
 	name:Wszystkiego najlepszego!
@@ -2933,15 +2968,6 @@ Upgrades
 	on earn:yield 1000000 Kanaly
 	on earn:yield 28800 CDZ
 	on earn:yield 1 SponsorPoints
-
-
-*DEV
-	name:Dev1
-	on click:yield 999999999999999999999999999999999999999999999999999999999999999999 PLN
-	on click:yield 999999999999999999999999999999999999999999999999999999999999999999 Minuty
-	on click:yield 999999999999999999999999999999999999999999999999999999999999999999 Subskrybent
-	on click:yield 9999999999999999999999999999 Nitro
-
 
 
 
@@ -5078,13 +5104,15 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteNiebieski
 		cost:300 Kanaly	
+		passive:grant 1 Patron3UpgrTrack	
 
 	*PatronNiebTime2
 		name: Patronite Niebieski Próg - Częstotliwość II
 		tag:patroniteupgrade
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime1
-		cost:3000 Kanaly	
+		cost:3000 Kanaly
+		passive:grant 1 Patron3UpgrTrack	
 
 	*PatronNiebTime3
 		name: Patronite Niebieski Próg - Częstotliwość III
@@ -5092,6 +5120,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime2
 		cost:30000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebTime4
 		name: Patronite Niebieski Próg - Częstotliwość IV
@@ -5099,6 +5128,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime3
 		cost:300000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebTime5
 		name: Patronite Niebieski Próg - Częstotliwość V
@@ -5106,6 +5136,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Niebieski Progu Wsparcia jest krótszy o <b>10 sekund</b>.
 		req:PatronNiebTime4
 		cost:3000000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 
 
@@ -5118,6 +5149,7 @@ req:100 PatroniteF
 		req:100 PatroniteC
 		passive:grant 3 PatroniteIII
 		cost:300 Kanaly	
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue2
 		name: Patronite Niebieski Próg - Wartość Podstawowa II
@@ -5129,6 +5161,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue1
 		cost:3000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue3
 		name: Patronite Niebieski Próg - Wartość Podstawowa III
@@ -5140,6 +5173,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue2
 		cost:30000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue4
 		name: Patronite Niebieski Próg - Wartość Podstawowa IV
@@ -5151,6 +5185,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue3
 		cost:300000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 	*PatronNiebValue5
 		name: Patronite Niebieski Próg - Wartość Podstawowa V
@@ -5162,6 +5197,7 @@ req:100 PatroniteF
 		passive:grant 3 PatroniteIII
 		req:PatronNiebValue4
 		cost:3000000 Kanaly
+		passive:grant 1 Patron3UpgrTrack
 
 
 //PATRONFIOL
@@ -5172,6 +5208,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteFioletowy
 		cost:400 Kanaly		
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolTime2
 		name: Patronite Fioletowy Próg - Częstotliwość II
@@ -5179,6 +5216,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime1
 		cost:4000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 		
 
 	*PatronFiolTime3
@@ -5187,6 +5225,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime2
 		cost:40000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolTime4
 		name: Patronite Fioletowy Próg - Częstotliwość IV
@@ -5194,6 +5233,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime3
 		cost:400000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolTime5
 		name: Patronite Fioletowy Próg - Częstotliwość V
@@ -5201,6 +5241,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Fioletowego Progu Wsparcia jest krótszy o <b>12 sekund</b>.
 		req:PatronFiolTime4
 		cost:4000000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 
 	*PatronFiolValue1
@@ -5212,6 +5253,7 @@ req:100 PatroniteF
 		req:100 PatroniteD
 		passive:grant 6 PatroniteIV
 		cost:400 Kanaly	
+		passive:grant 1 Patron4UpgrTrack
 
 	*PatronFiolValue2
 		name: Patronite Fioletowy Próg - Wartość Podstawowa II
@@ -5222,7 +5264,8 @@ req:100 PatroniteF
 		req:200 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue1
-		cost:4000 Kanaly			
+		cost:4000 Kanaly	
+		passive:grant 1 Patron4UpgrTrack		
 
 	*PatronFiolValue3
 		name: Patronite Fioletowy Próg - Wartość Podstawowa III
@@ -5233,7 +5276,8 @@ req:100 PatroniteF
 		req:300 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue2
-		cost:40000 Kanaly			
+		cost:40000 Kanaly		
+		passive:grant 1 Patron4UpgrTrack	
 
 	*PatronFiolValue4
 		name: Patronite Fioletowy Próg - Wartość Podstawowa IV
@@ -5244,7 +5288,8 @@ req:100 PatroniteF
 		req:400 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue3
-		cost:400000 Kanaly			
+		cost:400000 Kanaly		
+		passive:grant 1 Patron4UpgrTrack	
 
 	*PatronFiolValue5
 		name: Patronite Fioletowy Próg - Wartość Podstawowa V
@@ -5255,7 +5300,8 @@ req:100 PatroniteF
 		req:500 PatroniteD
 		passive:grant 6 PatroniteIV
 		req:PatronFiolValue4
-		cost:4000000 Kanaly			
+		cost:4000000 Kanaly		
+		passive:grant 1 Patron4UpgrTrack	
 
 
 //PATRONZIEL
@@ -5266,6 +5312,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteZielony
 		cost:500 Kanaly	
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime2
 		name: Patronite Zielony Próg - Częstotliwość II
@@ -5273,6 +5320,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime1
 		cost:5000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime3
 		name: Patronite Zielony Próg - Częstotliwość III
@@ -5280,6 +5328,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime2
 		cost:50000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime4
 		name: Patronite Zielony Próg - Częstotliwość IV
@@ -5287,6 +5336,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime3
 		cost:500000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielTime5
 		name: Patronite Zielony Próg - Częstotliwość V
@@ -5294,6 +5344,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Zielonego Progu Wsparcia jest krótszy o <b>15 sekund</b>.
 		req:PatronZielTime4
 		cost:5000000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 
 
@@ -5306,6 +5357,7 @@ req:100 PatroniteF
 		req:100 PatroniteE
 		passive:grant 10 PatroniteV
 		cost:500 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue2
 		name: Patronite Zielony Próg - Wartość Podstawowa II
@@ -5317,6 +5369,7 @@ req:100 PatroniteF
 		passive:grant 10 PatroniteV
 		req:PatronZielValue1
 		cost:5000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue3
 		name: Patronite Zielony Próg - Wartość Podstawowa III
@@ -5328,6 +5381,7 @@ req:100 PatroniteF
 		passive:grant 10 PatroniteV
 		req:PatronZielValue2
 		cost:50000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue4
 		name: Patronite Zielony Próg - Wartość Podstawowa IV
@@ -5339,17 +5393,19 @@ req:100 PatroniteF
 		passive:grant 10 PatroniteV
 		req:PatronZielValue3
 		cost:500000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 	*PatronZielValue5
 		name: Patronite Zielony Próg - Wartość Podstawowa V
 		tag:patroniteupgrade
-		desc:Mirosław bieże dłuto i zeskrobuje ultra rzadkie i bardzo przyklejone gabzele z jego biurka. Każdy Patron z zielonego progu może otrzymać od Kompulika ultra rzadki gabzel z bliżej nieokreślonych czasów.<//><b>Efekt działania:</b><.><b>Wartość Podstawowa</b> Patrona z Zielonego Progu Wsparcia jest większa o <b>10</b>.
+		desc:Mirosław bierze dłuto i zeskrobuje ultra rzadkie i bardzo przyklejone gabzle z jego biurka. Każdy Patron z zielonego progu może otrzymać od Kompulika ultra rzadki gabzel z bliżej nieokreślonych czasów.<//><b>Efekt działania:</b><.><b>Wartość Podstawowa</b> Patrona z Zielonego Progu Wsparcia jest większa o <b>10</b>.
 		req:PatroniteUnlock
 		req:PatroniteZielony
 		req:500 PatroniteE
 		passive:grant 10 PatroniteV
 		req:PatronZielValue4
 		cost:5000000 Kanaly
+		passive:grant 1 Patron5UpgrTrack
 
 
 
@@ -5362,6 +5418,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteZolty
 		cost:600 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime2
 		name: Patronite Żółty Próg - Częstotliwość II
@@ -5369,6 +5426,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime1
 		cost:6000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime3
 		name: Patronite Żółty Próg - Częstotliwość III
@@ -5376,6 +5434,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime2
 		cost:60000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime4
 		name: Patronite Żółty Próg - Częstotliwość IV
@@ -5383,6 +5442,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime3
 		cost:600000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyTime5
 		name: Patronite Żółty Próg - Częstotliwość V
@@ -5390,6 +5450,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona z Żółtego Progu Wsparcia jest krótszy o <b>20 sekund</b>.
 		req:PatronZoltyTime4
 		cost:6000000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 
 
@@ -5403,6 +5464,7 @@ req:100 PatroniteF
 		req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		cost:600 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue2
 		name: Patronite Żółty Próg - Wartość Podstawowa II
@@ -5414,6 +5476,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue1
 		cost:6000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue3
 		name: Patronite Żółty Próg - Wartość Podstawowa III
@@ -5425,6 +5488,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue2
 		cost:60000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue4
 		name: Patronite Żółty Próg - Wartość Podstawowa IV
@@ -5436,6 +5500,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue3
 		cost:600000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 	*PatronZoltyValue5
 		name: Patronite Żółty Próg - Wartość Podstawowa V
@@ -5447,6 +5512,7 @@ req:100 PatroniteF
 		passive:grant 14 PatroniteVI
 		req:PatronZoltyValue4
 		cost:6000000 Kanaly
+		passive:grant 1 Patron6UpgrTrack
 
 
 //PATRONZLOTY
@@ -5457,6 +5523,7 @@ req:100 PatroniteF
 		req:PatroniteUnlock
 		req:PatroniteZloty
 		cost:700 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime2
 		name: Patronite Złoty Próg - Częstotliwość II
@@ -5464,6 +5531,7 @@ req:100 PatroniteF
 		desc:Wrzucasz notatkę do karty Społeczności na Youtubie o możliwości wsparcia przez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime1
 		cost:7000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime3
 		name: Patronite Złoty Próg - Częstotliwość III
@@ -5471,6 +5539,7 @@ req:100 PatroniteF
 		desc:Tagujesz wszystkich na Discordzie, że można ciebie wesprzeć poprzez Patronite.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime2
 		cost:70000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime4
 		name: Patronite Złoty Próg - Częstotliwość IV
@@ -5478,6 +5547,7 @@ req:100 PatroniteF
 		desc:Zaczynasz przypominać o swoim Patronite na początku i na końcu każdego filmu.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime3
 		cost:700000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyTime5
 		name: Patronite Złoty Próg - Częstotliwość V
@@ -5485,6 +5555,7 @@ req:100 PatroniteF
 		desc:Krzyczysz przez balkon, że założyłeś Patronite i potrzebujesz wspierających.<//><b>Efekt działania:</b><.>Czas potrzebny na pojawienie się Patrona ze Złotego Progu Wsparcia jest krótszy o <b>25 sekund</b>.
 		req:PatronZlotyTime4
 		cost:7000000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 
 
@@ -5497,6 +5568,7 @@ req:100 PatroniteF
 		req:100 PatroniteG
 		passive:grant 20 PatroniteVII
 		cost:700 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue2
 		name: Patronite Złoty Próg - Wartość Podstawowa II
@@ -5508,6 +5580,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue1
 		cost:7000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue3
 		name: Patronite Złoty Próg - Wartość Podstawowa III
@@ -5519,6 +5592,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue2
 		cost:70000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue4
 		name: Patronite Złoty Próg - Wartość Podstawowa IV
@@ -5530,6 +5604,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue3
 		cost:700000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 	*PatronZlotyValue5
 		name: Patronite Złoty Próg - Wartość Podstawowa V
@@ -5541,6 +5616,7 @@ req:100 PatroniteF
 		passive:grant 20 PatroniteVII
 		req:PatronZlotyValue4
 		cost:7000000 Kanaly
+		passive:grant 1 Patron7UpgrTrack
 
 
 
@@ -9103,7 +9179,7 @@ cost:180000 Kanaly
 
 *Endgame1Upgr
 	name:Przygotowania: Zaginięcie Lisanne Froon i Kris Kremers
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal1Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build1MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza1Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal1Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build1MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza1Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9123,7 +9199,7 @@ cost:180000 Kanaly
 
 *Endgame2Upgr
 	name:Przygotowania: Tragedia na Przełęczy Diatłowa
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal2Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build2MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza2Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal2Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build2MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza2Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9144,7 +9220,7 @@ cost:180000 Kanaly
 
 *Endgame3Upgr
 	name:Przygotowania: Tragedia w Dolinie Jaworowej
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal3Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build3MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza3Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal3Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build3MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza3Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9165,7 +9241,7 @@ cost:180000 Kanaly
 
 *Endgame4Upgr
 	name:Przygotowania: Tajemnica Mary Celeste
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal4Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build4MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza4Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal4Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build4MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza4Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9187,7 +9263,7 @@ cost:180000 Kanaly
 
 *Endgame5Upgr
 	name:Przygotowania: MV Joyita
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal5Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build5MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza5Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal5Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build5MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza5Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9210,7 +9286,7 @@ cost:180000 Kanaly
 
 *Endgame6Upgr
 	name:Przygotowania: Stalowa Wola - Epidemia, której nie było (wersja skrócona)
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal6Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build6MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza6Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal6Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build6MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza6Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9234,7 +9310,7 @@ cost:180000 Kanaly
 
 *Endgame7Upgr
 	name:Przygotowania: Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal7Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build7MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza7Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal7Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build7MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza7Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9257,7 +9333,7 @@ cost:180000 Kanaly
 
 *Endgame8Upgr
 	name:Przygotowania: Przerwane ferie
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal8Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build8MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza8Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal8Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build8MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza8Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9280,7 +9356,7 @@ cost:180000 Kanaly
 
 *Endgame9Upgr
 	name:Przygotowania: Zaginięcie Brandona Swansona
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal9Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build9MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza9Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal9Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build9MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza9Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9303,7 +9379,7 @@ cost:180000 Kanaly
 
 *Endgame10Upgr
 	name:Przygotowania: Piątka z Yuby
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal10Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build10MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza10Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal10Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build10MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza10Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9325,7 +9401,7 @@ cost:180000 Kanaly
 
 *Endgame11Upgr
 	name:Przygotowania: Zaginięcie generała Zagórskiego
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal11Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build11MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza11Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal11Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build11MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza11Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9347,7 +9423,7 @@ cost:180000 Kanaly
 
 *Endgame12Upgr
 	name:Przygotowania: Tajemnica Wyspy Dębów
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal12Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build12MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja12)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza12Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal12Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build12MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja12)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza12Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9370,7 +9446,7 @@ cost:180000 Kanaly
 
 *Endgame13Upgr
 	name:Przygotowania: Ourang Medan - prawda czy fikcja?
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal13Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build13MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja13)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza13Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal13Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build13MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja13)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza13Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9393,7 +9469,7 @@ cost:180000 Kanaly
 
 *Endgame14Upgr
 	name:Przygotowania: Dzieci z Bodom
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal14Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build14MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja14)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza14Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal14Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build14MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja14)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza14Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9416,7 +9492,7 @@ cost:180000 Kanaly
 
 *Endgame15Upgr
 	name:Przygotowania: Frauke Liebs
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal15Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build15MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja15)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza15Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal15Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build15MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja15)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza15Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -9439,7 +9515,7 @@ cost:180000 Kanaly
 
 *Endgame16Upgr
 	name:Przygotowania: Kim był Peter Bergmann?
-	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal16Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build16MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja16)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Ekspertyza16Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
+	desc:Aby móc odblokować podróż w czasie dla tej sprawy najpierw musisz <b>przynajmniej raz</b> spełnić następujące wymagania:<//> <//><.>Osiągnij 1500 poziom tego filmu: [?(have Normal16Achiev6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Zakup <b>ostateczne ulepszenie</b> tego filmu z zakładki "Ulepszenia": [?(have Build16MaxUpgrAchi3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Perfekcyjną Synchronizację</b> dla tego filmu w zakładce "Pozycjonowanie": [?(have Pozycja16)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//><.>Osiągnij <b>Mistrzostwo</b> dla tego filmu w zakładce "Ekspertyza": [?(have Ekspertyza16Master)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<//> <//>Po spełnieniu wszystkich wymagań, kliknij w to ulepszenie, aby cofnąć się w czasie.
 	tag:ttravelupgrade
 	req:TTravelUnlock
 	owned
@@ -10985,10 +11061,6 @@ Achievements
 	req:200 PrestigeClicker2
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PrestigeAchievs
-
-
-
-
 
 *BuyablePrestige77
 	name:Monetyzacja+
@@ -13471,7 +13543,7 @@ Achievements
 
 
 	*Challenge2137
-	name:♦ Papieskia Godzina ♦
+	name:♦ Papieska Godzina ♦
 	desc:Grasz już ponad 21 godzin i 37 minut.
 	req:TimePlayed>77820
 	passive:grant 1 TotalAchievs
@@ -13578,7 +13650,7 @@ passive:grant 1 WyzwaniaAchievs
 
 
 	*Challenge8
-	name:♦ Obieżyświat ♦
+	name:♦ Ryzyk Fizyk ♦
 	desc:Spełniłeś dodatkowe wymagania dla wszystkich <b>Wydarzeń Krytycznych</b>.
 	passive:grant 1 TotalAchievs
 	req:TierXRandom1BoostT>1
@@ -13718,7 +13790,7 @@ Shinies
 *PatroniteAI
 	on click:yield 1 PatrTotalClick1
 	on click:yield 1 PatroniteA
-	on click:if (have PatroniteSzaryBlock) yield (Subskrybent*0.02) Subskrybent
+	on click:if (have PatroniteSzaryBlock and PatroniteA>=1000) yield (Subskrybent*0.02) Subskrybent
 	movement:onBox:main
  	duration:10800
  	icon:https://i.imgur.com/sY3sh1e.png
@@ -13731,12 +13803,13 @@ Shinies
 		yield (Subskrybent*0.02) Subskrybent
 	end
 	on click:if (have PatronSzaryProcent and no PatroniteSzaryBlock and chance(35%)) do patronszarybonus1
- 	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and chance(35%)) do patronszarybonus2
+	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and PatroniteA<1000 and chance(35%)) do patronszarybonus1
+ 	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and PatroniteA>=1000 and chance(35%)) do patronszarybonus2
 
 *PatroniteBII
 	on click:yield 1 PatrTotalClick2
 	on click:yield 1 PatroniteB
-  	on click:if (have PatroniteBialyBlock) yield (Subskrybent*0.03) Subskrybent
+  	on click:if (have PatroniteBialyBlock and PatroniteB>=1000) yield (Subskrybent*0.03) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/Sawi32O.png
@@ -13749,13 +13822,14 @@ Shinies
 		yield (Subskrybent*0.03) Subskrybent
 	end	
 	on click:if (have PatronBialyProcent and no PatroniteBialyBlock and chance(30%)) do patronbialybonus1
-	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and chance(30%)) do patronbialybonus2
+	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and PatroniteB<1000 and chance(30%)) do patronbialybonus1
+	on click:if (have PatroniteSzaryBlock and have PatronBialyProcent and PatroniteB>=1000 and chance(30%)) do patronbialybonus2
 
 
 *PatroniteCIII
 	on click:yield 1 PatrTotalClick3
 	on click:yield 1 PatroniteC
-	on click:if (have PatroniteNiebBlock) yield (Subskrybent*0.04) Subskrybent
+	on click:if (have PatroniteNiebBlock and PatroniteC>=1000) yield (Subskrybent*0.04) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/jQB84Bd.png
@@ -13768,14 +13842,15 @@ Shinies
 		yield (Subskrybent*0.04) Subskrybent
 	end	
 	on click:if (have PatronNiebProcent and no PatroniteNiebBlock and chance(25%)) do patronniebbonus1
-	on click:if (have PatroniteNiebBlock and have PatronNiebProcent and chance(25%)) do patronniebbonus2 
+	on click:if (have PatroniteNiebBlock and have PatronNiebProcent and PatroniteC<1000 and chance(25%)) do patronniebbonus1
+	on click:if (have PatroniteNiebBlock and have PatronNiebProcent and PatroniteC>=1000 and chance(25%)) do patronniebbonus2 
 
 
 
 *PatroniteDIV
 	on click:yield 1 PatrTotalClick4
 	on click:yield 1 PatroniteD
-	on click:if (have PatroniteFiolBlock) yield (Subskrybent*0.05) Subskrybent
+	on click:if (have PatroniteFiolBlock and PatroniteD>=1000) yield (Subskrybent*0.05) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/vo8vFx4.png
@@ -13788,12 +13863,13 @@ Shinies
 		yield (Subskrybent*0.05) Subskrybent
 	end	
 	on click:if (have PatronFiolProcent and no PatroniteFiolBlock and chance(20%)) do patronfiolbonus1
-	on click:if (have PatroniteFiolBlock and have PatronFiolProcent and chance(20%)) do patronfiolbonus2 
+	on click:if (have PatroniteFiolBlock and have PatronFiolProcent and PatroniteD<1000 and chance(20%)) do patronfiolbonus2 
+	on click:if (have PatroniteFiolBlock and have PatronFiolProcent and PatroniteD>=1000 and chance(20%)) do patronfiolbonus2 
 
 *PatroniteEV
 	on click:yield 1 PatrTotalClick5
 	on click:yield 1 PatroniteE
-	on click:if (have PatroniteZielBlock) yield (Subskrybent*0.06) Subskrybent
+	on click:if (have PatroniteZielBlock and PatroniteE>=1000) yield (Subskrybent*0.06) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/JirDG9m.png
@@ -13806,12 +13882,13 @@ Shinies
 		yield (Subskrybent*0.06) Subskrybent
 	end		
 	on click:if (have PatronZielProcent and no PatroniteZielBlock and chance(15%)) do patronzielbonus1
-  	on click:if (have PatroniteZielBlock and have PatronZielProcent and chance(15%)) do patronzielbonus2 
+	on click:if (have PatroniteZielBlock and have PatronZielProcent and PatroniteE<1000 and chance(15%)) do patronzielbonus1
+  	on click:if (have PatroniteZielBlock and have PatronZielProcent and PatroniteE>=1000 and chance(15%)) do patronzielbonus2 
 
 *PatroniteFVI
 	on click:yield 1 PatrTotalClick6
 	on click:yield 1 PatroniteF
-	on click:if (have PatroniteZoltyBlock) yield (Subskrybent*0.08) Subskrybent
+	on click:if (have PatroniteZoltyBlock and PatroniteF>=1000) yield (Subskrybent*0.08) Subskrybent
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/dz5tpLG.png
@@ -13824,12 +13901,13 @@ Shinies
 		yield (Subskrybent*0.08) Subskrybent
 	end		
 	on click:if (have PatronZoltyProcent and no PatroniteZoltyBlock and chance(10%)) do patronzoltybonus1
-	on click:if (have PatroniteZoltyBlock and have PatronZoltyProcent and chance(10%)) do patronzoltybonus2 
+	on click:if (have PatroniteZoltyBlock and have PatronZoltyProcent and PatroniteF<1000 and chance(10%)) do patronzoltybonus1
+	on click:if (have PatroniteZoltyBlock and have PatronZoltyProcent and PatroniteF>=1000 and chance(10%)) do patronzoltybonus2 
 
 *PatroniteGVII
 	on click:yield 1 PatrTotalClick7
   	on click:yield 1 PatroniteG
-	on click:if (have PatroniteZlotyBlock) yield (Subskrybent*0.10) Subskrybent  
+	on click:if (have PatroniteZlotyBlock and PatroniteG>=1000) yield (Subskrybent*0.10) Subskrybent  
   	movement:onBox:main
   	duration:10800
   	icon:https://i.imgur.com/wu0JNBq.png
@@ -13842,4 +13920,5 @@ Shinies
 		yield (Subskrybent*0.10) Subskrybent
 	end	
 	on click:if (have PatronZlotyProcent and no PatroniteZlotyBlock and chance(5%)) do patronzlotybonus1
-  	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and chance(5%)) do patronzlotybonus2
+	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG<1000 and chance(5%)) do patronzlotybonus1
+  	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG>=1000 and chance(5%)) do patronzlotybonus2
