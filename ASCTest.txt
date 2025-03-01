@@ -2989,7 +2989,7 @@ Upgrades
 	tag:eventUpgrade
 
 	*testevetn
-	name:DiscordTestUpda33345
+	name:Discord1
 	tag:eventUpgrade
 	on DajWydarzenie1:
 		toast łobaben
