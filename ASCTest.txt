@@ -2998,7 +2998,8 @@ on DajBonus1:
 toast łobaben2
 end
 on click:if (SubZaSub=1) do DajWydarzenie1
-else do DajBonus1
+else
+do DajBonus1
 end
 end
 
