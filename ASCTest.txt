@@ -2989,11 +2989,11 @@ Upgrades
 	tag:eventUpgrade
 
 	*testevetn
-	name:DiscordTest
+	name:DiscordTestUpda
 	tag:eventUpgrade
 		on click:
 			if (chance(ProcentWygrana %))
-				yield 18 Minuty
+				yield 1080 WeekStartedTimer
 			else
 				yield 1 ProcentWygrana
 				yield 1 PunktyKanaluKoszt
