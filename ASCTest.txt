@@ -2992,10 +2992,10 @@ Upgrades
 name:Discord123
 tag:eventUpgrade
 on DajWydarzenie1:
-toast łobaben
+	yield 10 SponsorPoints
 end
 on DajBonus2:
-toast łobaben2
+	yield 1 SponsorPoints
 end
 on click:
 	if (SubZaSub=1) 
