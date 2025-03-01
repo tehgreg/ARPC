@@ -2996,6 +2996,7 @@ Upgrades
 				WeekStartedTimer is 1079
 				ProcentWygrana is 15
 				PunktyKanaluKoszt is 5 
+				toast łobaben
 			else
 				yield 1 ProcentWygrana
 				yield 1 PunktyKanaluKoszt
