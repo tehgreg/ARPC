@@ -2989,7 +2989,7 @@ Upgrades
 	tag:eventUpgrade
 
 *testevetn
-name:Discord123
+name:Discord1234
 tag:eventUpgrade
 on DajWydarzenie1:
 	yield 10 SponsorPoints
