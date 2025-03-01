@@ -2989,7 +2989,7 @@ Upgrades
 	tag:eventUpgrade
 
 	*testevetn
-	name:DiscordTestUpda33
+	name:DiscordTestUpda333
 	tag:eventUpgrade
 	on DajWydarzenie1:
 		toast łobaben
@@ -2998,7 +2998,7 @@ Upgrades
 		toast łobaben2
 	end
 		on click:
-			if (chance(ProcentWygrana%))
+			if (chance(50%))
 				do DajWydarzenie1
 			else
 				do DajBonus1
