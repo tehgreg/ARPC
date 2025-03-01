@@ -2992,19 +2992,13 @@ Upgrades
 	name:DiscordTestUpda3
 	tag:eventUpgrade
 	on DajWydarzenie1:
-				WeekStartedTimer is 1079
-				lose 999 ProcentWygrana
-				yield 15 ProcentWygrana
-				lose 999 PunktyKanaluKoszt
-				yield 5 PunktyKanaluKoszt 
-				toast łobaben
+		toast łobaben
 	end
 	on DajBonus1:
-				yield 1 ProcentWygrana
-				yield 1 PunktyKanaluKoszt
+		toast łobaben2
 	end
 		on click:
-			if (chance(ProcentWygrana %) and WeekStartedTimer<1080)
+			if (chance(ProcentWygrana %))
 				do DajWydarzenie1
 			else
 				do DajBonus1
