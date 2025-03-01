@@ -2989,7 +2989,7 @@ Upgrades
 	tag:eventUpgrade
 
 *testevetn
-name:Discord12
+name:Discord123
 tag:eventUpgrade
 on DajWydarzenie1:
 toast łobaben
@@ -2997,10 +2997,12 @@ end
 on DajBonus2:
 toast łobaben2
 end
-on click:if (SubZaSub=1) do DajWydarzenie1
-else if
-do DajBonus2
-end
+on click:
+	if (SubZaSub=1) 
+		do DajWydarzenie1
+	else
+		do DajBonus2
+	end
 end
 
 
