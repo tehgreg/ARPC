@@ -2989,13 +2989,15 @@ Upgrades
 	tag:eventUpgrade
 
 	*testevetn
-	name:DiscordTestUpda1
+	name:DiscordTestUpda22
 	tag:eventUpgrade
 		on click:
 			if (chance(ProcentWygrana %) and WeekStartedTimer<1080)
 				WeekStartedTimer is 1079
-				ProcentWygrana is 15
-				PunktyKanaluKoszt is 5 
+				lose 999 ProcentWygrana
+				yield 15 ProcentWygrana
+				lose 999 PunktyKanaluKoszt
+				yield 5 PunktyKanaluKoszt 
 				toast łobaben
 			else
 				yield 1 ProcentWygrana
