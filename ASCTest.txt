@@ -2985,8 +2985,13 @@ Upgrades
 *Event1
 	hidden
 	name:Afterparty
-	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Aktywuj to wydarzenie, aby rozpocząć Afterparty!<.>Po aktywacji możesz rozpocząć najebkę na maksa i zyskujesz możliwość picia piwa, wina lub wódki.<.>W zakładce <b>Wydarzenia Sezonowe</b> otrzymasz dostęp do nowych możliwości w <b>Panelu Zakupów</b>.<.>Spożywanie dowolnego alkoholu zwiększa twój poziom promili we krwi.<.><b>Twoim zadaniem</b> jest pobić absolutny rekord i mieć <b>15</b> Promili alkoholu we krwi do końca trwania Wydarzenia.<//> <//><.>Promile zdobyte z piwa: x <.>Promile zdobyte z wina: x <.>Promile zdobyte z wódki: <.>Suma Promili: X<//> <//><b><#FFD700>Nagroda:</b></#><.>Permanentny wzrost do <b>Subskrybentów</b> i <b>Czasu Oglądania</b> każdego z filmów o <b><#00ff00>10x</b></#><.>Osiągnięcie Sezonowe.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 10.03.2025 - 16.03.2025
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Aktywuj to wydarzenie, aby rozpocząć Afterparty!<.>Po aktywacji możesz rozpocząć najebkę na maksa i zyskujesz możliwość picia piwa, wina lub wódki.<.>W zakładce <b>Wydarzenia Sezonowe</b> otrzymasz dostęp do nowych możliwości w <b>Panelu Zakupów</b>.<.>Spożywanie dowolnego alkoholu zwiększa twój poziom promili we krwi.<.><b>Twoim zadaniem</b> jest pobić absolutny rekord i mieć <b>15</b> Promili alkoholu we krwi do końca trwania Wydarzenia.<//> <//><.>Promile zdobyte z piwa: [floor(0.1*Afterparty1)],[(0.1*Afterparty1*pow(10,2))%pow(10,2)] <.>Promile zdobyte z wina: x <.>Promile zdobyte z wódki: <.>Suma Promili: X/15<//> <//><b><#FFD700>Nagroda:</b></#><.>Permanentny wzrost do <b>Subskrybentów</b> i <b>Czasu Oglądania</b> każdego z filmów o <b><#00ff00>10x</b></#><.>Osiągnięcie Sezonowe.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 10.03.2025 - 16.03.2025
 	tag:eventUpgrade
+
+
+
+
+
 
 //NORMAL UPGRADES
 
