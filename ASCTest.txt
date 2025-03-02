@@ -1463,6 +1463,9 @@ always hidden
 *AfterpartyWhite
 name:Kartek na białe wino
 always hidden
+*Kieliszek
+name:Kieliszek
+always hidden
 
 
 
@@ -1504,10 +1507,11 @@ Buildings
 
 	*Afterparty3
 	name:Rozpracuj Połówkę
-	desc:Nikt już nie chce z tobą pić, więc rozpijasz pół litra samemu.<//> <//><.>Otrzymane <b>Promile</b >za 1 wódkę: <b><#00ff00>0,2</b></#><//> <//><.>
+	desc:Nikt już nie chce z tobą pić, więc rozpijasz pół litra samemu.<//> <//><.>Otrzymane <b>Promile</b> za 1 wódkę: <b><#00ff00>0,2</b></#><//> <//><.>Możesz wymienić jedną wódkę za <b><#00ff00>1</b></#> <b>kieliszek</b><.>Otrzymujesz <b>1</b> kieliszek za każde założenie <b>Nowego Kanału</b>.
 	tag:eventBuilding
-	no buy
 	req:1 Event1	
+	cost:1 Kieliszek
+	cost increase:100%
 
 
 
