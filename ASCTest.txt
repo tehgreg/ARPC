@@ -2997,8 +2997,7 @@ name:TestingIfs
 	on Event20:
 		yield 1 SponsorPoints
 	end
-on click:
-	if (SubZaSub=1) do Event10
+on click:if (SubZaSub=1) do Event10
 
 
 //NORMAL UPGRADES
