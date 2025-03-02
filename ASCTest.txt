@@ -1461,7 +1461,7 @@ always hidden
 
 
 *AfterpartyWhite
-name:Kartki na białe wino
+name:Kartek na białe wino
 always hidden
 
 
@@ -1495,7 +1495,7 @@ Buildings
 
 	*Afterparty2
 	name:Parowanie Win
-	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Otrzymane <b>Promile</b> za 1 wino: <b><#00ff00>0,15</b></#><//> <//><.>Możesz kupić jedno wino za <b><#00ff00>5</b></#> kartek na białe wino</b>.<//> <//><.>Otrzymujesz <b>1</b> kartkę na białe wino za kliknięcie w <b>1</b> Patrona z <b>Białego Progu</b>.<//> <//><.>Posiadane kartki na białe wino: <b><#00ff00>[AfterpartyWhite]</b></#>
+	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Otrzymane <b>Promile</b> za 1 wino: <b><#00ff00>0,15</b></#><//> <//><.>Możesz kupić jedno wino za <b><#00ff00>5</b></#> kartek na białe wino</b>.<//> <//><.>Otrzymujesz <b>1</b> kartkę na białe wino za kliknięcie w <b>1</b> Patrona z <b>Białego Progu</b>. (Bonus z Suppi nie oddziałowuje na zbieranie kartek).<//> <//><.>Posiadane kartki na białe wino: <b><#00ff00>[AfterpartyWhite]</b></#>
 	tag:eventBuilding
 	req:1 Event1
 	cost:5 AfterpartyWhite
