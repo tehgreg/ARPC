@@ -1460,8 +1460,8 @@ always hidden
 
 
 
-
-
+*AfterpartyWhite
+always hidden
 
 
 
@@ -1494,7 +1494,7 @@ Buildings
 
 	*Afterparty2
 	name:Parowanie Win
-	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Otrzymane <b>Promile</b>za 1 wino: <b><#00ff00>0,15</b></#><//> <//><.>Otrzymujesz jedno wino co <b><#00ff00>5</b></#> kliknięć w Patrona z <b>Białego Progu</b>.<//> <//>Następne wino otrzymasz za <b><#00ff00>5</b></#> kliknięć.
+	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Otrzymane <b>Promile</b> za 1 wino: <b><#00ff00>0,15</b></#><//> <//><.>Otrzymujesz jedno wino co <b><#00ff00>5</b></#> kliknięć w Patrona z <b>Białego Progu</b>.<//> <//>Do tej pory kliknąłeś w Białego Patrona <b><#00ff00>AfterpartyWhite</b></#> razy.
 	tag:eventBuilding
 	no buy
 	req:1 Event1	
