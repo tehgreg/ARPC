@@ -6302,14 +6302,12 @@ req:100 PatroniteF
 	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. Jedna próba zagadania kosztowałaby cię: [(PunktyKanaluKoszt/100*Kanaly)] <b>Punktów Kanału</b>.
 	tag:discordbuilding
 	on DiscordBoostWin:
-		ProcentWygrana is 5
-		PunktyKanaluKoszt is 5
+		toast Hehe
 	end
 	on click:
 	yield 1 PunktyKanaluKoszt
 	yield 1 ProcentWygrana
-	if (chance((ProcentWygrana)%) and WeekStartedTimer<1080) do DiscordBoostWin
-	toast Hehe
+	if (WeekStartedTimer<1080) do DiscordBoostWin
 	lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
 	end
 
