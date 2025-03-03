@@ -6290,14 +6290,14 @@ req:100 PatroniteF
 
 
 *DiscordBoost
-	name:Spróbuj Zagadać3
+	name:Spróbuj Zagadać4
 	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie.
 	tag:discordupgrade
 	on click:
 	if (chance(ProcentWygrana%) and WeekStartedTimer<1080) yield 10 SponsorPoints
 	toast Hehe
 	end
-	cost:PunktyKanaluKoszt/100*Kanaly Kanaly
+	cost:(Kanaly*0.50) Kanaly
 
 
 
