@@ -2347,6 +2347,23 @@ Buildings
 //DISCORD BUDYNKI
 
 
+*DiscordBoost
+	name:Spróbuj Zagadać45
+	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie.
+	tag:discordupgrade
+	on click:
+	if (chance(ProcentWygrana%) and WeekStartedTimer<1080) yield 10 SponsorPoints
+	toast Hehe
+	end
+	cost:(PunktyKanaluKoszt/100*Kanaly) Kanaly
+
+
+
+
+
+
+
+
 //Ten Budynek dodaje nowe tematy
 *IncreaseTopics
 	name:Dodatkowe kanały
@@ -6289,15 +6306,7 @@ req:100 PatroniteF
 
 
 
-*DiscordBoost
-	name:Spróbuj Zagadać45
-	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie.
-	tag:discordupgrade
-	on click:
-	if (chance(ProcentWygrana%) and WeekStartedTimer<1080) yield 10 SponsorPoints
-	toast Hehe
-	end
-	cost:PunktyKanaluKoszt Kanaly
+
 
 
 
