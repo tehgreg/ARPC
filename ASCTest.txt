@@ -6290,7 +6290,7 @@ req:100 PatroniteF
 
 
 *DiscordBoost
-	name:Spróbuj Zagadać2
+	name:Spróbuj Zagadać3
 	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie.
 	tag:discordupgrade
 	on click:
