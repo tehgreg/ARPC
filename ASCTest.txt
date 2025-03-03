@@ -6298,11 +6298,15 @@ req:100 PatroniteF
 
 
 *DiscordBoost
-	name:Spróbuj Zagadać888
+	name:Spróbuj Zagadać9
 	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. Jedna próba zagadania kosztowałaby cię: [(PunktyKanaluKoszt/100*Kanaly)] <b>Punktów Kanału</b>.
 	tag:discordbuilding
+	on DiscordBoostWin:
+		ProcentWygrana is 5
+		PunktyKanaluKoszt is 5
+	end
 	on click:
-	if (chance(ProcentWygrana%) and WeekStartedTimer<1080) yield 10 SponsorPoints and yield 1000 PLN
+	if (chance(ProcentWygrana%) and WeekStartedTimer<1080) do DiscordBoostWin
 	yield 1 PunktyKanaluKoszt
 	yield 1 ProcentWygrana
 	toast Hehe
