@@ -6323,7 +6323,6 @@ req:100 PatroniteF
 	on click:
 	if (chance(procentwygrana %) and WeekStartedTimer<1080) do discordboostwin1
 	else if (chance(procentwygrana %) and WeekStartedTimer>1080 and WeekStartedTimer<2160) do discordboostwin2
-	adres
 	else
 		do fail
 	end
