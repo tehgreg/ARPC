@@ -6325,6 +6325,7 @@ req:100 PatroniteF
 	yield 1 PunktyKanaluKoszt
 	end
 	end
+	end
 
 
 *adder1
