@@ -6310,7 +6310,15 @@ req:100 PatroniteF
 	on click:if (chance(procentwygrana %)) do discordboostwin
 
 
+*adder1
+name:adder
+on click:yield 1 procentwygrana
+on click:yield 1 PunktyKanaluKoszt
 
+*remover1
+name:remover
+on click:lose 99 procentwygrana
+on click:lose 99 PunktyKanaluKoszt
 
 
 
