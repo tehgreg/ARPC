@@ -6327,7 +6327,6 @@ req:100 PatroniteF
 		do fail
 	end
 	end
-	end
 
 
 *adder1
