@@ -6298,9 +6298,10 @@ req:100 PatroniteF
 
 
 *DiscordBoost
-	name:Spróbuj Zagadać16
-	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 25%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 25%.<.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#>
+	name:Spróbuj Zagadać
+	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#><.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia czy nastąpi ono za minutę czy 15 minut).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.
 	tag:discordbuilding
+	req:1000000000000000000000000000000 Punkty Kanalu
   	on discordboostwin:
   		toast Udało ci się zagadać!
 		yield 1 PunktyKanaluKoszt
