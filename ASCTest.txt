@@ -6299,7 +6299,7 @@ req:100 PatroniteF
 
 *DiscordBoost
 	name:Spróbuj Zagadać16
-	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Jedna próba zagadania kosztowałaby cię teraz: <//> <//><b>[(PunktyKanaluKoszt/100*Kanaly)]</b> <//>czyli ([PunktyKanaluKoszt]%) posiadanych <b>Punktów Kanału</b>.
+	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 25%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 25%.<.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#>
 	tag:discordbuilding
   	on discordboostwin:
   		toast Udało ci się zagadać!
