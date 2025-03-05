@@ -6305,110 +6305,6 @@ req:100 PatroniteF
 	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((1080-WeekStartedTimer)/60)] minut i [((1080-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080 and WeekStartedTimer<2160)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((2160-WeekStartedTimer)/60)] minut i [((2160-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160 and WeekStartedTimer<3240)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((3240-WeekStartedTimer)/60)] minut i [((3240-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240 and WeekStartedTimer<4320)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((4320-WeekStartedTimer)/60)] minut i [((4320-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320 and WeekStartedTimer<5400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((5400-WeekStartedTimer)/60)] minut i [((5400-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400 and WeekStartedTimer<6480)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((6480-WeekStartedTimer)/60)] minut i [((6480-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480 and WeekStartedTimer<7560)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((7560-WeekStartedTimer)/60)] minut i [((7560-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560 and WeekStartedTimer<8640)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((8640-WeekStartedTimer)/60)] minut i [((8640-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640 and WeekStartedTimer<9720)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((9720-WeekStartedTimer)/60)] minut i [((9720-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720 and WeekStartedTimer<10800)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((10800-WeekStartedTimer)/60)] minut i [((10800-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800 and WeekStartedTimer<11400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((11400-WeekStartedTimer)/60)] minut i [((11400-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - 18 minut - [?(WeekStartedTimer>1080)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - 36 minut - [?(WeekStartedTimer>2160)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - 54 minut - [?(WeekStartedTimer>3240)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - 72 minut - [?(WeekStartedTimer>4320)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - 90 minut - [?(WeekStartedTimer>5400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - 108 minut - [?(WeekStartedTimer>6480)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - 126 minut - [?(WeekStartedTimer>7560)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - 144 minut - [?(WeekStartedTimer>8640)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - 162 minut - [?(WeekStartedTimer>9720)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - 180 minut - [?(WeekStartedTimer>10800)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - 190 minut - [?(WeekStartedTimer>11400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
 
 //PRZYSPIESZACZ WYDARZEŃ
-*DiscordBoost
-	name:Spróbuj Zagadać12
-	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia na pozostały czas do kolejnego Wydarzenia).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.<.>Nie możesz przyspieszać do ostatniego Wydarzenia Krytycznego.<.>Założenie <b>Nowego Kanału</b> resetuje koszt i szansę na 5%.<//> <//><.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#> <b>Punktów Kanału</b>.<.>debug - [WeekStartedTimer]
-	tag:discordbuilding
-	req:1000000000000000000000000000000 Kanaly
-	req:WeekStartedTimer<10800
-	req:WeekStartedTimer>0
-  	on discordboostwin1:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=1080
-		lose DiscordBoost
-  	end
-	on discordboostwin2:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=2160
-		lose DiscordBoost
-  	end
-  	on discordboostwin3:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=3240
-		lose DiscordBoost
-  	end
-	on discordboostwin4:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=4320
-		lose DiscordBoost
-  	end
-	on discordboostwin5:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=5400
-		lose DiscordBoost
-  	end
-	on discordboostwin6:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=6480
-		lose DiscordBoost
-  	end
-	on discordboostwin7:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=7560
-		lose DiscordBoost
-	end	
-	on discordboostwin8:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=8640
-		lose DiscordBoost
-  	end
-	on discordboostwin9:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=9720
-		lose DiscordBoost
-  	end
-	on discordboostwin10:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=10800
-		lose DiscordBoost
-  	end
-	on earn:lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
-	on earn:
-	if (chance(procentwygrana %) and WeekStartedTimer<1080)
-	do discordboostwin1
-	else if (chance(procentwygrana %) and WeekStartedTimer>1080 and WeekStartedTimer<2160)
-	do discordboostwin2
-	else if (chance(procentwygrana %) and WeekStartedTimer>2160 and WeekStartedTimer<3240)
-	do discordboostwin3
-	else if (chance(procentwygrana %) and WeekStartedTimer>3240 and WeekStartedTimer<4320)
-	do discordboostwin4
-	else if (chance(procentwygrana %) and WeekStartedTimer>4320 and WeekStartedTimer<5400)
-	do discordboostwin5
-	else if (chance(procentwygrana %) and WeekStartedTimer>5400 and WeekStartedTimer<6480)
-	do discordboostwin6
-	else if (chance(procentwygrana %) and WeekStartedTimer>6480 and WeekStartedTimer<7560)
-	do discordboostwin7
-	else if (chance(procentwygrana %) and WeekStartedTimer>7560 and WeekStartedTimer<8640)
-	do discordboostwin8
-	else if (chance(procentwygrana %) and WeekStartedTimer>8640 and WeekStartedTimer<9720)
-	do discordboostwin9
-	else if (chance(procentwygrana %) and WeekStartedTimer>9720 and WeekStartedTimer<10800)
-	do discordboostwin10
-	end
-	end
-	on earn:yield 1 procentwygrana
-	on earn:yield 1 PunktyKanaluKoszt
-	on earn:lose DiscordBoost
 
 //Odliczacz do bonusów
 	*WeekTimer 
@@ -14071,3 +13967,97 @@ Shinies
 	on click:if (have PatronZlotyProcent and no PatroniteZlotyBlock and chance(5%)) do patronzlotybonus1
 	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG<1000 and chance(5%)) do patronzlotybonus1
   	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG>=1000 and chance(5%)) do patronzlotybonus2
+
+*DiscordBoost
+	frequency:1
+	name:Spróbuj Zagadać12
+	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia na pozostały czas do kolejnego Wydarzenia).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.<.>Nie możesz przyspieszać do ostatniego Wydarzenia Krytycznego.<.>Założenie <b>Nowego Kanału</b> resetuje koszt i szansę na 5%.<//> <//><.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#> <b>Punktów Kanału</b>.<.>debug - [WeekStartedTimer]
+	tag:discordbuilding
+	req:WeekStartedTimer<10800
+	req:WeekStartedTimer>0
+  	on discordboostwin1:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=1080
+  	end
+	on discordboostwin2:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=2160
+  	end
+  	on discordboostwin3:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=3240
+  	end
+	on discordboostwin4:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=4320
+  	end
+	on discordboostwin5:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=5400
+  	end
+	on discordboostwin6:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=6480
+  	end
+	on discordboostwin7:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=7560
+	end	
+	on discordboostwin8:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=8640
+  	end
+	on discordboostwin9:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=9720
+  	end
+	on discordboostwin10:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=10800
+  	end
+	on earn:lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
+	on earn:
+	if (chance(procentwygrana %) and WeekStartedTimer<1080)
+	do discordboostwin1
+	else if (chance(procentwygrana %) and WeekStartedTimer>1080 and WeekStartedTimer<2160)
+	do discordboostwin2
+	else if (chance(procentwygrana %) and WeekStartedTimer>2160 and WeekStartedTimer<3240)
+	do discordboostwin3
+	else if (chance(procentwygrana %) and WeekStartedTimer>3240 and WeekStartedTimer<4320)
+	do discordboostwin4
+	else if (chance(procentwygrana %) and WeekStartedTimer>4320 and WeekStartedTimer<5400)
+	do discordboostwin5
+	else if (chance(procentwygrana %) and WeekStartedTimer>5400 and WeekStartedTimer<6480)
+	do discordboostwin6
+	else if (chance(procentwygrana %) and WeekStartedTimer>6480 and WeekStartedTimer<7560)
+	do discordboostwin7
+	else if (chance(procentwygrana %) and WeekStartedTimer>7560 and WeekStartedTimer<8640)
+	do discordboostwin8
+	else if (chance(procentwygrana %) and WeekStartedTimer>8640 and WeekStartedTimer<9720)
+	do discordboostwin9
+	else if (chance(procentwygrana %) and WeekStartedTimer>9720 and WeekStartedTimer<10800)
+	do discordboostwin10
+	end
+	end
+	on earn:yield 1 procentwygrana
+	on earn:yield 1 PunktyKanaluKoszt
