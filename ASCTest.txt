@@ -14071,3 +14071,94 @@ Shinies
 	on click:if (have PatronZlotyProcent and no PatroniteZlotyBlock and chance(5%)) do patronzlotybonus1
 	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG<1000 and chance(5%)) do patronzlotybonus1
   	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG>=1000 and chance(5%)) do patronzlotybonus2
+
+*testshiny
+frequency:1
+  	movement:onBox:main
+  	icon:https://i.imgur.com/wu0JNBq.png
+on discordboostwin1:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=1080
+  	end
+	on discordboostwin2:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=2160
+  	end
+  	on discordboostwin3:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=3240
+  	end
+	on discordboostwin4:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=4320
+  	end
+	on discordboostwin5:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=5400
+  	end
+	on discordboostwin6:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=6480
+  	end
+	on discordboostwin7:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=7560
+	end	
+	on discordboostwin8:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=8640
+  	end
+	on discordboostwin9:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=9720
+  	end
+	on discordboostwin10:
+  		toast Udało ci się pomyślnie zagadać!
+		PunktyKanaluKoszt is 5
+		procentwygrana is 5
+		WeekStartedTimer=10800
+  	end
+	on click:lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
+	on click:
+	if (chance(procentwygrana %) and WeekStartedTimer<1080)
+	do discordboostwin1
+	else if (chance(procentwygrana %) and WeekStartedTimer>1080 and WeekStartedTimer<2160)
+	do discordboostwin2
+	else if (chance(procentwygrana %) and WeekStartedTimer>2160 and WeekStartedTimer<3240)
+	do discordboostwin3
+	else if (chance(procentwygrana %) and WeekStartedTimer>3240 and WeekStartedTimer<4320)
+	do discordboostwin4
+	else if (chance(procentwygrana %) and WeekStartedTimer>4320 and WeekStartedTimer<5400)
+	do discordboostwin5
+	else if (chance(procentwygrana %) and WeekStartedTimer>5400 and WeekStartedTimer<6480)
+	do discordboostwin6
+	else if (chance(procentwygrana %) and WeekStartedTimer>6480 and WeekStartedTimer<7560)
+	do discordboostwin7
+	else if (chance(procentwygrana %) and WeekStartedTimer>7560 and WeekStartedTimer<8640)
+	do discordboostwin8
+	else if (chance(procentwygrana %) and WeekStartedTimer>8640 and WeekStartedTimer<9720)
+	do discordboostwin9
+	else if (chance(procentwygrana %) and WeekStartedTimer>9720 and WeekStartedTimer<10800)
+	do discordboostwin10
+	end
+	end
+	on click:yield 1 procentwygrana
+	on click:yield 1 PunktyKanaluKoszt
