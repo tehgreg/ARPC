@@ -2975,6 +2975,7 @@ Upgrades
 *Event11
 hidden
 name:Potężna drzemka
+tag:eventUpgrade
 desc:Najebałeś się jak szpadel i wreszcie udajesz się na zasłużony odpoczynek. Aktywuj to ulepszenie, aby otrzymać nagrodę:<.>Permanentny wzrost do <b>Subskrybentów</b> i <b>Czasu Oglądania</b> każdego z filmów o <b><#00ff00>10x</b></#><.>Osiągnięcie Sezonowe.<//> <//><i>Bonus będzie aktywny na stałe nawet po tym jak Afterparty się zakończy.
 on earn:yield 1 Event1Resource
 req:(0.1*Afterparty1)+(0.15*Afterparty2)+(0.2*Afterparty3)>15
