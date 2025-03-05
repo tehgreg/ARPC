@@ -6451,19 +6451,19 @@ on click:lose 99 PunktyKanaluKoszt
 name:week timer is 5000
 on click:WeekStartedTimer is 5000
 
-*adder12
+*adder123
 name:week timer is 6000
 on click:WeekStartedTimer is 6000
 
-*adder12
+*adder124
 name:week timer is 7000
 on click:WeekStartedTimer is 7000
 
-*adder12
+*adder125
 name:week timer is 8000
 on click:WeekStartedTimer is 8000
 
-*adder12
+*adder126
 name:week timer is 9000
 on click:WeekStartedTimer is 9000
 
