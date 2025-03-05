@@ -13799,7 +13799,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardB
 	name:☼ Koneser od siedmiu boleści ☼
 	desc:Wypiłeś 7 win w trakcie Afterparty.
-	req:Afterpaty2>7
+	req:Afterparty2>7
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
@@ -13807,7 +13807,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardC
 	name:☼ Haj fajw ☼
 	desc:Wypiłeś 5 połówek wódki w trakcie Afterparty.
-	req:Afterparty>5
+	req:Afterparty3>5
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
