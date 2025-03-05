@@ -13791,7 +13791,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardA
 	name:☼ Piętnastopak ☼
 	desc:Wypiłeś 15 kraftów w trakcie Afterparty.
-	req:Afterparty1>15
+	req:Afterparty1>=15
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
@@ -13799,7 +13799,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardB
 	name:☼ Koneser od siedmiu boleści ☼
 	desc:Wypiłeś 7 win w trakcie Afterparty.
-	req:Afterparty2>7
+	req:Afterparty2>=7
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
@@ -13807,42 +13807,10 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardC
 	name:☼ Haj fajw ☼
 	desc:Wypiłeś 5 połówek wódki w trakcie Afterparty.
-	req:Afterparty3>5
+	req:Afterparty3>=5
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*Event2Reward
-	name:☼ Rocznica: Ourang Medan ☼
-	desc:Wziąłeś udział w obchodach rocznicy filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"
-	req:1 Event2Resource
-	passive:grant 1 TotalAchievs
-	passive:grant 1 SezonAchievs
-
-*Event3Reward
-	name:☼ Plan Tygodniowy I ☼
-	desc:Wypełniłeś wszystkie zadania w Planie Tygodniowym I.
-	req:1 Event3Resource
-	passive:grant 1 TotalAchievs
-	passive:grant 1 SezonAchievs
 
 
 
