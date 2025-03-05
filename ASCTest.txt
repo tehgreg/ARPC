@@ -6308,7 +6308,7 @@ req:100 PatroniteF
 
 
 *DiscordBoost
-	name:Spróbuj Zagadać222
+	name:Spróbuj Zagadać333
 	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia na pozostały czas do kolejnego Wydarzenia).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.<.>Nie możesz przyspieszać do ostatniego Wydarzenia Krytycznego.<.>Założenie <b>Nowego Kanału</b> resetuje koszt i szansę na 5%.<//> <//><.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#> <b>Punktów Kanału</b>.<.>debug - [WeekStartedTimer]
 	tag:discordbuilding
 	req:1000000000000000000000000000000 Kanaly
@@ -6404,7 +6404,8 @@ req:100 PatroniteF
 		PunktyKanaluKoszt is 5
 		procentwygrana is 5
 		WeekStartedTimer=3240
-		yield 1 WeekStartedTimer
+		lose WeekTimer
+		yield WeekTimer
   	end
 	on click:lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
 	on click:if (chance(procentwygrana %) and WeekStartedTimer>2160 and WeekStartedTimer<3240) do discordboostwin3
