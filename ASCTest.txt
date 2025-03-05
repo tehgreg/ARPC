@@ -6304,15 +6304,13 @@ req:100 PatroniteF
 	hidden
 	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((1080-WeekStartedTimer)/60)] minut i [((1080-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080 and WeekStartedTimer<2160)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((2160-WeekStartedTimer)/60)] minut i [((2160-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160 and WeekStartedTimer<3240)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((3240-WeekStartedTimer)/60)] minut i [((3240-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240 and WeekStartedTimer<4320)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((4320-WeekStartedTimer)/60)] minut i [((4320-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320 and WeekStartedTimer<5400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((5400-WeekStartedTimer)/60)] minut i [((5400-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400 and WeekStartedTimer<6480)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((6480-WeekStartedTimer)/60)] minut i [((6480-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480 and WeekStartedTimer<7560)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((7560-WeekStartedTimer)/60)] minut i [((7560-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560 and WeekStartedTimer<8640)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((8640-WeekStartedTimer)/60)] minut i [((8640-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640 and WeekStartedTimer<9720)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((9720-WeekStartedTimer)/60)] minut i [((9720-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720 and WeekStartedTimer<10800)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((10800-WeekStartedTimer)/60)] minut i [((10800-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800 and WeekStartedTimer<11400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((11400-WeekStartedTimer)/60)] minut i [((11400-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - 18 minut - [?(WeekStartedTimer>1080)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - 36 minut - [?(WeekStartedTimer>2160)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - 54 minut - [?(WeekStartedTimer>3240)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - 72 minut - [?(WeekStartedTimer>4320)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - 90 minut - [?(WeekStartedTimer>5400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - 108 minut - [?(WeekStartedTimer>6480)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - 126 minut - [?(WeekStartedTimer>7560)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - 144 minut - [?(WeekStartedTimer>8640)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - 162 minut - [?(WeekStartedTimer>9720)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - 180 minut - [?(WeekStartedTimer>10800)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - 190 minut - [?(WeekStartedTimer>11400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
 
-
-
-
+//PRZYSPIESZACZ WYDARZEŃ
 *DiscordBoost
-	name:Spróbuj Zagadać345
+	name:Spróbuj Zagadać
 	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia na pozostały czas do kolejnego Wydarzenia).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.<.>Nie możesz przyspieszać do ostatniego Wydarzenia Krytycznego.<.>Założenie <b>Nowego Kanału</b> resetuje koszt i szansę na 5%.<//> <//><.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#> <b>Punktów Kanału</b>.<.>debug - [WeekStartedTimer]
 	tag:discordbuilding
 	req:1000000000000000000000000000000 Kanaly
-	req:WeekStartedTimer<2160
+	req:WeekStartedTimer<10800
 	req:WeekStartedTimer>0
   	on discordboostwin1:
   		toast Udało ci się pomyślnie zagadać!
@@ -6389,100 +6387,18 @@ req:100 PatroniteF
 	do discordboostwin5
 	else if (chance(procentwygrana %) and WeekStartedTimer>5400 and WeekStartedTimer<6480)
 	do discordboostwin6
+	else if (chance(procentwygrana %) and WeekStartedTimer>6480 and WeekStartedTimer<7560)
+	do discordboostwin7
+	else if (chance(procentwygrana %) and WeekStartedTimer>7560 and WeekStartedTimer<8640)
+	do discordboostwin8
+	else if (chance(procentwygrana %) and WeekStartedTimer>8640 and WeekStartedTimer<9720)
+	do discordboostwin9
+	else if (chance(procentwygrana %) and WeekStartedTimer>9720 and WeekStartedTimer<10800)
+	do discordboostwin10
 	end
 	end
 	on click:yield 1 procentwygrana
 	on click:yield 1 PunktyKanaluKoszt
-
-*DiscordBoost223
-	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia na pozostały czas do kolejnego Wydarzenia).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.<.>Nie możesz przyspieszać do ostatniego Wydarzenia Krytycznego.<.>Założenie <b>Nowego Kanału</b> resetuje koszt i szansę na 5%.<//> <//><.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#> <b>Punktów Kanału</b>.<.>debug - [WeekStartedTimer]
-	tag:discordbuilding
-	req:1000000000000000000000000000000 Kanaly
-	req:WeekStartedTimer<10800
-	req:WeekStartedTimer>2160
-  	on discordboostwin3:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=3240
-  	end
-	on click:lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
-	on click:if (chance(procentwygrana %) and WeekStartedTimer>2160 and WeekStartedTimer<3240) do discordboostwin3
-	on click:yield 1 procentwygrana
-	on click:yield 1 PunktyKanaluKoszt
-
-*DiscordBoost444
-	desc:Próbujesz zagadać na jednym z kanałów z nadzieją, że ktoś się odezwie. <//> <//><b><u>Efekt działania:</b></u><.>Podejmując próbę zagadania możesz przyspieszyć pojawienie się <b>Wydarzenia</b> na Discordzie.<.>Jedna próba kosztuje 5% aktualnie posiadanych <b>Punktów Kanału</b> na start.<.>Każda kolejna próba kosztuje 1% Punktów Kanału więcej.<.>Bazowa szansa na to, że uda ci się zagadać i uruchomić następne wydarzenie to 5%.<.>Każda <b>nieudana</b> próba zwiększa szanse na kolejne zagadanie o 1%.<.><b>Udana</b> próba <b>resetuje</b> koszt na 5%, a szansę na 5%.<.>Możesz podejmować tyle prób, ile chcesz, pod warunkiem, że masz na koncie przynajmniej <b><#00ff00>1e+30</b></#> <b>Punktów Kanału</b> - bez tego ta funkcjonalność będzie niedostępna.<.>Jeżeli uda ci się pomyślnie zagadać, gra przyspieszy czas do pojawienia się kolejnego Wydarzenia (bez znaczenia na pozostały czas do kolejnego Wydarzenia).<.>Przy udanym zagadaniu na dole ekranu wyświetli się stosowny komunikat.<.>Nie możesz przyspieszać do ostatniego Wydarzenia Krytycznego.<.>Założenie <b>Nowego Kanału</b> resetuje koszt i szansę na 5%.<//> <//><.>Aktualna szansa na pomyślne zagadanie: <b><#00ff00>[procentwygrana]%</b></#><.>Aktualny koszt na kolejne zagadanie: <b><#00ff00>[PunktyKanaluKoszt]%</b></#>, czyli:<//><b><#00ff00>[(PunktyKanaluKoszt/100*Kanaly)]</b></#> <b>Punktów Kanału</b>.<.>debug - [WeekStartedTimer]
-	tag:discordbuilding
-	req:1000000000000000000000000000000 Kanaly
-	req:WeekStartedTimer<10800
-	req:WeekStartedTimer>2160
-  	on discordboostwin3:
-  		toast Udało ci się pomyślnie zagadać!
-		PunktyKanaluKoszt is 5
-		procentwygrana is 5
-		WeekStartedTimer=3240
-  	end
-	on click:lose (PunktyKanaluKoszt/100*Kanaly) Kanaly
-	on click:if (chance(procentwygrana %) and WeekStartedTimer>2160 and WeekStartedTimer<3240) do discordboostwin3
-	on click:yield 1 procentwygrana
-	on click:yield 1 PunktyKanaluKoszt
-
-
-
-
-
-
-
-
-
-
-*adder1
-name:adder
-on click:yield 1 procentwygrana
-on click:yield 1 PunktyKanaluKoszt
-
-*remover1
-name:remover
-on click:lose 99 procentwygrana
-on click:lose 99 PunktyKanaluKoszt
-
-*adder12
-name:week timer is 5000
-on click:WeekStartedTimer is 5000
-
-*adder123
-name:week timer is 6000
-on click:WeekStartedTimer is 6000
-
-*adder124
-name:week timer is 7000
-on click:WeekStartedTimer is 7000
-
-*adder125
-name:week timer is 8000
-on click:WeekStartedTimer is 8000
-
-*adder126
-name:week timer is 9000
-on click:WeekStartedTimer is 9000
-
-*passive113
-name:passive yield1
-passive:yield WeekStartedTimer
-
-*passive114
-name:passive yield1
-passive:yield WeekStartedTimer
-
-*passive115
-name:passive yield1
-passive:yield WeekStartedTimer
-
-*passive116
-name:passive yield1
-passive:yield WeekStartedTimer
-
 
 //Odliczacz do bonusów
 	*WeekTimer 
