@@ -6432,10 +6432,25 @@ name:remover
 on click:lose 99 procentwygrana
 on click:lose 99 PunktyKanaluKoszt
 
+*adder12
+name:week timer is 5000
+on click:WeekStartedTimer is 5000
 
+*passive113
+name:passive yield1
+passive:yield WeekStartedTimer
 
+*passive114
+name:passive yield1
+passive:yield WeekStartedTimer
 
+*passive115
+name:passive yield1
+passive:yield WeekStartedTimer
 
+*passive116
+name:passive yield1
+passive:yield WeekStartedTimer
 
 
 //Odliczacz do bonusów
