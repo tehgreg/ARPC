@@ -2715,10 +2715,10 @@ Buildings
 	desc:Odbyłeś podróż w czasie i znasz wszystkie tajniki sprawy, którą poruszasz w filmie. Teraz możesz co jakiś czas wrzucać aktualizacje lub "spekulacje", które będą na nowo wzbudzać zainteresowanie widzów twoimi filmami.
 	tag:ttravelbuilding
 	cost refund:0%
-	req:(1500+(szprbuilding1*100)) ArpiwumMovie10
+	req:1500+(szprbuilding1*100) ArpiwumMovie10
 	req:10 RandomResourceSelect
-	on earn:lose ArpiwumMovie10
-	on earn:lose RandomResourceSelect
+	on earn:lose 999999 ArpiwumMovie10
+	on earn:lose 999999 RandomResourceSelect
 
 
 
