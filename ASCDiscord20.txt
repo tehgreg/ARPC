@@ -2952,12 +2952,6 @@ Upgrades
 
 //WYDARZENIA SEZONOWE
 
-*Event10Helper
-always hidden
-owned
-passive:if (Afterparty1>=15) grant 1 Event1AResource
-passive:if (Afterparty2>=7) grant 1 Event1BResource
-passive:if (Afterparty3>=5) grant 1 Event1CResource
 
 
 
