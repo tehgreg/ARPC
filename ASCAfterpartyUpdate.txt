@@ -1459,7 +1459,12 @@ always hidden
 *Kieliszek
 name:Kieliszek
 always hidden
-
+*Event1AResource
+always hidden
+*Event1BResource
+always hidden
+*Event1CResource
+always hidden
 
 
 
@@ -2973,9 +2978,12 @@ Upgrades
 	tag:eventUpgrade
 	on click:if ((0.1*Afterparty1)+(0.15*Afterparty2)+(0.2*Afterparty3)>=15 and no Event1Resource) yield 1 Event1Resource
 
-
-
-
+*Event10Helper
+always hidden
+owned
+passive:if (Afterparty1>=15) grant 1 Event1AResource
+passive:if (Afterparty2>=7) grant 1 Event1BResource
+passive:if (Afterparty3>=5) grant 1 Event1CResource
 
 
 
@@ -13786,7 +13794,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardA
 	name:☼ Piętnastopak ☼
 	desc:Wypiłeś 15 kraftów w trakcie Afterparty.
-	req:Afterparty1>=15
+	req:1 Event1AResource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
@@ -13794,7 +13802,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardB
 	name:☼ Koneser od siedmiu boleści ☼
 	desc:Wypiłeś 7 win w trakcie Afterparty.
-	req:Afterparty2>=7
+	req:1 Event1BResource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
@@ -13802,7 +13810,7 @@ passive:grant 1 WyzwaniaAchievs
 *Event1RewardC
 	name:☼ Haj fajw ☼
 	desc:Wypiłeś 5 połówek wódki w trakcie Afterparty.
-	req:Afterparty3>=5
+	req:1 Event1CResource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
