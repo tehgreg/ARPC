@@ -2715,7 +2715,7 @@ Buildings
 	desc:Odbyłeś podróż w czasie i znasz wszystkie tajniki sprawy, którą poruszasz w filmie. Teraz możesz co jakiś czas wrzucać aktualizacje lub "spekulacje", które będą na nowo wzbudzać zainteresowanie widzów twoimi filmami.
 	tag:ttravelbuilding
 	cost refund:0%
-	req:(ArpiwumMovie10=1500+szprbuilding1*100)
+	req:(ArpiwumMovie10=1000+szprbuilding1*100)
 
 
 
