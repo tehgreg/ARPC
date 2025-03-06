@@ -2714,9 +2714,10 @@ Buildings
 	name:Prestiż: Zaginięcie Lisanne Froon i Kris Kremers
 	desc:Odbyłeś podróż w czasie i znasz wszystkie tajniki sprawy, którą poruszasz w filmie. Teraz możesz co jakiś czas wrzucać aktualizacje lub "spekulacje", które będą na nowo wzbudzać zainteresowanie widzów twoimi filmami.
 	tag:ttravelbuilding
-	cost:1600 ArpiwumMovie10
-	cost:(10/szprbuilding1) RandomResourceSelect
 	cost refund:0%
+	req:(1500+(szprbuilding1*100)) ArpiwumMovie10
+	on earn:lose ArpiwumMovie10
+	on earn:lose RandomResourceSelect
 
 
 
