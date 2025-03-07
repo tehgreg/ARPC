@@ -2708,7 +2708,15 @@ Buildings
 	req:PrestigeStats
 	req:DiscordUnlock
 
-//SEZONOWE BUDYNKI
+//SZPR BUDYNKI
+
+*Arcymistrz0
+	name:Statystyki Arcymistrza
+	no buy
+	tag:ttravelbuilding
+	desc:Tutaj możesz śledzić swój Poziom Arcymistrza.<//> <//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x<.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>Aktualny bonus do filmu: 100x
+
+
 
 *szprbuilding1
 	name:11122
