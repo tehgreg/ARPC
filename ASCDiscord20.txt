@@ -1421,6 +1421,68 @@ always hidden
 always hidden
 
 
+//PRZEDŁUZANIE ROZGRYWKI
+*Arcy1
+always hidden
+name:Odznaczenie Arcymistrza I
+*Arcy2
+always hidden
+name:Odznaczenie Arcymistrza II
+*Arcy3
+always hidden
+name:Odznaczenie Arcymistrza III
+*Arcy4
+always hidden
+name:Odznaczenie Arcymistrza IV
+*Arcy5
+always hidden
+name:Odznaczenie Arcymistrza V
+*Arcy6
+always hidden
+name:Odznaczenie Arcymistrza VI
+*Arcy7
+always hidden
+name:Odznaczenie Arcymistrza VII
+*Arcy8
+always hidden
+name:Odznaczenie Arcymistrza VIII
+*Arcy9
+always hidden
+name:Odznaczenie Arcymistrza IX
+*Arcy10
+always hidden
+name:Odznaczenie Arcymistrza X
+*Arcy11
+always hidden
+name:Odznaczenie Arcymistrza XI
+*Arcy12
+always hidden
+name:Odznaczenie Arcymistrza XII
+*Arcy13
+always hidden
+name:Odznaczenie Arcymistrza XIII
+*Arcy14
+always hidden
+name:Odznaczenie Arcymistrza XIV
+*Arcy15
+always hidden
+name:Odznaczenie Arcymistrza XV
+*Arcy16
+always hidden
+name:Odznaczenie Arcymistrza XVI
+
+
+
+
+
+
+
+
+
+
+
+
+
 //SEZONOWE TRACKER HELPERS
 
 
@@ -2706,15 +2768,15 @@ Buildings
 	tag:pomocBuilding
 	desc:Do tej pory wziąłeś udział w następującej liczbie Wydarzeń z poszczególnych grup:<//> <//><.>Grupa I: [TierTrackerGroup1]<//> <//><.>Grupa II: [TierTrackerGroup2]<//> <//><.>Grupa III: [TierTrackerGroup3]<//> <//><.>Grupa IV: [TierTrackerGroup4]<//> <//><.>Grupa V: [TierTrackerGroup5]<//> <//><.>Grupa VI: [TierTrackerGroup6]<//> <//><.>Grupa VII: [TierTrackerGroup7]<//> <//><.>Grupa VIII: [TierTrackerGroup8]<//> <//><.>Grupa IX: [TierTrackerGroup9]<//> <//><.>Grupa X: [TierTrackerGroup10]<//> <//><.>Wydarzenia Krytyczne: [TierTrackerGroupX]<//> <//><.>Ulepszenia Krytyczne: [(TierXRandom1BoostT+TierXRandom2BoostT+TierXRandom3BoostT+TierXRandom4BoostT+TierXRandom5BoostT+TierXRandom6BoostT)]
 	req:PrestigeStats
-	req:DiscordUnlock
+	req:DiscordUnlockg
 
 //SZPR BUDYNKI
 
-*Arcymistrz0
-	name:Statystyki Arcymistrza
-	no buy
-	tag:ttravelbuilding
-	desc:Tutaj możesz śledzić swój Poziom Arcymistrza.<//> <//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//><.>Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers - Poziom Arcymistrza: 2 <//>Następny wymagany poziom:1600<//>
+*Arcymistrz1
+	name:Arcymistrz: Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy1]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>x</b></#>
+	passive:multiply yield of ArpiwumMovie1 by pow(10,Arcymistrz1)/Arcymistrz1
+
 
 
 
