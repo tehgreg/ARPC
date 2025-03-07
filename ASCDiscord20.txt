@@ -1471,7 +1471,9 @@ name:Odznaczenie Arcymistrza XV
 always hidden
 name:Odznaczenie Arcymistrza XVI
 
-
+//tracker do time travel
+*atleastonetravel
+always hidden
 
 
 
@@ -2775,10 +2777,11 @@ Buildings
 *Arcymistrz1
 	name:Arcymistrz: Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers
 	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy1]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz1)]x</b></#>
-	passive:multiply yield of ArpiwumMovie1 by pow(10,Arcymistrz1)/Arcymistrz1
+	passive:multiply yield of ArpiwumMovie1 by pow(10,Arcymistrz1)/Arcymistrz1<//> <//>Kolejne odznaczenie dostępne na poziomie: <b><#00ff00>[1500+(100*Arcymistrz1)]</b></#>
 	tag:ttravelbuilding
 	cost increase:100%
 	cost:1 Arcy1
+//	req:1 Endgame1Travel
 
 
 
@@ -3020,6 +3023,24 @@ Upgrades
 		tag:pomocUpgrade
 		req:TTravelUnlock
 		passive:grant 1 PomocAchievTrack
+
+		*Pomoc42
+		hidden
+		name:Odznaczenia Arcymistrza
+		desc:Cofnąłeś się w czasie i już się zastanawiasz jak możesz to zmonetyzować na Youtubie.<//> <//><.>Odznaczenia Arcymistrza to nowa waluta, która pozwala ci na rozwijanie twoich poziomów Arcymistrza w zakładce "Sz.P.R.".<.>Każdy film ma swoje własne Odznaczenie, które odpowiada numerowi filmu. Na przykład: Przełęcz Diatłowa to drugi film z serii Arpiwum X, więc do jego ulepszania będzie potrzebne "Odznaczenie Arcymistrza II".<//> <//><b>Jak zdobywać Odznaczenia Arcymistrza?</b><.>Rozpocznij <b>Tydzień Tematyczny</b> w zakładce "Discord".
+		tag:pomocUpgrade
+		req:TTravelUnlock
+		passive:grant 1 PomocAchievTrack
+//		req:1 atleastonetravel
+
+
+
+
+
+
+
+
+
 
 
 //WYDARZENIA SEZONOWE
@@ -9261,6 +9282,7 @@ cost:180000 Kanaly
 	req:no Endgame1Upgr
 	passive:multiply cost of ArpiwumMovie1 by 0.50
 	passive:multiply yield of ArpiwumMovie1 by 100
+	passive:grant 1 atleastonetravel
 
 *Endgame2Upgr
 	name:Przygotowania: Tragedia na Przełęczy Diatłowa
@@ -9281,6 +9303,7 @@ cost:180000 Kanaly
 	req:no Endgame2Upgr
 	passive:multiply cost of ArpiwumMovie2 by 0.50
 	passive:multiply yield of ArpiwumMovie2 by 100
+	passive:grant 1 atleastonetravel
 
 
 *Endgame3Upgr
@@ -9302,6 +9325,7 @@ cost:180000 Kanaly
 	req:no Endgame3Upgr
 	passive:multiply cost of ArpiwumMovie3 by 0.50
 	passive:multiply yield of ArpiwumMovie3 by 100
+	passive:grant 1 atleastonetravel
 
 
 *Endgame4Upgr
@@ -9323,6 +9347,7 @@ cost:180000 Kanaly
 	req:no Endgame4Upgr
 	passive:multiply cost of ArpiwumMovie4 by 0.50
 	passive:multiply yield of ArpiwumMovie4 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9346,6 +9371,7 @@ cost:180000 Kanaly
 	req:no Endgame5Upgr
 	passive:multiply cost of ArpiwumMovie5 by 0.50
 	passive:multiply yield of ArpiwumMovie5 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9370,6 +9396,7 @@ cost:180000 Kanaly
 	req:no Endgame6Upgr
 	passive:multiply cost of ArpiwumMovie6 by 0.50
 	passive:multiply yield of ArpiwumMovie6 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9393,6 +9420,7 @@ cost:180000 Kanaly
 	req:no Endgame7Upgr
 	passive:multiply cost of ArpiwumMovie7 by 0.50
 	passive:multiply yield of ArpiwumMovie7 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9416,6 +9444,7 @@ cost:180000 Kanaly
 	req:no Endgame8Upgr
 	passive:multiply cost of ArpiwumMovie8 by 0.50
 	passive:multiply yield of ArpiwumMovie8 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9440,6 +9469,7 @@ cost:180000 Kanaly
 	req:no Endgame9Upgr
 	passive:multiply cost of ArpiwumMovie9 by 0.50
 	passive:multiply yield of ArpiwumMovie9 by 100
+	passive:grant 1 atleastonetravel
 
 
 *Endgame10Upgr
@@ -9462,6 +9492,7 @@ cost:180000 Kanaly
 	req:no Endgame10Upgr
 	passive:multiply cost of ArpiwumMovie10 by 0.50
 	passive:multiply yield of ArpiwumMovie10 by 100
+	passive:grant 1 atleastonetravel
 
 
 *Endgame11Upgr
@@ -9484,6 +9515,7 @@ cost:180000 Kanaly
 	req:no Endgame11Upgr
 	passive:multiply cost of ArpiwumMovie11 by 0.50
 	passive:multiply yield of ArpiwumMovie11 by 100
+	passive:grant 1 atleastonetravel
 
 
 *Endgame12Upgr
@@ -9507,6 +9539,7 @@ cost:180000 Kanaly
 	req:no Endgame12Upgr
 	passive:multiply cost of ArpiwumMovie12 by 0.50
 	passive:multiply yield of ArpiwumMovie12 by 100
+	passive:grant 1 atleastonetravel
 
 
 *Endgame13Upgr
@@ -9529,6 +9562,7 @@ cost:180000 Kanaly
 	req:no Endgame13Upgr
 	passive:multiply cost of ArpiwumMovie13 by 0.50
 	passive:multiply yield of ArpiwumMovie13 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9552,6 +9586,7 @@ cost:180000 Kanaly
 	req:no Endgame14Upgr
 	passive:multiply cost of ArpiwumMovie14 by 0.50
 	passive:multiply yield of ArpiwumMovie14 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9575,6 +9610,7 @@ cost:180000 Kanaly
 	req:no Endgame15Upgr
 	passive:multiply cost of ArpiwumMovie15 by 0.50
 	passive:multiply yield of ArpiwumMovie15 by 100
+	passive:grant 1 atleastonetravel
 
 
 
@@ -9599,6 +9635,7 @@ cost:180000 Kanaly
 	req:no Endgame16Upgr
 	passive:multiply cost of ArpiwumMovie16 by 0.50
 	passive:multiply yield of ArpiwumMovie16 by 100
+	passive:grant 1 atleastonetravel
 
 
 
