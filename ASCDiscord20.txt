@@ -2768,7 +2768,7 @@ Buildings
 	tag:pomocBuilding
 	desc:Do tej pory wziąłeś udział w następującej liczbie Wydarzeń z poszczególnych grup:<//> <//><.>Grupa I: [TierTrackerGroup1]<//> <//><.>Grupa II: [TierTrackerGroup2]<//> <//><.>Grupa III: [TierTrackerGroup3]<//> <//><.>Grupa IV: [TierTrackerGroup4]<//> <//><.>Grupa V: [TierTrackerGroup5]<//> <//><.>Grupa VI: [TierTrackerGroup6]<//> <//><.>Grupa VII: [TierTrackerGroup7]<//> <//><.>Grupa VIII: [TierTrackerGroup8]<//> <//><.>Grupa IX: [TierTrackerGroup9]<//> <//><.>Grupa X: [TierTrackerGroup10]<//> <//><.>Wydarzenia Krytyczne: [TierTrackerGroupX]<//> <//><.>Ulepszenia Krytyczne: [(TierXRandom1BoostT+TierXRandom2BoostT+TierXRandom3BoostT+TierXRandom4BoostT+TierXRandom5BoostT+TierXRandom6BoostT)]
 	req:PrestigeStats
-	req:DiscordUnlockg
+	req:DiscordUnlock
 
 //SZPR BUDYNKI
 
