@@ -2780,10 +2780,14 @@ Buildings
 	passive:multiply yield of ArpiwumMovie1 by pow(10,Arcymistrz1)/Arcymistrz1
 	tag:ttravelbuilding
 	cost increase:100%
+	cost refund:0%
 	cost:1 Arcy1
-//	req:1 Endgame1Travel
+	req:1 Endgame1Travel
 
-
+*arcada
+ name:arcytest
+ on click:yield 1 Arcy1
+ tag:ttravelbuilding
 
 
 *szprbuilding1
