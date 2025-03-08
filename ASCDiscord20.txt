@@ -2727,6 +2727,28 @@ Buildings
 		cost refund:0%
 		cost increase:1500%
 
+
+*DiscordSkills
+	name:Test
+	cost:1000000 Kanaly
+	cost increase:1000%
+	tag:prestigebuilding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //POMOC BUDYNKI
 
 *Stats1
