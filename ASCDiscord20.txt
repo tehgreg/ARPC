@@ -6508,7 +6508,7 @@ req:100 PatroniteF
 
 
 *OdznReceive1
-	name:Odbierz Odznaczenie Arcymistrza I
+	name:Odbierz Odznaczenie Arcymistrza I (test)
 	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<.>Otrzymać <b><#FFD700>1x Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
@@ -6516,6 +6516,7 @@ req:100 PatroniteF
 	req:RandomResourceSelect=1
 	on click:yield 1 Arcy1
 	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive1
 
 *OdznReceive2
 	name:Odbierz Odznaczenie Arcymistrza II
