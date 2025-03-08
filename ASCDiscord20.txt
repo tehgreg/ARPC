@@ -2972,7 +2972,27 @@ on click:yield 100000 Ekspertyza14Res
 on click:yield 100000 Ekspertyza15Res
 on click:yield 100000 Ekspertyza16Res
 
-
+*DEV2
+name:Arcymistrzostwo
+on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Subskrybent
+on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Minuty
+on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 PLN
+on click:yield 100000 Arcy1
+on click:yield 100000 Arcy2
+on click:yield 100000 Arcy3
+on click:yield 100000 Arcy4
+on click:yield 100000 Arcy5
+on click:yield 100000 Arcy6
+on click:yield 100000 Arcy7
+on click:yield 100000 Arcy8
+on click:yield 100000 Arcy9
+on click:yield 100000 Arcy10
+on click:yield 100000 Arcy11
+on click:yield 100000 Arcy12
+on click:yield 100000 Arcy13
+on click:yield 100000 Arcy14
+on click:yield 100000 Arcy15
+on click:yield 100000 Arcy16
 
 
 
