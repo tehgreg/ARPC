@@ -2729,9 +2729,9 @@ Buildings
 
 
 *DiscordSkills
-	name:Test12
-	cost:1000000000000 Kanaly
-	cost increase:10000%
+	name:Test123
+	cost:10000000000000000 Kanaly
+	cost increase:100000%
 	tag:prestigebuilding
 
 
