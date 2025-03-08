@@ -2742,7 +2742,7 @@ Buildings
 	no buy
 	limit:1
 	tag:pomocBuilding
-	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 576 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/49- <b>[(EndAchievs/49*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/7- <b>[(SezonAchievs/7*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
+	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 606 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/49- <b>[(EndAchievs/49*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/20- <b>[(WyzwaniaAchievs/20*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/7- <b>[(SezonAchievs/7*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
 	req:PrestigeStats
 
 
@@ -14380,35 +14380,42 @@ passive:grant 1 WyzwaniaAchievs
 *Challenge11
 	name:♦ Order z ziemniaka I ♦
 	desc:Odblokowałeś 100 różnych Osiągnięć.
-	req:100 TotalAchievs
+	req:TotalAchievs>=100
 	passive:grant 1 TotalAchievs
 	passive:grant 1 WyzwaniaAchievs
 
 *Challenge12
 	name:♦ Order z ziemniaka II ♦
 	desc:Odblokowałeś 200 różnych Osiągnięć.
-	req:200 TotalAchievs
+	req:TotalAchievs>=200
 	passive:grant 1 TotalAchievs
 	passive:grant 1 WyzwaniaAchievs
 
 *Challenge13
 	name:♦ Order z ziemniaka III ♦
 	desc:Odblokowałeś 300 różnych Osiągnięć.
-	req:300 TotalAchievs
+	req:TotalAchievs>=300
 	passive:grant 1 TotalAchievs
 	passive:grant 1 WyzwaniaAchievs
 
 *Challenge14
 	name:♦ Order z ziemniaka IV ♦
 	desc:Odblokowałeś 400 różnych Osiągnięć.
-	req:400 TotalAchievs
+	req:TotalAchievs>=400
 	passive:grant 1 TotalAchievs
 	passive:grant 1 WyzwaniaAchievs
 
 *Challenge15
 	name:♦ Order z ziemniaka V ♦
 	desc:Odblokowałeś 500 różnych Osiągnięć.
-	req:500 TotalAchievs
+	req:TotalAchievs>=500
+	passive:grant 1 TotalAchievs
+	passive:grant 1 WyzwaniaAchievs
+
+*Challenge15B
+	name:♦ Order z ziemniaka VI ♦
+	desc:Odblokowałeś 600 różnych Osiągnięć.
+	req:TotalAchievs>=600
 	passive:grant 1 TotalAchievs
 	passive:grant 1 WyzwaniaAchievs
 
