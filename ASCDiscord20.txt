@@ -2742,7 +2742,7 @@ Buildings
 	no buy
 	limit:1
 	tag:pomocBuilding
-	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 576 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/7- <b>[(SezonAchievs/7*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
+	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 576 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/49- <b>[(EndAchievs/49*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/7- <b>[(SezonAchievs/7*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
 	req:PrestigeStats
 
 
@@ -6509,7 +6509,7 @@ req:100 PatroniteF
 
 *OdznReceive1
 	name:Odbierz Odznaczenie Arcymistrza I
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie1>=1600+Arcymistrz1*100)
@@ -6518,6 +6518,186 @@ req:100 PatroniteF
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive1
 	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza I
+
+*OdznReceive2
+	name:Odbierz Odznaczenie Arcymistrza II
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza II</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie2>=1600+Arcymistrz2*100)
+	req:RandomResourceSelect=2
+	on click:yield 1 Arcy2
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive2
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza II
+
+*OdznReceive3
+	name:Odbierz Odznaczenie Arcymistrza III
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza III</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie3>=1600+Arcymistrz3*100)
+	req:RandomResourceSelect=3
+	on click:yield 1 Arcy3
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive3
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza III
+
+*OdznReceive4
+	name:Odbierz Odznaczenie Arcymistrza IV
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza IV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie4>=1600+Arcymistrz4*100)
+	req:RandomResourceSelect=4
+	on click:yield 1 Arcy4
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive4
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza IV
+
+*OdznReceive5
+	name:Odbierz Odznaczenie Arcymistrza V
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza V</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie5>=1600+Arcymistrz5*100)
+	req:RandomResourceSelect=5
+	on click:yield 1 Arcy5
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive5
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza V
+
+*OdznReceive6
+	name:Odbierz Odznaczenie Arcymistrza VI
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie6>=1600+Arcymistrz6*100)
+	req:RandomResourceSelect=6
+	on click:yield 1 Arcy6
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive6
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza VI
+
+*OdznReceive7
+	name:Odbierz Odznaczenie Arcymistrza VII
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie7>=1600+Arcymistrz7*100)
+	req:RandomResourceSelect=7
+	on click:yield 1 Arcy7
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive7
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza VII
+
+*OdznReceive8
+	name:Odbierz Odznaczenie Arcymistrza VIII
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VIII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie8>=1600+Arcymistrz8*100)
+	req:RandomResourceSelect=8
+	on click:yield 1 Arcy8
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive8
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza VIII
+
+*OdznReceive9
+	name:Odbierz Odznaczenie Arcymistrza IX
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza IX</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie9>=1600+Arcymistrz9*100)
+	req:RandomResourceSelect=9
+	on click:yield 1 Arcy9
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive9
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza IX
+
+*OdznReceive10
+	name:Odbierz Odznaczenie Arcymistrza X
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza X</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie10>=1600+Arcymistrz10*100)
+	req:RandomResourceSelect=10
+	on click:yield 1 Arcy10
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive10
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza X
+
+*OdznReceive11
+	name:Odbierz Odznaczenie Arcymistrza XI
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie11>=1600+Arcymistrz11*100)
+	req:RandomResourceSelect=11
+	on click:yield 1 Arcy11
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive11
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza XI
+
+*OdznReceive12
+	name:Odbierz Odznaczenie Arcymistrza XII
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie12>=1600+Arcymistrz12*100)
+	req:RandomResourceSelect=12
+	on click:yield 1 Arcy12
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive12
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza XII
+
+*OdznReceive13
+	name:Odbierz Odznaczenie Arcymistrza XIII
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XIII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie13>=1600+Arcymistrz13*100)
+	req:RandomResourceSelect=13
+	on click:yield 1 Arcy13
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive13
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza XIII
+
+*OdznReceive14
+	name:Odbierz Odznaczenie Arcymistrza XIV
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XIV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie14>=1600+Arcymistrz14*100)
+	req:RandomResourceSelect=14
+	on click:yield 1 Arcy14
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive14
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza XIV
+
+*OdznReceive15
+	name:Odbierz Odznaczenie Arcymistrza XV
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie15>=1600+Arcymistrz15*100)
+	req:RandomResourceSelect=15
+	on click:yield 1 Arcy15
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive15
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza XV
+
+*OdznReceive16
+	name:Odbierz Odznaczenie Arcymistrza XVI
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XVI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie16>=1600+Arcymistrz16*100)
+	req:RandomResourceSelect=16
+	on click:yield 1 Arcy16
+	on click:lose 99 RandomResourceSelect
+	on click:lose OdznReceive16
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza XVI	
 
 
 
@@ -13808,6 +13988,256 @@ Achievements
 	req:1 Endgame16Travel 
 	passive:grant 1 TotalAchievs	
 	passive:grant 1 EndAchievs
+
+*OdznArcy1AchievA
+	name:Arcymistrz I
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers
+	req:Arcymistrz1>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy1AchievB
+	name:Mega-Arcymistrz I
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers
+	req:Arcymistrz1>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy2AchievA
+	name:Arcymistrz II
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Tragedia na Przełęczy Diatłowa
+	req:Arcymistrz2>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy2AchievB
+	name:Mega-Arcymistrz II
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Tragedia na Przełęczy Diatłowa
+	req:Arcymistrz2>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy3AchievA
+	name:Arcymistrz III
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Tragedia w Dolinie Jaworowej
+	req:Arcymistrz3>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy3AchievB
+	name:Mega-Arcymistrz III
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Tragedia w Dolinie Jaworowej
+	req:Arcymistrz3>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy4AchievA
+	name:Arcymistrz IV
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Tajemnica Mary Celeste
+	req:Arcymistrz4>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy4AchievB
+	name:Mega-Arcymistrz IV
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Tajemnica Mary Celeste
+	req:Arcymistrz4>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy5AchievA
+	name:Arcymistrz V
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - MV Joyita
+	req:Arcymistrz5>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy5AchievB
+	name:Mega-Arcymistrz V
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - MV Joyita
+	req:Arcymistrz5>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy6AchievA
+	name:Arcymistrz VI
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)
+	req:Arcymistrz6>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy6AchievB
+	name:Mega-Arcymistrz VI
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)
+	req:Arcymistrz6>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy7AchievA
+	name:Arcymistrz VII
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)
+	req:Arcymistrz7>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy7AchievB
+	name:Mega-Arcymistrz VII
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)
+	req:Arcymistrz7>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy8AchievA
+	name:Arcymistrz VIII
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Przerwane ferie
+	req:Arcymistrz8>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy8AchievB
+	name:Mega-Arcymistrz VIII
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Przerwane ferie
+	req:Arcymistrz8>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy9AchievA
+	name:Arcymistrz IX
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Zaginięcie Brandona Swansona
+	req:Arcymistrz9>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy9AchievB
+	name:Mega-Arcymistrz IX
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Zaginięcie Brandona Swansona
+	req:Arcymistrz9>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy10AchievA
+	name:Arcymistrz X
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Piątka z Yuby
+	req:Arcymistrz10>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy10AchievB
+	name:Mega-Arcymistrz X
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Piątka z Yuby
+	req:Arcymistrz10>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy11AchievA
+	name:Arcymistrz XI
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Zaginięcie generała Zagórskiego
+	req:Arcymistrz11>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy11AchievB
+	name:Mega-Arcymistrz XI
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Zaginięcie generała Zagórskiego
+	req:Arcymistrz11>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy12AchievA
+	name:Arcymistrz XII
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Tajemnica Wyspy Dębów
+	req:Arcymistrz12>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy12AchievB
+	name:Mega-Arcymistrz XII
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Tajemnica Wyspy Dębów
+	req:Arcymistrz12>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy13AchievA
+	name:Arcymistrz XIII
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Ourang Medan - prawda czy fikcja?
+	req:Arcymistrz13>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy13AchievB
+	name:Mega-Arcymistrz XIII
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Ourang Medan - prawda czy fikcja?
+	req:Arcymistrz13>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy14AchievA
+	name:Arcymistrz XIV
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Dzieci z Bodom
+	req:Arcymistrz14>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy14AchievB
+	name:Mega-Arcymistrz XIV
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Dzieci z Bodom
+	req:Arcymistrz14>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy15AchievA
+	name:Arcymistrz XV
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Frauke Liebs
+	req:Arcymistrz15>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy15AchievB
+	name:Mega-Arcymistrz XV
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Frauke Liebs
+	req:Arcymistrz15>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+*OdznArcy16AchievA
+	name:Arcymistrz XVI
+	desc:Osiągnąłeś pierwszy poziom Arcymistrzostwa filmu: Z Arpiwum X - Kim był Peter Bergmann?
+	req:Arcymistrz16>=1
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs	
+
+*OdznArcy16AchievB
+	name:Mega-Arcymistrz XVI
+	desc:Osiągnąłeś piąty poziom Arcymistrzostwa filmu: Z Arpiwum X - Kim był Peter Bergmann?
+	req:Arcymistrz16>=5
+	passive:grant 1 TotalAchievs	
+	passive:grant 1 EndAchievs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
