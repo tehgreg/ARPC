@@ -6512,8 +6512,7 @@ req:100 PatroniteF
 	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<.>Otrzymać <b><#FFD700>1x Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
-	req:if (Arcymistrz1=0) ArpiwumMovie1>=1600
-	req:if (Arcymistrz1>=1) ArpiwumMovie1>=1600+Arcymistrz1*100
+	req:ArpiwumMovie1>=1600+Arcymistrz1*100
 	req:RandomResourceSelect=1
 	on click:yield 1 Arcy1
 	on click:lose 99 RandomResourceSelect
