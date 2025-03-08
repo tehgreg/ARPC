@@ -2776,30 +2776,163 @@ Buildings
 
 *Arcymistrz1
 	name:Arcymistrz: Z Arpiwum X - Zaginięcie Lisanne Froon i Kris Kremers
-	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy1]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz1)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz1=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz1+1))]</b></#>]
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy1]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz1)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz1=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz1+1))]</b></#>]
 	passive:multiply yield of ArpiwumMovie1 by pow(10,Arcymistrz1)/Arcymistrz1
 	tag:ttravelbuilding
 	cost increase:100%
 	cost refund:0%
 	cost:1 Arcy1
-//	req:1 Endgame1Travel
+	req:1 Endgame1Travel
 
-*arcada
- name:arcytest
- on click:yield 1 Arcy1
- tag:ttravelbuilding
-
-
-*szprbuilding1
-	name:11122
-	desc:Odbyłeś podróż w czasie i znasz wszystkie tajniki sprawy, którą poruszasz w filmie. Teraz możesz co jakiś czas wrzucać aktualizacje lub "spekulacje", które będą na nowo wzbudzać zainteresowanie widzów twoimi filmami.
+*Arcymistrz2
+	name:Arcymistrz: Z Arpiwum X - Tragedia na Przełęczy Diatłowa
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy2]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz2)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz2=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz2+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie2 by pow(10,Arcymistrz2)/Arcymistrz2
 	tag:ttravelbuilding
+	cost increase:100%
 	cost refund:0%
-	req:(ArpiwumMovie10>1000+szprbuilding1*100)
+	cost:1 Arcy2
+	req:1 Endgame2Travel
 
+*Arcymistrz3
+	name:Arcymistrz: Z Arpiwum X - Tragedia w Dolinie Jaworowej
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy3]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz3)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz3=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz3+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie3 by pow(10,Arcymistrz3)/Arcymistrz3
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy3
+	req:1 Endgame3Travel
 
+*Arcymistrz4
+	name:Arcymistrz: Z Arpiwum X - Tajemnica Mary Celeste
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy4]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz4)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz4=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz4+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie4 by pow(10,Arcymistrz4)/Arcymistrz4
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy4
+	req:1 Endgame4Travel
 
+*Arcymistrz5
+	name:Arcymistrz: Z Arpiwum X - MV Joyita
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy5]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz5)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz5=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz5+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie5 by pow(10,Arcymistrz5)/Arcymistrz5
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy5
+	req:1 Endgame5Travel
 
+*Arcymistrz6
+	name:Arcymistrz: Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy6]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz6)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz6=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz6+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie6 by pow(10,Arcymistrz6)/Arcymistrz6
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy6
+	req:1 Endgame6Travel
+
+*Arcymistrz7
+	name:Arcymistrz: Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy7]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz7)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz7=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz7+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie7 by pow(10,Arcymistrz7)/Arcymistrz7
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy7
+	req:1 Endgame7Travel
+
+*Arcymistrz8
+	name:Arcymistrz: Z Arpiwum X - Przerwane ferie
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy8]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz8)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz8=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz8+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie8 by pow(10,Arcymistrz8)/Arcymistrz8
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy8
+	req:1 Endgame8Travel
+
+*Arcymistrz9
+	name:Arcymistrz: Z Arpiwum X - Zaginięcie Brandona Swansona
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy9]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz9)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz9=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz9+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie9 by pow(10,Arcymistrz9)/Arcymistrz9
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy9
+	req:1 Endgame9Travel
+
+*Arcymistrz10
+	name:Arcymistrz: Z Arpiwum X - Piątka z Yuby
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy10]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz10)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz10=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz10+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie10 by pow(10,Arcymistrz10)/Arcymistrz10
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy10
+	req:1 Endgame10Travel
+
+*Arcymistrz11
+	name:Arcymistrz: Z Arpiwum X - Zaginięcie generała Zagórskiego
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy11]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz11)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz11=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz11+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie11 by pow(10,Arcymistrz11)/Arcymistrz11
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy11
+	req:1 Endgame11Travel
+
+*Arcymistrz12
+	name:Arcymistrz: Z Arpiwum X - Tajemnica Wyspy Dębów
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy12]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz12)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz12=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz12+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie12 by pow(10,Arcymistrz12)/Arcymistrz12
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy12
+	req:1 Endgame12Travel
+
+*Arcymistrz13
+	name:Arcymistrz: Z Arpiwum X - Ourang Medan - prawda czy fikcja?
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy13]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz13)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz13=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz13+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie13 by pow(10,Arcymistrz13)/Arcymistrz13
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy13
+	req:1 Endgame13Travel
+
+*Arcymistrz14
+	name:Arcymistrz: Z Arpiwum X - Dzieci z Bodom
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy14]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz14)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz14=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz14+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie14 by pow(10,Arcymistrz14)/Arcymistrz14
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy14
+	req:1 Endgame14Travel
+
+*Arcymistrz15
+	name:Arcymistrz: Z Arpiwum X - Frauke Liebs
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy15]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz15)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz15=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz15+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie15 by pow(10,Arcymistrz15)/Arcymistrz15
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy15
+	req:1 Endgame15Travel
+
+*Arcymistrz16
+	name:Arcymistrz: Z Arpiwum X - Kim był Peter Bergmann?
+	desc:Dzięki podróży w czasie jesteś niedoścignionym Arcymistrzem, który wie absolutnie wszystko na temat z filmu. Możesz teraz stopniowo doić swoich widzów poprzez ciągłe dodawanie informacji do filmów i wypuszczanie nowych re-edycji, aby osiągać jeszcze lepsze wyniki na Youtubie.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom Arcymistrzostwa permanentnie zwiększa prędkość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> danego filmu o 10.<.>Efekt ten jest multiplikatywny, tzn: 10x na poziomie 1, 100x na poziomie 2, etc.<.>Do zakupu tego ulepszenia wymagane jest odpowiednie <b>Odznaczenie Arcymistrza</b>. Zapoznaj się z artykułem w zakładce Pomoc, aby dowiedzieć się jak zdobywać Odznaczenia.<//> <//>Posiadane <b>Odznaczenia Arcymistrza</b>: <b><#00ff00>[Arcy16]</b></#><//> <//>Aktualny bonus dla tego filmu: <b><#00ff00>[pow(10,Arcymistrz16)]x</b></#><//> <//>Kolejne odznaczenie dostępne na poziomie: [?(Arcymistrz16=0)|<b><#00ff00>1600</b></#>|<b><#00ff00>[1500+(100*(Arcymistrz16+1))]</b></#>]
+	passive:multiply yield of ArpiwumMovie16 by pow(10,Arcymistrz16)/Arcymistrz16
+	tag:ttravelbuilding
+	cost increase:100%
+	cost refund:0%
+	cost:1 Arcy16
+	req:1 Endgame16Travel
 
 Upgrades
 	*TEMPLATE
@@ -2816,6 +2949,32 @@ Upgrades
 
 
 //TUTAJ POMOC WŁAŚCIWA
+
+*DEV
+name:PLN,Sub,Minuty
+on click:yield 9999999999999999999999999999999999999999999999999999999999999 Subskrybent
+on click:yield 9999999999999999999999999999999999999999999999999999999999999 Minuty
+on click:yield 9999999999999999999999999999999999999999999999999999999999999 PLN
+on click:yield 100000 Ekspertyza1Res
+on click:yield 100000 Ekspertyza2Res
+on click:yield 100000 Ekspertyza3Res
+on click:yield 100000 Ekspertyza4Res
+on click:yield 100000 Ekspertyza5Res
+on click:yield 100000 Ekspertyza6Res
+on click:yield 100000 Ekspertyza7Res
+on click:yield 100000 Ekspertyza8Res
+on click:yield 100000 Ekspertyza9Res
+on click:yield 100000 Ekspertyza10Res
+on click:yield 100000 Ekspertyza11Res
+on click:yield 100000 Ekspertyza12Res
+on click:yield 100000 Ekspertyza13Res
+on click:yield 100000 Ekspertyza14Res
+on click:yield 100000 Ekspertyza15Res
+on click:yield 100000 Ekspertyza16Res
+
+
+
+
 
 
 
@@ -3035,7 +3194,7 @@ Upgrades
 		tag:pomocUpgrade
 		req:TTravelUnlock
 		passive:grant 1 PomocAchievTrack
-//		req:1 atleastonetravel
+		req:1 atleastonetravel
 
 		*Pomoc43
 		hidden
@@ -3044,14 +3203,7 @@ Upgrades
 		tag:pomocUpgrade
 		req:TTravelUnlock
 		passive:grant 1 PomocAchievTrack
-//		req:1 atleastonetravel
-
-
-
-
-
-
-
+		req:1 atleastonetravel
 
 
 
@@ -6355,6 +6507,25 @@ req:100 PatroniteF
 	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((1080-WeekStartedTimer)/60)] minut i [((1080-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080 and WeekStartedTimer<2160)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((2160-WeekStartedTimer)/60)] minut i [((2160-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160 and WeekStartedTimer<3240)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((3240-WeekStartedTimer)/60)] minut i [((3240-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240 and WeekStartedTimer<4320)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((4320-WeekStartedTimer)/60)] minut i [((4320-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320 and WeekStartedTimer<5400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((5400-WeekStartedTimer)/60)] minut i [((5400-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400 and WeekStartedTimer<6480)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((6480-WeekStartedTimer)/60)] minut i [((6480-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480 and WeekStartedTimer<7560)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((7560-WeekStartedTimer)/60)] minut i [((7560-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560 and WeekStartedTimer<8640)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((8640-WeekStartedTimer)/60)] minut i [((8640-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640 and WeekStartedTimer<9720)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((9720-WeekStartedTimer)/60)] minut i [((9720-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720 and WeekStartedTimer<10800)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((10800-WeekStartedTimer)/60)] minut i [((10800-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800 and WeekStartedTimer<11400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((11400-WeekStartedTimer)/60)] minut i [((11400-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - 18 minut - [?(WeekStartedTimer>1080)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - 36 minut - [?(WeekStartedTimer>2160)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - 54 minut - [?(WeekStartedTimer>3240)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - 72 minut - [?(WeekStartedTimer>4320)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - 90 minut - [?(WeekStartedTimer>5400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - 108 minut - [?(WeekStartedTimer>6480)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - 126 minut - [?(WeekStartedTimer>7560)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - 144 minut - [?(WeekStartedTimer>8640)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - 162 minut - [?(WeekStartedTimer>9720)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - 180 minut - [?(WeekStartedTimer>10800)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - 190 minut - [?(WeekStartedTimer>11400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
 
 
+*OdznReceive1
+	name:Odbierz Odznaczenie Arcymistrza I
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<.>Otrzymać <b><#FFD700>1 Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie1>=1500+Arcymistrz1*100)
+	req:RandomResourceSelect=1
+	on click:yield 1 Arcy1
+	on click:lose 99 RandomResourceSelect
+
+*OdznReceive2
+	name:Odbierz Odznaczenie Arcymistrza II
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<.>Otrzymać <b><#FFD700>1 Odznaczenie Arcymistrza II</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	tag:discordupgrade
+	hidden
+	req:(ArpiwumMovie2>=1500+Arcymistrz2*100)
+	req:RandomResourceSelect=1
+	on click:yield 1 Arcy2
+	on click:lose 99 RandomResourceSelect
 
 
 
