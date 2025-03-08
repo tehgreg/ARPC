@@ -6508,8 +6508,8 @@ req:100 PatroniteF
 
 
 *OdznReceive1
-	name:Odbierz Odznaczenie Arcymistrza I (test)
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<.>Otrzymać <b><#FFD700>1x Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	name:Odbierz Odznaczenie Arcymistrza I
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby<//> <//>:<.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie1>=1600+Arcymistrz1*100)
@@ -6517,16 +6517,8 @@ req:100 PatroniteF
 	on click:yield 1 Arcy1
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive1
+	on click:toast Gratulacje! Otrzymujesz Odznaczenie Arcymistrza I
 
-*OdznReceive2
-	name:Odbierz Odznaczenie Arcymistrza II
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<.>Otrzymać <b><#FFD700>1x Odznaczenie Arcymistrza II</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
-	tag:discordupgrade
-	hidden
-	req:(ArpiwumMovie2>=1500+Arcymistrz2*100)
-	req:RandomResourceSelect=2
-	on click:yield 1 Arcy2
-	on click:lose 99 RandomResourceSelect
 
 
 
