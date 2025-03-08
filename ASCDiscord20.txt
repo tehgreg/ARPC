@@ -6509,7 +6509,7 @@ req:100 PatroniteF
 
 *OdznReceive1
 	name:Odbierz Odznaczenie Arcymistrza I
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby<//> <//>:<.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie1>=1600+Arcymistrz1*100)
