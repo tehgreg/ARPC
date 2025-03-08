@@ -3031,12 +3031,20 @@ Upgrades
 		*Pomoc42
 		hidden
 		name:Odznaczenia Arcymistrza
-		desc:Cofnąłeś się w czasie i już się zastanawiasz jak możesz to zmonetyzować na Youtubie.<//> <//><.>Odznaczenia Arcymistrza to nowa waluta, która pozwala ci na rozwijanie twoich poziomów Arcymistrza w zakładce "Sz.P.R.".<.>Każdy film ma swoje własne Odznaczenie, które odpowiada numerowi filmu. Na przykład: Przełęcz Diatłowa to drugi film z serii Arpiwum X, więc do jego ulepszania będzie potrzebne "Odznaczenie Arcymistrza II".<//> <//><b>Jak zdobywać Odznaczenia Arcymistrza?</b><.>Odznacznie może być zdobyte tylko dla tego filmu, który jest właśnie aktywny w <b>Tygodniu Tematycznym</b>.
+		desc:Cofnąłeś się w czasie i już się zastanawiasz jak możesz to zmonetyzować na Youtubie.<//> <//><.>Odznaczenia Arcymistrza to nowa waluta, która pozwala ci na rozwijanie twoich poziomów Arcymistrza w zakładce "Sz.P.R.".<.>Każdy film ma swoje własne Odznaczenie, które odpowiada numerowi filmu. Na przykład: Przełęcz Diatłowa to drugi film z serii Arpiwum X, więc do jego ulepszania będzie potrzebne "Odznaczenie Arcymistrza II".<//> <//><b>Jak zdobywać Odznaczenia Arcymistrza?</b><.>Odznacznie może być zdobyte tylko dla tego filmu, który jest właśnie aktywny w <b>Tygodniu Tematycznym</b>.<.>W trakcie trwania Tygodnia Tematycznego można zdobyć tylko 1 Odznaczenie, a po jego otrzymaniu, Tydzień Tematyczny się kończy.<.>Możesz zdobywać Odznaczenia Arcymistrza, <b>tylko do filmów</b>, dla których udało ci się ukończyć <b>Podróż w czasie</b>.
 		tag:pomocUpgrade
 		req:TTravelUnlock
 		passive:grant 1 PomocAchievTrack
 //		req:1 atleastonetravel
 
+		*Pomoc43
+		hidden
+		name:Odznaczenia Arcymistrza - Krok po kroku
+		desc:Proces zdobywania odznaczeń wygląda następująco:<//> <//>1. Rozpocznij Tydzień Tematyczny.<//>2. Przydzielony film to ten, dla którego możesz próbować zdobyć Odznaczenie Arcymistrza.<//>3. W zakładce Sz.P.R. sprawdź który poziom filmu musisz osiągnąć.<//>4. Graj, aż uda ci się osiągnąć wymagany poziom filmu z danego Tygodnia Tematycznego.<//>5. Po spełnieniu wymagań w zakładce Discord pojawi się nowe ulepszenie w panelu po prawej.<//>6. Kliknij w to ulepszenie, aby uzyskać 1 Odznaczenie Arcymistrza.<//>7. Po otrzymaniu Odznaczenia, Tydzień Tematyczny się zakończy.<//>8. Załóż Nowy Kanał i rozpocznij kolejny Tydzień Tematyczny, aby próbować zdobyć kolejne Odznaczenia.
+		tag:pomocUpgrade
+		req:TTravelUnlock
+		passive:grant 1 PomocAchievTrack
+//		req:1 atleastonetravel
 
 
 
