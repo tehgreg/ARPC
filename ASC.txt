@@ -1452,9 +1452,19 @@ always hidden
 
 
 
-
-
-
+//Afterparty helpers
+*AfterpartyWhite
+name:Kartek na białe wino
+always hidden
+*Kieliszek
+name:Kieliszek
+always hidden
+*Event1AResource
+always hidden
+*Event1BResource
+always hidden
+*Event1CResource
+always hidden
 
 
 
@@ -1472,6 +1482,47 @@ always hidden
 Buildings
 	*TEMPLATE
 		on click:anim glow
+
+
+
+//Sezonowe
+
+	*Afterparty1
+	name:Szybki Krafcik
+	desc:Obalasz nowego krafcika prosto od twojego ulubionego lokalnego dystrybutra.<//> <//><.>Otrzymane <b>Promile</b> za 1 krafta: <b><#00ff00>0,1</b></#><//> <//><.>Kliknij w to ulepszenie, aby kupić 1 krafta za 600 <b>Chęci Do Życia</b>.
+	cost:600 CDZ
+	tag:eventBuilding
+	cost increase:100%
+	req:1 Event1
+	cost refund:0%
+
+	*Afterparty2
+	name:Parowanie Win
+	desc:Niektórzy dobierają wina pod posiłek, ale ty parujesz wino pod inne trunki alkoholowe.<//> <//><.>Otrzymane <b>Promile</b> za 1 wino: <b><#00ff00>0,15</b></#><//> <//><.>Możesz kupić jedno wino za <b><#00ff00>5</b></#> kartek na białe wino</b>.<//> <//><.>Otrzymujesz <b>1</b> kartkę na białe wino za kliknięcie w <b>1</b> Patrona z <b>Białego Progu</b>. (Bonus z Suppi nie oddziałowuje na zbieranie kartek).<//> <//><.>Posiadane kartki na białe wino: <b><#00ff00>[AfterpartyWhite]</b></#>
+	tag:eventBuilding
+	req:1 Event1
+	cost:5 AfterpartyWhite
+	cost increase:100%
+	cost refund:0%
+	
+
+	*Afterparty3
+	name:Rozpracuj Połówkę
+	desc:Nikt już nie chce z tobą pić, więc rozpijasz pół litra samemu.<//> <//><.>Otrzymane <b>Promile</b> za 1 wódkę: <b><#00ff00>0,2</b></#><//> <//><.>Możesz wymienić jedną wódkę za <b><#00ff00>1</b></#> <b>kieliszek</b>.<//> <//><.>Otrzymujesz <b>1</b> kieliszek za każde założenie <b>Nowego Kanału</b>.<//> <//><.>Posiadane kieliszki: <b><#00ff00>[Kieliszek]</b></#>
+	tag:eventBuilding
+	req:1 Event1	
+	cost:1 Kieliszek
+	cost increase:100%
+	cost refund:0%
+
+
+
+
+
+
+
+
+//NORMALNE
 
 	*SubZaSub
 		name:Sub za Sub
@@ -2657,7 +2708,7 @@ Buildings
 	no buy
 	limit:1
 	tag:pomocBuilding
-	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 573 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/6- <b>[(SezonAchievs/6*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
+	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 576 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/17- <b>[(EndAchievs/17*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/19- <b>[(WyzwaniaAchievs/19*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/7- <b>[(SezonAchievs/7*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
 	req:PrestigeStats
 
 
@@ -2920,22 +2971,23 @@ Upgrades
 
 //WYDARZENIA SEZONOWE
 
-*Event0
+*Event1
 	hidden
-	name:Wszystkiego najlepszego!
-	desc: Pieniędzy, pieniędzy i jeszcze raz pieniędzy. Może w tym Wydarzeniu Sezonowym nie ma żadnych benefitów, bo zaburzyło by to ekonomię na początku gry, ale dostaniesz za to piękne Osiągnięcie.
+	name:Afterparty
+	desc:Dobra impreza nigdy się nie kończy. Teraz nazywa się to "afterparty", ale to po prostu stary, dobry cug alkoholowy.Wybieraj: piwo, wino, wóda. A może wszystko na raz?<//> <//><b><u>Efekt działania:</b></u><.>Aktywuj to wydarzenie, aby rozpocząć Afterparty!<.>Po aktywacji możesz rozpocząć najebkę na maksa i zyskujesz możliwość picia piwa, wina lub wódki.<.>W zakładce <b>Wydarzenia Sezonowe</b> otrzymasz dostęp do nowych możliwości w <b>Panelu Zakupów</b>.<.>Spożywanie dowolnego alkoholu zwiększa twój poziom promili we krwi.<.><b>Twoim zadaniem</b> jest pobić absolutny rekord i mieć <b>15</b> Promili alkoholu we krwi do końca trwania Wydarzenia.<.>Po zdobyciu 15 Promili ponownie kliknij w to Wydarzenie, aby uzyskać nagrodę.<//> <//><.>Promile zdobyte z piwa: <b>[floor(0.1*Afterparty1)],[(0.1*Afterparty1*pow(10,2))%pow(10,2)]</b> <.>Promile zdobyte z wina: <b>[floor(0.15*Afterparty2)],[(0.15*Afterparty2*pow(10,2))%pow(10,2)]</b> <.>Promile zdobyte z wódki: <b>[floor(0.2*Afterparty3)],[(0.2*Afterparty3*pow(10,2))%pow(10,2)]</b><//> <//><.>Suma Promili: <b>[floor((0.1*Afterparty1+0.15*Afterparty2+0.2*Afterparty3))],[(((0.1*Afterparty1)+(0.15*Afterparty2)+(0.2*Afterparty3))*pow(10,2))%pow(10,2)]</b> / 15<//> <//><b><#FFD700>Nagroda:</b></#><.>Permanentny wzrost do <b>Subskrybentów</b> i <b>Czasu Oglądania</b> każdego z filmów o <b><#00ff00>10x</b></#><.>Osiągnięcie Sezonowe.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 10.03.2025 - aż dasz znać, że skończyłeś.<//> <//>*<i>Kalkulator Sumy Promili może się wykrzaczyć, bo gra nie radzi sobie z wyświetlaniem cyfr po przecinku. Jeżeli coś się nie zgadza to ręcznie dodaj 3 wartości z każdego z trunków. Pomimo potencjalnego błędnego wyświetlania, obliczenia w tle są poprawne, więc gra na pewno będzie wiedziała kiedy zaliczyć Wydarzenie Sezonowe.</i>
 	tag:eventUpgrade
-	on earn:yield 1 Event0Resource
+	on click:if ((0.1*Afterparty1)+(0.15*Afterparty2)+(0.2*Afterparty3)>=15 and no Event1Resource) yield 1 Event1Resource
 
-*Event01
-	hidden
-	name:Aktualizacja 1.1
-	desc:Grzegorz Productions przeprasza za powstałe niedogodności w związku z Nową Grą ∞. Aby uzyskać jednorazową rekompensatę aktywuj to ulepszenie, aby odebrać następujące nagrody:<//> <//><.><b>1,000,000</b> Punktów Kanału,<.><b>28,800</b> Chęci Do Życia,<.><b>1</b> Punkt Sponsorów,<.><b>Osiągnięcie.</b><//> <//>Dziękujemy za wspieranie Arpiwum Clickera i Grzegorz Productions!
-	tag:eventUpgrade
-	on earn:yield 1 Event01Resource
-	on earn:yield 1000000 Kanaly
-	on earn:yield 28800 CDZ
-	on earn:yield 1 SponsorPoints
+*Event10Helper
+always hidden
+owned
+passive:if (Afterparty1>=15) grant 1 Event1AResource
+passive:if (Afterparty2>=7) grant 1 Event1BResource
+passive:if (Afterparty3>=5) grant 1 Event1CResource
+
+
+
+
 
 
 
@@ -3005,6 +3057,7 @@ on click:lose TierChooser10
 on click:lose TierChooserX
 on click:lose tag:discordrandoms
 on click:lose TierXRandom1Helper
+on click:yield 1 Kieliszek
 
 
 	*Prestige2
@@ -3071,6 +3124,7 @@ on click:lose TierChooser10
 on click:lose TierChooserX
 on click:lose tag:discordrandoms
 on click:lose TierXRandom1Helper
+on click:yield 1 Kieliszek
 
 
 	*Prestige3
@@ -3137,6 +3191,7 @@ on click:lose TierChooser10
 on click:lose TierChooserX
 on click:lose tag:discordrandoms
 on click:lose TierXRandom1Helper
+on click:yield 1 Kieliszek
 
 	*Prestige4
 		name:Nowy kanał+++
@@ -3202,6 +3257,7 @@ on click:lose TierChooser10
 on click:lose TierChooserX
 on click:lose tag:discordrandoms
 on click:lose TierXRandom1Helper
+on click:yield 1 Kieliszek
 
 
 
@@ -3267,6 +3323,7 @@ on click:lose TierChooser10
 on click:lose TierChooserX
 on click:lose tag:discordrandoms
 on click:lose TierXRandom1Helper
+on click:yield 1 Kieliszek
 
 
 	*Monetyzacja
@@ -13728,24 +13785,35 @@ passive:grant 1 WyzwaniaAchievs
 
 *Event1Reward
 	name:☼ Dobra zabawa ☼
-	desc:Wziąłeś udział w afterparty po imprezie urodzinowej.
+	desc:Wziąłeś udział w afterparty po imprezie urodzinowej i najebałeś się jak szpadel.
 	req:1 Event1Resource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
+	passive:multiply yield of tag:normalbuilding by 10
 
-*Event2Reward
-	name:☼ Rocznica: Ourang Medan ☼
-	desc:Wziąłeś udział w obchodach rocznicy filmu: "Z Arpiwum X - Ourang Medan - prawda czy fikcja?"
-	req:1 Event2Resource
+*Event1RewardA
+	name:☼ Piętnastopak ☼
+	desc:Wypiłeś 15 kraftów w trakcie Afterparty.
+	req:1 Event1AResource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
-*Event3Reward
-	name:☼ Plan Tygodniowy I ☼
-	desc:Wypełniłeś wszystkie zadania w Planie Tygodniowym I.
-	req:1 Event3Resource
+
+*Event1RewardB
+	name:☼ Koneser od siedmiu boleści ☼
+	desc:Wypiłeś 7 win w trakcie Afterparty.
+	req:1 Event1BResource
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
+
+
+*Event1RewardC
+	name:☼ Haj fajw ☼
+	desc:Wypiłeś 5 połówek wódki w trakcie Afterparty.
+	req:1 Event1CResource
+	passive:grant 1 TotalAchievs
+	passive:grant 1 SezonAchievs
+
 
 
 
@@ -13775,6 +13843,7 @@ Shinies
  	on click:if (have PatroniteSzaryBlock and have PatronSzaryProcent and PatroniteA>=1000 and chance(35%)) do patronszarybonus2
 
 *PatroniteBII
+	on click:yield 1 AfterpartyWhite
 	on click:yield 1 PatrTotalClick2
 	on click:yield 1 PatroniteB
   	on click:if (have PatroniteBialyBlock and PatroniteB>=1000) yield (Subskrybent*0.03) Subskrybent
