@@ -1349,27 +1349,27 @@ always hidden
 //Helper do szybszych wydarzeń
 
 *QuickerEvent1
-always hidden
+
 *QuickerEvent2
-always hidden
+
 *QuickerEvent3
-always hidden
+
 *QuickerEvent4
-always hidden
+
 *QuickerEvent5
-always hidden
+
 *QuickerEvent6
-always hidden
+
 *QuickerEvent7
-always hidden
+
 *QuickerEvent8
-always hidden
+
 *QuickerEvent9
-always hidden
+
 *QuickerEvent10
-always hidden
+
 *QuickerEvent11
-always hidden
+
 
 
 
@@ -4725,6 +4725,35 @@ req:1 ArpiwumMovie16UpV
 		passive:multiply yield of PLN by (1+(0.01*TotalResets))
 
 
+*SkracaczCzasu1
+name:Internetowy Celebryta I
+desc:Spędzasz mnóstwo czasu w internecie, a twoja digitalna persona jest coraz bardziej rozpoznawalna. Łatwiej nawiązujesz kontakty, a liczba ludzi chcących wchodzić z tobą w interakcje rośnie.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 15/30/45/60/75/90/105/120/135/150/165 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami:<b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
+tag:prestigeupgrade
+req:DiscordUnlock
+passive:grant 1 QuickerEvent1
+passive:grant 2 QuickerEvent2
+passive:grant 3 QuickerEvent3
+passive:grant 4 QuickerEvent4
+passive:grant 5 QuickerEvent5
+passive:grant 6 QuickerEvent6
+passive:grant 7 QuickerEvent7
+passive:grant 8 QuickerEvent8
+passive:grant 9 QuickerEvent9
+passive:grant 10 QuickerEvent10
+passive:grant 11 QuickerEvent11
+on earn:lose Kanaly
+cost:1000000000000000000000000000000
+
+
+
+
+
+
+
+
+
+
+
 	*Button1
 		name:Papierowy Przycisk Youtube
 		desc:Youtube docenia twoje poczynania na platformie. Operujesz na innych warunkach niż pozostali twórcy, więc Youtube ustanawia specjalny program, w którym możesz uzyskiwać ekskluzywne przyciski odzwierciedlające twój postęp.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>2x</b>.<.>Efekt działania tego ulepszenia <b><#00ff00>pozostaje</b></#> aktywny nawet po założeniu Nowego Kanału.
@@ -6839,7 +6868,7 @@ req:100 PatroniteF
 	desc:Zakup to ulepszenie, aby rozpocząć <b>Wydarzenie Krytyczne</b>. Pamiętaj, że będzie ono aktywne dopóki nie założysz Nowego Kanału.
 	tag:discordupgrade discordrandoms
 	req:1 hasWeekStarted
-	req:WeekStartedTimer>11400
+	req:WeekStartedTimer>11880-180*QuickerEvent11
 	on earn:if (TierChooserX=1) yield 1 TierXRandom1
 	on earn:if (TierChooserX=2) yield 1 TierXRandom2
 	on earn:if (TierChooserX=3) yield 1 TierXRandom3
