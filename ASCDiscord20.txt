@@ -4727,7 +4727,7 @@ req:1 ArpiwumMovie16UpV
 
 *SkracaczCzasu1
 name:Internetowy Celebryta I
-desc:Spędzasz mnóstwo czasu w internecie, a twoja digitalna persona jest coraz bardziej rozpoznawalna. Łatwiej nawiązujesz kontakty, a liczba ludzi chcących wchodzić z tobą w interakcje rośnie.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 15/30/45/60/75/90/105/120/135/150/165 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami:<b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
+desc:Spędzasz mnóstwo czasu w internecie, a twoja digitalna persona jest coraz bardziej rozpoznawalna. Łatwiej nawiązujesz kontakty, a liczba ludzi chcących wchodzić z tobą w interakcje rośnie.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 15/30/45/60/75/90/105/120/135/150/165 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami: <b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
 tag:prestigeupgrade
 req:DiscordUnlock
 passive:grant 1 QuickerEvent1
@@ -4742,7 +4742,7 @@ passive:grant 9 QuickerEvent9
 passive:grant 10 QuickerEvent10
 passive:grant 11 QuickerEvent11
 on earn:lose Kanaly
-cost:1000000000000000000000000000000
+cost:1000000000000000000000000000000 Kanaly
 
 
 
