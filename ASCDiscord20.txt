@@ -1349,27 +1349,27 @@ always hidden
 //Helper do szybszych wydarzeń
 
 *QuickerEvent1
-
+always hidden
 *QuickerEvent2
-
+always hidden
 *QuickerEvent3
-
+always hidden
 *QuickerEvent4
-
+always hidden
 *QuickerEvent5
-
+always hidden
 *QuickerEvent6
-
+always hidden
 *QuickerEvent7
-
+always hidden
 *QuickerEvent8
-
+always hidden
 *QuickerEvent9
-
+always hidden
 *QuickerEvent10
-
+always hidden
 *QuickerEvent11
-
+always hidden
 
 
 
@@ -4744,6 +4744,98 @@ passive:grant 11 QuickerEvent11
 on earn:lose Kanaly
 cost:1000000000000000000000000000000 Kanaly
 
+*SkracaczCzasu2
+name:Internetowy Celebryta II
+desc:Twoje DMy buzują, a ty przeznaczasz coraz więcej czasu na interakcje z fanami.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 12/24/36/48/60/72/84/96/108/120/132 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami: <b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
+tag:prestigeupgrade
+req:DiscordUnlock
+passive:grant 1 QuickerEvent1
+passive:grant 2 QuickerEvent2
+passive:grant 3 QuickerEvent3
+passive:grant 4 QuickerEvent4
+passive:grant 5 QuickerEvent5
+passive:grant 6 QuickerEvent6
+passive:grant 7 QuickerEvent7
+passive:grant 8 QuickerEvent8
+passive:grant 9 QuickerEvent9
+passive:grant 10 QuickerEvent10
+passive:grant 11 QuickerEvent11
+on earn:lose Kanaly
+cost:100000000000000000000000000000000000 Kanaly
+req:SkracaczCzasu1
+
+*SkracaczCzasu3
+name:Internetowy Celebryta III
+desc:Musisz wyłączyć powiadomienia push z twoich socjali na telefonie, bo twój telefon zaczyna zamulać.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 9/18/27/36/45/54/63/72/81/90/99 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami: <b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
+tag:prestigeupgrade
+req:DiscordUnlock
+passive:grant 1 QuickerEvent1
+passive:grant 2 QuickerEvent2
+passive:grant 3 QuickerEvent3
+passive:grant 4 QuickerEvent4
+passive:grant 5 QuickerEvent5
+passive:grant 6 QuickerEvent6
+passive:grant 7 QuickerEvent7
+passive:grant 8 QuickerEvent8
+passive:grant 9 QuickerEvent9
+passive:grant 10 QuickerEvent10
+passive:grant 11 QuickerEvent11
+on earn:lose Kanaly
+cost:10000000000000000000000000000000000000000 Kanaly
+req:SkracaczCzasu2
+
+*SkracaczCzasu4
+name:Internetowy Celebryta IV
+desc:Ilość notyfikacji na twoim Discordzie jest oszałamiająca, ale to też nie jest tak, że ci się to nie podoba.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 6/12/18/24/30/36/42/48/54/60/66 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami: <b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
+tag:prestigeupgrade
+req:DiscordUnlock
+passive:grant 1 QuickerEvent1
+passive:grant 2 QuickerEvent2
+passive:grant 3 QuickerEvent3
+passive:grant 4 QuickerEvent4
+passive:grant 5 QuickerEvent5
+passive:grant 6 QuickerEvent6
+passive:grant 7 QuickerEvent7
+passive:grant 8 QuickerEvent8
+passive:grant 9 QuickerEvent9
+passive:grant 10 QuickerEvent10
+passive:grant 11 QuickerEvent11
+on earn:lose Kanaly
+cost:1000000000000000000000000000000000000000000000 Kanaly
+req:SkracaczCzasu3
+
+*SkracaczCzasu5
+name:Internetowy Celebryta ∞
+desc:Każdy, kto kiedykolwiek skorzystał z internetu zna twoje imię i kojarzy twoją twórczość.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 3/6/9/12/15/18/21/24/27/30/33 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami: <b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
+tag:prestigeupgrade
+req:DiscordUnlock
+passive:grant 1 QuickerEvent1
+passive:grant 2 QuickerEvent2
+passive:grant 3 QuickerEvent3
+passive:grant 4 QuickerEvent4
+passive:grant 5 QuickerEvent5
+passive:grant 6 QuickerEvent6
+passive:grant 7 QuickerEvent7
+passive:grant 8 QuickerEvent8
+passive:grant 9 QuickerEvent9
+passive:grant 10 QuickerEvent10
+passive:grant 11 QuickerEvent11
+on earn:lose Kanaly
+cost:100000000000000000000000000000000000000000000000000 Kanaly
+req:SkracaczCzasu4
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6608,7 +6700,24 @@ req:100 PatroniteF
 	tag:discordupgrade
 	owned
 	hidden
-	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((1080-WeekStartedTimer)/60)] minut i [((1080-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080 and WeekStartedTimer<2160)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((2160-WeekStartedTimer)/60)] minut i [((2160-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160 and WeekStartedTimer<3240)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((3240-WeekStartedTimer)/60)] minut i [((3240-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240 and WeekStartedTimer<4320)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((4320-WeekStartedTimer)/60)] minut i [((4320-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320 and WeekStartedTimer<5400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((5400-WeekStartedTimer)/60)] minut i [((5400-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400 and WeekStartedTimer<6480)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((6480-WeekStartedTimer)/60)] minut i [((6480-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480 and WeekStartedTimer<7560)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((7560-WeekStartedTimer)/60)] minut i [((7560-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560 and WeekStartedTimer<8640)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((8640-WeekStartedTimer)/60)] minut i [((8640-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640 and WeekStartedTimer<9720)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((9720-WeekStartedTimer)/60)] minut i [((9720-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720 and WeekStartedTimer<10800)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((10800-WeekStartedTimer)/60)] minut i [((10800-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800 and WeekStartedTimer<11400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((11400-WeekStartedTimer)/60)] minut i [((11400-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - 18 minut - [?(WeekStartedTimer>1080)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - 36 minut - [?(WeekStartedTimer>2160)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - 54 minut - [?(WeekStartedTimer>3240)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - 72 minut - [?(WeekStartedTimer>4320)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - 90 minut - [?(WeekStartedTimer>5400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - 108 minut - [?(WeekStartedTimer>6480)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - 126 minut - [?(WeekStartedTimer>7560)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - 144 minut - [?(WeekStartedTimer>8640)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - 162 minut - [?(WeekStartedTimer>9720)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - 180 minut - [?(WeekStartedTimer>10800)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - 190 minut - [?(WeekStartedTimer>11400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
+	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((1080-WeekStartedTimer)/60)] minut i [((1080-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080 and WeekStartedTimer<2160)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((2160-WeekStartedTimer)/60)] minut i [((2160-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160 and WeekStartedTimer<3240)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((3240-WeekStartedTimer)/60)] minut i [((3240-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240 and WeekStartedTimer<4320)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((4320-WeekStartedTimer)/60)] minut i [((4320-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320 and WeekStartedTimer<5400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((5400-WeekStartedTimer)/60)] minut i [((5400-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400 and WeekStartedTimer<6480)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((6480-WeekStartedTimer)/60)] minut i [((6480-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480 and WeekStartedTimer<7560)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((7560-WeekStartedTimer)/60)] minut i [((7560-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560 and WeekStartedTimer<8640)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((8640-WeekStartedTimer)/60)] minut i [((8640-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640 and WeekStartedTimer<9720)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((9720-WeekStartedTimer)/60)] minut i [((9720-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720 and WeekStartedTimer<10800)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((10800-WeekStartedTimer)/60)] minut i [((10800-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800 and WeekStartedTimer<11400)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((11400-WeekStartedTimer)/60)] minut i [((11400-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - [((1080-180*QuickerEvent1)/60)] minut - [?(WeekStartedTimer>1080-180*QuickerEvent1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - [((2160-180*QuickerEvent2)/60)] minut - [?(WeekStartedTimer>2160-180*QuickerEvent2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - [((3240-180*QuickerEvent3)/60)] minut - [?(WeekStartedTimer>3240-180*QuickerEvent3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - [((4320-180*QuickerEvent4)/60)] minut - [?(WeekStartedTimer>4320-180*QuickerEvent4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - 90 minut - [?(WeekStartedTimer>5400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - 108 minut - [?(WeekStartedTimer>6480)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - 126 minut - [?(WeekStartedTimer>7560)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - 144 minut - [?(WeekStartedTimer>8640)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - 162 minut - [?(WeekStartedTimer>9720)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - 180 minut - [?(WeekStartedTimer>10800)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - 190 minut - [?(WeekStartedTimer>11400)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 *OdznReceive1
