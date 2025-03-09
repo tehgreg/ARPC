@@ -3005,55 +3005,6 @@ Upgrades
 
 //TUTAJ POMOC WŁAŚCIWA
 
-*DEV
-name:PLN,Sub,Minuty
-on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Subskrybent
-on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Minuty
-on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 PLN
-on click:yield 100000 Ekspertyza1Res
-on click:yield 100000 Ekspertyza2Res
-on click:yield 100000 Ekspertyza3Res
-on click:yield 100000 Ekspertyza4Res
-on click:yield 100000 Ekspertyza5Res
-on click:yield 100000 Ekspertyza6Res
-on click:yield 100000 Ekspertyza7Res
-on click:yield 100000 Ekspertyza8Res
-on click:yield 100000 Ekspertyza9Res
-on click:yield 100000 Ekspertyza10Res
-on click:yield 100000 Ekspertyza11Res
-on click:yield 100000 Ekspertyza12Res
-on click:yield 100000 Ekspertyza13Res
-on click:yield 100000 Ekspertyza14Res
-on click:yield 100000 Ekspertyza15Res
-on click:yield 100000 Ekspertyza16Res
-
-*DEV2
-name:Arcymistrzostwo
-on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Subskrybent
-on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Minuty
-on click:yield 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 PLN
-on click:yield 100000 Arcy1
-on click:yield 100000 Arcy2
-on click:yield 100000 Arcy3
-on click:yield 100000 Arcy4
-on click:yield 100000 Arcy5
-on click:yield 100000 Arcy6
-on click:yield 100000 Arcy7
-on click:yield 100000 Arcy8
-on click:yield 100000 Arcy9
-on click:yield 100000 Arcy10
-on click:yield 100000 Arcy11
-on click:yield 100000 Arcy12
-on click:yield 100000 Arcy13
-on click:yield 100000 Arcy14
-on click:yield 100000 Arcy15
-on click:yield 100000 Arcy16
-
-
-
-
-
-
 	*Pomoc1
 		name:Ogólne Informacje
 		desc: W zakładce <b>Pomoc</b> znajdziesz niezbędne informacje wyjaśniające rózne mechanizmy i systemy dostępne w grze. <//>Wraz z rozwojem twojej kariery Youtubera, pojawiać się tutaj będą dodatkowe porady, które pozwolą ci lepiej zrozumieć wszystkie zawiłości Arpiwum Clickera. <//>Gra stworzona jest na silniku "Idle Game Maker" przez co proszę mieć na uwadze, że w grze mogą występować nieprzetłumaczone anglojęzyczne zwroty.
