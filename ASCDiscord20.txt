@@ -1345,6 +1345,39 @@ always hidden
 *RozwojMultiplier
 always hidden
 
+
+//Helper do szybszych wydarzeń
+
+*QuickerEvent1
+always hidden
+*QuickerEvent2
+always hidden
+*QuickerEvent3
+always hidden
+*QuickerEvent4
+always hidden
+*QuickerEvent5
+always hidden
+*QuickerEvent6
+always hidden
+*QuickerEvent7
+always hidden
+*QuickerEvent8
+always hidden
+*QuickerEvent9
+always hidden
+*QuickerEvent10
+always hidden
+*QuickerEvent11
+always hidden
+
+
+
+
+
+
+
+
 //Ekspertyza - punkty
 
 *Ekspertyza1Res
@@ -6786,17 +6819,17 @@ req:100 PatroniteF
 	always hidden
 	desc:
 	tag:discordupgrade
-	passive:if (WeekStartedTimer=1080) yield random(1,5) TierChooser1
-	passive:if (WeekStartedTimer=2160) yield random(1,5) TierChooser2
-	passive:if (WeekStartedTimer=3240) yield random(1,5) TierChooser3
-	passive:if (WeekStartedTimer=4320) yield random(1,5) TierChooser4
-	passive:if (WeekStartedTimer=5400) yield random(1,5) TierChooser5
-	passive:if (WeekStartedTimer=6480) yield random(1,5) TierChooser6
-	passive:if (WeekStartedTimer=7560) yield random(1,5) TierChooser7
-	passive:if (WeekStartedTimer=8640) yield random(1,5) TierChooser8
-	passive:if (WeekStartedTimer=9720) yield random(1,5) TierChooser9
-	passive:if (WeekStartedTimer=10800) yield random(1,5) TierChooser10
-	passive:if (WeekStartedTimer=11400) yield random(1,6) TierChooserX
+	passive:if (WeekStartedTimer=1080-180*QuickerEvent1) yield random(1,5) TierChooser1
+	passive:if (WeekStartedTimer=2160-180*QuickerEvent2) yield random(1,5) TierChooser2
+	passive:if (WeekStartedTimer=3240-180*QuickerEvent3) yield random(1,5) TierChooser3
+	passive:if (WeekStartedTimer=4320-180*QuickerEvent4) yield random(1,5) TierChooser4
+	passive:if (WeekStartedTimer=5400-180*QuickerEvent5) yield random(1,5) TierChooser5
+	passive:if (WeekStartedTimer=6480-180*QuickerEvent6) yield random(1,5) TierChooser6
+	passive:if (WeekStartedTimer=7560-180*QuickerEvent7) yield random(1,5) TierChooser7
+	passive:if (WeekStartedTimer=8640-180*QuickerEvent8) yield random(1,5) TierChooser8
+	passive:if (WeekStartedTimer=9720-180*QuickerEvent9) yield random(1,5) TierChooser9
+	passive:if (WeekStartedTimer=10800-180*QuickerEvent10) yield random(1,5) TierChooser10
+	passive:if (WeekStartedTimer=11880-180*QuickerEvent11) yield random(1,6) TierChooserX
 
 //TIER X
 
