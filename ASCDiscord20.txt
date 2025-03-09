@@ -6705,9 +6705,10 @@ req:100 PatroniteF
 
 *Pay2Win
 	name:Płać Dwa Wygrać
-	desc:
+	desc:Chwile z ulubionym piwkiem są bezcenne, a za wszystkie inne rzeczy zapłacisz przelewem na poczcie. Discord jest w stanie rozruszać aktywność na twoim serwerze, ale musisz wyłożyć na to pokaźą sumkę.<//> <//><b><u>Efekt działania:</b></u><.>Zakup to ulepszenie, aby natychmiastowo uruchomić wszystkie Wydarzenia i Wydarzenie Krytyczne.<.>Możesz skorzystać z tej funkcji tylko zanim pojawi się pierwsze Wydarzenie.
 	hidden
 	tag:discordupgrade
+	req:WeekStartedTimer<1080-180*QuickerEvent1
 
 
 
