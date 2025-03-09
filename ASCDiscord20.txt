@@ -3577,9 +3577,17 @@ on click:lose TierXRandom1Helper
 on click:yield 1 Kieliszek
 
 
+
+*BuyAll
+name:Wiedza Tajemna
+desc:Poświęcasz chwilę na przeczytanie pomocy na Youtubie i odkrywasz fascynującą funkcję, która ułatwia twoje życie Youtubera.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie ulepszenia z kategorii: Monetyzacja i ulepszenia filmów (bez Sub Za Sub).<.>Koszt tego ulepszenia będzie zawsze kosztował pełną cenę, nawet jeżeli już posiadasz niektóre z ulepszeń.
+tag: resetable normalupgrade
+on earn:yield tag:buyall
+
+
 	*Monetyzacja
 		name:Monetyzacja I
-		tag:resetable normalupgrade
+		tag:resetable normalupgrade buyall
 		desc:Po osiągnięciu odpowiedniej liczby <b>Subskrybentów</b> i <b>Czasu Oglądania</b>, Youtube pozwoliło ci na włączenie Monetyzacji twoich filmów.<//> <b><u>Efekt działania:</b></u><.>Zaczynasz pasywnie zarabiać <b>Pieniądze</b>.<.>Prędkość zarabiania wynosi 0,001zł * aktualna liczba <b>Subskrybentów</b>.
 cost:15000 Minuty
 on tick:yield 1 PLN
@@ -3589,7 +3597,7 @@ req:2500 Subskrybent:earned
 
 	*MonetyzacjaII
 		name:Monetyzacja II
-		tag:resetable normalupgrade
+		tag:resetable normalupgrade buyall
 		desc:Aby utrzymać ciebie na platformie, Youtube oferuje ci lepsze stawki.<//> <b><u>Efekt działania:</b></u><.>Twój całkowity zysk <b>Pieniędzy</b> ze wszystkich źródeł jest zwiększony <b>2x</b>.
 cost:10000000 Minuty
 passive:multiply yield of PLN by 2
@@ -3597,7 +3605,7 @@ req:have Monetyzacja
 
 	*MonetyzacjaIII
 		name:Monetyzacja III
-		tag:resetable normalupgrade
+		tag:resetable normalupgrade buyall
 		desc:Aby utrzymać ciebie na platformie, Youtube oferuje ci jeszcze lepsze stawki.<//> <b><u>Efekt działania:</b></u><.>Twój całkowity zysk <b>Pieniędzy</b> ze wszystkich źródeł jest zwiększony <b>3x</b>.
 cost:10000000000 Minuty
 passive:multiply yield of PLN by 3
@@ -3605,7 +3613,7 @@ req:have MonetyzacjaII
 
 	*MonetyzacjaIV
 		name:Monetyzacja IV
-		tag:resetable normalupgrade
+		tag:resetable normalupgrade buyall
 		desc:Aby utrzymać ciebie na platformie, Youtube oferuje ci niesamowicie dobre stawki.<//> <b><u>Efekt działania:</b></u><.>Twój całkowity zysk <b>Pieniędzy</b> ze wszystkich źródeł jest zwiększony <b>4x</b>.
 cost:100000000000000 Minuty
 passive:multiply yield of PLN by 4
@@ -3613,7 +3621,7 @@ req:have MonetyzacjaIII
 
 	*MonetyzacjaV
 		name:Monetyzacja V
-		tag:resetable normalupgrade
+		tag:resetable normalupgrade buyall
 		desc:Aby utrzymać ciebie na platformie, Youtube oferuje ci najlepsze stawki.<//> <b><u>Efekt działania:</b></u><.>Twój całkowity zysk <b>Pieniędzy</b> ze wszystkich źródeł jest zwiększony <b>5x</b>.
 cost:100000000000000000 Minuty
 passive:multiply yield of PLN by 5
@@ -3621,7 +3629,7 @@ req:have MonetyzacjaIV
 
 	*MonetyzacjaVI
 		name:Monetyzacja ∞
-		tag:resetable normalupgrade
+		tag:resetable normalupgrade buyall
 		desc:Aby utrzymać ciebie na platformie, Youtube oferuje ci takie stawki, że prawie na tobie nie zarabia.<//> <b><u>Efekt działania:</b></u><.>Twój całkowity zysk <b>Pieniędzy</b> ze wszystkich źródeł jest zwiększony <b>10x</b>.
 cost:100000000000000000000 Minuty
 passive:multiply yield of PLN by 10
@@ -3690,7 +3698,7 @@ req:600 SubZaSub
 
 	*ArpiwumMovie1UpI
 		name:Zaginięcie Froon i Kremers I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Zaginięcie Lisanne Froon i Kris Kremers</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie1 by 2
 cost:10000 Subskrybent
@@ -3698,7 +3706,7 @@ req:10 ArpiwumMovie1
 
 	*ArpiwumMovie1UpII
 		name:Zaginięcie Froon i Kremers II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Zaginięcie Lisanne Froon i Kris Kremers</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie1 by 2
 cost:100000 Subskrybent
@@ -3706,7 +3714,7 @@ req:1 ArpiwumMovie1UpI
 
 	*ArpiwumMovie1UpIII
 		name:Zaginięcie Froon i Kremers III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Zaginięcie Lisanne Froon i Kris Kremers</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie1 by 2
 cost:10000000 Subskrybent
@@ -3714,7 +3722,7 @@ req:1 ArpiwumMovie1UpII
 
 	*ArpiwumMovie1UpIV
 		name:Zaginięcie Froon i Kremers IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Zaginięcie Lisanne Froon i Kris Kremers</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie1 by 3
 cost:1000000000 Subskrybent
@@ -3722,7 +3730,7 @@ req:1 ArpiwumMovie1UpIII
 
 	*ArpiwumMovie1UpV
 		name:Zaginięcie Froon i Kremers V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Zaginięcie Lisanne Froon i Kris Kremers</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie1 by 3
 cost:100000000000 Subskrybent
@@ -3730,7 +3738,7 @@ req:1 ArpiwumMovie1UpIV
 
 	*ArpiwumMovie1UpVI
 		name:Zaginięcie Froon i Kremers ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Zaginięcie Lisanne Froon i Kris Kremers</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie1 by 5
 cost:10000000000000 Subskrybent
@@ -3741,7 +3749,7 @@ req:1 ArpiwumMovie1UpV
 
 	*ArpiwumMovie2UpI
 		name:Przełęcz Diatłowa I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia na Przełęczy Diatłowa</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie2 by 2
 cost:100000 Subskrybent
@@ -3749,7 +3757,7 @@ req:1 ArpiwumMovie2
 
 	*ArpiwumMovie2UpII
 		name:Przełęcz Diatłowa II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia na Przełęczy Diatłowa</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie2 by 2
 cost:1000000 Subskrybent
@@ -3757,7 +3765,7 @@ req:1 ArpiwumMovie2UpI
 
 	*ArpiwumMovie2UpIII
 		name:Przełęcz Diatłowa III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia na Przełęczy Diatłowa</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie2 by 2
 cost:100000000 Subskrybent
@@ -3765,7 +3773,7 @@ req:1 ArpiwumMovie2UpII
 
 	*ArpiwumMovie2UpIV
 		name:Przełęcz Diatłowa IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia na Przełęczy Diatłowa</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie2 by 3
 cost:10000000000 Subskrybent
@@ -3773,7 +3781,7 @@ req:1 ArpiwumMovie2UpIII
 
 	*ArpiwumMovie2UpV
 		name:Przełęcz Diatłowa V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia na Przełęczy Diatłowa</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie2 by 3
 cost:1000000000000 Subskrybent
@@ -3781,7 +3789,7 @@ req:1 ArpiwumMovie2UpIV
 
 	*ArpiwumMovie2UpVI
 		name:Przełęcz Diatłowa ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia na Przełęczy Diatłowa</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie2 by 5
 cost:1000000000000000 Subskrybent
@@ -3794,7 +3802,7 @@ req:1 ArpiwumMovie2UpV
 
 	*ArpiwumMovie3UpI
 		name:Dolina Jaworowa I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia w Dolinie Jaworowej</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie3 by 2
 cost:200000 Subskrybent
@@ -3802,7 +3810,7 @@ req:1 ArpiwumMovie3
 
 	*ArpiwumMovie3UpII
 		name:Dolina Jaworowa II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia w Dolinie Jaworowej</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie3 by 2
 cost:2000000 Subskrybent
@@ -3810,7 +3818,7 @@ req:1 ArpiwumMovie3UpI
 
 	*ArpiwumMovie3UpIII
 		name:Dolina Jaworowa III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia w Dolinie Jaworowej</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie3 by 2
 cost:200000000 Subskrybent
@@ -3818,7 +3826,7 @@ req:1 ArpiwumMovie3UpII
 
 	*ArpiwumMovie3UpIV
 		name:Dolina Jaworowa IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia w Dolinie Jaworowej</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie3 by 3
 cost:20000000000 Subskrybent
@@ -3826,7 +3834,7 @@ req:1 ArpiwumMovie3UpIII
 
 	*ArpiwumMovie3UpV
 		name:Dolina Jaworowa V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia w Dolinie Jaworowej</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie3 by 3
 cost:2000000000000 Subskrybent
@@ -3834,7 +3842,7 @@ req:1 ArpiwumMovie3UpIV
 
 	*ArpiwumMovie3UpVI
 		name:Dolina Jaworowa ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tragedia w Dolinie Jaworowej</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie3 by 5
 cost:2000000000000000 Subskrybent
@@ -3846,7 +3854,7 @@ req:1 ArpiwumMovie3UpV
 
 	*ArpiwumMovie4UpI
 		name:Mary Celeste I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tajemnica Mary Celeste</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie4 by 2
 cost:400000 Subskrybent
@@ -3854,7 +3862,7 @@ req:1 ArpiwumMovie4
 
 	*ArpiwumMovie4UpII
 		name:Mary Celeste II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tajemnica Mary Celeste</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie4 by 2
 cost:4000000 Subskrybent
@@ -3862,7 +3870,7 @@ req:1 ArpiwumMovie4UpI
 
 	*ArpiwumMovie4UpIII
 		name:Mary Celeste III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tajemnica Mary Celeste</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie4 by 2
 cost:400000000 Subskrybent
@@ -3870,7 +3878,7 @@ req:1 ArpiwumMovie4UpII
 
 	*ArpiwumMovie4UpIV
 		name:Mary Celeste IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tajemnica Mary Celeste</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie4 by 3
 cost:40000000000 Subskrybent
@@ -3878,7 +3886,7 @@ req:1 ArpiwumMovie4UpIII
 
 	*ArpiwumMovie4UpV
 		name:Mary Celeste V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tajemnica Mary Celeste</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie4 by 3
 cost:4000000000000 Subskrybent
@@ -3886,7 +3894,7 @@ req:1 ArpiwumMovie4UpIV
 
 	*ArpiwumMovie4UpVI
 		name:Mary Celeste ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Tajemnica Mary Celeste</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie4 by 5
 cost:4000000000000000 Subskrybent
@@ -3898,7 +3906,7 @@ req:1 ArpiwumMovie4UpV
 
 	*ArpiwumMovie5UpI
 		name:MV Joyita I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>MV Joyita - Mary Celeste południowego Pacyfiku</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie5 by 2
 cost:800000 Subskrybent
@@ -3906,7 +3914,7 @@ req:1 ArpiwumMovie5
 
 	*ArpiwumMovie5UpII
 		name:MV Joyita II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>MV Joyita - Mary Celeste południowego Pacyfiku</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie5 by 2
 cost:8000000 Subskrybent
@@ -3914,7 +3922,7 @@ req:1 ArpiwumMovie5UpI
 
 	*ArpiwumMovie5UpIII
 		name:MV Joyita III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>MV Joyita - Mary Celeste południowego Pacyfiku</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie5 by 2
 cost:800000000 Subskrybent
@@ -3922,7 +3930,7 @@ req:1 ArpiwumMovie5UpII
 
 	*ArpiwumMovie5UpIV
 		name:MV Joyita IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>MV Joyita - Mary Celeste południowego Pacyfiku</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie5 by 3
 cost:80000000000 Subskrybent
@@ -3930,7 +3938,7 @@ req:1 ArpiwumMovie5UpIII
 
 	*ArpiwumMovie5UpV
 		name:MV Joyita V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>MV Joyita - Mary Celeste południowego Pacyfiku</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie5 by 3
 cost:8000000000000 Subskrybent
@@ -3938,7 +3946,7 @@ req:1 ArpiwumMovie5UpIV
 
 	*ArpiwumMovie5UpVI
 		name:MV Joyita ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>MV Joyita - Mary Celeste południowego Pacyfiku</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie5 by 5
 cost:8000000000000000 Subskrybent
@@ -3950,7 +3958,7 @@ req:1 ArpiwumMovie5UpV
 
 	*ArpiwumMovie6UpI
 		name:Epidemia w Stalowej (wersja skrócona) I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie6 by 2
 cost:16000000 Subskrybent
@@ -3958,7 +3966,7 @@ req:1 ArpiwumMovie6
 
 	*ArpiwumMovie6UpII
 		name:Epidemia w Stalowej (wersja skrócona) II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie6 by 2
 cost:160000000 Subskrybent
@@ -3966,7 +3974,7 @@ req:1 ArpiwumMovie6UpI
 
 	*ArpiwumMovie6UpIII
 		name:Epidemia w Stalowej (wersja skrócona) III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie6 by 2
 cost:16000000000 Subskrybent
@@ -3974,7 +3982,7 @@ req:1 ArpiwumMovie6UpII
 
 	*ArpiwumMovie6UpIV
 		name:Epidemia w Stalowej (wersja skrócona) IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie6 by 3
 cost:1600000000000 Subskrybent
@@ -3982,7 +3990,7 @@ req:1 ArpiwumMovie6UpIII
 
 	*ArpiwumMovie6UpV
 		name:Epidemia w Stalowej (wersja skrócona) V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie6 by 3
 cost:160000000000000 Subskrybent
@@ -3990,7 +3998,7 @@ req:1 ArpiwumMovie6UpIV
 
 	*ArpiwumMovie6UpVI
 		name:Epidemia w Stalowej (wersja skrócona) ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja skrócona)</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie6 by 5
 cost:160000000000000000 Subskrybent
@@ -4004,7 +4012,7 @@ req:1 ArpiwumMovie6UpV
 
 	*ArpiwumMovie7UpI
 		name:Epidemia w Stalowej (wersja rozszerzona) I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie7 by 2
 cost:320000000 Subskrybent
@@ -4012,7 +4020,7 @@ req:1 ArpiwumMovie7
 
 	*ArpiwumMovie7UpII
 		name:Epidemia w Stalowej (wersja rozszerzona) II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie7 by 2
 cost:3200000000 Subskrybent
@@ -4020,7 +4028,7 @@ req:1 ArpiwumMovie7UpI
 
 	*ArpiwumMovie7UpIII
 		name:Epidemia w Stalowej (wersja rozszerzona) III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie7 by 2
 cost:320000000000 Subskrybent
@@ -4028,7 +4036,7 @@ req:1 ArpiwumMovie7UpII
 
 	*ArpiwumMovie7UpIV
 		name:Epidemia w Stalowej (wersja rozszerzona) IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie7 by 3
 cost:32000000000000 Subskrybent
@@ -4036,7 +4044,7 @@ req:1 ArpiwumMovie7UpIII
 
 	*ArpiwumMovie7UpV
 		name:Epidemia w Stalowej (wersja rozszerzona) V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie7 by 3
 cost:3200000000000000 Subskrybent
@@ -4044,7 +4052,7 @@ req:1 ArpiwumMovie7UpIV
 
 	*ArpiwumMovie7UpVI
 		name:Epidemia w Stalowej (wersja rozszerzona) ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum Historii - Stalowa Wola - Epidemia, której nie było (wersja rozszerzona)</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie7 by 5
 cost:3200000000000000000 Subskrybent
@@ -4057,7 +4065,7 @@ req:1 ArpiwumMovie7UpV
 
 	*ArpiwumMovie8UpI
 		name:Przerwane Ferie I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Przerwane Ferie</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie8 by 2
 cost:6400000000 Subskrybent
@@ -4065,7 +4073,7 @@ req:1 ArpiwumMovie8
 
 	*ArpiwumMovie8UpII
 		name:Przerwane Ferie II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Przerwane Ferie</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie8 by 2
 cost:64000000000 Subskrybent
@@ -4073,7 +4081,7 @@ req:1 ArpiwumMovie8UpI
 
 	*ArpiwumMovie8UpIII
 		name:Przerwane Ferie III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Przerwane Ferie</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie8 by 2
 cost:6400000000000 Subskrybent
@@ -4081,7 +4089,7 @@ req:1 ArpiwumMovie8UpII
 
 	*ArpiwumMovie8UpIV
 		name:Przerwane Ferie IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Przerwane Ferie</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie8 by 3
 cost:640000000000000 Subskrybent
@@ -4089,7 +4097,7 @@ req:1 ArpiwumMovie8UpIII
 
 	*ArpiwumMovie8UpV
 		name:Przerwane Ferie V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Przerwane Ferie</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie8 by 3
 cost:64000000000000000 Subskrybent
@@ -4097,7 +4105,7 @@ req:1 ArpiwumMovie8UpIV
 
 	*ArpiwumMovie8UpVI
 		name:Przerwane Ferie ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Przerwane Ferie</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie8 by 5
 cost:64000000000000000000 Subskrybent
@@ -4109,7 +4117,7 @@ req:1 ArpiwumMovie8UpV
 
 	*ArpiwumMovie9UpI
 		name:Brandon Swanson I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Brandona Swansona</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie9 by 2
 cost:1280000000 Subskrybent
@@ -4117,7 +4125,7 @@ req:1 ArpiwumMovie9
 
 	*ArpiwumMovie9UpII
 		name:Brandon Swanson II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Brandona Swansona</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie9 by 2
 cost:12800000000 Subskrybent
@@ -4125,7 +4133,7 @@ req:1 ArpiwumMovie9UpI
 
 	*ArpiwumMovie9UpIII
 		name:Brandon Swanson III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Brandona Swansona</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie9 by 2
 cost:1280000000000 Subskrybent
@@ -4133,7 +4141,7 @@ req:1 ArpiwumMovie9UpII
 
 	*ArpiwumMovie9UpIV
 		name:Brandon Swanson IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Brandona Swansona</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie9 by 3
 cost:128000000000000 Subskrybent
@@ -4141,7 +4149,7 @@ req:1 ArpiwumMovie9UpIII
 
 	*ArpiwumMovie9UpV
 		name:Brandon Swanson V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Brandona Swansona</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie9 by 3
 cost:12800000000000000 Subskrybent
@@ -4149,7 +4157,7 @@ req:1 ArpiwumMovie9UpIV
 
 	*ArpiwumMovie9UpVI
 		name:Brandon Swanson ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Brandona Swansona</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie9 by 5
 cost:12800000000000000000 Subskrybent
@@ -4160,7 +4168,7 @@ req:1 ArpiwumMovie9UpV
 
 	*ArpiwumMovie10UpI
 		name:Piątka z Yuby I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Piątka z Yuby</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie10 by 2
 cost:2560000000 Subskrybent
@@ -4168,7 +4176,7 @@ req:1 ArpiwumMovie10
 
 	*ArpiwumMovie10UpII
 		name:Piątka z Yuby II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Piątka z Yuby</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie10 by 2
 cost:25600000000 Subskrybent
@@ -4176,7 +4184,7 @@ req:1 ArpiwumMovie10UpI
 
 	*ArpiwumMovie10UpIII
 		name:Piątka z Yuby III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Piątka z Yuby</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie10 by 2
 cost:2560000000000 Subskrybent
@@ -4184,7 +4192,7 @@ req:1 ArpiwumMovie10UpII
 
 	*ArpiwumMovie10UpIV
 		name:Piątka z Yuby IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Piątka z Yuby</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie10 by 3
 cost:256000000000000 Subskrybent
@@ -4192,7 +4200,7 @@ req:1 ArpiwumMovie10UpIII
 
 	*ArpiwumMovie10UpV
 		name:Piątka z Yuby V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Piątka z Yuby</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie10 by 3
 cost:25600000000000000 Subskrybent
@@ -4200,7 +4208,7 @@ req:1 ArpiwumMovie10UpIV
 
 	*ArpiwumMovie10UpVI
 		name:Piątka z Yuby ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Piątka z Yuby</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie10 by 5
 cost:25600000000000000000 Subskrybent
@@ -4214,7 +4222,7 @@ req:1 ArpiwumMovie10UpV
 
 	*ArpiwumMovie11UpI
 		name:Zaginięcie Generała Zagórskiego I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Generała Zagórskiego</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie11 by 2
 cost:512000000000 Subskrybent
@@ -4222,7 +4230,7 @@ req:1 ArpiwumMovie11
 
 	*ArpiwumMovie11UpII
 		name:Zaginięcie Generała Zagórskiego II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Generała Zagórskiego</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie11 by 2
 cost:5120000000000 Subskrybent
@@ -4230,7 +4238,7 @@ req:1 ArpiwumMovie11UpI
 
 	*ArpiwumMovie11UpIII
 		name:Zaginięcie Generała Zagórskiego III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Generała Zagórskiego</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie11 by 2
 cost:512000000000000 Subskrybent
@@ -4238,7 +4246,7 @@ req:1 ArpiwumMovie11UpII
 
 	*ArpiwumMovie11UpIV
 		name:Zaginięcie Generała Zagórskiego IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Generała Zagórskiego</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie11 by 3
 cost:51200000000000000 Subskrybent
@@ -4246,7 +4254,7 @@ req:1 ArpiwumMovie11UpIII
 
 	*ArpiwumMovie11UpV
 		name:Zaginięcie Generała Zagórskiego V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Generała Zagórskiego</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie11 by 3
 cost:5120000000000000000 Subskrybent
@@ -4254,7 +4262,7 @@ req:1 ArpiwumMovie11UpIV
 
 	*ArpiwumMovie11UpVI
 		name:Zaginięcie Generała Zagórskiego ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Zaginięcie Generała Zagórskiego</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie11 by 5
 cost:5120000000000000000000 Subskrybent
@@ -4263,7 +4271,7 @@ req:1 ArpiwumMovie11UpV
 
 	*ArpiwumMovie12UpI
 		name:Wyspa Dębów I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Tajemnica Wyspy Dębów</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie12 by 2
 cost:1024000000000 Subskrybent
@@ -4271,7 +4279,7 @@ req:1 ArpiwumMovie12
 
 	*ArpiwumMovie12UpII
 		name:Wyspa Dębów II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Tajemnica Wyspy Dębów</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie12 by 2
 cost:10240000000000 Subskrybent
@@ -4279,7 +4287,7 @@ req:1 ArpiwumMovie12UpI
 
 	*ArpiwumMovie12UpIII
 		name:Wyspa Dębów III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Tajemnica Wyspy Dębów</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie12 by 2
 cost:1024000000000000 Subskrybent
@@ -4287,7 +4295,7 @@ req:1 ArpiwumMovie12UpII
 
 	*ArpiwumMovie12UpIV
 		name:Wyspa Dębów IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Tajemnica Wyspy Dębów</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie12 by 3
 cost:102400000000000000 Subskrybent
@@ -4295,7 +4303,7 @@ req:1 ArpiwumMovie12UpIII
 
 	*ArpiwumMovie12UpV
 		name:Wyspa Dębów V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Tajemnica Wyspy Dębów</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie12 by 3
 cost:10240000000000000000 Subskrybent
@@ -4303,24 +4311,15 @@ req:1 ArpiwumMovie12UpIV
 
 	*ArpiwumMovie12UpVI
 		name:Wyspa Dębów ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Tajemnica Wyspy Dębów</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie12 by 5
 cost:10240000000000000000000 Subskrybent
 req:1 ArpiwumMovie12UpV
 
-
-
-
-
-
-
-
-
-
 	*ArpiwumMovie13UpI
 		name:Ourang Medan I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Ourang Medan - prawda czy fikcja?</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie13 by 2
 cost:2048000000000 Subskrybent
@@ -4328,7 +4327,7 @@ req:1 ArpiwumMovie13
 
 	*ArpiwumMovie13UpII
 		name:Ourang Medan II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Ourang Medan - prawda czy fikcja?</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie13 by 2
 cost:20480000000000 Subskrybent
@@ -4336,7 +4335,7 @@ req:1 ArpiwumMovie13UpI
 
 	*ArpiwumMovie13UpIII
 		name:Ourang Medan III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Ourang Medan - prawda czy fikcja?</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie13 by 2
 cost:2048000000000000 Subskrybent
@@ -4344,7 +4343,7 @@ req:1 ArpiwumMovie13UpII
 
 	*ArpiwumMovie13UpIV
 		name:Ourang Medan IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Ourang Medan - prawda czy fikcja?</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie13 by 3
 cost:204800000000000000 Subskrybent
@@ -4352,7 +4351,7 @@ req:1 ArpiwumMovie13UpIII
 
 	*ArpiwumMovie13UpV
 		name:Ourang Medan V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Ourang Medan - prawda czy fikcja?</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie13 by 3
 cost:20480000000000000000 Subskrybent
@@ -4360,7 +4359,7 @@ req:1 ArpiwumMovie13UpIV
 
 	*ArpiwumMovie13UpVI
 		name:Ourang Medan ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Ourang Medan - prawda czy fikcja?</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie13 by 5
 cost:20480000000000000000000 Subskrybent
@@ -4372,7 +4371,7 @@ req:1 ArpiwumMovie13UpV
 
 	*ArpiwumMovie14UpI
 		name:Dzieci z Bodom I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Dzieci z Bodom</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie14 by 2
 cost:40960000000000 Subskrybent
@@ -4380,7 +4379,7 @@ req:1 ArpiwumMovie14
 
 	*ArpiwumMovie14UpII
 		name:Dzieci z Bodom II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Dzieci z Bodom</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie14 by 2
 cost:409600000000000 Subskrybent
@@ -4388,7 +4387,7 @@ req:1 ArpiwumMovie14UpI
 
 	*ArpiwumMovie14UpIII
 		name:Dzieci z Bodom III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Dzieci z Bodom</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie14 by 2
 cost:40960000000000000 Subskrybent
@@ -4396,7 +4395,7 @@ req:1 ArpiwumMovie14UpII
 
 	*ArpiwumMovie14UpIV
 		name:Dzieci z Bodom IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Dzieci z Bodom</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie14 by 3
 cost:4096000000000000000 Subskrybent
@@ -4404,7 +4403,7 @@ req:1 ArpiwumMovie14UpIII
 
 	*ArpiwumMovie14UpV
 		name:Dzieci z Bodom V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Dzieci z Bodom</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie14 by 3
 cost:409600000000000000000 Subskrybent
@@ -4412,7 +4411,7 @@ req:1 ArpiwumMovie14UpIV
 
 	*ArpiwumMovie14UpVI
 		name:Dzieci z Bodom ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Dzieci z Bodom</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie14 by 5
 cost:409600000000000000000000 Subskrybent
@@ -4421,7 +4420,7 @@ req:1 ArpiwumMovie14UpV
 
 	*ArpiwumMovie15UpI
 		name:Frauke Liebs I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Porwanie Frauke Liebs</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie15 by 2
 cost:81920000000000 Subskrybent
@@ -4429,7 +4428,7 @@ req:1 ArpiwumMovie15
 
 	*ArpiwumMovie15UpII
 		name:Frauke Liebs II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Porwanie Frauke Liebs</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie15 by 2
 cost:819200000000000 Subskrybent
@@ -4437,7 +4436,7 @@ req:1 ArpiwumMovie15UpI
 
 	*ArpiwumMovie15UpIII
 		name:Frauke Liebs III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Porwanie Frauke Liebs</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie15 by 2
 cost:81920000000000000 Subskrybent
@@ -4445,7 +4444,7 @@ req:1 ArpiwumMovie15UpII
 
 	*ArpiwumMovie15UpIV
 		name:Frauke Liebs IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Porwanie Frauke Liebs</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie15 by 3
 cost:8192000000000000000 Subskrybent
@@ -4453,7 +4452,7 @@ req:1 ArpiwumMovie15UpIII
 
 	*ArpiwumMovie15UpV
 		name:Frauke Liebs V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Porwanie Frauke Liebs</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie15 by 3
 cost:819200000000000000000 Subskrybent
@@ -4461,7 +4460,7 @@ req:1 ArpiwumMovie15UpIV
 
 	*ArpiwumMovie15UpVI
 		name:Frauke Liebs ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Porwanie Frauke Liebs</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie15 by 5
 cost:819200000000000000000000 Subskrybent
@@ -4471,7 +4470,7 @@ req:1 ArpiwumMovie15UpV
 
 	*ArpiwumMovie16UpI
 		name:Peter Bergmann I
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Wrzucasz link filmu na wykop.pl, aby zwiększyć swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Kim był Peter Bergmann?</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie16 by 2
 cost:16384000000 Subskrybent
@@ -4479,7 +4478,7 @@ req:1 ArpiwumMovie16
 
 	*ArpiwumMovie16UpII
 		name:Peter Bergmann II
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Jakiś pismak z Onetu wrzuca link twojego filmu do artykułu o sprawie. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Kim był Peter Bergmann?</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie16 by 2
 cost:163840000000 Subskrybent
@@ -4487,7 +4486,7 @@ req:1 ArpiwumMovie16UpI
 
 	*ArpiwumMovie16UpIII
 		name:Peter Bergmann III
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Sponsorujesz artykuł na stalowka.net i masowo zwiększasz swoje zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Kim był Peter Bergmann?</b> jest zwiększona: <b>2x</b>.
 passive:multiply yield of ArpiwumMovie16 by 2
 cost:16384000000000 Subskrybent
@@ -4495,7 +4494,7 @@ req:1 ArpiwumMovie16UpII
 
 	*ArpiwumMovie16UpIV
 		name:Peter Bergmann IV
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Ustawiasz bilboard na wjeździe do Stalowej Woli reklamujący twój kanał. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Kim był Peter Bergmann?</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie16 by 3
 cost:1638400000000000 Subskrybent
@@ -4503,7 +4502,7 @@ req:1 ArpiwumMovie16UpIII
 
 	*ArpiwumMovie16UpV
 		name:Peter Bergmann V
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:TVP2 puszcza program o sprawie przedstawionej w filmie. Jako źródła podaje twój kanał przez co gigantycznie zwiększasz zasięgi. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Kim był Peter Bergmann?</b> jest zwiększona: <b>3x</b>.
 passive:multiply yield of ArpiwumMovie16 by 3
 cost:163840000000000000 Subskrybent
@@ -4511,7 +4510,7 @@ req:1 ArpiwumMovie16UpIV
 
 	*ArpiwumMovie16UpVI
 		name:Peter Bergmann ∞ 
-				tag:resetable normalupgrade
+				tag:resetable normalupgrade buyall
 		desc:Twoja mama chwali się na osiedlu jakie to popularne filmy robi jej syn. <//> <b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> filmu <b>Z Arpiwum X - Kim był Peter Bergmann?</b> jest zwiększona: <b>5x</b>.
 passive:multiply yield of ArpiwumMovie16 by 5
 cost:163840000000000000000 Subskrybent
@@ -4678,6 +4677,7 @@ req:1 ArpiwumMovie16UpV
 
 *SkracaczCzasu1
 name:Internetowy Celebryta I
+hidden
 desc:Spędzasz mnóstwo czasu w internecie, a twoja digitalna persona jest coraz bardziej rozpoznawalna. Łatwiej nawiązujesz kontakty, a liczba ludzi chcących wchodzić z tobą w interakcje rośnie.<//> <//><b><u>Efekt działania:</b></u><.><b>Wydarzenia</b> w zakładce <b>Discord</b> pojawiają się szybciej.<.>Od teraz <b>Wydarzenia</b> pojawiają się co 15/30/45/60/75/90/105/120/135/150/165 minut.<.>Większa rozpoznawalność idzie w parze z negatywnymi skutkami: <b><#f00>po zakupie tego ulepszenia stracisz wszystkie pozostałe posiadane Punkty Kanału.</b></#>
 tag:prestigeupgrade
 req:DiscordUnlock
@@ -4714,6 +4714,7 @@ passive:grant 11 QuickerEvent11
 on earn:lose Kanaly
 cost:100000000000000000000000000000000000 Kanaly
 req:SkracaczCzasu1
+hidden
 
 *SkracaczCzasu3
 name:Internetowy Celebryta III
@@ -4734,6 +4735,7 @@ passive:grant 11 QuickerEvent11
 on earn:lose Kanaly
 cost:10000000000000000000000000000000000000000 Kanaly
 req:SkracaczCzasu2
+hidden
 
 *SkracaczCzasu4
 name:Internetowy Celebryta IV
@@ -4754,6 +4756,7 @@ passive:grant 11 QuickerEvent11
 on earn:lose Kanaly
 cost:1000000000000000000000000000000000000000000000 Kanaly
 req:SkracaczCzasu3
+hidden
 
 *SkracaczCzasu5
 name:Internetowy Celebryta ∞
@@ -4774,6 +4777,7 @@ passive:grant 11 QuickerEvent11
 on earn:lose Kanaly
 cost:100000000000000000000000000000000000000000000000000 Kanaly
 req:SkracaczCzasu4
+hidden
 
 
 
