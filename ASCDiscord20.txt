@@ -3580,9 +3580,13 @@ on click:yield 1 Kieliszek
 
 *BuyAll
 name:Wiedza Tajemna
-desc:Poświęcasz chwilę na przeczytanie pomocy na Youtubie i odkrywasz fascynującą funkcję, która ułatwia twoje życie Youtubera.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie ulepszenia z kategorii: Monetyzacja i ulepszenia filmów (bez Sub Za Sub).<.>Koszt tego ulepszenia będzie zawsze kosztował pełną cenę, nawet jeżeli już posiadasz niektóre z ulepszeń.
-tag: resetable normalupgrade
+desc:Poświęcasz chwilę na przeczytanie pomocy na Youtubie i odkrywasz fascynującą funkcję, która ułatwia twoje życie Youtubera.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie ulepszenia z kategorii: Monetyzacja i ulepszenia filmów (bez Sub Za Sub).<.>Koszt tego ulepszenia będzie zawsze kosztował tyle samo, nawet jeżeli już posiadasz niektóre z ulepszeń.
+tag:resetable normalupgrade
 on earn:yield tag:buyall
+cost:100000000000000000000 Minuty
+cost:163840000000000000000 Subskrybent
+hidden
+req:1 TotalResets
 
 
 	*Monetyzacja
