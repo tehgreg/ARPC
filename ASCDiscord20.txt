@@ -3283,6 +3283,7 @@ on click:if (TotalResets=1) show :Buttons:tag:zarzadzanieKanalemtag
 on click:hide :Upgrades:tag:prestigeupgrade
 on click:if (have 15kMinutyFree) yield 15000 Minuty
 on click:if (have 3000SubsFree) yield 3000 Subskrybent
+on click:if (have BestStart) yield 1000000 Subskrybent
 on click:if (have SponsorzyUnlock) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain1) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain2) yield 1 SponsorPoints
@@ -3350,6 +3351,7 @@ on click:if (TotalResets=1) show :Buttons:tag:zarzadzanieKanalemtag
 on click:hide :Upgrades:tag:prestigeupgrade
 on click:if (have 15kMinutyFree) yield 15000 Minuty
 on click:if (have 3000SubsFree) yield 3000 Subskrybent
+on click:if (have BestStart) yield 1000000 Subskrybent
 on click:if (have SponsorzyUnlock) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain1) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain2) yield 1 SponsorPoints
@@ -3417,6 +3419,7 @@ on click:if (TotalResets=1) show :Buttons:tag:zarzadzanieKanalemtag
 on click:hide :Upgrades:tag:prestigeupgrade
 on click:if (have 15kMinutyFree) yield 15000 Minuty
 on click:if (have 3000SubsFree) yield 3000 Subskrybent
+on click:if (have BestStart) yield 1000000 Subskrybent
 on click:if (have SponsorzyUnlock) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain1) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain2) yield 1 SponsorPoints
@@ -3483,6 +3486,7 @@ on click:if (TotalResets=1) show :Buttons:tag:zarzadzanieKanalemtag
 on click:hide :Upgrades:tag:prestigeupgrade
 on click:if (have 15kMinutyFree) yield 15000 Minuty
 on click:if (have 3000SubsFree) yield 3000 Subskrybent
+on click:if (have BestStart) yield 1000000 Subskrybent
 on click:if (have SponsorzyUnlock) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain1) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain2) yield 1 SponsorPoints
@@ -3549,6 +3553,7 @@ on click:if (TotalResets=1) show :Buttons:tag:zarzadzanieKanalemtag
 on click:hide :Upgrades:tag:prestigeupgrade
 on click:if (have 15kMinutyFree) yield 15000 Minuty
 on click:if (have 3000SubsFree) yield 3000 Subskrybent
+on click:if (have BestStart) yield 1000000 Subskrybent
 on click:if (have SponsorzyUnlock) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain1) yield 1 SponsorPoints
 on click:if (have SponsorPointsGain2) yield 1 SponsorPoints
@@ -4655,6 +4660,14 @@ req:1 ArpiwumMovie16UpV
 			desc:Youtube pomaga ci w szybszym rozwoju Nowych Kanałów.<//><b><u>Efekt działania:</b></u><.>Po każdym założeniu <b>Nowego Kanału</b> zaczynasz z <b>3,000 Subskrybentami</b>.
 			cost:2 Kanaly
 			req:1 TotalResets
+
+	*BestStart
+		name:Najlepszy Początek
+		tag:prestigeupgrade
+		desc:Zakładanie Nowych Kanałów masz opracowane do perfekcji.<//><b><u>Efekt działania:</b></u><.>Po każdym założeniu <b>Nowego Kanału</b> zaczynasz z <b>1,000,000 Subskrybentów</b>.
+		cost:1000000 Kanaly
+		req:10 TotalResets
+
 
 	*PrestigeStats
 		name:Analityka
