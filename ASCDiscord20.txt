@@ -6704,7 +6704,7 @@ req:100 PatroniteF
 
 
 *Pay2Win
-	name:Płać Dwa Wygrać TEST2
+	name:Płać Dwa Wygrać TEST23
 	desc:<//> <//><//> <//><//> <//><//> <//><//> <//>Chwile z ulubionym piwkiem są bezcenne, a za wszystkie inne rzeczy zapłacisz przelewem na poczcie. Discord jest w stanie rozruszać aktywność na twoim serwerze, ale musisz wyłożyć na to pokaźną sumkę.<//> <//><b><u>Efekt działania:</b></u><.>Zakup to ulepszenie, aby natychmiastowo uruchomić wszystkie Wydarzenia i Wydarzenie Krytyczne.<.>Możesz skorzystać z tej funkcji tylko zanim pojawi się pierwsze Wydarzenie.
 	hidden
 	tag:discordupgrade
@@ -6717,7 +6717,7 @@ req:100 PatroniteF
 	cost:30 PatroniteF
 	cost:25 PatroniteG
 	on click:WeekStartedTimer=1080-180*QuickerEvent1
-	on click:WeekStartedTimer=2160-180*QuickerEvent2
+	on click:if (WeekStartedTimer>1080-180*QuickerEvent1) WeekStartedTimer=2160-180*QuickerEvent2
 	on click:WeekStartedTimer=3240-180*QuickerEvent3
 	on click:WeekStartedTimer=4320-180*QuickerEvent4
 	on click:WeekStartedTimer=5400-180*QuickerEvent5
