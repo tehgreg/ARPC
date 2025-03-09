@@ -6704,8 +6704,8 @@ req:100 PatroniteF
 
 
 *Pay2Win
-	name:Płać Dwa Wygrać
-	desc:<//> <//><//> <//><//> <//><//> <//><//> <//><//> <//>Chwile z ulubionym piwkiem są bezcenne, a za wszystkie inne rzeczy zapłacisz przelewem na poczcie. Discord jest w stanie rozruszać aktywność na twoim serwerze, ale musisz wyłożyć na to pokaźną sumkę.<//> <//><b><u>Efekt działania:</b></u><.>Zakup to ulepszenie, aby natychmiastowo uruchomić wszystkie Wydarzenia i Wydarzenie Krytyczne.<.>Możesz skorzystać z tej funkcji tylko zanim pojawi się pierwsze Wydarzenie.
+	name:Płać Dwa Wygrać TEST
+	desc:<//> <//><//> <//><//> <//><//> <//><//> <//>Chwile z ulubionym piwkiem są bezcenne, a za wszystkie inne rzeczy zapłacisz przelewem na poczcie. Discord jest w stanie rozruszać aktywność na twoim serwerze, ale musisz wyłożyć na to pokaźną sumkę.<//> <//><b><u>Efekt działania:</b></u><.>Zakup to ulepszenie, aby natychmiastowo uruchomić wszystkie Wydarzenia i Wydarzenie Krytyczne.<.>Możesz skorzystać z tej funkcji tylko zanim pojawi się pierwsze Wydarzenie.
 	hidden
 	tag:discordupgrade
 	req:WeekStartedTimer<1080-180*QuickerEvent1
@@ -6716,9 +6716,17 @@ req:100 PatroniteF
 	cost:35 PatroniteE
 	cost:30 PatroniteF
 	cost:25 PatroniteG
-
-
-
+	on earn:WeekStartedTimer=1080-180*QuickerEvent1
+	on earn:WeekStartedTimer=2160-180*QuickerEvent2
+	on earn:WeekStartedTimer=3240-180*QuickerEvent3
+	on earn:WeekStartedTimer=4320-180*QuickerEvent4
+	on earn:WeekStartedTimer=5400-180*QuickerEvent5
+	on earn:WeekStartedTimer=6480-180*QuickerEvent6
+	on earn:WeekStartedTimer=7560-180*QuickerEvent7
+	on earn:WeekStartedTimer=8640-180*QuickerEvent8
+	on earn:WeekStartedTimer=9720-180*QuickerEvent9
+	on earn:WeekStartedTimer=10800-180*QuickerEvent10
+	on earn:WeekStartedTimer=11880-180*QuickerEvent11
 
 
 
