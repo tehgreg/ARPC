@@ -6700,12 +6700,12 @@ req:100 PatroniteF
 	tag:discordupgrade
 	owned
 	hidden
-	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080-180*QuickerEvent1)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((1080-180*QuickerEvent1-WeekStartedTimer)/60)] minut i [((1080-180*QuickerEvent1-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080-180*QuickerEvent1 and WeekStartedTimer<2160-180*QuickerEvent2)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((2160-180*QuickerEvent2-WeekStartedTimer)/60)] minut i [((2160-180*QuickerEvent2-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160-180*QuickerEvent2 and WeekStartedTimer<3240-180*QuickerEvent3)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((3240-180*QuickerEvent3-WeekStartedTimer)/60)] minut i [((3240-180*QuickerEvent3-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240-180*QuickerEvent3 and WeekStartedTimer<4320-180*QuickerEvent4)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((4320-180*QuickerEvent4-WeekStartedTimer)/60)] minut i [((4320-180*QuickerEvent4-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320-180*QuickerEvent4 and WeekStartedTimer<5400-180*QuickerEvent5)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((5400-180*QuickerEvent5-WeekStartedTimer)/60)] minut i [((5400-180*QuickerEvent5-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400-180*QuickerEvent5 and WeekStartedTimer<6480-180*QuickerEvent6)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((6480-180*QuickerEvent6-WeekStartedTimer)/60)] minut i [((6480-180*QuickerEvent6-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480-180*QuickerEvent6 and WeekStartedTimer<7560-180*QuickerEvent7)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((7560-180*QuickerEvent7-WeekStartedTimer)/60)] minut i [((7560-180*QuickerEvent7-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560-180*QuickerEvent7 and WeekStartedTimer<8640-180*QuickerEvent8)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((8640-180*QuickerEvent8-WeekStartedTimer)/60)] minut i [((8640-180*QuickerEvent8-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640-180*QuickerEvent8 and WeekStartedTimer<9720-180*QuickerEvent9)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((9720-180*QuickerEvent9-WeekStartedTimer)/60)] minut i [((9720-180*QuickerEvent9-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720-180*QuickerEvent9 and WeekStartedTimer<10800-180*QuickerEvent10)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((10800-180*QuickerEvent10-WeekStartedTimer)/60)] minut i [((10800-180*QuickerEvent10-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800-180*QuickerEvent10 and WeekStartedTimer<11880-180*QuickerEvent11)|Do kolejnego wydarzenia pozostało: <b><#00ff00>[((11880-180*QuickerEvent11-WeekStartedTimer)/60)] minut i [((11880-180*QuickerEvent11-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - [((1080-180*QuickerEvent1)/60)] minut(y) - [?(WeekStartedTimer>1080-180*QuickerEvent1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - [((2160-180*QuickerEvent2)/60)] minut(y) - [?(WeekStartedTimer>2160-180*QuickerEvent2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - [((3240-180*QuickerEvent3)/60)] minut(y) - [?(WeekStartedTimer>3240-180*QuickerEvent3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - [((4320-180*QuickerEvent4)/60)] minut(y) - [?(WeekStartedTimer>4320-180*QuickerEvent4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - [((5400-180*QuickerEvent5)/60)] minut(y) - [?(WeekStartedTimer>5400-180*QuickerEvent5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - [((6480-180*QuickerEvent6)/60)] minut(y) - [?(WeekStartedTimer>6480-180*QuickerEvent6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - [((7560-180*QuickerEvent7)/60)] minut(y) - [?(WeekStartedTimer>7560-180*QuickerEvent7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - [((8640-180*QuickerEvent8)/60)] minut(y) - [?(WeekStartedTimer>8640-180*QuickerEvent8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - [((9720-180*QuickerEvent9)/60)] minut(y) - [?(WeekStartedTimer>9720-180*QuickerEvent9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - [((10800-180*QuickerEvent10)/60)] minut(y) - [?(WeekStartedTimer>10800-180*QuickerEvent10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - [((11880-180*QuickerEvent11)/60)] minut(y) - [?(WeekStartedTimer>11880-180*QuickerEvent11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
+	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080-180*QuickerEvent1)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((1080-180*QuickerEvent1-WeekStartedTimer)/60)] minut i [((1080-180*QuickerEvent1-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080-180*QuickerEvent1 and WeekStartedTimer<2160-180*QuickerEvent2)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((2160-180*QuickerEvent2-WeekStartedTimer)/60)] minut i [((2160-180*QuickerEvent2-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160-180*QuickerEvent2 and WeekStartedTimer<3240-180*QuickerEvent3)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((3240-180*QuickerEvent3-WeekStartedTimer)/60)] minut i [((3240-180*QuickerEvent3-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240-180*QuickerEvent3 and WeekStartedTimer<4320-180*QuickerEvent4)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((4320-180*QuickerEvent4-WeekStartedTimer)/60)] minut i [((4320-180*QuickerEvent4-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320-180*QuickerEvent4 and WeekStartedTimer<5400-180*QuickerEvent5)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((5400-180*QuickerEvent5-WeekStartedTimer)/60)] minut i [((5400-180*QuickerEvent5-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400-180*QuickerEvent5 and WeekStartedTimer<6480-180*QuickerEvent6)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((6480-180*QuickerEvent6-WeekStartedTimer)/60)] minut i [((6480-180*QuickerEvent6-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480-180*QuickerEvent6 and WeekStartedTimer<7560-180*QuickerEvent7)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((7560-180*QuickerEvent7-WeekStartedTimer)/60)] minut i [((7560-180*QuickerEvent7-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560-180*QuickerEvent7 and WeekStartedTimer<8640-180*QuickerEvent8)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((8640-180*QuickerEvent8-WeekStartedTimer)/60)] minut i [((8640-180*QuickerEvent8-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640-180*QuickerEvent8 and WeekStartedTimer<9720-180*QuickerEvent9)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((9720-180*QuickerEvent9-WeekStartedTimer)/60)] minut i [((9720-180*QuickerEvent9-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720-180*QuickerEvent9 and WeekStartedTimer<10800-180*QuickerEvent10)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((10800-180*QuickerEvent10-WeekStartedTimer)/60)] minut i [((10800-180*QuickerEvent10-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800-180*QuickerEvent10 and WeekStartedTimer<11880-180*QuickerEvent11)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((11880-180*QuickerEvent11-WeekStartedTimer)/60)] minut i [((11880-180*QuickerEvent11-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - [((1080-180*QuickerEvent1)/60)] minut(y) - [?(WeekStartedTimer>1080-180*QuickerEvent1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - [((2160-180*QuickerEvent2)/60)] minut(y) - [?(WeekStartedTimer>2160-180*QuickerEvent2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - [((3240-180*QuickerEvent3)/60)] minut(y) - [?(WeekStartedTimer>3240-180*QuickerEvent3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - [((4320-180*QuickerEvent4)/60)] minut(y) - [?(WeekStartedTimer>4320-180*QuickerEvent4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - [((5400-180*QuickerEvent5)/60)] minut(y) - [?(WeekStartedTimer>5400-180*QuickerEvent5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - [((6480-180*QuickerEvent6)/60)] minut(y) - [?(WeekStartedTimer>6480-180*QuickerEvent6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - [((7560-180*QuickerEvent7)/60)] minut(y) - [?(WeekStartedTimer>7560-180*QuickerEvent7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - [((8640-180*QuickerEvent8)/60)] minut(y) - [?(WeekStartedTimer>8640-180*QuickerEvent8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - [((9720-180*QuickerEvent9)/60)] minut(y) - [?(WeekStartedTimer>9720-180*QuickerEvent9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - [((10800-180*QuickerEvent10)/60)] minut(y) - [?(WeekStartedTimer>10800-180*QuickerEvent10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - [((11880-180*QuickerEvent11)/60)] minut(y) - [?(WeekStartedTimer>11880-180*QuickerEvent11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
 
 
 *OdznReceive1
 	name:Odbierz Odznaczenie Arcymistrza I
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie1>=1600+Arcymistrz1*100)
@@ -6717,7 +6717,7 @@ req:100 PatroniteF
 
 *OdznReceive2
 	name:Odbierz Odznaczenie Arcymistrza II
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza II</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza II</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie2>=1600+Arcymistrz2*100)
@@ -6729,7 +6729,7 @@ req:100 PatroniteF
 
 *OdznReceive3
 	name:Odbierz Odznaczenie Arcymistrza III
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza III</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza III</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie3>=1600+Arcymistrz3*100)
@@ -6741,7 +6741,7 @@ req:100 PatroniteF
 
 *OdznReceive4
 	name:Odbierz Odznaczenie Arcymistrza IV
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza IV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza IV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie4>=1600+Arcymistrz4*100)
@@ -6753,7 +6753,7 @@ req:100 PatroniteF
 
 *OdznReceive5
 	name:Odbierz Odznaczenie Arcymistrza V
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza V</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza V</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie5>=1600+Arcymistrz5*100)
@@ -6765,7 +6765,7 @@ req:100 PatroniteF
 
 *OdznReceive6
 	name:Odbierz Odznaczenie Arcymistrza VI
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie6>=1600+Arcymistrz6*100)
@@ -6777,7 +6777,7 @@ req:100 PatroniteF
 
 *OdznReceive7
 	name:Odbierz Odznaczenie Arcymistrza VII
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie7>=1600+Arcymistrz7*100)
@@ -6789,7 +6789,7 @@ req:100 PatroniteF
 
 *OdznReceive8
 	name:Odbierz Odznaczenie Arcymistrza VIII
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VIII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza VIII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie8>=1600+Arcymistrz8*100)
@@ -6801,7 +6801,7 @@ req:100 PatroniteF
 
 *OdznReceive9
 	name:Odbierz Odznaczenie Arcymistrza IX
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza IX</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza IX</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie9>=1600+Arcymistrz9*100)
@@ -6813,7 +6813,7 @@ req:100 PatroniteF
 
 *OdznReceive10
 	name:Odbierz Odznaczenie Arcymistrza X
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza X</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza X</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie10>=1600+Arcymistrz10*100)
@@ -6825,7 +6825,7 @@ req:100 PatroniteF
 
 *OdznReceive11
 	name:Odbierz Odznaczenie Arcymistrza XI
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie11>=1600+Arcymistrz11*100)
@@ -6837,7 +6837,7 @@ req:100 PatroniteF
 
 *OdznReceive12
 	name:Odbierz Odznaczenie Arcymistrza XII
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie12>=1600+Arcymistrz12*100)
@@ -6849,7 +6849,7 @@ req:100 PatroniteF
 
 *OdznReceive13
 	name:Odbierz Odznaczenie Arcymistrza XIII
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XIII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XIII</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie13>=1600+Arcymistrz13*100)
@@ -6861,7 +6861,7 @@ req:100 PatroniteF
 
 *OdznReceive14
 	name:Odbierz Odznaczenie Arcymistrza XIV
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XIV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XIV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie14>=1600+Arcymistrz14*100)
@@ -6873,7 +6873,7 @@ req:100 PatroniteF
 
 *OdznReceive15
 	name:Odbierz Odznaczenie Arcymistrza XV
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XV</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie15>=1600+Arcymistrz15*100)
@@ -6885,7 +6885,7 @@ req:100 PatroniteF
 
 *OdznReceive16
 	name:Odbierz Odznaczenie Arcymistrza XVI
-	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XVI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
+	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza XVI</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
 	tag:discordupgrade
 	hidden
 	req:(ArpiwumMovie16>=1600+Arcymistrz16*100)
