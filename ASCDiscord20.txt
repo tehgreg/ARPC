@@ -6703,36 +6703,6 @@ req:100 PatroniteF
 	desc:<//> <//>Aktualny Tydzień Tematyczny trwa: <//><b>[(WeekStartedTimer/60)]</b> minut(y).<//> <//>[?(WeekStartedTimer<1080-180*QuickerEvent1)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((1080-180*QuickerEvent1-WeekStartedTimer)/60)] minut i [((1080-180*QuickerEvent1-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>1080-180*QuickerEvent1 and WeekStartedTimer<2160-180*QuickerEvent2)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((2160-180*QuickerEvent2-WeekStartedTimer)/60)] minut i [((2160-180*QuickerEvent2-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>2160-180*QuickerEvent2 and WeekStartedTimer<3240-180*QuickerEvent3)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((3240-180*QuickerEvent3-WeekStartedTimer)/60)] minut i [((3240-180*QuickerEvent3-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>3240-180*QuickerEvent3 and WeekStartedTimer<4320-180*QuickerEvent4)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((4320-180*QuickerEvent4-WeekStartedTimer)/60)] minut i [((4320-180*QuickerEvent4-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>4320-180*QuickerEvent4 and WeekStartedTimer<5400-180*QuickerEvent5)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((5400-180*QuickerEvent5-WeekStartedTimer)/60)] minut i [((5400-180*QuickerEvent5-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>5400-180*QuickerEvent5 and WeekStartedTimer<6480-180*QuickerEvent6)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((6480-180*QuickerEvent6-WeekStartedTimer)/60)] minut i [((6480-180*QuickerEvent6-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>6480-180*QuickerEvent6 and WeekStartedTimer<7560-180*QuickerEvent7)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((7560-180*QuickerEvent7-WeekStartedTimer)/60)] minut i [((7560-180*QuickerEvent7-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>7560-180*QuickerEvent7 and WeekStartedTimer<8640-180*QuickerEvent8)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((8640-180*QuickerEvent8-WeekStartedTimer)/60)] minut i [((8640-180*QuickerEvent8-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>8640-180*QuickerEvent8 and WeekStartedTimer<9720-180*QuickerEvent9)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((9720-180*QuickerEvent9-WeekStartedTimer)/60)] minut i [((9720-180*QuickerEvent9-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>9720-180*QuickerEvent9 and WeekStartedTimer<10800-180*QuickerEvent10)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((10800-180*QuickerEvent10-WeekStartedTimer)/60)] minut i [((10800-180*QuickerEvent10-WeekStartedTimer)%60)] sekund</b></#>|][?(WeekStartedTimer>10800-180*QuickerEvent10 and WeekStartedTimer<11880-180*QuickerEvent11)|Do kolejnego wydarzenia pozostało: <//><b><#00ff00>[((11880-180*QuickerEvent11-WeekStartedTimer)/60)] minut i [((11880-180*QuickerEvent11-WeekStartedTimer)%60)] sekund</b></#>|]<//> <//>Nadchodzące wydarzenia:<.>Grupa I - [((1080-180*QuickerEvent1)/60)] minut(y) - [?(WeekStartedTimer>1080-180*QuickerEvent1)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa II - [((2160-180*QuickerEvent2)/60)] minut(y) - [?(WeekStartedTimer>2160-180*QuickerEvent2)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa III - [((3240-180*QuickerEvent3)/60)] minut(y) - [?(WeekStartedTimer>3240-180*QuickerEvent3)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IV - [((4320-180*QuickerEvent4)/60)] minut(y) - [?(WeekStartedTimer>4320-180*QuickerEvent4)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa V - [((5400-180*QuickerEvent5)/60)] minut(y) - [?(WeekStartedTimer>5400-180*QuickerEvent5)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VI - [((6480-180*QuickerEvent6)/60)] minut(y) - [?(WeekStartedTimer>6480-180*QuickerEvent6)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VII - [((7560-180*QuickerEvent7)/60)] minut(y) - [?(WeekStartedTimer>7560-180*QuickerEvent7)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa VIII - [((8640-180*QuickerEvent8)/60)] minut(y) - [?(WeekStartedTimer>8640-180*QuickerEvent8)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa IX - [((9720-180*QuickerEvent9)/60)] minut(y) - [?(WeekStartedTimer>9720-180*QuickerEvent9)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Grupa X - [((10800-180*QuickerEvent10)/60)] minut(y) - [?(WeekStartedTimer>10800-180*QuickerEvent10)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]<.>Wydarzenie Krytyczne - [((11880-180*QuickerEvent11)/60)] minut(y) - [?(WeekStartedTimer>11880-180*QuickerEvent11)|<b><#00ff00>✔</b></#>|<b><#f00>X</b></#>]
 
 
-*Pay2Win
-	name:Płać Dwa Wygrać TEST1
-	desc:<//> <//><//> <//><//> <//><//> <//><//> <//>Chwile z ulubionym piwkiem są bezcenne, a za wszystkie inne rzeczy zapłacisz przelewem na poczcie. Discord jest w stanie rozruszać aktywność na twoim serwerze, ale musisz wyłożyć na to pokaźną sumkę.<//> <//><b><u>Efekt działania:</b></u><.>Zakup to ulepszenie, aby natychmiastowo uruchomić wszystkie Wydarzenia i Wydarzenie Krytyczne.<.>Możesz skorzystać z tej funkcji tylko zanim pojawi się pierwsze Wydarzenie.
-	hidden
-	tag:discordupgrade
-	cost:150 PatroniteA
-	cost:80 PatroniteB
-	cost:55 PatroniteC
-	cost:45 PatroniteD
-	cost:35 PatroniteE
-	cost:30 PatroniteF
-	cost:25 PatroniteG
-	on click:WeekStartedTimer=1080-180*QuickerEvent1
-
-*Pay2Win2
-	name:Płać Dwa Wygrać TEST2
-	desc:<//> <//><//> <//><//> <//><//> <//><//> <//>Chwile z ulubionym piwkiem są bezcenne, a za wszystkie inne rzeczy zapłacisz przelewem na poczcie. Discord jest w stanie rozruszać aktywność na twoim serwerze, ale musisz wyłożyć na to pokaźną sumkę.<//> <//><b><u>Efekt działania:</b></u><.>Zakup to ulepszenie, aby natychmiastowo uruchomić wszystkie Wydarzenia i Wydarzenie Krytyczne.<.>Możesz skorzystać z tej funkcji tylko zanim pojawi się pierwsze Wydarzenie.
-	hidden
-	tag:discordupgrade
-	cost:150 PatroniteA
-	cost:80 PatroniteB
-	cost:55 PatroniteC
-	cost:45 PatroniteD
-	cost:35 PatroniteE
-	cost:30 PatroniteF
-	cost:25 PatroniteG
-	on click:WeekStartedTimer=2160-180*QuickerEvent2
-
-
-
 *OdznReceive1
 	name:Odbierz Odznaczenie Arcymistrza I
 	desc:Udało ci się spełnić wymagania dla otrzymania Odznaki Arcymistrza dla filmu z aktualnego Tygodnia Tematycznego!<//> <//>Kliknij w to ulepszenie, aby:<//> <//><.>Otrzymać <b>1x</b> <b><#FFD700> Odznaczenie Arcymistrza I</b></#>.<.>Zakończyć aktualny Tydzień Tematyczny.
