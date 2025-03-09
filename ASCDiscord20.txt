@@ -6716,17 +6716,17 @@ req:100 PatroniteF
 	cost:35 PatroniteE
 	cost:30 PatroniteF
 	cost:25 PatroniteG
-	on earn:WeekStartedTimer=1080-180*QuickerEvent1
-	on earn:WeekStartedTimer=2160-180*QuickerEvent2
-	on earn:WeekStartedTimer=3240-180*QuickerEvent3
-	on earn:WeekStartedTimer=4320-180*QuickerEvent4
-	on earn:WeekStartedTimer=5400-180*QuickerEvent5
-	on earn:WeekStartedTimer=6480-180*QuickerEvent6
-	on earn:WeekStartedTimer=7560-180*QuickerEvent7
-	on earn:WeekStartedTimer=8640-180*QuickerEvent8
-	on earn:WeekStartedTimer=9720-180*QuickerEvent9
-	on earn:WeekStartedTimer=10800-180*QuickerEvent10
-	on earn:WeekStartedTimer=11880-180*QuickerEvent11
+	on click:WeekStartedTimer=1080-180*QuickerEvent1
+	on click:WeekStartedTimer=2160-180*QuickerEvent2
+	on click:WeekStartedTimer=3240-180*QuickerEvent3
+	on click:WeekStartedTimer=4320-180*QuickerEvent4
+	on click:WeekStartedTimer=5400-180*QuickerEvent5
+	on click:WeekStartedTimer=6480-180*QuickerEvent6
+	on click:WeekStartedTimer=7560-180*QuickerEvent7
+	on click:WeekStartedTimer=8640-180*QuickerEvent8
+	on click:WeekStartedTimer=9720-180*QuickerEvent9
+	on click:WeekStartedTimer=10800-180*QuickerEvent10
+	on click:WeekStartedTimer=11880-180*QuickerEvent11
 
 
 
