@@ -2721,7 +2721,7 @@ Buildings
 		cost refund:0%
 		cost increase:100%
 		cost:20000000 Kanaly
-		passive:multiply yield of tag:normalbuilding by pow(2,Button24)
+		passive:multiply yield of tag:normalbuilding by 2
 		passive:increase cost of Button24 by 1000000
 		limit:250000
 
