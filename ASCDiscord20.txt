@@ -7339,7 +7339,7 @@ always hidden
 	on earn:yield 1 Tier1Random1T
 	on earn:yield 1 TierTrackerGroup1
 	passive:multiply yield of PLN by ((1+0.1)+0.1*DiscordBuild1)
-	passive:multiply DiscordMultiplier by ((1-0.03)-0.03*DiscordBuild1)
+	passive:lose (3*DiscordBuild1) DiscordMultiplier
 	
 
 *Tier1Random2
