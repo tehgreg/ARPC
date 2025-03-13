@@ -2587,31 +2587,6 @@ Buildings
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //SPOTIFY BUDYNKI
 
 
@@ -3311,7 +3286,7 @@ Upgrades
 		tag:pomocUpgrade
 		req:DiscordUnlock
 		passive:grant 1 PomocAchievTrack
-		desc:Punkty Społeczności to system, który pozwala na dalszą modyfikację Discorda i Wydarzeń, które tam występują. <//> <//><b>Jak to działa?</b><.>Po przeczytaniu tego artykułu Pomocy dostaniesz <b>5 Punktów Społeczności</b> na start.<.>Punkty Społeczności możesz wydawać w zakładce Discord na ulepszanie trwających Wydarzeń z poszególnych grup.<.>Podobnie jak Punkty Sponsorów, Punkty Społeczności możesz <b>dowolnie</b> dodawać i odejmować do poszególnych grup <b>bez dodatkowych kosztów.</b><.>Dodatkowe Punkty Społeczności możesz zakupić w zakładce <b>Zarządzanie Kanałami</b>.<.>Wydarzenie z każdej grupy możesz ulepszyć maksymalnie 10 razy.<.>Kost ulepszenia Wydarzenia rośnie o 1 punkt z każdym kolejnym poziomem.<.>Ulepszanie Wydarzeń ma wpływ na efekty pozytywne i negatywne jednocześnie.
+		desc:Punkty Społeczności to system, który pozwala na dalszą modyfikację Discorda i Wydarzeń, które tam występują. <//> <//><b>Jak to działa?</b><.>Po przeczytaniu tego artykułu Pomocy dostaniesz <b>5 Punktów Społeczności</b> na start.<.>Punkty Społeczności możesz wydawać w zakładce Discord na ulepszanie trwających Wydarzeń z poszególnych grup.<.>Podobnie jak Punkty Sponsorów, Punkty Społeczności możesz <b>dowolnie</b> dodawać i odejmować do poszególnych grup <b>bez dodatkowych kosztów.</b><.>Dodatkowe Punkty Społeczności możesz zakupić w zakładce <b>Zarządzanie Kanałami</b>.<.>Wydarzenie z każdej grupy możesz ulepszyć maksymalnie 10 razy.<.>Kost ulepszenia Wydarzenia rośnie o 1 punkt z każdym kolejnym poziomem.<.>Ulepszanie Wydarzeń ma wpływ na efekty pozytywne i negatywne jednocześnie.<.>Wartości efektów w opisach Wydarzeń są aktualizowane w czasie rzeczywistym.<.>Wraz z rozpoczęciem nowego Tygodnia Tematycznego, wydane Punkty Społeczności zostaną przywrócone.
 		on earn:yield 5 CommunityPts
 
 		*Pomoc20
@@ -7355,7 +7330,7 @@ always hidden
 
 *Tier1Random1
 	name:Skromna posiadówa na głosowym
-	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>3%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest zmniejszony o <b><#f00></b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[((1+0.1)+0.1*DiscordBuild1)]%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest zmniejszony o <b><#f00>[(1-0.03)-0.03*DiscordBuild1]%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [1080-180*QuickerEvent1] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser1=1
@@ -7363,7 +7338,9 @@ always hidden
 	on earn:lose 3 DiscordMultiplier
 	on earn:yield 1 Tier1Random1T
 	on earn:yield 1 TierTrackerGroup1
-	passive:multiply yield of PLN by 1.03
+	passive:multiply yield of PLN by ((1+0.1)+0.1*DiscordBuild1)
+	passive:multiply DiscordMultiplier by (1-0.03)-0.03*DiscordBuild1
+	owned
 	
 
 *Tier1Random2
