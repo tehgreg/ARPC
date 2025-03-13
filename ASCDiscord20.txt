@@ -7330,7 +7330,7 @@ always hidden
 
 *Tier1Random1
 	name:Skromna posiadówa na głosowym
-	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[((1+0.1)+0.1*DiscordBuild1)]%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest zmniejszony o <b><#f00>[(1-0.03)-0.03*DiscordBuild1]%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [1080-180*QuickerEvent1] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[((1+0.1)+0.1*DiscordBuild1)]%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest zmniejszony o <b><#f00>[((1-0.03)-0.03*DiscordBuild1)]%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [1080-180*QuickerEvent1] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	owned
 	tag:discordupgrade discordrandoms
