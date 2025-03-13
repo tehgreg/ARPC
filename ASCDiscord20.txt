@@ -7328,19 +7328,37 @@ always hidden
 
 //TIER 1
 
-*Tier1Random1
-	name:Skromna posiadówa na głosowym
+*Tier1Random111
+	name:Skromna posiadówa na głosowymAAA
 	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[((1+0.1)+0.1*DiscordBuild1)]%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest zmniejszony o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [1080-180*QuickerEvent1] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
-	hidden
-	owned
 	tag:discordupgrade discordrandoms
-	req:TierChooser1=1
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier1Random1T
 	on earn:yield 1 TierTrackerGroup1
 	passive:multiply yield of PLN by ((1+0.1)+0.1*DiscordBuild1)
 	passive:lose (3*DiscordBuild1) DiscordMultiplier
 	
+*Tier1Random111
+	name:Skromna posiadówa na głosowymBBB
+	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[((1+0.1)+0.1*DiscordBuild1)]%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest zmniejszony o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [1080-180*QuickerEvent1] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	tag:discordupgrade discordrandoms
+	on earn:yield 1 Nitro
+	on earn:yield 1 Tier1Random1T
+	on earn:yield 1 TierTrackerGroup1
+	passive:multiply yield of PLN by ((1+0.1)+0.1*DiscordBuild1)
+	passive:lose (3*DiscordBuild1) DiscordMultiplier
+
+
+
+
+
+
+
+
+
+
+
+
 
 *Tier1Random2
 	name:Umiarkowanie Śmieszny Memesek
