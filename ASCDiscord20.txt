@@ -2487,10 +2487,93 @@ Buildings
 
 *DiscordBuild1
 	name:Poprawa relacji - Grupa I
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy I</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty pozytywne jak i negatywne.
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy I</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
+	cost increase:100%
 	passive:increase cost of DiscordBuild1 by 1
+	limit:10
+
+*DiscordBuild2
+	name:Poprawa relacji - Grupa II
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy II</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild2 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild3
+	name:Poprawa relacji - Grupa III
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy III</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild3 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild4
+	name:Poprawa relacji - Grupa IV
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy IV</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild4 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild5
+	name:Poprawa relacji - Grupa V
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy V</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild5 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild6
+	name:Poprawa relacji - Grupa VI
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VI</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild6 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild7
+	name:Poprawa relacji - Grupa VII
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VII</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild7 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild8
+	name:Poprawa relacji - Grupa VIII
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VIII</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild8 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild9
+	name:Poprawa relacji - Grupa IX
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy IX</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild9 by 1
+	limit:10
+	cost increase:100%
+
+*DiscordBuild10
+	name:Poprawa relacji - Grupa X
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy X</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	tag:discordbuilding
+	cost:1 CommunityPts
+	passive:increase cost of DiscordBuild10 by 1
+	limit:10
+	cost increase:100%
 
 
 
