@@ -2493,6 +2493,7 @@ Buildings
 	cost increase:100%
 	passive:increase cost of DiscordBuild1 by 1
 	limit:10
+	req:Pomoc19A
 
 *DiscordBuild2
 	name:Poprawa relacji - Grupa II
@@ -2502,6 +2503,7 @@ Buildings
 	passive:increase cost of DiscordBuild2 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild3
 	name:Poprawa relacji - Grupa III
@@ -2511,6 +2513,7 @@ Buildings
 	passive:increase cost of DiscordBuild3 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild4
 	name:Poprawa relacji - Grupa IV
@@ -2520,6 +2523,7 @@ Buildings
 	passive:increase cost of DiscordBuild4 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild5
 	name:Poprawa relacji - Grupa V
@@ -2529,6 +2533,7 @@ Buildings
 	passive:increase cost of DiscordBuild5 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild6
 	name:Poprawa relacji - Grupa VI
@@ -2538,6 +2543,7 @@ Buildings
 	passive:increase cost of DiscordBuild6 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild7
 	name:Poprawa relacji - Grupa VII
@@ -2547,6 +2553,7 @@ Buildings
 	passive:increase cost of DiscordBuild7 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild8
 	name:Poprawa relacji - Grupa VIII
@@ -2556,6 +2563,7 @@ Buildings
 	passive:increase cost of DiscordBuild8 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild9
 	name:Poprawa relacji - Grupa IX
@@ -2565,6 +2573,7 @@ Buildings
 	passive:increase cost of DiscordBuild9 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 *DiscordBuild10
 	name:Poprawa relacji - Grupa X
@@ -2574,6 +2583,7 @@ Buildings
 	passive:increase cost of DiscordBuild10 by 1
 	limit:10
 	cost increase:100%
+	req:Pomoc19A
 
 
 
@@ -3293,6 +3303,16 @@ Upgrades
 		req:DiscordUnlock
 		passive:grant 1 PomocAchievTrack
 		desc:Podczas korzystania z Discorda możesz uzyskać nową walutę - <b>Discord Nitro</b>, którą będziesz mógł wydawać, aby permanentnie ulepszać swój serwer.<//> <//>Discord Nitro możesz zdobywać poprzez wypełnianie zadań z Wydarzeń i Wydarzeń Krytycznych.
+
+
+		*Pomoc19A
+		hidden
+		name:Discord - Punkty Społeczności
+		tag:pomocUpgrade
+		req:DiscordUnlock
+		passive:grant 1 PomocAchievTrack
+		desc:Punkty Społeczności to system, który pozwala na dalszą modyfikację Discorda i Wydarzeń, które tam występują. <//> <//><b>Jak to działa?</b><.>Po przeczytaniu tego artykułu Pomocy dostaniesz <b>5 Punktów Społeczności</b> na start.<.>Punkty Społeczności możesz wydawać w zakładce Discord na ulepszanie trwających Wydarzeń z poszególnych grup.<.>Podobnie jak Punkty Sponsorów, Punkty Społeczności możesz <b>dowolnie</b> dodawać i odejmować do poszególnych grup <b>bez dodatkowych kosztów.</b><.>Dodatkowe Punkty Społeczności możesz zakupić w zakładce <b>Zarządzanie Kanałami</b>.<.>Wydarzenie z każdej grupy możesz ulepszyć maksymalnie 10 razy.<.>Kost ulepszenia Wydarzenia rośnie o 1 punkt z każdym kolejnym poziomem.<.>Ulepszanie Wydarzeń ma wpływ na efekty pozytywne i negatywne jednocześnie.
+		on earn:yield 5 CommunityPts
 
 		*Pomoc20
 		hidden
