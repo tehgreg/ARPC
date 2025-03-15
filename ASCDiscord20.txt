@@ -2491,6 +2491,7 @@ Buildings
 	tag:discordbuilding
 	cost:1 CommunityPts
 	cost increase:100%
+	cost refund:100%
 	passive:increase cost of DiscordBuild1 by 1
 	limit:10
 	req:Pomoc19A
@@ -2503,6 +2504,7 @@ Buildings
 	passive:increase cost of DiscordBuild2 by 1
 	limit:10
 	cost increase:100%
+	cost refund:100%
 	req:Pomoc19A
 
 *DiscordBuild3
@@ -2514,6 +2516,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild4
 	name:Poprawa relacji - Grupa IV
@@ -2524,6 +2527,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild5
 	name:Poprawa relacji - Grupa V
@@ -2534,6 +2538,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild6
 	name:Poprawa relacji - Grupa VI
@@ -2544,6 +2549,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild7
 	name:Poprawa relacji - Grupa VII
@@ -2554,6 +2560,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild8
 	name:Poprawa relacji - Grupa VIII
@@ -2564,6 +2571,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild9
 	name:Poprawa relacji - Grupa IX
@@ -2574,6 +2582,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 *DiscordBuild10
 	name:Poprawa relacji - Grupa X
@@ -2584,6 +2593,7 @@ Buildings
 	limit:10
 	cost increase:100%
 	req:Pomoc19A
+		cost refund:100%
 
 
 
@@ -7329,46 +7339,47 @@ always hidden
 //TIER 1
 
 *Tier1Random1
-	name:Skromna posiadówa na głosowym1
+	name:Skromna posiadówa na głosowym
 	desc:Umawiasz się z widzami na kanale głosowym aby pogadać o pierdołach. Niestety, zjawiły się tylko 3 osoby.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(10+10*DiscordBuild1)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>5% ([MinDiscord*0.05])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier1Random1T
 	on earn:yield 1 TierTrackerGroup1
 	passive:multiply yield of PLN by ((1+0.1)+0.1*DiscordBuild1)
-	cost refund:100%
 	on earn:lose (MinDiscord*0.05) DiscordMultiplier
 	tag:discordupgrade discordrandoms
-//	req:TierChooser1=1
-//	hidden
+	req:TierChooser1=1
+	hidden
 
 
 
 *Tier1Random2
-	name:Umiarkowanie Śmieszny Memesek
-	desc:Ktoś wrzuca Umiarkowanie Śmiesznego Mema na kanał z memami. Nawet nie wypuściłeś powietrza nosem, ale dasz temu komuś reakcję, żeby nie był smutny.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>3</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	name:Umiarkowanie Śmieszny Memesek***
+	desc:Ktoś wrzuca Umiarkowanie Śmiesznego Mema na kanał z memami. Nawet nie wypuściłeś powietrza nosem, ale dasz temu komuś reakcję, żeby nie był smutny.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>10% ([MaxDiscord*0.1])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
-	req:TierChooser1=2
+//	req:TierChooser1=2
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier1Random2T
 	on earn:yield 1 TierTrackerGroup1
-	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by 0.97
-	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by 0.97
-	passive:if (RandomResourceSelect=3) multiply yield of ArpiwumMovie3 by 0.97
-	passive:if (RandomResourceSelect=4) multiply yield of ArpiwumMovie4 by 0.97
-	passive:if (RandomResourceSelect=5) multiply yield of ArpiwumMovie5 by 0.97
-	passive:if (RandomResourceSelect=6) multiply yield of ArpiwumMovie6 by 0.97
-	passive:if (RandomResourceSelect=7) multiply yield of ArpiwumMovie7 by 0.97
-	passive:if (RandomResourceSelect=8) multiply yield of ArpiwumMovie8 by 0.97
-	passive:if (RandomResourceSelect=9) multiply yield of ArpiwumMovie9 by 0.97
-	passive:if (RandomResourceSelect=10) multiply yield of ArpiwumMovie10 by 0.97
-	passive:if (RandomResourceSelect=11) multiply yield of ArpiwumMovie11 by 0.97
-	passive:if (RandomResourceSelect=12) multiply yield of ArpiwumMovie12 by 0.97
-	passive:if (RandomResourceSelect=13) multiply yield of ArpiwumMovie13 by 0.97
-	passive:if (RandomResourceSelect=14) multiply yield of ArpiwumMovie14 by 0.97
-	passive:if (RandomResourceSelect=15) multiply yield of ArpiwumMovie15 by 0.97
-	passive:if (RandomResourceSelect=16) multiply yield of ArpiwumMovie16 by 0.97	
-	on earn:yield 3 DiscordMultiplier
+	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=3) multiply yield of ArpiwumMovie3 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=4) multiply yield of ArpiwumMovie4 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=5) multiply yield of ArpiwumMovie5 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=6) multiply yield of ArpiwumMovie6 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=7) multiply yield of ArpiwumMovie7 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=8) multiply yield of ArpiwumMovie8 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=9) multiply yield of ArpiwumMovie9 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=10) multiply yield of ArpiwumMovie10 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=11) multiply yield of ArpiwumMovie11 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=12) multiply yield of ArpiwumMovie12 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=13) multiply yield of ArpiwumMovie13 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=14) multiply yield of ArpiwumMovie14 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=15) multiply yield of ArpiwumMovie15 by ((1-0.03)-0.03*DiscordBuild1)
+	passive:if (RandomResourceSelect=16) multiply yield of ArpiwumMovie16 by ((1-0.03)-0.03*DiscordBuild1)
+	on earn:yield (MaxDiscord*0.10) DiscordMultiplier
+
+
 
 
 *Tier1Random3
