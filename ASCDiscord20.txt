@@ -7347,14 +7347,14 @@ always hidden
 	passive:multiply yield of PLN by ((1+0.1)+0.1*DiscordBuild1)
 	on earn:lose (MinDiscord*0.05) DiscordMultiplier
 	tag:discordupgrade discordrandoms
-	req:TierChooser1=1
+//	req:TierChooser1=1
 	hidden
 
 
 
 *Tier1Random2
-	name:Umiarkowanie Śmieszny Memesek***
-	desc:Ktoś wrzuca Umiarkowanie Śmiesznego Mema na kanał z memami. Nawet nie wypuściłeś powietrza nosem, ale dasz temu komuś reakcję, żeby nie był smutny.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>10% ([MaxDiscord*0.1])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	name:Umiarkowanie Śmieszny Memesek
+	desc:Ktoś wrzuca Umiarkowanie Śmiesznego Mema na kanał z memami. Nawet nie wypuściłeś powietrza nosem, ale dasz temu komuś reakcję, żeby nie był smutny.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>10% ([MaxDiscord*0.1])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>[(3+3*DiscordBuild1)]%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 //	req:TierChooser1=2
@@ -7384,7 +7384,7 @@ always hidden
 
 *Tier1Random3
 	name:Rewizja Regulaminu
-	desc:Poświęcasz godzinkę na rewizję regulaminu na Discordzie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>3</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	desc:Poświęcasz godzinkę na rewizję regulaminu na Discordzie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>3</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser1=3
@@ -7396,7 +7396,7 @@ always hidden
 
 *Tier1Random4
 	name:Memesek o Factorio
-	desc:Jeden z widzów wrzuca memeska o Factorio. Myśl o jednej z twoich ulubionych gier poprawia ci humor.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Brak.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	desc:Jeden z widzów wrzuca memeska o Factorio. Myśl o jednej z twoich ulubionych gier poprawia ci humor.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Brak.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser1=4
@@ -7406,7 +7406,7 @@ always hidden
 
 *Tier1Random5
 	name:Nowi użytkownicy
-	desc:Twój serwer zyskuje kilku nowych użytkowników.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>3</b></#><.>Twój <b>mnożnik</b> do <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>3%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po 18 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	desc:Twój serwer zyskuje kilku nowych użytkowników.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>3</b></#><.>Twój <b>mnożnik</b> do <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>3%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>3%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser1=5
