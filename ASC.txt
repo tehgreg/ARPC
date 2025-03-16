@@ -2990,6 +2990,19 @@ passive:if (Afterparty3>=5) grant 1 Event1CResource
 
 
 
+*EventOurang
+	name:Rocznica Filmu: Z Arpiwum X: Ourang Medan - prawda czy fikcja?
+	desc:17 marca opublikowałeś film: Z Arpiwum X: Ourang Medan - prawda czy fikcja? Siadasz na chwilę, aby powspominać czas, który przeznaczyłeś na przygotowanie tego materiału.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Subskrybentów</b> i <b>Czasu Oglądania</b> tego filmu jest zwiększona o <b><#00ff00>20x</b></#> na czas trwania wydarzenia.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 17.03.2025 - 23.03.2025
+	hidden
+	tag:eventUpgrade
+	passive:multiply yield of ArpiwumMovie13 by 20
+
+
+
+
+
+
+
 
 //NORMAL UPGRADES
 
