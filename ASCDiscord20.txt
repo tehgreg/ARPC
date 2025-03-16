@@ -7416,20 +7416,39 @@ always hidden
 	passive:if (RandomResourceSelect=16) multiply cost of ArpiwumMovie16 by ((1+0.15)+0.15*DiscordBuild1)
 
 
-
-
-
-
-
 *Tier1Random4
 	name:Memesek o Factorio
-	desc:Jeden z widzów wrzuca memeska o Factorio. Myśl o jednej z twoich ulubionych gier poprawia ci humor.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Brak.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
+	desc:Jeden z widzów wrzuca memeska o Factorio. Myśl o jednej z twoich ulubionych gier poprawia ci humor.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(25+25*DiscordBuild1)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(25+25*DiscordBuild1)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier1Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((1080-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa I</b>)
 	hidden
 	tag:discordupgrade discordrandoms
-	req:TierChooser1=4
+//	req:TierChooser1=4
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier1Random4T
 	on earn:yield 1 TierTrackerGroup1
+	passive:multiply yield of PLN by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=3) multiply yield of ArpiwumMovie3 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=4) multiply yield of ArpiwumMovie4 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=5) multiply yield of ArpiwumMovie5 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=6) multiply yield of ArpiwumMovie6 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=7) multiply yield of ArpiwumMovie7 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=8) multiply yield of ArpiwumMovie8 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=9) multiply yield of ArpiwumMovie9 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=10) multiply yield of ArpiwumMovie10 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=11) multiply yield of ArpiwumMovie11 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=12) multiply yield of ArpiwumMovie12 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=13) multiply yield of ArpiwumMovie13 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=14) multiply yield of ArpiwumMovie14 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=15) multiply yield of ArpiwumMovie15 by ((1+0.25)+0.25*DiscordBuild1)
+	passive:if (RandomResourceSelect=16) multiply yield of ArpiwumMovie16 by ((1+0.25)+0.25*DiscordBuild1)
+
+
+
+
+
+
+
 
 *Tier1Random5
 	name:Nowi użytkownicy
