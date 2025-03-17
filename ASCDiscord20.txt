@@ -8071,11 +8071,11 @@ always hidden
 //TIER 6
 
 *Tier6Random1
-	name:Szalony Algorytm***
+	name:Szalony Algorytm
 	desc:Youtube coś namieszał, ale na twoją korzyść. Twój kanał został zasugerowany ogromnej ilości użytkoników na stronie głównej.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>25% ([MaxDiscord*0.25])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier6Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((6480-180*QuickerEvent6)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VI</b>)
 	hidden
 	tag:discordupgrade discordrandoms
-//	req:TierChooser6=1
+	req:TierChooser6=1
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier6Random1T
 	on earn:yield 1 TierTrackerGroup6
@@ -8355,11 +8355,11 @@ always hidden
 
 
 *Tier7Random4
-	name:Gadka o Factorio***
+	name:Gadka o Factorio
 	desc:Kilku użytkowników twojego Discorda jest również fanami Factorio. Razem dyskutujecie o najskuteczniejszych metodach budowy baz.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>25% ([MaxDiscord*0.25])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier7Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((7560-180*QuickerEvent7)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VII</b>)
 	hidden
 	tag:discordupgrade discordrandoms
-//	req:TierChooser7=4
+	req:TierChooser7=4
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier7Random4T
 	on earn:yield 1 TierTrackerGroup7
