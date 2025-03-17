@@ -8471,15 +8471,7 @@ always hidden
 
 *Tier8Random3
 	name:Unboxing rafandynki
-	desc:Jeden z fanów przesyła ci rafandynkę z modelem Mary Celeste. Przeprowadzasz unboxing na streamie i jednocześnie dyskutujesz o odcinkach ze statkami w roli głównej.
-	
-	
-	<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>25% ([MaxDiscord*0.25])</b></#> Wartości Maksymalnej Mnożnika.<.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild8)]%</b></#> <b><#FFD700>(+)</b></#>
-	
-	<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>[(25+25*DiscordBuild8)]%</b></#> <b><#FFD700>(+)</b></#>
-
-	
-	<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier8Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((8640-180*QuickerEvent8)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VIII</b>)
+	desc:Jeden z fanów przesyła ci rafandynkę z modelem Mary Celeste. Przeprowadzasz unboxing na streamie i jednocześnie dyskutujesz o odcinkach ze statkami w roli głównej.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>25% ([MaxDiscord*0.25])</b></#> Wartości Maksymalnej Mnożnika.<.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild8)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>[(25+25*DiscordBuild8)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier8Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((8640-180*QuickerEvent8)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VIII</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser8=3
