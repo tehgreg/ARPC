@@ -7479,45 +7479,43 @@ always hidden
 
 *Tier2Random1
 	name:Atak spamera
-	desc:Jakiś bot wrzuca po jednym spam linku na każdy z twoich kanałów.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>5%</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zmniejszone o <b><#f00>5%</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier2Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po 36 minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa II</b>)
+	desc:Jakiś bot wrzuca po jednym spam linku na każdy z twoich kanałów.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild2)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#f00><b>droższy</b></#> o <b><#f00>[(15+15*DiscordBuild2)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier2Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((2160-180*QuickerEvent1)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa II</b>)
 	hidden
 	tag:discordupgrade discordrandoms
-	req:TierChooser2=1
+//	req:TierChooser2=1
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier2Random1T
 	on earn:yield 1 TierTrackerGroup2
-	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by 0.95
-	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by 0.95
-	passive:if (RandomResourceSelect=3) multiply yield of ArpiwumMovie3 by 0.95
-	passive:if (RandomResourceSelect=4) multiply yield of ArpiwumMovie4 by 0.95
-	passive:if (RandomResourceSelect=5) multiply yield of ArpiwumMovie5 by 0.95
-	passive:if (RandomResourceSelect=6) multiply yield of ArpiwumMovie6 by 0.95
-	passive:if (RandomResourceSelect=7) multiply yield of ArpiwumMovie7 by 0.95
-	passive:if (RandomResourceSelect=8) multiply yield of ArpiwumMovie8 by 0.95
-	passive:if (RandomResourceSelect=9) multiply yield of ArpiwumMovie9 by 0.95
-	passive:if (RandomResourceSelect=10) multiply yield of ArpiwumMovie10 by 0.95
-	passive:if (RandomResourceSelect=11) multiply yield of ArpiwumMovie11 by 0.95
-	passive:if (RandomResourceSelect=12) multiply yield of ArpiwumMovie12 by 0.95
-	passive:if (RandomResourceSelect=13) multiply yield of ArpiwumMovie13 by 0.95
-	passive:if (RandomResourceSelect=14) multiply yield of ArpiwumMovie14 by 0.95
-	passive:if (RandomResourceSelect=15) multiply yield of ArpiwumMovie15 by 0.95
-	passive:if (RandomResourceSelect=16) multiply yield of ArpiwumMovie16 by 0.95
-	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by 0.95
-	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by 0.95
-	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by 0.95
-	passive:if (RandomResourceSelect=4) multiply cost of ArpiwumMovie4 by 0.95
-	passive:if (RandomResourceSelect=5) multiply cost of ArpiwumMovie5 by 0.95
-	passive:if (RandomResourceSelect=6) multiply cost of ArpiwumMovie6 by 0.95
-	passive:if (RandomResourceSelect=7) multiply cost of ArpiwumMovie7 by 0.95
-	passive:if (RandomResourceSelect=8) multiply cost of ArpiwumMovie8 by 0.95
-	passive:if (RandomResourceSelect=9) multiply cost of ArpiwumMovie9 by 0.95
-	passive:if (RandomResourceSelect=10) multiply cost of ArpiwumMovie10 by 0.95
-	passive:if (RandomResourceSelect=11) multiply cost of ArpiwumMovie11 by 0.95
-	passive:if (RandomResourceSelect=12) multiply cost of ArpiwumMovie12 by 0.95
-	passive:if (RandomResourceSelect=13) multiply cost of ArpiwumMovie13 by 0.95
-	passive:if (RandomResourceSelect=14) multiply cost of ArpiwumMovie14 by 0.95
-	passive:if (RandomResourceSelect=15) multiply cost of ArpiwumMovie15 by 0.95
-	passive:if (RandomResourceSelect=16) multiply cost of ArpiwumMovie16 by 0.95
+	passive:multiply yield of PLN by ((1+0.5)+0.5*DiscordBuild2)
+	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=4) multiply cost of ArpiwumMovie4 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=5) multiply cost of ArpiwumMovie5 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=6) multiply cost of ArpiwumMovie6 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=7) multiply cost of ArpiwumMovie7 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=8) multiply cost of ArpiwumMovie8 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=9) multiply cost of ArpiwumMovie9 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=10) multiply cost of ArpiwumMovie10 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=11) multiply cost of ArpiwumMovie11 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=12) multiply cost of ArpiwumMovie12 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=13) multiply cost of ArpiwumMovie13 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=14) multiply cost of ArpiwumMovie14 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=15) multiply cost of ArpiwumMovie15 by ((1+0.15)+0.15*DiscordBuild2)
+	passive:if (RandomResourceSelect=16) multiply cost of ArpiwumMovie16 by ((1+0.15)+0.15*DiscordBuild2)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 *Tier2Random2
