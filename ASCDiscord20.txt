@@ -8149,7 +8149,7 @@ always hidden
 	passive:if (RandomResourceSelect=12) multiply cost of ArpiwumMovie12 by ((1+0.25)+0.25*DiscordBuild6)
 	passive:if (RandomResourceSelect=13) multiply cost of ArpiwumMovie13 by ((1+0.25)+0.25*DiscordBuild6)
 	passive:if (RandomResourceSelect=14) multiply cost of ArpiwumMovie14 by ((1+0.25)+0.25*DiscordBuild6)
-	passive:if (RandomResourceSelect=25) multiply cost of ArpiwumMovie25 by ((1+0.25)+0.25*DiscordBuild6)
+	passive:if (RandomResourceSelect=15) multiply cost of ArpiwumMovie15 by ((1+0.25)+0.25*DiscordBuild6)
 	passive:if (RandomResourceSelect=16) multiply cost of ArpiwumMovie16 by ((1+0.25)+0.25*DiscordBuild6)
 	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by ((1+1)+1*DiscordBuild6)
 	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by ((1+1)+1*DiscordBuild6)
