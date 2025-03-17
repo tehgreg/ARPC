@@ -7642,7 +7642,7 @@ always hidden
 	passive:if (RandomResourceSelect=14) multiply cost of ArpiwumMovie14 by ((1-0.01)-0.01*DiscordBuild3)
 	passive:if (RandomResourceSelect=15) multiply cost of ArpiwumMovie15 by ((1-0.01)-0.01*DiscordBuild3)
 	passive:if (RandomResourceSelect=16) multiply cost of ArpiwumMovie16 by ((1-0.01)-0.01*DiscordBuild3)
-	multiply yield of PLN by ((1-0.02)-0.02*DiscordBuild1)
+	passive:multiply yield of PLN by ((1-0.02)-0.02*DiscordBuild1)
 
 *Tier3Random2
 	name:Analiza Fake Newsa***
