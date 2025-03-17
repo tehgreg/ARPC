@@ -7754,7 +7754,7 @@ always hidden
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier4Random1T
 	on earn:yield 1 TierTrackerGroup4
-	on earn: lose (MinDiscord*0.15) DiscordMultiplier
+	on earn:lose (MinDiscord*0.15) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild4)
 	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1-0.05)-0.05*DiscordBuild4)
 	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1-0.05)-0.05*DiscordBuild4)
@@ -7914,7 +7914,7 @@ always hidden
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier5Random1T
 	on earn:yield 1 TierTrackerGroup5
-	on earn: lose (MinDiscord*0.15) DiscordMultiplier
+	on earn:lose (MinDiscord*0.15) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild5)
 	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1-0.05)-0.05*DiscordBuild5)
 	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1-0.05)-0.05*DiscordBuild5)
@@ -7991,7 +7991,7 @@ always hidden
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier5Random3T
 	on earn:yield 1 TierTrackerGroup5
-	on earn: lose (MinDiscord*0.15) DiscordMultiplier
+	on earn:lose (MinDiscord*0.15) DiscordMultiplier
 	passive:multiply yield of PLN by ((1+0.50)+0.50*DiscordBuild5)
 
 
@@ -8101,7 +8101,7 @@ always hidden
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier6Random2T
 	on earn:yield 1 TierTrackerGroup6
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild6)
 	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1-0.05)-0.05*DiscordBuild6)
 	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1-0.05)-0.05*DiscordBuild6)
@@ -8214,7 +8214,7 @@ always hidden
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier6Random5T
 	on earn:yield 1 TierTrackerGroup6
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:multiply yield of PLN by ((1+0.50)+0.50*DiscordBuild6)
 	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by ((1+0.50)+0.50*DiscordBuild6)
 	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by ((1+0.50)+0.50*DiscordBuild6)
@@ -8283,7 +8283,7 @@ always hidden
 	on earn:yield 1 Nitro
 	on earn:yield 1 Tier7Random2T
 	on earn:yield 1 TierTrackerGroup7
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild7)
 	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1-0.05)-0.05*DiscordBuild7)
 	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1-0.05)-0.05*DiscordBuild7)
@@ -8380,7 +8380,7 @@ always hidden
 	on earn:yield 5 Nitro
 	on earn:yield 1 Tier7Random5T
 	on earn:yield 1 TierTrackerGroup7
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by ((1+1)+1*DiscordBuild7)
 	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by ((1+1)+1*DiscordBuild7)
 	passive:if (RandomResourceSelect=3) multiply yield of ArpiwumMovie3 by ((1+1)+1*DiscordBuild7)
@@ -8594,7 +8594,7 @@ always hidden
 	on earn:yield 2 Nitro
 	on earn:yield 1 Tier9Random1T
 	on earn:yield 1 TierTrackerGroup9
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild9)
 	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1-0.05)-0.05*DiscordBuild9)
 	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1-0.05)-0.05*DiscordBuild9)
@@ -8754,7 +8754,7 @@ always hidden
 	on earn:yield 3 Nitro
 	on earn:yield 1 Tier10Random1T
 	on earn:yield 1 TierTrackerGroup10
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild10)
 	passive:if (RandomResourceSelect=2) multiply cost of ArpiwumMovie2 by ((1-0.05)-0.05*DiscordBuild10)
 	passive:if (RandomResourceSelect=3) multiply cost of ArpiwumMovie3 by ((1-0.05)-0.05*DiscordBuild10)
@@ -8841,7 +8841,7 @@ always hidden
 	on earn:yield 3 Nitro
 	on earn:yield 1 Tier10Random3T
 	on earn:yield 1 TierTrackerGroup10
-	on earn: lose (MinDiscord*0.25) DiscordMultiplier
+	on earn:lose (MinDiscord*0.25) DiscordMultiplier
 	passive:multiply yield of PLN by ((1+1)+1*DiscordBuild10)
 
 
@@ -14655,33 +14655,6 @@ Achievements
 	req:Arcymistrz16>=5
 	passive:grant 1 TotalAchievs	
 	passive:grant 1 EndAchievs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
