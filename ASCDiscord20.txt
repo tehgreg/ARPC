@@ -2485,6 +2485,26 @@ Buildings
 //DISCORD
 
 
+
+*DuszaTowarz
+	name:Internetowa Dusza Towarzystwa
+	desc:
+	tag:discordbuilding
+	hidden
+	req:Pomoc19A
+	cost refund:0%
+	cost increase:1000%
+	on earn:yield 1 CommunityPts
+
+
+
+
+
+
+
+
+
+
 *DiscordBuild1
 	name:Poprawa relacji - Grupa I
 	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy I</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
@@ -2840,7 +2860,7 @@ Buildings
 		req:1 Button24
 		tag:prestigebuilding
 		cost refund:0%
-		cost increase:300%
+		cost increase:200%
 		cost:1000000000000000000000000000000 Kanaly
 		passive:multiply yield of tag:normalbuilding by pow(2,Button25)
 
