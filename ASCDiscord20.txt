@@ -755,7 +755,7 @@ Resources
 
 	*Kanaly
 		name:Punkty Kanału
-		desc:Twoja działalność na Youtubie tak się rozrosła, że musiałeś założyć nowe kanały. Wydawaj Punkty Kanału w zakładce <b>Zarządzanie Kanałami</b>, aby otrzymywać <b>permanentne</b> bonusy, które są aktywne nawet po założeniu nowych kanałów.<//> <//>[?NowyKanalPlus4=1|Gdybyś chciał założyć Nowy Kanał to w tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000]</#> Punktów Kanału</b>.|]
+		desc:Twoja działalność na Youtubie tak się rozrosła, że musiałeś założyć nowe kanały. Wydawaj Punkty Kanału w zakładce <b>Zarządzanie Kanałami</b>, aby otrzymywać <b>permanentne</b> bonusy, które są aktywne nawet po założeniu nowych kanałów.<//> <//>[?(have NowyKanalPlus4)|Gdybyś chciał założyć Nowy Kanał to w tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000]</#> Punktów Kanału</b>.|]
 		class:noBackground prestigeClass
 		show earned	
 		hidden when 0
