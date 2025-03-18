@@ -2833,11 +2833,11 @@ Buildings
 		limit:250000
 
 	*Button25
-		name:Przycisk NIE na odpierdol +11
-		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>[(pow(2,Button25))]x</b>.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>Limit: 250,000
+		name:Przycisk NIE na odpierdol +1
+		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>[(pow(2,Button25))]x</b>.<.>Bonus obliczany jest w korzystniejszy sposób niż "Przycisk na odpierdol +1": a mianowicie 2 do potęgi poziomu tego ulepszenia.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>
 		tag:prestigeupgrade
 		req:1 TotalResets
-		req:1 Button23
+		req:1 Button24
 		tag:prestigebuilding
 		cost refund:0%
 		cost increase:300%
