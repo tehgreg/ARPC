@@ -755,11 +755,13 @@ Resources
 
 	*Kanaly
 		name:Punkty Kanału
-		desc:Twoja działalność na Youtubie tak się rozrosła, że musiałeś założyć nowe kanały. Wydawaj Punkty Kanału w zakładce <b>Zarządzanie Kanałami</b>, aby otrzymywać <b>permanentne</b> bonusy, które są aktywne nawet po założeniu nowych kanałów.
+		desc:Twoja działalność na Youtubie tak się rozrosła, że musiałeś założyć nowe kanały. Wydawaj Punkty Kanału w zakładce <b>Zarządzanie Kanałami</b>, aby otrzymywać <b>permanentne</b> bonusy, które są aktywne nawet po założeniu nowych kanałów.<//> <//>[?NowyKanalPlus4=1|Gdybyś chciał założyć Nowy Kanał to w tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000]</#> Punktów Kanału</b>.|]
 		class:noBackground prestigeClass
 		show earned	
 		hidden when 0
 		tag:normalresource		
+
+NowyKanalPlus4
 
 
 	*PatroniteI
@@ -2854,7 +2856,7 @@ Buildings
 
 	*Button25
 		name:Przycisk NIE na odpierdol +1
-		desc:Youtube przysyła ci maila z wygenerowanym komputerowo przyciskiem za osiągnięcie kolejnego kamienia milowego w twoim rozwoju.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>[(pow(2,Button25))]x</b>.<.>Bonus obliczany jest w korzystniejszy sposób niż "Przycisk na odpierdol +1": a mianowicie 2 do potęgi poziomu tego ulepszenia.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>
+		desc:AAAAAAAAAAAAAA***<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>[(pow(2,Button25))]x</b>.<.>Bonus obliczany jest w korzystniejszy sposób niż "Przycisk na odpierdol +1": a mianowicie 2 do potęgi poziomu tego ulepszenia.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>
 		tag:prestigeupgrade
 		req:1 TotalResets
 		req:1 Button24
