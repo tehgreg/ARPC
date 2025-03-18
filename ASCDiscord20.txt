@@ -761,7 +761,6 @@ Resources
 		hidden when 0
 		tag:normalresource		
 
-NowyKanalPlus4
 
 
 	*PatroniteI
