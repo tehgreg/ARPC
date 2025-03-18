@@ -2495,7 +2495,7 @@ Buildings
 	cost refund:0%
 	cost increase:500%
 	on earn:yield 1 CommunityPts
-	cost:1000000000000000000000000000000
+	cost:1000000000000000000000000000000 Kanaly
 
 
 
