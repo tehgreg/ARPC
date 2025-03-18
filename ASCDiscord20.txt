@@ -6244,7 +6244,7 @@ req:100 PatroniteF
 
 *PerfectSync
 	name:Perfekcyjna Synchronizacja
-	desc:Udało ci się osiągnąć Perfekcyjną Synchronizację i skonfigurowałeś wszystkie swoje filmy w idealny sposób.<//><b>Efekt działania:</b><.>Otrzymujesz bonus do PLN/s ze wszystkich źródeł zwiększający twoje przychody <b>100x</b>.<.>Po aktywacji, ulepszenie to jest <b><#00ff00>aktywne</b></#> nawet jak przestaniesz spełniać wymagania Pozycjonowania.<.>Ulepszenie zostanie <b><#f00>utracone</b></#> wraz z założeniem <b>Nowego Kanału</b>.
+	desc:Udało ci się osiągnąć Perfekcyjną Synchronizację i skonfigurowałeś wszystkie swoje filmy w idealny sposób.<//><b>Efekt działania:</b><.>Otrzymujesz bonus do PLN/s ze wszystkich źródeł zwiększający twoje przychody <b>100x</b>.<.>Po aktywacji, ulepszenie to jest <b><#00ff00>aktywne</b></#> nawet jak przestaniesz spełniać wymagania Pozycjonowania.
 	tag:pozycjoupgrade
 	req:PozycjoUnlock
 	req:(ArpiwumMovie1%4=0 and !(ArpiwumMovie1=0) and ArpiwumMovie1%5=0 and ArpiwumMovie1%10=0 and ArpiwumMovie1%15=0 and ArpiwumMovie1%25=0 and ArpiwumMovie1%75=0)
@@ -6260,7 +6260,6 @@ req:100 PatroniteF
 	req:(!(ArpiwumMovie4=0) and !(ArpiwumMovie5=0) and !(ArpiwumMovie13=0) and (ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie13)%2=0 and (ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie13)%3=0 and (ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie13)%4=0 and (ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie13)%5=0 and (ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie13)%10=0 and (ArpiwumMovie4+ArpiwumMovie5+ArpiwumMovie13)%100=0)
 	req:(!(ArpiwumMovie8=0) and !(ArpiwumMovie14=0) and (ArpiwumMovie8+ArpiwumMovie14)%2=0 and (ArpiwumMovie8+ArpiwumMovie14)%3=0 and (ArpiwumMovie8+ArpiwumMovie14)%4=0 and (ArpiwumMovie8+ArpiwumMovie14)%5=0 and (ArpiwumMovie8+ArpiwumMovie14)%10=0 and (ArpiwumMovie8+ArpiwumMovie14)%100=0)
 	req:(!(ArpiwumMovie1=0) and !(ArpiwumMovie15=0) and (ArpiwumMovie1+ArpiwumMovie15)%2=0 and (ArpiwumMovie1+ArpiwumMovie15)%3=0 and (ArpiwumMovie1+ArpiwumMovie15)%4=0 and (ArpiwumMovie1+ArpiwumMovie15)%5=0 and (ArpiwumMovie1+ArpiwumMovie15)%10=0 and (ArpiwumMovie1+ArpiwumMovie15)%100=0)
-	passive:multiply yield of PLN by 100
 	req:(!(ArpiwumMovie16=0) and ArpiwumMovie16%4=0 and ArpiwumMovie16%6=0 and ArpiwumMovie16%8=0 and ArpiwumMovie16%10=0 and ArpiwumMovie16%20=0 and ArpiwumMovie16%100=0)
 
 
@@ -12412,6 +12411,7 @@ Achievements
 	req:(!(ArpiwumMovie16=0) and ArpiwumMovie16%4=0 and ArpiwumMovie16%6=0 and ArpiwumMovie16%8=0 and ArpiwumMovie16%10=0 and ArpiwumMovie16%20=0 and ArpiwumMovie16%100=0)
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PozycjoAchievs
+	passive:multiply yield of PLN by 100
 
 *Pozycja1
 	name:Panamska Synchronizacja
