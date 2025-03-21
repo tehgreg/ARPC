@@ -163,7 +163,10 @@ float: left;
 {
 	display:block
 }
-
+.communitClass
+{
+	display:block
+}
 
 
 .upgrade.owned {
@@ -1375,6 +1378,7 @@ always hidden
 //Punkty społeczności
 *CommunityPts
 	name:Punkty Społeczności
+	class:noBackground communitClass
 
 
 
@@ -12867,105 +12871,105 @@ Achievements
 *Group1Experienced1
 	name:Discordowa Codzienność I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy I (18 minut po rozpoczęciu Tygodnia Tematycznego).
-	req:TierTrackerGroup1>1
+	req:TierTrackerGroup1>=1
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs
 
 *Group1Experienced2
 	name:Discordowa Codzienność II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy I (18 minut po rozpoczęciu Tygodnia Tematycznego).
-	req:TierTrackerGroup1>10
+	req:TierTrackerGroup1>=10
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs
 
 *Group1Experienced3
 	name:Discordowa Codzienność III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy I (18 minut po rozpoczęciu Tygodnia Tematycznego).
-	req:TierTrackerGroup1>25
+	req:TierTrackerGroup1>=25
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs
 
 *Group2Experienced1  
 	name:Serwerowe Poczynania I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy II (36 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup2>1  
+	req:TierTrackerGroup2>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group2Experienced2  
 	name:Serwerowe Poczynania II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy II (36 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup2>10  
+	req:TierTrackerGroup2>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group2Experienced3  
 	name:Serwerowe Poczynania III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy II (36 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup2>25  
+	req:TierTrackerGroup2>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group3Experienced1  
 	name:Internetowe Życie I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy III (54 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup3>1  
+	req:TierTrackerGroup3>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group3Experienced2  
 	name:Internetowe Życie II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy III (54 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup3>10  
+	req:TierTrackerGroup3>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group3Experienced3  
 	name:Internetowe Życie III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy III (54 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup3>25  
+	req:TierTrackerGroup3>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group4Experienced1  
 	name:Ciągłe Powiadomienia I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy IV (72 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup4>1  
+	req:TierTrackerGroup4>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group4Experienced2  
 	name:Ciągłe Powiadomienia II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy IV (72 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup4>10  
+	req:TierTrackerGroup4>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group4Experienced3  
 	name:Ciągłe Powiadomienia III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy IV (72 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup4>25  
+	req:TierTrackerGroup4>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group5Experienced1  
 	name:Zbanowany Bez Powodu I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy V (90 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup5>1  
+	req:TierTrackerGroup5>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group5Experienced2  
 	name:Zbanowany Bez Powodu II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy V (90 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup5>10  
+	req:TierTrackerGroup5>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group5Experienced3  
 	name:Zbanowany Bez Powodu III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy V (90 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup5>25  
+	req:TierTrackerGroup5>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
@@ -12973,84 +12977,84 @@ Achievements
 *Group6Experienced1  
 	name:Cytat Bez Kontekstu I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy VI (108 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup6>1  
+	req:TierTrackerGroup6>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group6Experienced2  
 	name:Cytat Bez Kontekstu II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy VI (108 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup6>10  
+	req:TierTrackerGroup6>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group6Experienced3  
 	name:Cytat Bez Kontekstu III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy VI (108 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup6>25  
+	req:TierTrackerGroup6>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group7Experienced1  
 	name:Chronicznie Online I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy VII (126 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup7>1  
+	req:TierTrackerGroup7>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group7Experienced2  
 	name:Chronicznie Online II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy VII (126 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup7>10  
+	req:TierTrackerGroup7>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group7Experienced3  
 	name:Chronicznie Online III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy VII (126 minut po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup7>25  
+	req:TierTrackerGroup7>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group8Experienced1  
 	name:Nie Mam Mikrofonu I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy VIII (144 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup8>1  
+	req:TierTrackerGroup8>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group8Experienced2  
 	name:Nie Mam Mikrofonu II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy VIII (144 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup8>10  
+	req:TierTrackerGroup8>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group8Experienced3  
 	name:Nie Mam Mikrofonu III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy VIII (144 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup8>25  
+	req:TierTrackerGroup8>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group9Experienced1  
 	name:Mistrz Banhammera I
 	desc:Wziąłeś udział w pierwszym wydarzeniu z Grupy IX (162 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup9>1  
+	req:TierTrackerGroup9>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group9Experienced2  
 	name:Mistrz Banhammera II
 	desc:Wziąłeś udział w 10 wydarzeniach z Grupy IX (162 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup9>10  
+	req:TierTrackerGroup9>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *Group9Experienced3  
 	name:Mistrz Banhammera III
 	desc:Wziąłeś udział w 25 wydarzeniach z Grupy IX (162 minuty po rozpoczęciu Tygodnia Tematycznego).  
-	req:TierTrackerGroup9>25  
+	req:TierTrackerGroup9>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
@@ -13078,21 +13082,21 @@ Achievements
 *GroupXExperienced1  
 	name:Wielki Wybuch I
 	desc:Wziąłeś udział w pierwszym Wydarzeniu Krytycznym.
-	req:TierTrackerGroupX>1  
+	req:TierTrackerGroupX>=1  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *GroupXExperienced2  
 	name:Wielki Wybuch II
 	desc:Wziąłeś udział w 10 Wydarzeniach Krytycznych.
-	req:TierTrackerGroupX>10  
+	req:TierTrackerGroupX>=10  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
 *GroupXExperienced3  
 	name:Wielki Wybuch III
 	desc:Wziąłeś udział w 25 Wydarzeniach Krytycznych.
-	req:TierTrackerGroupX>25  
+	req:TierTrackerGroupX>=25  
 	passive:grant 1 TotalAchievs
 	passive:grant 1 DiscordAchievs  
 
