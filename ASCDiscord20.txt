@@ -3140,28 +3140,6 @@ Upgrades
 
 //TUTAJ POMOC WŁAŚCIWA
 
-
-*dev
-name:heh*
-on click:yield 100000 Ekspertyza1Res
-on click:yield 100000 Ekspertyza2Res
-on click:yield 100000 Ekspertyza3Res
-on click:yield 100000 Ekspertyza4Res
-on click:yield 100000 Ekspertyza5Res
-on click:yield 100000 Ekspertyza6Res
-on click:yield 100000 Ekspertyza7Res
-on click:yield 100000 Ekspertyza8Res
-on click:yield 100000 Ekspertyza9Res
-on click:yield 100000 Ekspertyza10Res
-on click:yield 100000 Ekspertyza11Res
-on click:yield 100000 Ekspertyza12Res
-on click:yield 100000 Ekspertyza13Res
-on click:yield 100000 Ekspertyza14Res
-on click:yield 100000 Ekspertyza15Res
-on click:yield 100000 Ekspertyza16Res
-
-
-
 	*Pomoc1
 		name:Ogólne Informacje
 		desc: W zakładce <b>Pomoc</b> znajdziesz niezbędne informacje wyjaśniające rózne mechanizmy i systemy dostępne w grze. <//>Wraz z rozwojem twojej kariery Youtubera, pojawiać się tutaj będą dodatkowe porady, które pozwolą ci lepiej zrozumieć wszystkie zawiłości Arpiwum Clickera. <//>Gra stworzona jest na silniku "Idle Game Maker" przez co proszę mieć na uwadze, że w grze mogą występować nieprzetłumaczone anglojęzyczne zwroty.
