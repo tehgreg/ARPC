@@ -6799,7 +6799,7 @@ req:100 PatroniteF
 
 //Guzik, którym rozpoczyna się tydzień
 *DiscordStart
-	name:Rozpocznij Tydzień Tematyczny***
+	name:Rozpocznij Tydzień Tematyczny
 	req:TimePlayedReset<900
 	req:DiscordUnlock
 	tag:discordupgrade
@@ -6811,16 +6811,7 @@ req:100 PatroniteF
 	on click:yield random(MinDiscord,MaxDiscord) DiscordMultiplier
 	on click:grant WeekActiveBonuses
 	on click:yield WeekTimer 
-	on click:DiscordBuild1 is 0
-	on click:DiscordBuild2 is 0
-	on click:DiscordBuild3 is 0
-	on click:DiscordBuild4 is 0
-	on click:DiscordBuild5 is 0
-	on click:DiscordBuild6 is 0
-	on click:DiscordBuild7 is 0
-	on click:DiscordBuild8 is 0
-	on click:DiscordBuild9 is 0
-	on click:DiscordBuild10 is 0
+
 
 
 
