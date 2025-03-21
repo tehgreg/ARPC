@@ -2438,7 +2438,7 @@ Buildings
 	tag:discordbuilding
 	req:DiscordUnlock
 	req:(MaxDiscord-MinDiscord)>201
-	cost:3 Nitro
+	cost:2 Nitro
 	passive:grant 4 MinDiscord
 	cost increase:100%
 	cost refund:0%
@@ -2452,7 +2452,7 @@ Buildings
 	desc:Wrzucasz notatkę dla Społeczności na Youtubie, w której informujesz o możliwości dołączenia do twojego serwera.<//> <//><b><u>Efekt działania:</b></u><//> <//><.>Każda dodatkowa reklama zwiększa twoją <b>Wartość Maksymalną</b> o <b><#00ff00>5</b></#><//> <//><.>Limit reklam: 250<//> <//><.>Bieżąca Wartość Maksymalna wynosi: <b>[MaxDiscord]x</b><//> <//><.>"Sprzedaż" tego ulepszenia nie zwróci wydanych punktów Discord Nitro.
 	tag:discordbuilding
 	req:DiscordUnlock
-	cost:3 Nitro
+	cost:2 Nitro
 	passive:grant 5 MaxDiscord
 	cost increase:100%
 	cost refund:0%
@@ -2468,7 +2468,7 @@ Buildings
 	req:250 IncreaseMinimum
 	req:250 IncreaseMaximum
 	req:(MaxDiscord-MinDiscord)>51
-	cost:3 Nitro
+	cost:2 Nitro
 	passive:grant 1 MinDiscord
 	cost increase:100%
 	cost refund:0%
@@ -2481,7 +2481,7 @@ Buildings
 	req:DiscordUnlock
 	req:250 IncreaseMinimum
 	req:250 IncreaseMaximum
-	cost:3 Nitro
+	cost:2 Nitro
 	passive:grant 1 MaxDiscord
 	cost increase:100%
 	cost refund:0%
@@ -3314,7 +3314,7 @@ Upgrades
 		tag:pomocUpgrade
 		req:DiscordUnlock
 		passive:grant 1 PomocAchievTrack
-		desc:Punkty Społeczności to system, który pozwala na dalszą modyfikację Discorda i Wydarzeń, które tam występują. <//> <//><b>Jak to działa?</b><.>Po przeczytaniu tego artykułu Pomocy dostaniesz <b>5 Punktów Społeczności</b> na start.<.>Punkty Społeczności możesz wydawać w zakładce Discord na ulepszanie trwających Wydarzeń z poszególnych grup.<.>Podobnie jak Punkty Sponsorów, Punkty Społeczności możesz <b>dowolnie</b> dodawać i odejmować do poszególnych grup <b>bez dodatkowych kosztów.</b><.>Dodatkowe Punkty Społeczności możesz zakupić w zakładce <b>Zarządzanie Kanałami</b>.<.>Wydarzenie z każdej grupy możesz ulepszyć maksymalnie 10 razy.<.>Ulepszanie Wydarzeń ma wpływ na efekty pozytywne i negatywne jednocześnie.<.>Wartości efektów w opisach Wydarzeń są aktualizowane w czasie rzeczywistym.<.>Punkty Społeczności <b>nie wpływają</b> na jednorazowe bonusy do Mnożnika Tygodnia Tematycznego.<.>Punkty Społeczności <b>wpływają</b> na bonusy oznaczone symbolem: <b><#FFD700>(+)</b></#>
+		desc:Punkty Społeczności to system, który pozwala na dalszą modyfikację Discorda i Wydarzeń, które tam występują. <//> <//><b>Jak to działa?</b><.>Po przeczytaniu tego artykułu Pomocy dostaniesz <b>5 Punktów Społeczności</b> na start.<.>Punkty Społeczności możesz wydawać w zakładce Discord na ulepszanie trwających Wydarzeń z poszególnych grup.<.>Podobnie jak Punkty Sponsorów, Punkty Społeczności możesz <b>dowolnie</b> dodawać i odejmować do poszególnych grup <b>bez dodatkowych kosztów.</b><.>Dodatkowe Punkty Społeczności możesz zakupić w zakładce <b>Discord</b>.<.>Wydarzenie z każdej grupy możesz ulepszyć maksymalnie 10 razy.<.>Ulepszanie Wydarzeń ma wpływ na efekty pozytywne i negatywne jednocześnie.<.>Wartości efektów w opisach Wydarzeń są aktualizowane w czasie rzeczywistym.<.>Punkty Społeczności <b>nie wpływają</b> na jednorazowe bonusy do Mnożnika Tygodnia Tematycznego.<.>Punkty Społeczności <b>wpływają</b> na bonusy oznaczone symbolem: <b><#FFD700>(+)</b></#>
 		on earn:yield 5 CommunityPts
 
 		*Pomoc20
@@ -7138,7 +7138,7 @@ req:100 PatroniteF
 	req:TierXRandom1
 	cost:200 PatroniteA
 	cost:1800 CDZ
-	on earn:yield 5 Nitro
+	on earn:yield 10 Nitro
 	on earn:yield 1 TierXRandom1BoostT
 	passive:multiply yield of PLN by 10
 
@@ -7180,7 +7180,7 @@ req:100 PatroniteF
 	req:TierXRandom2
 	cost:200 PatroniteA
 	cost:1800 CDZ
-	on earn:yield 5 Nitro
+	on earn:yield 10 Nitro
 	on earn:yield 1 TierXRandom2BoostT
 	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by 10
 	passive:if (RandomResourceSelect=2) multiply yield of ArpiwumMovie2 by 10
@@ -7223,7 +7223,7 @@ req:100 PatroniteF
 	req:TierXRandom3
 	cost:200 PatroniteA
 	cost:1800 CDZ
-	on earn:yield 5 Nitro
+	on earn:yield 10 Nitro
 	on earn:yield 1 TierXRandom3BoostT
 	on earn:yield (3*DiscordMultiplier) DiscordMultiplier
 
@@ -7254,7 +7254,7 @@ req:100 PatroniteF
 	req:TierXRandom4
 	cost:200 PatroniteA
 	cost:1800 CDZ
-	on earn:yield 5 Nitro
+	on earn:yield 10 Nitro
 	on earn:yield 1 TierXRandom4BoostT
 	on earn:lose 1 TierXrandom4Helper
 	passive:multiply yield of PLN by 10
@@ -7301,7 +7301,7 @@ always hidden
 	req:TierXRandom5
 	cost:200 PatroniteA
 	cost:1800 CDZ
-	on earn:yield 5 Nitro
+	on earn:yield 10 Nitro
 	on earn:yield 1 TierXRandom5BoostT
 	on earn:lose 1 TierXrandom5Helper
 	passive:multiply cost of ArpiwumMovie1 by 0.75
@@ -7365,7 +7365,7 @@ always hidden
 	req:TierXRandom6
 	cost:200 PatroniteA
 	cost:1800 CDZ
-	on earn:yield 5 Nitro
+	on earn:yield 10 Nitro
 	on earn:yield 1 TierXRandom6BoostT
 	on earn:lose 1 TierXrandom6Helper
 	passive:multiply cost of ArpiwumMovie1 by 0.90
@@ -8143,16 +8143,6 @@ always hidden
 	on earn:yield (MaxDiscord*0.25) DiscordMultiplier
 	
 
-
-
-
-
-
-
-
-
-
-
 *Tier6Random2
 	name:Na Łonie Natury
 	desc:Idziesz na spacer na Błonia i siedząc wygodnie na ławeczce rozmawiasz ze swoimi widzami.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild6)]%</b></#> <b><#FFD700>(+)</b></#><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild6)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier6Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po [((6480-180*QuickerEvent6)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VI</b>)
@@ -8434,11 +8424,11 @@ always hidden
 
 *Tier7Random5
 	name:Damage Control
-	desc:W jednym z ostatnich wpisów dla Społeczności na Youtubie walnąłeś straszną gafę. Prowadzisz dyskusję z fanem, który słusznie wskazał twój błąd.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(100+100*DiscordBuild7)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>5</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier7Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((7560-180*QuickerEvent7)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VII</b>)
+	desc:W jednym z ostatnich wpisów dla Społeczności na Youtubie walnąłeś straszną gafę. Prowadzisz dyskusję z fanem, który słusznie wskazał twój błąd.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(100+100*DiscordBuild7)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier7Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((7560-180*QuickerEvent7)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa VII</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser7=5
-	on earn:yield 5 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier7Random5T
 	on earn:yield 1 TierTrackerGroup7
 	on earn:lose (MinDiscord*0.25) DiscordMultiplier
@@ -8648,11 +8638,11 @@ always hidden
 
 *Tier9Random1
 	name:Bajabongos
-	desc:Odpalasz sziszę i zasiadasz przy kompie. Pomimo sobotniego wieczoru na Discordzie jest spory ruch.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>2</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
+	desc:Odpalasz sziszę i zasiadasz przy kompie. Pomimo sobotniego wieczoru na Discordzie jest spory ruch.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser9=1
-	on earn:yield 2 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier9Random1T
 	on earn:yield 1 TierTrackerGroup9
 	on earn:lose (MinDiscord*0.25) DiscordMultiplier
@@ -8680,11 +8670,11 @@ always hidden
 
 *Tier9Random2
 	name:Casting na lektorów
-	desc:Urządzasz casting na lektorów do następnego filmu. Spotykasz się z chętnymi na głosowym i z innymi widzami wybieracie najlepszych czytaczy.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>2</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
+	desc:Urządzasz casting na lektorów do następnego filmu. Spotykasz się z chętnymi na głosowym i z innymi widzami wybieracie najlepszych czytaczy.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser9=2
-	on earn:yield 2 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier9Random2T
 	on earn:yield 1 TierTrackerGroup9
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1-0.05)-0.05*DiscordBuild9)
@@ -8708,11 +8698,11 @@ always hidden
 
 *Tier9Random3
 	name:Energetyzująca rozmowa
-	desc:Energol - niezbędny element wielogodzinnego ślęczenia nad edycją filmów. Prowadzisz zagorzałą dyskusję o wyższości energoli nad kawą.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(50+50*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#f00><b>droższy</b></#> o <b><#f00>[(25+25*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>2</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
+	desc:Energol - niezbędny element wielogodzinnego ślęczenia nad edycją filmów. Prowadzisz zagorzałą dyskusję o wyższości energoli nad kawą.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(50+50*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#f00><b>droższy</b></#> o <b><#f00>[(25+25*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser9=3
-	on earn:yield 2 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier9Random3T
 	on earn:yield 1 TierTrackerGroup9
 	passive:if (RandomResourceSelect=1) multiply cost of ArpiwumMovie1 by ((1+0.25)+0.25*DiscordBuild9)
@@ -8759,11 +8749,11 @@ always hidden
 
 *Tier9Random4
 	name:Zamułka w robocie
-	desc:Powolny dzień w robocie pozwala ci pozaczepiać twoich fanów na Discordzie. Może znajdzie się ktoś chętny na poklikanie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>2</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
+	desc:Powolny dzień w robocie pozwala ci pozaczepiać twoich fanów na Discordzie. Może znajdzie się ktoś chętny na poklikanie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser9=4
-	on earn:yield 2 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier9Random4T
 	on earn:yield 1 TierTrackerGroup9
 	passive:multiply yield of PLN by ((1+1)+1*DiscordBuild9)
@@ -8777,11 +8767,11 @@ always hidden
 
 *Tier9Random5
 	name:Zasłużony dla narodu
-	desc:Ktoś zarzuca temat krwiodawstwa. Nie możesz koło tego przejść obojętnie i chwalisz się swoimi wynikami w krwiodawstwie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(100+100*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>2</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
+	desc:Ktoś zarzuca temat krwiodawstwa. Nie możesz koło tego przejść obojętnie i chwalisz się swoimi wynikami w krwiodawstwie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(100+100*DiscordBuild9)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier9Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((9720-180*QuickerEvent9)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa IX</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser9=5
-	on earn:yield 2 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier9Random5T
 	on earn:yield 1 TierTrackerGroup9
 	passive:if (RandomResourceSelect=1) multiply yield of ArpiwumMovie1 by ((1+1)+1*DiscordBuild9)
@@ -8808,11 +8798,11 @@ always hidden
 
 *Tier10Random1
 	name:Piwna Dyskusja
-	desc:To miała być zwykła posiadówa na głosowym, ale oczywiście zeszło na temat browarów. Odpalasz się i męczysz temat przez kilka godzin.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>3</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
+	desc:To miała być zwykła posiadówa na głosowym, ale oczywiście zeszło na temat browarów. Odpalasz się i męczysz temat przez kilka godzin.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#00ff00><b>tańszy</b></#> o <b><#00ff00>[(5+5*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random1T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser10=1
-	on earn:yield 3 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier10Random1T
 	on earn:yield 1 TierTrackerGroup10
 	on earn:lose (MinDiscord*0.25) DiscordMultiplier
@@ -8862,11 +8852,11 @@ always hidden
 
 *Tier10Random2
 	name:Zawody Geoguessera
-	desc:Organizujesz zawody w Geoguessera szlakiem trukrajmowych tematów. Wydarzenie cieszy się niesamowitą popularnością i generuje ogromny ruch na Discordzie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>25% ([MaxDiscord*0.25])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#f00><b>droższy</b></#> o <b><#f00>[(25+25*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>3</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
+	desc:Organizujesz zawody w Geoguessera szlakiem trukrajmowych tematów. Wydarzenie cieszy się niesamowitą popularnością i generuje ogromny ruch na Discordzie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zwiększony o <b><#00ff00>25% ([MaxDiscord*0.25])</b></#> Wartości Maksymalnej Mnożnika.<//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Film z aktualnego Tygodnia Tematycznego jest <#f00><b>droższy</b></#> o <b><#f00>[(25+25*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random2T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser10=2
-	on earn:yield 3 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier10Random2T
 	on earn:yield 1 TierTrackerGroup10
 	on earn:yield (MaxDiscord*0.25) DiscordMultiplier
@@ -8895,11 +8885,11 @@ always hidden
 
 *Tier10Random3
 	name:Wydarzenie w Chyba To Tu
-	desc:Organizujesz spotkanie z fanami w Chyba To Tu. Ci, którzy nie mogli przybyć mogą oglądać stream na jednym z kanałów na Discordzie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>3</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
+	desc:Organizujesz spotkanie z fanami w Chyba To Tu. Ci, którzy nie mogli przybyć mogą oglądać stream na jednym z kanałów na Discordzie.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego jest jednorazowo zmniejszony o <b><#f00>25% ([MinDiscord*0.25])</b></#> Wartości Minimalnej Mnożnika.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random3T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser10=3
-	on earn:yield 3 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier10Random3T
 	on earn:yield 1 TierTrackerGroup10
 	on earn:lose (MinDiscord*0.25) DiscordMultiplier
@@ -8911,11 +8901,11 @@ always hidden
 
 *Tier10Random4
 	name:Nowe dowody
-	desc:Dla jednej z omawianych przez ciebie spraw pojawiły się nowe informacje i dowody. Na Discordzie aż huczy od nowych teorii i konspiracji.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>3</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
+	desc:Dla jednej z omawianych przez ciebie spraw pojawiły się nowe informacje i dowody. Na Discordzie aż huczy od nowych teorii i konspiracji.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(50+50*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random4T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser10=4
-	on earn:yield 3 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier10Random4T
 	on earn:yield 1 TierTrackerGroup10
 	passive:multiply yield of PLN by ((1+0.50)+0.50*DiscordBuild10)
@@ -8943,11 +8933,11 @@ always hidden
 
 *Tier10Random5
 	name:Ranking filmów
-	desc:Otwierasz ankietę, w której twoi widzowie mogą głosować na twoje filmy. Zbierasz cenne dane na temat upodobań twoich widzów.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(100+100*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>3</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
+	desc:Otwierasz ankietę, w której twoi widzowie mogą głosować na twoje filmy. Zbierasz cenne dane na temat upodobań twoich widzów.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <b><#00ff00>[(100+100*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><.>Subskrybenci i Czas Oglądania do filmu z bieżącego Tygodnia Tematycznego są zwiększone o <b><#00ff00>[(100+100*DiscordBuild10)]%</b></#> <b><#FFD700>(+)</b></#><//> <//><b><u>Efekt <#f00>negatywny:</#></b></u><.>Brak.<//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>1</b> Discord Nitro za zakup tego ulepszenia.<//> <//><b>Informacje:</b><.>Doświadczyłeś tego Wydarzenia <b>[Tier10Random5T]</b> raz(y).<.>Wydarzenie może pojawić się po [((10800-180*QuickerEvent10)/60)] minutach od rozpoczęcia Tygodnia Tematycznego. (<b>Grupa X</b>)
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierChooser10=5
-	on earn:yield 3 Nitro
+	on earn:yield 1 Nitro
 	on earn:yield 1 Tier10Random5T
 	on earn:yield 1 TierTrackerGroup10
 	passive:multiply yield of PLN by ((1+1)+1*DiscordBuild10)
