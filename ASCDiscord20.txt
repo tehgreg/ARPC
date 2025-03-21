@@ -2488,7 +2488,7 @@ Buildings
 
 
 *DuszaTowarz
-	name:Internetowa Dusza Towarzystwa***
+	name:Internetowa Dusza Towarzystwa
 	desc:Regularne udzielanie się na Discordzie powoduje, że twój poziom użytkownika na twoim serwerze nieustannie rośnie.<//> <//><b><u>Efekt działania:</b></u><//> <//><.>Każdy zakup tego ulepszenia dodaje <b>1 Punkt Społeczności</b> do rozdania.<.>Pamiętaj, że nie tracisz Punktów Społeczności gdy sprzedajesz ulepszenia z kategorii <b>Poprawa Relacji</b> i możesz je ponownie rozdać w inne kategorie.
 	tag:discordbuilding
 	hidden
@@ -2866,6 +2866,15 @@ Buildings
 		cost:1000000000000000000000000000000 Kanaly
 		passive:multiply yield of tag:normalbuilding by pow(2,Button25)
 
+	*Button26
+		name:Youtube Final Boss
+		desc:Inne kanały równie dobrze mogłyby nie istnieć na Youtubie, bo wszyscy i tak oglądają tylko twój content.<//> <//><b><u>Efekt działania:</b></u><.>Zdobyte <b>Punkty Kanału</b> podczas zakładania "Nowego kanału ∞" są większe o <b><#00ff00>[(pow(10,Button26))]x</b></#><//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>
+		tag:prestigeupgrade
+		req:1 TotalResets
+		tag:prestigebuilding
+		cost refund:0%
+		cost increase:500%
+		cost:10000000000000000000000000000000000000000 Kanaly
 
 
 
