@@ -3743,7 +3743,7 @@ cost:2000000000000000000000 Subskrybent
 hidden
 req:Build16MaxUpgrAchi3
 
-*BuyAll
+*BuyAllMovies
 name:Wiedza Arcytajemna
 desc:Zagłębiasz się w kolejne artykuły pomocy obsługi kanału na Youtubie. Wbrew pozorom czytanie instrukcji pomaga.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie filmy na poziom 300<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z budynków.<.>Jeżeli film ma poziom większy niż 300 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
 tag:resetable normalupgrade
