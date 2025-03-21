@@ -1379,6 +1379,7 @@ always hidden
 *CommunityPts
 	name:Punkty Społeczności
 	class:noBackground communitClass
+	hidden when 0
 
 
 
