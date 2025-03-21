@@ -3138,6 +3138,13 @@ Upgrades
 
 //TUTAJ POMOC WŁAŚCIWA
 
+
+*dev
+name:heh
+on click:yield 999999999999999999999999999999999999999999999999999999999999999999999999999999999999 Kanaly
+
+
+
 	*Pomoc1
 		name:Ogólne Informacje
 		desc: W zakładce <b>Pomoc</b> znajdziesz niezbędne informacje wyjaśniające rózne mechanizmy i systemy dostępne w grze. <//>Wraz z rozwojem twojej kariery Youtubera, pojawiać się tutaj będą dodatkowe porady, które pozwolą ci lepiej zrozumieć wszystkie zawiłości Arpiwum Clickera. <//>Gra stworzona jest na silniku "Idle Game Maker" przez co proszę mieć na uwadze, że w grze mogą występować nieprzetłumaczone anglojęzyczne zwroty.
