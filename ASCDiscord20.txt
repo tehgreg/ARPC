@@ -3364,7 +3364,12 @@ Upgrades
 //WYDARZENIA SEZONOWE
 
 
-
+*Wiosna
+	name:Pierwszy Dzień Wiosny
+	desc:Lepszego pierwszego dnia wiosny nie mogłeś sobie wymarzyć - ptaszki ćwierkają, słoneczko świeci a na dodatek jest piąteczek. Wszystko to wprawia ciebie w dobry nastrój, który raczej szybko nie minie.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Checi Do Życia</b> jest zwiększony o <b><#00ff00>1</b></#> na czas trwania wydarzenia.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 21.03.2025 - 30.03.2025
+	hidden
+	tag:eventUpgrade
+	passive:increase yield of CDZ by 1
 
 
 
