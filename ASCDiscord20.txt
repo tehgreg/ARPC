@@ -2488,7 +2488,7 @@ Buildings
 
 
 *DuszaTowarz
-	name:Internetowa Dusza Towarzystwa
+	name:Internetowa Dusza Towarzystwa***
 	desc:Regularne udzielanie się na Discordzie powoduje, że twój poziom użytkownika na twoim serwerze nieustannie rośnie.<//> <//><b><u>Efekt działania:</b></u><//> <//><.>Każdy zakup tego ulepszenia dodaje <b>1 Punkt Społeczności</b> do rozdania.<.>Pamiętaj, że nie tracisz Punktów Społeczności gdy sprzedajesz ulepszenia z kategorii <b>Poprawa Relacji</b> i możesz je ponownie rozdać w inne kategorie.
 	tag:discordbuilding
 	hidden
@@ -2496,6 +2496,7 @@ Buildings
 	cost refund:0%
 	cost increase:500%
 	cost:10000000000000000000000000000000000000000 Kanaly
+	passive:grant 1 CommunityPts
 
 
 
