@@ -2502,7 +2502,8 @@ Buildings
 	cost refund:0%
 	cost increase:500%
 	cost:10000000000000000000000000000000000000000 Kanaly
-	passive:grant 1 CommunityPts
+	on earn:if (DuszaTowarz=0) yield 1 CommunityPts
+	on earn:if (DuszaTowarz>0) yield (DuszaTowarz/DuszaTowarz) CommunityPts
 
 
 
