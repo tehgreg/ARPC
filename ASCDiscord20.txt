@@ -2867,13 +2867,13 @@ Buildings
 		passive:multiply yield of tag:normalbuilding by pow(2,Button25)
 
 	*Button26
-		name:Youtube Final Boss
+		name:Youtube Final Boss***
 		desc:Inne kanały równie dobrze mogłyby nie istnieć na Youtubie, bo wszyscy i tak oglądają tylko twój content.<//> <//><b><u>Efekt działania:</b></u><.>Zdobyte <b>Punkty Kanału</b> podczas zakładania "Nowego kanału ∞" są większe o <b><#00ff00>[(pow(10,Button26))]x</b></#><//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//>
 		tag:prestigeupgrade
 		req:1 TotalResets
 		tag:prestigebuilding
 		cost refund:0%
-		cost increase:500%
+		cost increase:1000%
 		cost:10000000000000000000000000000000000000000 Kanaly
 
 
