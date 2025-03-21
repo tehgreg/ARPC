@@ -1378,6 +1378,7 @@ always hidden
 //Punkty społeczności
 *CommunityPts
 	name:Punkty Społeczności
+	desc:Specjalne Punkty, które możesz wydawać na ulepszanie Wydarzeń z poszczególnych Grup na Discordzie.
 	class:noBackground communitClass
 	hidden when 0
 
