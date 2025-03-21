@@ -2880,7 +2880,7 @@ Buildings
 		req:1 TotalResets
 		tag:prestigebuilding
 		cost refund:0%
-		cost increase:1000%
+		cost increase:750%
 		cost:10000000000000000000000000000000000000000 Kanaly
 		limit:150
 
