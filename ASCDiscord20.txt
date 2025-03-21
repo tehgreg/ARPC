@@ -6799,7 +6799,7 @@ req:100 PatroniteF
 
 //Guzik, którym rozpoczyna się tydzień
 *DiscordStart
-	name:Rozpocznij Tydzień Tematyczny
+	name:Rozpocznij Tydzień Tematyczny***
 	req:TimePlayedReset<900
 	req:DiscordUnlock
 	tag:discordupgrade
@@ -6811,6 +6811,16 @@ req:100 PatroniteF
 	on click:yield random(MinDiscord,MaxDiscord) DiscordMultiplier
 	on click:grant WeekActiveBonuses
 	on click:yield WeekTimer 
+	on click:DiscordBuild1 is 0
+	on click:DiscordBuild2 is 0
+	on click:DiscordBuild3 is 0
+	on click:DiscordBuild4 is 0
+	on click:DiscordBuild5 is 0
+	on click:DiscordBuild6 is 0
+	on click:DiscordBuild7 is 0
+	on click:DiscordBuild8 is 0
+	on click:DiscordBuild9 is 0
+	on click:DiscordBuild10 is 0
 
 
 
@@ -7241,7 +7251,7 @@ req:100 PatroniteF
 
 *TierXRandom4Boost
 	name:♦ Tymczasowe zamknięcie serwera ♦
-	desc:Nie masz innego wyjścia jak tymczasowo zamknąć serwer. Przeglądasz historię czatu i bez litości banujesz wszystkich, którzy narobili bigosu.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Tracisz negatywny mnożnik do Pieniędzy z <b>Wydarzenia Krytycznego</b> - "Dyskusja o GENDER".<.>Zysk <b>Pieniędzy</b> ze wszystkich źródeł rośnie <#00ff00><b>7.5x</b></#></b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>5</b> Discord Nitro za zakup tego ulepszenia.<//> <//><.>Efekt tego ulepszenia zostanie <b><#f00>usunięty</b></#> wraz z założeniem Nowego Kanału.
+	desc:Nie masz innego wyjścia jak tymczasowo zamknąć serwer. Przeglądasz historię czatu i bez litości banujesz wszystkich, którzy narobili bigosu.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Tracisz negatywny mnożnik do Pieniędzy z <b>Wydarzenia Krytycznego</b> - "Dyskusja o GENDER".<.>Zysk <b>Pieniędzy</b> ze wszystkich źródeł rośnie <#00ff00><b>10x</b></#></b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>5</b> Discord Nitro za zakup tego ulepszenia.<//> <//><.>Efekt tego ulepszenia zostanie <b><#f00>usunięty</b></#> wraz z założeniem Nowego Kanału.
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierXRandom4
@@ -7250,7 +7260,7 @@ req:100 PatroniteF
 	on earn:yield 5 Nitro
 	on earn:yield 1 TierXRandom4BoostT
 	on earn:lose 1 TierXrandom4Helper
-	passive:multiply yield of PLN by 7.5
+	passive:multiply yield of PLN by 10
 
 //Tier 5 katastrofa
 
@@ -7352,7 +7362,7 @@ always hidden
 
 *TierXRandom6Boost
 	name:♦ Kolab z kolegami po fachu ♦
-	desc:Aby zażegnać problemy z walkami fanów, decydujesz się na kolaborację z innym Youtuberem trukrajmowym. Nie jest ci to na rękę, ale trzeba pracować nad swoim wizerunkiem w sieci.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Tracisz negatywny mnożnik do zysków twoich filmów z <b>Wydarzenia Krytycznego</b> - "Drama o plagiat".<.>Wszystkie twoje filmy są tańsze o <#00ff00><b>10%</b></#></b></#>.<.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>100%</b> obecnie posiadanego mnożnika.<.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <#00ff00><b>15%</b></#></b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>5</b> Discord Nitro za zakup tego ulepszenia.<//> <//><.>Efekt tego ulepszenia zostanie <b><#f00>usunięty</b></#> wraz z założeniem Nowego Kanału.
+	desc:Aby zażegnać problemy z walkami fanów, decydujesz się na kolaborację z innym Youtuberem trukrajmowym. Nie jest ci to na rękę, ale trzeba pracować nad swoim wizerunkiem w sieci.<//> <//><b><u>Efekt <#00ff00>pozytywny:</#></b></u></b></u><.>Tracisz negatywny mnożnik do zysków twoich filmów z <b>Wydarzenia Krytycznego</b> - "Drama o plagiat".<.>Wszystkie twoje filmy są tańsze o <#00ff00><b>10%</b></#></b></#>.<.>Twój <b>mnożnik</b> do bieżącego Tygodnia Tematycznego rośnie o <b><#00ff00>100%</b> obecnie posiadanego mnożnika.<.>Twój przypływ <b>Pieniędzy</b> ze wszystkich źródeł rośnie o <#00ff00><b>10x</b></#></b></#><//> <//><b><#FFD700>Nagroda:</b></#><.>Otrzymujesz <b>5</b> Discord Nitro za zakup tego ulepszenia.<//> <//><.>Efekt tego ulepszenia zostanie <b><#f00>usunięty</b></#> wraz z założeniem Nowego Kanału.
 	hidden
 	tag:discordupgrade discordrandoms
 	req:TierXRandom6
@@ -7378,7 +7388,7 @@ always hidden
 	passive:multiply cost of ArpiwumMovie15 by 0.90
 	passive:multiply cost of ArpiwumMovie16 by 0.90
 	on earn:yield (1*DiscordMultiplier) DiscordMultiplier
-	passive:multiply yield of PLN by 1.15
+	passive:multiply yield of PLN by 10
 
 //TIER 1
 
