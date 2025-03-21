@@ -2867,7 +2867,7 @@ Buildings
 		req:1 Button24
 		tag:prestigebuilding
 		cost refund:0%
-		cost increase:500%
+		cost increase:750%
 		cost:1000000000000000000000000000000 Kanaly
 		passive:multiply yield of tag:normalbuilding by pow(2,Button25)
 		limit:150
