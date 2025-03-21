@@ -3735,13 +3735,41 @@ on click:yield 1 Kieliszek
 
 *BuyAll
 name:Wiedza Tajemna
-desc:Poświęcasz chwilę na przeczytanie pomocy na Youtubie i odkrywasz fascynującą funkcję, która ułatwia twoje życie Youtubera.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie ulepszenia z kategorii: Monetyzacja i ulepszenia filmów (bez Sub Za Sub).<.>Koszt tego ulepszenia będzie zawsze kosztował tyle samo, nawet jeżeli już posiadasz niektóre z ulepszeń.
+desc:Poświęcasz chwilę na przeczytanie pomocy na Youtubie i odkrywasz fascynującą funkcję, która ułatwia twoje życie Youtubera.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie ulepszenia z kategorii: Monetyzacja i ulepszenia filmów (bez Sub Za Sub).<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z ulepszeń.
 tag:resetable normalupgrade
 on earn:yield tag:buyall
 cost:1000000000000000000000 Minuty
 cost:2000000000000000000000 Subskrybent
 hidden
 req:Build16MaxUpgrAchi3
+
+*BuyAll
+name:Wiedza Arcytajemna
+desc:Zagłębiasz się w kolejne artykuły pomocy obsługi kanału na Youtubie. Wbrew pozorom czytanie instrukcji pomaga.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie filmy na poziom 300<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z budynków.<.>Jeżeli film ma poziom większy niż 300 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable normalupgrade
+cost:1000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1<300) ArpiwumMovie1 is 300
+on earn:if (ArpiwumMovie2<300) ArpiwumMovie2 is 300
+on earn:if (ArpiwumMovie3<300) ArpiwumMovie3 is 300
+on earn:if (ArpiwumMovie4<300) ArpiwumMovie4 is 300
+on earn:if (ArpiwumMovie5<300) ArpiwumMovie5 is 300
+on earn:if (ArpiwumMovie6<300) ArpiwumMovie6 is 300
+on earn:if (ArpiwumMovie7<300) ArpiwumMovie7 is 300
+on earn:if (ArpiwumMovie8<300) ArpiwumMovie8 is 300
+on earn:if (ArpiwumMovie9<300) ArpiwumMovie9 is 300
+on earn:if (ArpiwumMovie10<300) ArpiwumMovie10 is 300
+on earn:if (ArpiwumMovie11<300) ArpiwumMovie11 is 300
+on earn:if (ArpiwumMovie12<300) ArpiwumMovie12 is 300
+on earn:if (ArpiwumMovie13<300) ArpiwumMovie13 is 300
+on earn:if (ArpiwumMovie14<300) ArpiwumMovie14 is 300
+on earn:if (ArpiwumMovie15<300) ArpiwumMovie15 is 300
+on earn:if (ArpiwumMovie16<300) ArpiwumMovie16 is 300
+
+
+
+
 
 
 	*Monetyzacja
