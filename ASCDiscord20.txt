@@ -2861,7 +2861,7 @@ Buildings
 
 	*Button25
 		name:Przycisk NIE na odpierdol +1
-		desc:Wreszcie się wziąłeś w garść i napisałeś do Youtube, żeby ogarnęli się ze spamowaniem tymi wygenerowanymi przyciskami na odpierdol. Youtube się przestraszył i zaczął wysyłać ci spersonalizowane maile z ładnymi obrazkami nowych przycisków.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>[(pow(2,Button25))]x</b>.<.>Bonus obliczany jest w korzystniejszy sposób niż "Przycisk na odpierdol +1": a mianowicie 2 do potęgi poziomu tego ulepszenia.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//><//> <//><b>Maksymalny poziom:</b> 10
+		desc:Wreszcie się wziąłeś w garść i napisałeś do Youtube, żeby ogarnęli się ze spamowaniem tymi wygenerowanymi przyciskami na odpierdol. Youtube się przestraszył i zaczął wysyłać ci spersonalizowane maile z ładnymi obrazkami nowych przycisków.<//> <//><b><u>Efekt działania:</b></u><.>Wartość zdobywania <b>Subskrybentów</b> i <b>Czasu Oglądania</b> wszystkich filmów jest zwiększona: <b>[(pow(2,Button25))]x</b>.<.>Bonus obliczany jest w korzystniejszy sposób niż "Przycisk na odpierdol +1": a mianowicie 2 do potęgi poziomu tego ulepszenia.<//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//><//> <//><b>Maksymalny poziom:</b> 150
 		tag:prestigeupgrade
 		req:1 TotalResets
 		req:1 Button24
@@ -2874,7 +2874,7 @@ Buildings
 
 	*Button26
 		name:Youtube Final Boss
-		desc:Inne kanały równie dobrze mogłyby nie istnieć na Youtubie, bo wszyscy i tak oglądają tylko twój content.<//> <//><b><u>Efekt działania:</b></u><.>Zdobyte <b>Punkty Kanału</b> podczas zakładania "Nowego kanału ∞" są większe o [?Button26=0|<b><#00ff00>10x|<b><#00ff00>[(pow(10,Button26))]x]</b></#><//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//><//> <//><b>Maksymalny poziom:</b> 10
+		desc:Inne kanały równie dobrze mogłyby nie istnieć na Youtubie, bo wszyscy i tak oglądają tylko twój content.<//> <//><b><u>Efekt działania:</b></u><.>Zdobyte <b>Punkty Kanału</b> podczas zakładania "Nowego kanału ∞" są większe o [?Button26=0|<b><#00ff00>10x|<b><#00ff00>[(pow(10,Button26))]x]</b></#><//> <//><.>Ulepszenie <b><#00ff00>zachowuje</b></#> swój poziom wraz z założeniem kolejnego Nowego Kanału.<.>Sprzedaż tego ulepszenia <b><#f00>nie zwróci</b></#> wydanych <b>Punktów Kanału</b>.<//> <//><//> <//><b>Maksymalny poziom:</b> 150
 		tag:prestigeupgrade
 		req:1 TotalResets
 		tag:prestigebuilding
