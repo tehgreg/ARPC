@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.1.1.3
+	name: Arpiwum Clicker v.2.0
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 27.02.2025
 
@@ -3390,6 +3390,11 @@ Upgrades
 	tag:eventUpgrade
 	passive:increase yield of CDZ by 1
 
+*Aktu20
+	name:Aktualizacja 2.0
+	desc:Najnowsza wersja Arpiwum Clickera jest aktywna. Nowe systemy, QoL i poprawki balansu. Zapraszam do gry!
+	hidden
+	tag:eventUpgrade
 
 
 
