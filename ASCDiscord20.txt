@@ -1571,6 +1571,9 @@ always hidden
 *Event1CResource
 always hidden
 
+//acziwment za 2.0
+*Event20UResource
+always hidden
 
 
 
@@ -3395,6 +3398,7 @@ Upgrades
 	desc:Najnowsza wersja Arpiwum Clickera jest aktywna. Nowe systemy, QoL i poprawki balansu. Zapraszam do gry!
 	hidden
 	tag:eventUpgrade
+	on earn:yield 1 Event20UResource
 
 
 
@@ -14979,6 +14983,12 @@ passive:grant 1 WyzwaniaAchievs
 	passive:grant 1 TotalAchievs
 	passive:grant 1 SezonAchievs
 
+*Event20RewardUp
+	name:☼ Nowy Rozdział ☼
+	desc:Twoja cierpliwość została nagrodzona i doczekałeś się Arpiwum Clickera 2.0
+	req:1 Event20UResource
+	passive:grant 1 TotalAchievs
+	passive:grant 1 SezonAchievs
 
 
 
