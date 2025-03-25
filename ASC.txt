@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.0
+	name: Arpiwum Clicker v.2.0.1
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 27.02.2025
 
@@ -12163,8 +12163,8 @@ Achievements
 
 *PatronTotal222222
 	name:Biała Moc ∞
-	desc:Kliknąłeś w 10000 Patronów z Białego progu wsparcia.
-	req:10000 PatrTotalClick2
+	desc:Kliknąłeś w 8000 Patronów z Białego progu wsparcia.
+	req:8000 PatrTotalClick2
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12206,8 +12206,8 @@ Achievements
 
 *PatronTotal333333
 	name:Bezchmurne Niebo ∞
-	desc:Kliknąłeś w 10000 Patronów z Niebieskiego progu wsparcia.
-	req:10000 PatrTotalClick3
+	desc:Kliknąłeś w 6000 Patronów z Niebieskiego progu wsparcia.
+	req:6000 PatrTotalClick3
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12249,8 +12249,8 @@ Achievements
 
 *PatronTotal444444
 	name:Ulubiony kolor Agnieszki ∞
-	desc:Kliknąłeś w 10000 Patronów z Fioletowego progu wsparcia.
-	req:10000 PatrTotalClick4
+	desc:Kliknąłeś w 5000 Patronów z Fioletowego progu wsparcia.
+	req:5000 PatrTotalClick4
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12292,8 +12292,8 @@ Achievements
 
 *PatronTotal555555
 	name:Lepsza po drugiej stronie ∞
-	desc:Kliknąłeś w 10000 Patronów z Zielonego progu wsparcia.
-	req:10000 PatrTotalClick5
+	desc:Kliknąłeś w 4000 Patronów z Zielonego progu wsparcia.
+	req:4000 PatrTotalClick5
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12335,8 +12335,8 @@ Achievements
 
 *PatronTotal666666
 	name:Pyszne kremówki ∞
-	desc:Kliknąłeś w 10000 Patronów z Żółtego progu wsparcia.
-	req:10000 PatrTotalClick6
+	desc:Kliknąłeś w 3500 Patronów z Żółtego progu wsparcia.
+	req:3500 PatrTotalClick6
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12378,8 +12378,8 @@ Achievements
 
 *PatronTotal777777
 	name:Bling, bling ∞
-	desc:Kliknąłeś w 10000 Patronów ze Złotego progu wsparcia.
-	req:10000 PatrTotalClick7
+	desc:Kliknąłeś w 3000 Patronów ze Złotego progu wsparcia.
+	req:3000 PatrTotalClick7
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
