@@ -1,7 +1,7 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.0.1
+	name: Arpiwum Clicker v.2.0.2
 	by:tehgreg
-	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 27.02.2025
+	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.03.2025
 
 
 
@@ -6871,6 +6871,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie1>=1600+Arcymistrz1*100)
 	req:RandomResourceSelect=1
+	req:Endgame1Travel
 	on click:yield 1 Arcy1
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive1
@@ -6883,6 +6884,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie2>=1600+Arcymistrz2*100)
 	req:RandomResourceSelect=2
+	req:Endgame2Travel
 	on click:yield 1 Arcy2
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive2
@@ -6895,6 +6897,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie3>=1600+Arcymistrz3*100)
 	req:RandomResourceSelect=3
+	req:Endgame3Travel
 	on click:yield 1 Arcy3
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive3
@@ -6907,6 +6910,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie4>=1600+Arcymistrz4*100)
 	req:RandomResourceSelect=4
+	req:Endgame4Travel
 	on click:yield 1 Arcy4
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive4
@@ -6919,6 +6923,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie5>=1600+Arcymistrz5*100)
 	req:RandomResourceSelect=5
+	req:Endgame5Travel
 	on click:yield 1 Arcy5
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive5
@@ -6931,6 +6936,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie6>=1600+Arcymistrz6*100)
 	req:RandomResourceSelect=6
+	req:Endgame6Travel
 	on click:yield 1 Arcy6
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive6
@@ -6943,6 +6949,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie7>=1600+Arcymistrz7*100)
 	req:RandomResourceSelect=7
+	req:Endgame7Travel
 	on click:yield 1 Arcy7
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive7
@@ -6955,6 +6962,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie8>=1600+Arcymistrz8*100)
 	req:RandomResourceSelect=8
+	req:Endgame8Travel
 	on click:yield 1 Arcy8
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive8
@@ -6967,6 +6975,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie9>=1600+Arcymistrz9*100)
 	req:RandomResourceSelect=9
+	req:Endgame9Travel
 	on click:yield 1 Arcy9
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive9
@@ -6979,6 +6988,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie10>=1600+Arcymistrz10*100)
 	req:RandomResourceSelect=10
+	req:Endgame10Travel
 	on click:yield 1 Arcy10
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive10
@@ -6991,6 +7001,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie11>=1600+Arcymistrz11*100)
 	req:RandomResourceSelect=11
+	req:Endgame11Travel
 	on click:yield 1 Arcy11
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive11
@@ -7003,6 +7014,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie12>=1600+Arcymistrz12*100)
 	req:RandomResourceSelect=12
+	req:Endgame12Travel
 	on click:yield 1 Arcy12
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive12
@@ -7015,6 +7027,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie13>=1600+Arcymistrz13*100)
 	req:RandomResourceSelect=13
+	req:Endgame13Travel
 	on click:yield 1 Arcy13
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive13
@@ -7027,6 +7040,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie14>=1600+Arcymistrz14*100)
 	req:RandomResourceSelect=14
+	req:Endgame14Travel
 	on click:yield 1 Arcy14
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive14
@@ -7039,6 +7053,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie15>=1600+Arcymistrz15*100)
 	req:RandomResourceSelect=15
+	req:Endgame15Travel
 	on click:yield 1 Arcy15
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive15
@@ -7051,6 +7066,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie16>=1600+Arcymistrz16*100)
 	req:RandomResourceSelect=16
+	req:Endgame16Travel
 	on click:yield 1 Arcy16
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive16
