@@ -1,7 +1,7 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.0
+	name: Arpiwum Clicker v.2.0.2
 	by:tehgreg
-	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 27.02.2025
+	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.03.2025
 
 
 
@@ -2519,7 +2519,7 @@ Buildings
 
 *DiscordBuild1
 	name:Poprawa relacji - Grupa I
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy I</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy I</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	cost increase:100%
@@ -2529,7 +2529,7 @@ Buildings
 
 *DiscordBuild2
 	name:Poprawa relacji - Grupa II
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy II</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy II</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2539,7 +2539,7 @@ Buildings
 
 *DiscordBuild3
 	name:Poprawa relacji - Grupa III
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy III</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy III</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2549,7 +2549,7 @@ Buildings
 
 *DiscordBuild4
 	name:Poprawa relacji - Grupa IV
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy IV</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy IV</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2559,7 +2559,7 @@ Buildings
 
 *DiscordBuild5
 	name:Poprawa relacji - Grupa V
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy V</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy V</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2569,7 +2569,7 @@ Buildings
 
 *DiscordBuild6
 	name:Poprawa relacji - Grupa VI
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VI</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VI</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2579,7 +2579,7 @@ Buildings
 
 *DiscordBuild7
 	name:Poprawa relacji - Grupa VII
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VII</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VII</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2589,7 +2589,7 @@ Buildings
 
 *DiscordBuild8
 	name:Poprawa relacji - Grupa VIII
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VIII</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy VIII</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2599,7 +2599,7 @@ Buildings
 
 *DiscordBuild9
 	name:Poprawa relacji - Grupa IX
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy IX</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy IX</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -2609,7 +2609,7 @@ Buildings
 
 *DiscordBuild10
 	name:Poprawa relacji - Grupa X
-	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy X</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
+	desc:Ktoś się kłóci na jednym z kanałów - wkraczasz do akcji, aby coś dojebać, a potem znikasz na kilka godzin.<//> <//><b><u>Efekt działania:</b></u><.>Każdy poziom tego ulepszenia zwiększa efektywność aktualnego Wydarzenia z <b>Grupy X</b>.<.>Ulepszenie ma <b>zarówno</b> wpływ na efekty <b><#00ff00>pozytywne</b></#> jak i <b><#f00>negatywne</b></#>.<.>Maksymalny poziom: <b>10</b>
 	tag:discordbuilding
 	cost:1 CommunityPts
 	limit:10
@@ -3778,6 +3778,29 @@ on earn:if (ArpiwumMovie14<300) ArpiwumMovie14 is 300
 on earn:if (ArpiwumMovie15<300) ArpiwumMovie15 is 300
 on earn:if (ArpiwumMovie16<300) ArpiwumMovie16 is 300
 
+*BuyAllMovies2
+name:Tania Siła Robocza
+desc:Uczysz swoje dziecko jak przeklikać pewne żmudne ustawienia na twoim koncie Youtube. Niech się na coś przyda.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie filmy na poziom 1500<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z budynków.<.>Jeżeli film ma poziom większy niż 1500 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable normalupgrade
+cost:1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1<1500) ArpiwumMovie1 is 1500
+on earn:if (ArpiwumMovie2<1500) ArpiwumMovie2 is 1500
+on earn:if (ArpiwumMovie3<1500) ArpiwumMovie3 is 1500
+on earn:if (ArpiwumMovie4<1500) ArpiwumMovie4 is 1500
+on earn:if (ArpiwumMovie5<1500) ArpiwumMovie5 is 1500
+on earn:if (ArpiwumMovie6<1500) ArpiwumMovie6 is 1500
+on earn:if (ArpiwumMovie7<1500) ArpiwumMovie7 is 1500
+on earn:if (ArpiwumMovie8<1500) ArpiwumMovie8 is 1500
+on earn:if (ArpiwumMovie9<1500) ArpiwumMovie9 is 1500
+on earn:if (ArpiwumMovie10<1500) ArpiwumMovie10 is 1500
+on earn:if (ArpiwumMovie11<1500) ArpiwumMovie11 is 1500
+on earn:if (ArpiwumMovie12<1500) ArpiwumMovie12 is 1500
+on earn:if (ArpiwumMovie13<1500) ArpiwumMovie13 is 1500
+on earn:if (ArpiwumMovie14<1500) ArpiwumMovie14 is 1500
+on earn:if (ArpiwumMovie15<1500) ArpiwumMovie15 is 1500
+on earn:if (ArpiwumMovie16<1500) ArpiwumMovie16 is 1500
 
 
 
@@ -6871,6 +6894,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie1>=1600+Arcymistrz1*100)
 	req:RandomResourceSelect=1
+	req:Endgame1Travel
 	on click:yield 1 Arcy1
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive1
@@ -6883,6 +6907,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie2>=1600+Arcymistrz2*100)
 	req:RandomResourceSelect=2
+	req:Endgame2Travel
 	on click:yield 1 Arcy2
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive2
@@ -6895,6 +6920,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie3>=1600+Arcymistrz3*100)
 	req:RandomResourceSelect=3
+	req:Endgame3Travel
 	on click:yield 1 Arcy3
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive3
@@ -6907,6 +6933,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie4>=1600+Arcymistrz4*100)
 	req:RandomResourceSelect=4
+	req:Endgame4Travel
 	on click:yield 1 Arcy4
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive4
@@ -6919,6 +6946,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie5>=1600+Arcymistrz5*100)
 	req:RandomResourceSelect=5
+	req:Endgame5Travel
 	on click:yield 1 Arcy5
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive5
@@ -6931,6 +6959,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie6>=1600+Arcymistrz6*100)
 	req:RandomResourceSelect=6
+	req:Endgame6Travel
 	on click:yield 1 Arcy6
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive6
@@ -6943,6 +6972,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie7>=1600+Arcymistrz7*100)
 	req:RandomResourceSelect=7
+	req:Endgame7Travel
 	on click:yield 1 Arcy7
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive7
@@ -6955,6 +6985,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie8>=1600+Arcymistrz8*100)
 	req:RandomResourceSelect=8
+	req:Endgame8Travel
 	on click:yield 1 Arcy8
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive8
@@ -6967,6 +6998,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie9>=1600+Arcymistrz9*100)
 	req:RandomResourceSelect=9
+	req:Endgame9Travel
 	on click:yield 1 Arcy9
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive9
@@ -6979,6 +7011,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie10>=1600+Arcymistrz10*100)
 	req:RandomResourceSelect=10
+	req:Endgame10Travel
 	on click:yield 1 Arcy10
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive10
@@ -6991,6 +7024,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie11>=1600+Arcymistrz11*100)
 	req:RandomResourceSelect=11
+	req:Endgame11Travel
 	on click:yield 1 Arcy11
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive11
@@ -7003,6 +7037,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie12>=1600+Arcymistrz12*100)
 	req:RandomResourceSelect=12
+	req:Endgame12Travel
 	on click:yield 1 Arcy12
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive12
@@ -7015,6 +7050,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie13>=1600+Arcymistrz13*100)
 	req:RandomResourceSelect=13
+	req:Endgame13Travel
 	on click:yield 1 Arcy13
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive13
@@ -7027,6 +7063,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie14>=1600+Arcymistrz14*100)
 	req:RandomResourceSelect=14
+	req:Endgame14Travel
 	on click:yield 1 Arcy14
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive14
@@ -7039,6 +7076,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie15>=1600+Arcymistrz15*100)
 	req:RandomResourceSelect=15
+	req:Endgame15Travel
 	on click:yield 1 Arcy15
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive15
@@ -7051,6 +7089,7 @@ req:100 PatroniteF
 	hidden
 	req:(ArpiwumMovie16>=1600+Arcymistrz16*100)
 	req:RandomResourceSelect=16
+	req:Endgame16Travel
 	on click:yield 1 Arcy16
 	on click:lose 99 RandomResourceSelect
 	on click:lose OdznReceive16
@@ -12163,8 +12202,8 @@ Achievements
 
 *PatronTotal222222
 	name:Biała Moc ∞
-	desc:Kliknąłeś w 10000 Patronów z Białego progu wsparcia.
-	req:10000 PatrTotalClick2
+	desc:Kliknąłeś w 8000 Patronów z Białego progu wsparcia.
+	req:8000 PatrTotalClick2
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12206,8 +12245,8 @@ Achievements
 
 *PatronTotal333333
 	name:Bezchmurne Niebo ∞
-	desc:Kliknąłeś w 10000 Patronów z Niebieskiego progu wsparcia.
-	req:10000 PatrTotalClick3
+	desc:Kliknąłeś w 6000 Patronów z Niebieskiego progu wsparcia.
+	req:6000 PatrTotalClick3
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12249,8 +12288,8 @@ Achievements
 
 *PatronTotal444444
 	name:Ulubiony kolor Agnieszki ∞
-	desc:Kliknąłeś w 10000 Patronów z Fioletowego progu wsparcia.
-	req:10000 PatrTotalClick4
+	desc:Kliknąłeś w 5000 Patronów z Fioletowego progu wsparcia.
+	req:5000 PatrTotalClick4
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12292,8 +12331,8 @@ Achievements
 
 *PatronTotal555555
 	name:Lepsza po drugiej stronie ∞
-	desc:Kliknąłeś w 10000 Patronów z Zielonego progu wsparcia.
-	req:10000 PatrTotalClick5
+	desc:Kliknąłeś w 4000 Patronów z Zielonego progu wsparcia.
+	req:4000 PatrTotalClick5
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12335,8 +12374,8 @@ Achievements
 
 *PatronTotal666666
 	name:Pyszne kremówki ∞
-	desc:Kliknąłeś w 10000 Patronów z Żółtego progu wsparcia.
-	req:10000 PatrTotalClick6
+	desc:Kliknąłeś w 3500 Patronów z Żółtego progu wsparcia.
+	req:3500 PatrTotalClick6
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
@@ -12378,8 +12417,8 @@ Achievements
 
 *PatronTotal777777
 	name:Bling, bling ∞
-	desc:Kliknąłeś w 10000 Patronów ze Złotego progu wsparcia.
-	req:10000 PatrTotalClick7
+	desc:Kliknąłeś w 3000 Patronów ze Złotego progu wsparcia.
+	req:3000 PatrTotalClick7
 	passive:grant 1 TotalAchievs
 	passive:grant 1 PatronAchievs
 
