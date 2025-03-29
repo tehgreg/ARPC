@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.0.2
+	name: Arpiwum Clicker v.2.1
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.03.2025
 
@@ -2188,6 +2188,14 @@ Buildings
 		passive:multiply yield of ArpMovie16TotalMin by (Sponsor10*(1-0.09*Sponsor10))/(Sponsor10*Sponsor10)
 
 
+*devdelete
+name:skasuj sponsor punkty
+on click:lose 999999999999999999999 SponsorPoints
+
+*devdelete2
+name:dodaj sponsor punkty
+on click:yield 565 SponsorPoints
+
 	*Sponsor11
 		name:Reklamy AI - Subskrybcje
 		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Subskrybentów/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Subskrybentów/s: <b><#00ff00>[floor(Sponsor11*1.2)],[(Sponsor11*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
@@ -2214,7 +2222,7 @@ Buildings
 		passive:multiply yield of ArpMovie14TotalSub by 1.2
 		passive:multiply yield of ArpMovie15TotalSub by 1.2
 		passive:multiply yield of ArpMovie16TotalSub by 1.2
-		passive:increase cost of Sponsor11 by 1
+
 
 
 	*Sponsor12
@@ -2243,7 +2251,6 @@ Buildings
 		passive:multiply yield of ArpMovie14TotalMin by 1.2
 		passive:multiply yield of ArpMovie15TotalMin by 1.2
 		passive:multiply yield of ArpMovie16TotalMin by 1.2
-		passive:increase cost of Sponsor12 by 1
 
 
 	*Sponsor13
@@ -2256,7 +2263,6 @@ Buildings
 		cost increase:100%
 		cost refund:100%
 		passive:multiply yield of PLN by 1.2
-		passive:increase cost of Sponsor13 by 1
 
 
 
@@ -2937,7 +2943,7 @@ Buildings
 	no buy
 	limit:1
 	tag:pomocBuilding
-	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 608 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/572)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/49- <b>[(EndAchievs/49*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/20- <b>[(WyzwaniaAchievs/20*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/8- <b>[(SezonAchievs/8*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
+	desc:Posiadane osiągnięcia:<b>[TotalAchievs] / 608 </b><//> <//>Całkowity postęp: <b>[((TotalAchievs/608)*100)]%</b><//> <//>Pomoc: [PomocAchievs] / 4 - <b>[(PomocAchievs/4*100)]%</b><//> <//>Filmy: [FilmyAchievs]/107- <b>[(FilmyAchievs/107*100)]%</b><//> <//>Ulepszenia: [UpgradeAchievs]/55- <b>[(UpgradeAchievs/55*100)]%</b><//> <//>Zarządzanie Kanałami: [PrestigeAchievs]/47- <b>[(PrestigeAchievs/47*100)]%</b><//> <//>Patronite: [PatronAchievs]/50- <b>[(PatronAchievs/50*100)]%</b><//> <//>[?(have PozycjoUnlock)|Pozycjonowanie:|<i>Ukryte</i>] [PozycjoAchievs]/18- <b>[(PozycjoAchievs/18*100)]%</b><//> <//>[?(have SponsorzyUnlock)|Sponsorzy:|<i>Ukryte</i>] [SponsorAchievs]/18- <b>[(SponsorAchievs/18*100)]%</b><//> <//>[?(have RozwojUnlock)|Rozwój Osobisty:|<i>Ukryte</i>] [RozwojAchievs]/23- <b>[(RozwojAchievs/23*100)]%</b><//> <//>[?(have DiscordUnlock)|Discord:|<i>Ukryte</i>] [DiscordAchievs]/47- <b>[(DiscordAchievs/47*100)]%</b><//> <//>[?(have EkspertyzaUnlock)|Ekspertyza:|<i>Ukryte</i>] [EkspertAchievs]/65- <b>[(EkspertAchievs/65*100)]%</b><//> <//>[?(have SpotifyUnlock)|Spotify:|<i>Ukryte</i>] [SpotifyAchievs]/97- <b>[(SpotifyAchievs/97*100)]%</b><//> <//>[?(have TTravelUnlock)|End Game:|<i>Ukryte</i>] [EndAchievs]/49- <b>[(EndAchievs/49*100)]%</b><//> <//>Wyzwania: [WyzwaniaAchievs]/20- <b>[(WyzwaniaAchievs/20*100)]%</b><//> <//>Wydarzenia Sezonowe: [SezonAchievs]/8- <b>[(SezonAchievs/8*100)]%</b><//> <//>Nagłówki uporządkowujące Osiągnięcia liczą się jako Osiągnięcie do kategorii, którą kategoryzują.<//> <//>Niektóre nazwy kategorii mogą być "<i>Ukryte</i>" dopóki nie odblokujesz odpowiedniego systemu.
 	req:PrestigeStats
 
 
@@ -3778,6 +3784,55 @@ on earn:if (ArpiwumMovie14<300) ArpiwumMovie14 is 300
 on earn:if (ArpiwumMovie15<300) ArpiwumMovie15 is 300
 on earn:if (ArpiwumMovie16<300) ArpiwumMovie16 is 300
 
+
+*BuyAllMovies2
+name:Tania Siła Robocza
+desc:Zaprzęgasz swoje dziecko do pomocy przy Youtubie i przeklikuje ono jakieś żmudne ustawienia kanału. Niech się na coś przyda.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie filmy na poziom 1000<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z budynków.<.>Jeżeli film ma poziom większy niż 1000 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable normalupgrade
+cost:100000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1<1000) ArpiwumMovie1 is 1000
+on earn:if (ArpiwumMovie2<1000) ArpiwumMovie2 is 1000
+on earn:if (ArpiwumMovie3<1000) ArpiwumMovie3 is 1000
+on earn:if (ArpiwumMovie4<1000) ArpiwumMovie4 is 1000
+on earn:if (ArpiwumMovie5<1000) ArpiwumMovie5 is 1000
+on earn:if (ArpiwumMovie6<1000) ArpiwumMovie6 is 1000
+on earn:if (ArpiwumMovie7<1000) ArpiwumMovie7 is 1000
+on earn:if (ArpiwumMovie8<1000) ArpiwumMovie8 is 1000
+on earn:if (ArpiwumMovie9<1000) ArpiwumMovie9 is 1000
+on earn:if (ArpiwumMovie10<1000) ArpiwumMovie10 is 1000
+on earn:if (ArpiwumMovie11<1000) ArpiwumMovie11 is 1000
+on earn:if (ArpiwumMovie12<1000) ArpiwumMovie12 is 1000
+on earn:if (ArpiwumMovie13<1000) ArpiwumMovie13 is 1000
+on earn:if (ArpiwumMovie14<1000) ArpiwumMovie14 is 1000
+on earn:if (ArpiwumMovie15<1000) ArpiwumMovie15 is 1000
+on earn:if (ArpiwumMovie16<1000) ArpiwumMovie16 is 1000
+
+
+*BuyAllMovies3
+name:Turbo Malina
+desc:Prosisz o pomoc swoją małżonkę, która przy użyciu Raspberry PI automatyzuje zarządzanie twoim kanałem na Youtube.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie filmy na poziom 1500<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z budynków.<.>Jeżeli film ma poziom większy niż 1500 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable normalupgrade
+cost:100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1<1500) ArpiwumMovie1 is 1500
+on earn:if (ArpiwumMovie2<1500) ArpiwumMovie2 is 1500
+on earn:if (ArpiwumMovie3<1500) ArpiwumMovie3 is 1500
+on earn:if (ArpiwumMovie4<1500) ArpiwumMovie4 is 1500
+on earn:if (ArpiwumMovie5<1500) ArpiwumMovie5 is 1500
+on earn:if (ArpiwumMovie6<1500) ArpiwumMovie6 is 1500
+on earn:if (ArpiwumMovie7<1500) ArpiwumMovie7 is 1500
+on earn:if (ArpiwumMovie8<1500) ArpiwumMovie8 is 1500
+on earn:if (ArpiwumMovie9<1500) ArpiwumMovie9 is 1500
+on earn:if (ArpiwumMovie10<1500) ArpiwumMovie10 is 1500
+on earn:if (ArpiwumMovie11<1500) ArpiwumMovie11 is 1500
+on earn:if (ArpiwumMovie12<1500) ArpiwumMovie12 is 1500
+on earn:if (ArpiwumMovie13<1500) ArpiwumMovie13 is 1500
+on earn:if (ArpiwumMovie14<1500) ArpiwumMovie14 is 1500
+on earn:if (ArpiwumMovie15<1500) ArpiwumMovie15 is 1500
+on earn:if (ArpiwumMovie16<1500) ArpiwumMovie16 is 1500
 
 
 
@@ -6306,7 +6361,7 @@ req:100 PatroniteF
 
 *PerfectSync
 	name:Perfekcyjna Synchronizacja
-	desc:Udało ci się osiągnąć Perfekcyjną Synchronizację i skonfigurowałeś wszystkie swoje filmy w idealny sposób.<//><b>Efekt działania:</b><.>Otrzymujesz bonus do PLN/s ze wszystkich źródeł zwiększający twoje przychody <b>100x</b>.<.>Po aktywacji, ulepszenie to jest <b><#00ff00>aktywne</b></#> nawet jak przestaniesz spełniać wymagania Pozycjonowania.
+	desc:Udało ci się osiągnąć Perfekcyjną Synchronizację i skonfigurowałeś wszystkie swoje filmy w idealny sposób.<//><b>Efekt działania:</b><.>Otrzymujesz bonus do PLN/s ze wszystkich źródeł zwiększający twoje przychody <b>100x</b>.<.>Po aktywacji, ulepszenie to jest <b><#00ff00>aktywne</b></#> nawet jak przestaniesz spełniać wymagania Pozycjonowania.<.>Bonus do PLN/s jest aktywny permanentnie po pierwszym zakupie tego ulepszenia.
 	tag:pozycjoupgrade
 	req:PozycjoUnlock
 	req:(ArpiwumMovie1%4=0 and !(ArpiwumMovie1=0) and ArpiwumMovie1%5=0 and ArpiwumMovie1%10=0 and ArpiwumMovie1%15=0 and ArpiwumMovie1%25=0 and ArpiwumMovie1%75=0)
@@ -9421,6 +9476,86 @@ cost:180000 Kanaly
 
 
 //SPOTIFY ULEPSZENIA SPOTIFY STAŁE
+
+
+*BuyAllPodcast1
+name:Sesja w Lokalnym Studio
+desc:Lokalne studio dźwiękowe w Stalowej daje ci możliwość użycia ich sprzętu do nagrania podcastów.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie Piwne Słuchowiska na poziom 300<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z podcastów.<.>Jeżeli podcast ma poziom większy niż 300 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable spotifyupgrade
+cost:100000000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1Spot<300) ArpiwumMovie1Spot is 300
+on earn:if (ArpiwumMovie2Spot<300) ArpiwumMovie2Spot is 300
+on earn:if (ArpiwumMovie3Spot<300) ArpiwumMovie3Spot is 300
+on earn:if (ArpiwumMovie4Spot<300) ArpiwumMovie4Spot is 300
+on earn:if (ArpiwumMovie5Spot<300) ArpiwumMovie5Spot is 300
+on earn:if (ArpiwumMovie6Spot<300) ArpiwumMovie6Spot is 300
+on earn:if (ArpiwumMovie7Spot<300) ArpiwumMovie7Spot is 300
+on earn:if (ArpiwumMovie8Spot<300) ArpiwumMovie8Spot is 300
+on earn:if (ArpiwumMovie9Spot<300) ArpiwumMovie9Spot is 300
+on earn:if (ArpiwumMovie10Spot<300) ArpiwumMovie10Spot is 300
+on earn:if (ArpiwumMovie11Spot<300) ArpiwumMovie11Spot is 300
+on earn:if (ArpiwumMovie12Spot<300) ArpiwumMovie12Spot is 300
+on earn:if (ArpiwumMovie13Spot<300) ArpiwumMovie13Spot is 300
+on earn:if (ArpiwumMovie14Spot<300) ArpiwumMovie14Spot is 300
+on earn:if (ArpiwumMovie15Spot<300) ArpiwumMovie15Spot is 300
+on earn:if (ArpiwumMovie16Spot<300) ArpiwumMovie16Spot is 300
+
+*BuyAllPodcast2
+name:Sesja w Rzeszowie
+desc:Wyruszasz do Wielkiego Miasta, aby skorzystać z tamtejszych dobrodziejstw profesjonalnego studia nagrań. Kto wie, może spotkasz Steczkowską?<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie Piwne Słuchowiska na poziom 1000<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z podcastów.<.>Jeżeli podcast ma poziom większy niż 1000 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable spotifyupgrade
+cost:100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1Spot<1000) ArpiwumMovie1Spot is 1000
+on earn:if (ArpiwumMovie2Spot<1000) ArpiwumMovie2Spot is 1000
+on earn:if (ArpiwumMovie3Spot<1000) ArpiwumMovie3Spot is 1000
+on earn:if (ArpiwumMovie4Spot<1000) ArpiwumMovie4Spot is 1000
+on earn:if (ArpiwumMovie5Spot<1000) ArpiwumMovie5Spot is 1000
+on earn:if (ArpiwumMovie6Spot<1000) ArpiwumMovie6Spot is 1000
+on earn:if (ArpiwumMovie7Spot<1000) ArpiwumMovie7Spot is 1000
+on earn:if (ArpiwumMovie8Spot<1000) ArpiwumMovie8Spot is 1000
+on earn:if (ArpiwumMovie9Spot<1000) ArpiwumMovie9Spot is 1000
+on earn:if (ArpiwumMovie10Spot<1000) ArpiwumMovie10Spot is 1000
+on earn:if (ArpiwumMovie11Spot<1000) ArpiwumMovie11Spot is 1000
+on earn:if (ArpiwumMovie12Spot<1000) ArpiwumMovie12Spot is 1000
+on earn:if (ArpiwumMovie13Spot<1000) ArpiwumMovie13Spot is 1000
+on earn:if (ArpiwumMovie14Spot<1000) ArpiwumMovie14Spot is 1000
+on earn:if (ArpiwumMovie15Spot<1000) ArpiwumMovie15Spot is 1000
+on earn:if (ArpiwumMovie16Spot<1000) ArpiwumMovie16Spot is 1000
+
+*BuyAllPodcast3
+name:Sesja w domu
+desc:Wszędzie dobrze, ale w domu najlepiej. Żona pojechała z dzieckiem do mamusi i nagrywasz sam w domowym zaciszu.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie Piwne Słuchowiska na poziom 1500<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z podcastów.<.>Jeżeli podcast ma poziom większy niż 1500 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
+tag:resetable spotifyupgrade
+cost:1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
+hidden
+req:Build16MaxUpgrAchi3
+on earn:if (ArpiwumMovie1Spot<1500) ArpiwumMovie1Spot is 1500
+on earn:if (ArpiwumMovie2Spot<1500) ArpiwumMovie2Spot is 1500
+on earn:if (ArpiwumMovie3Spot<1500) ArpiwumMovie3Spot is 1500
+on earn:if (ArpiwumMovie4Spot<1500) ArpiwumMovie4Spot is 1500
+on earn:if (ArpiwumMovie5Spot<1500) ArpiwumMovie5Spot is 1500
+on earn:if (ArpiwumMovie6Spot<1500) ArpiwumMovie6Spot is 1500
+on earn:if (ArpiwumMovie7Spot<1500) ArpiwumMovie7Spot is 1500
+on earn:if (ArpiwumMovie8Spot<1500) ArpiwumMovie8Spot is 1500
+on earn:if (ArpiwumMovie9Spot<1500) ArpiwumMovie9Spot is 1500
+on earn:if (ArpiwumMovie10Spot<1500) ArpiwumMovie10Spot is 1500
+on earn:if (ArpiwumMovie11Spot<1500) ArpiwumMovie11Spot is 1500
+on earn:if (ArpiwumMovie12Spot<1500) ArpiwumMovie12Spot is 1500
+on earn:if (ArpiwumMovie13Spot<1500) ArpiwumMovie13Spot is 1500
+on earn:if (ArpiwumMovie14Spot<1500) ArpiwumMovie14Spot is 1500
+on earn:if (ArpiwumMovie15Spot<1500) ArpiwumMovie15Spot is 1500
+on earn:if (ArpiwumMovie16Spot<1500) ArpiwumMovie16Spot is 1500
+
+
+
+
+
+
+
 
 *Spot1MultiUpgr1
 	name:Remastering I - Zaginięcie Lisanne Froon i Kris Kremers
