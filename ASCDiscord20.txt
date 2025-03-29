@@ -2203,7 +2203,7 @@ on click:yield 1000 SponsorPoints
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
 		req:UnlockAISub
-		cost increase:101%
+		cost increase:130%
 		cost refund:100%
 		passive:multiply Subskrybent yield of tag:normalbuilding by 1.2
 		passive:multiply yield of ArpMovie1TotalSub by 1.2
@@ -2232,7 +2232,7 @@ on click:yield 1000 SponsorPoints
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
 		req:UnlockAIMin
-		cost increase:101%
+		cost increase:130%
 		cost refund:100%
 		passive:multiply Minuty yield of tag:normalbuilding by 1.2
 		passive:multiply yield of ArpMovie1TotalMin by 1.2
@@ -2260,7 +2260,7 @@ on click:yield 1000 SponsorPoints
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
 		req:UnlockAIPLN
-		cost increase:101%
+		cost increase:130%
 		cost refund:100%
 		passive:multiply yield of PLN by 1.2
 
