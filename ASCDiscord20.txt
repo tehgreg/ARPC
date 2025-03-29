@@ -2222,7 +2222,6 @@ on click:yield 999999999999999999999 SponsorPoints
 		passive:multiply yield of ArpMovie14TotalSub by 1.2
 		passive:multiply yield of ArpMovie15TotalSub by 1.2
 		passive:multiply yield of ArpMovie16TotalSub by 1.2
-		passive:increase cost of Sponsor11 by 1
 
 
 
@@ -2252,7 +2251,6 @@ on click:yield 999999999999999999999 SponsorPoints
 		passive:multiply yield of ArpMovie14TotalMin by 1.2
 		passive:multiply yield of ArpMovie15TotalMin by 1.2
 		passive:multiply yield of ArpMovie16TotalMin by 1.2
-		passive:increase cost of Sponsor12 by 1
 
 
 	*Sponsor13
@@ -2265,7 +2263,6 @@ on click:yield 999999999999999999999 SponsorPoints
 		cost increase:100%
 		cost refund:100%
 		passive:multiply yield of PLN by 1.2
-		passive:increase cost of Sponsor13 by 1
 
 
 
