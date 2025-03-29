@@ -2192,7 +2192,7 @@ Buildings
 name:skasuj sponsor punkty
 on click:lose 999999999999999999999 SponsorPoints
 
-*devdelete
+*devdelete2
 name:dodaj sponsor punkty
 on click:yield 999999999999999999999 SponsorPoints
 
