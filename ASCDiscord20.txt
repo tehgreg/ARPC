@@ -2203,7 +2203,7 @@ on click:yield 999999999999999999999 SponsorPoints
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
 		req:UnlockAISub
-		cost increase:150%
+		cost increase:100%
 		cost refund:100%
 		passive:multiply Subskrybent yield of tag:normalbuilding by 1.2
 		passive:multiply yield of ArpMovie1TotalSub by 1.2
@@ -2222,6 +2222,8 @@ on click:yield 999999999999999999999 SponsorPoints
 		passive:multiply yield of ArpMovie14TotalSub by 1.2
 		passive:multiply yield of ArpMovie15TotalSub by 1.2
 		passive:multiply yield of ArpMovie16TotalSub by 1.2
+		passive:increase cost of Sponsor11 by 1
+
 
 
 	*Sponsor12
