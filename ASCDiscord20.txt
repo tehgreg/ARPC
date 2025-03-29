@@ -2188,6 +2188,14 @@ Buildings
 		passive:multiply yield of ArpMovie16TotalMin by (Sponsor10*(1-0.09*Sponsor10))/(Sponsor10*Sponsor10)
 
 
+*devdelete
+name:skasuj sponsor punkty
+on click:lose 999999999999999999999 SponsorPoints
+
+*devdelete
+name:dodaj sponsor punkty
+on click:yield 999999999999999999999 SponsorPoints
+
 	*Sponsor11
 		name:Reklamy AI - Subskrybcje
 		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Subskrybentów/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Subskrybentów/s: <b><#00ff00>[floor(Sponsor11*1.2)],[(Sponsor11*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
@@ -2195,7 +2203,7 @@ Buildings
 		cost:1 SponsorPoints
 		req:SponsorzyUnlock
 		req:UnlockAISub
-		cost increase:200%
+		cost increase:150%
 		cost refund:100%
 		passive:multiply Subskrybent yield of tag:normalbuilding by 1.2
 		passive:multiply yield of ArpMovie1TotalSub by 1.2
