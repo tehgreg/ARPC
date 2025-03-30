@@ -3390,7 +3390,7 @@ Upgrades
 	hidden
 	tag:eventUpgrade
 	on tick:lose (0.01*Kanaly) Kanaly
-	passive:if(Kanaly>0) yield (Subskrybent*0.01) Subskrybent
+	passive:if (Kanaly>0) yield (Subskrybent*0.01) Subskrybent
 
 *Koparka1OFF
 	name:Wyłącz Koparkę - Subskrybenci
