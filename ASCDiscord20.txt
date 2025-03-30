@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.0.3
+	name: Arpiwum Clicker v.2.1
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.03.2025
 
@@ -2188,14 +2188,6 @@ Buildings
 		passive:multiply yield of ArpMovie16TotalMin by (Sponsor10*(1-0.09*Sponsor10))/(Sponsor10*Sponsor10)
 
 
-*devdelete
-name:skasuj sponsor punkty
-on click:lose 999999999999999999999 SponsorPoints
-
-*devdelete2
-name:dodaj sponsor punkty
-on click:yield 565 SponsorPoints
-
 	*Sponsor11
 		name:Reklamy AI - Subskrybcje
 		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Subskrybentów/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Subskrybentów/s: <b><#00ff00>[floor(Sponsor11*1.2)],[(Sponsor11*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
@@ -2226,7 +2218,7 @@ on click:yield 565 SponsorPoints
 
 
 	*Sponsor12
-		name:Reklamy AI - Czas Oglądania***
+		name:Reklamy AI - Czas Oglądania
 		desc:Dzięki użyciu technologii AI, jesteś w stanie wyświetlać wysoce spersonalizowane reklamy Sponsorów, które nie będą powodować negatywnego odbioru wśród twoich widzów.<//> <//><b>Efekty <#00ff00>pozytywne</#>:</b><.>Każdy poziom zwiększa mnożnik do <u>Czasu Oglądania/s</u> o: <b>1,2</b>.<.>Bieżący bonus do Czasu Oglądania/s: <b><#00ff00>[floor(Sponsor12*1.2)],[(Sponsor12*1.2*pow(10,1))%pow(10,1)]x</b></#><//> <//><b>Efekty <#f00>negatywne</#>:</b><.><u>Brak.</u><//> <//><b>Maksymalny poziom:</b> Bez Ograniczeń
 		tag:sponsorbuilding
 		cost:1 SponsorPoints
@@ -3392,19 +3384,19 @@ Upgrades
 //WYDARZENIA SEZONOWE
 
 
-*Wiosna
-	name:Pierwszy Dzień Wiosny
-	desc:Lepszego pierwszego dnia wiosny nie mogłeś sobie wymarzyć - ptaszki ćwierkają, słoneczko świeci a na dodatek jest piąteczek. Wszystko to wprawia ciebie w dobry nastrój, który raczej szybko nie minie.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Checi Do Życia</b> jest zwiększony o <b><#00ff00>1</b></#> na czas trwania wydarzenia.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 21.03.2025 - 30.03.2025
+*Koparka1ON
+	name:Kopalnia Kryptowalut - Subskrybcje
+	desc:Dałeś się namówić na kopanie kryptowalut.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Checi Do Życia</b> jest zwiększony o <b><#00ff00>1</b></#> na czas trwania wydarzenia.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 21.03.2025 - 30.03.2025
 	hidden
 	tag:eventUpgrade
-	passive:increase yield of CDZ by 1
+	on tick:lose (0.01*Kanaly) Kanaly
+	passive:if(Kanaly>0) yield (Subskrybent*0.01) Subskrybent
 
-*Aktu20
-	name:Aktualizacja 2.0
-	desc:Najnowsza wersja Arpiwum Clickera jest aktywna. Nowe systemy, QoL i poprawki balansu. Zapraszam do gry!
-	hidden
-	tag:eventUpgrade
-	on earn:yield 1 Event20UResource
+*Koparka1OFF
+	name:Wyłącz Koparkę - Subskrybenci
+	on click:lose Koparka1ON
+
+
 
 
 
