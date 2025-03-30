@@ -3384,17 +3384,20 @@ Upgrades
 //WYDARZENIA SEZONOWE
 
 
+
 *Koparka1ON
-	name:Kopalnia Kryptowalut - Subskrybcje
-	desc:Jeden z widzów namówił ciebie na kopanie kryptowalut. Dzięki twoim zasobom jesteś w stanie stworzyć dobrą infrastrukturę dla koparek.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia otrzymujesz 1% bieżących Subskrybentów na sekundę.<.>Po uruchomieniu tego ulepszenia tracisz 1% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".
+	name:Kopalnia Kryptowalut
+	desc:Jeden z widzów namówił ciebie na kopanie kryptowalut. Kompletnie się na tym nie znasz, ale zawsze coś tam ci się uda wykopać.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia otrzymujesz 1% bieżących Pieniędzy na sekundę.<.>Po uruchomieniu tego ulepszenia tracisz 5% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Pieniędzy, ale dalej będziesz tracić Punkty Kanału.
 	hidden
 	tag:eventUpgrade
 	on tick:lose (0.05*Kanaly) Kanaly
-	passive:if (Kanaly>0) yield (Subskrybent*0.05) Subskrybent
+	passive:if (Kanaly>0) yield (PLN*0.01) PLN
 
 *Koparka1OFF
-	name:Wyłącz Koparkę - Subskrybenci
+	name:Wyłącz Koparkę
+	desc:Kliknij w to ulepszenie, aby wyłączyć Kopalnię Kryptowalut.
 	on click:lose Koparka1ON
+	on click:lose Koparka1OFF
 
 
 
