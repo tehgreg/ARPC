@@ -3386,11 +3386,11 @@ Upgrades
 
 *Koparka1ON
 	name:Kopalnia Kryptowalut - Subskrybcje
-	desc:Dałeś się namówić na kopanie kryptowalut.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Checi Do Życia</b> jest zwiększony o <b><#00ff00>1</b></#> na czas trwania wydarzenia.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 21.03.2025 - 30.03.2025
+	desc:Jeden z widzów namówił ciebie na kopanie kryptowalut. Dzięki twoim zasobom jesteś w stanie stworzyć dobrą infrastrukturę dla koparek.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia otrzymujesz 1% bieżących Subskrybentów na sekundę.<.>Po uruchomieniu tego ulepszenia tracisz 1% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".
 	hidden
 	tag:eventUpgrade
-	on tick:lose (0.01*Kanaly) Kanaly
-	passive:if (Kanaly>0) yield (Subskrybent*0.01) Subskrybent
+	on tick:lose (0.05*Kanaly) Kanaly
+	passive:if (Kanaly>0) yield (Subskrybent*0.05) Subskrybent
 
 *Koparka1OFF
 	name:Wyłącz Koparkę - Subskrybenci
