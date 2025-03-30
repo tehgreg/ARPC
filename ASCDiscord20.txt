@@ -3387,17 +3387,44 @@ Upgrades
 
 *Koparka1ON
 	name:Kopalnia Kryptowalut
-	desc:Jeden z widzów namówił ciebie na kopanie kryptowalut. Kompletnie się na tym nie znasz, ale zawsze coś tam ci się uda wykopać.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia otrzymujesz 1% bieżących Pieniędzy na sekundę.<.>Po uruchomieniu tego ulepszenia tracisz 5% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Pieniędzy, ale dalej będziesz tracić Punkty Kanału.
+	desc:Jeden z widzów namówił ciebie na kopanie kryptowalut. Kompletnie się na tym nie znasz, więc z jakiegoś powodu wykopujesz Subskrybentów zamiast Pieniędzy. Lepsze to niż nic.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia <b><#00ff00>zyskujesz</b></#> 1% bieżących Subskrybentów na sekundę.<.>Po uruchomieniu tego ulepszenia <b><#f00>tracisz</b></#> 5% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Subskrybentów, ale dalej będziesz tracić Punkty Kanału.
 	hidden
 	tag:eventUpgrade
 	on tick:lose (0.05*Kanaly) Kanaly
-	passive:if (Kanaly>0) yield (PLN*0.01) PLN
+	passive:if (Kanaly>0) yield (Subskrybent*0.01) Subskrybent
 
 *Koparka1OFF
 	name:Wyłącz Koparkę
 	desc:Kliknij w to ulepszenie, aby wyłączyć Kopalnię Kryptowalut.
 	on click:lose Koparka1ON
 	on click:lose Koparka1OFF
+	hidden
+	tag:eventUpgrade
+
+
+*Koparka2ON
+	name:Ruch to zdrowie
+	desc:Idziesz na spacerek, aby nabijć kroki, kwadraty i inne cyferki w przeróżnych aplikacjach.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia <b><#00ff00>zyskujesz</b></#> 1 punkt Chęci Do Życia na sekundę.<.>Po uruchomieniu tego ulepszenia <b><#f00>tracisz</b></#> 5% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Chęci Do Życia, ale dalej będziesz tracić Punkty Kanału.
+	hidden
+	tag:eventUpgrade
+	on tick:lose (0.05*Kanaly) Kanaly
+	passive:if (Kanaly>0) yield 1 CDZ
+
+*Koparka2OFF
+	name:Wróć ze spaceru
+	desc:Kliknij w to ulepszenie, aby wrócić ze spaceru.
+	on click:lose Koparka2ON
+	on click:lose Koparka2OFF
+	hidden
+	tag:eventUpgrade
+
+
+
+
+
+
+
+
 
 
 
