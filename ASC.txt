@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.1.1
+	name: Arpiwum Clicker v.2.1.2
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.03.2025
 
@@ -3384,19 +3384,7 @@ Upgrades
 //WYDARZENIA SEZONOWE
 
 
-*Wiosna
-	name:Pierwszy Dzień Wiosny
-	desc:Lepszego pierwszego dnia wiosny nie mogłeś sobie wymarzyć - ptaszki ćwierkają, słoneczko świeci a na dodatek jest piąteczek. Wszystko to wprawia ciebie w dobry nastrój, który raczej szybko nie minie.<//> <//><b><u>Efekt działania:</b></u><.>Przypływ <b>Checi Do Życia</b> jest zwiększony o <b><#00ff00>1</b></#> na czas trwania wydarzenia.<//> <//><b><u>Czas trwania wydarzenia:</b></u> 21.03.2025 - 30.03.2025
-	hidden
-	tag:eventUpgrade
-	passive:increase yield of CDZ by 1
 
-*Aktu20
-	name:Aktualizacja 2.0
-	desc:Najnowsza wersja Arpiwum Clickera jest aktywna. Nowe systemy, QoL i poprawki balansu. Zapraszam do gry!
-	hidden
-	tag:eventUpgrade
-	on earn:yield 1 Event20UResource
 
 
 
