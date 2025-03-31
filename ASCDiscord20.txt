@@ -3391,7 +3391,7 @@ Upgrades
 
 
 *KanalyCap
-	name:Ochrona serwera***
+	name:Ochrona serwera
 	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to 1+e304.<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
 	hidden
 	owned
@@ -3399,6 +3399,13 @@ Upgrades
 	passive:if (Kanaly>=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) Kanaly is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 	passive:if (Kanaly<0) Kanaly is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
+*KanalyCap
+	name:Ochrona serwera***
+	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to 1+e304.<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
+	hidden
+	owned
+	tag:eventUpgrade
+on click:yield 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 Kanaly
 
 *Koparka1ON
 	name:Kopalnia Kryptowalut
@@ -3406,7 +3413,7 @@ Upgrades
 	hidden
 	tag:eventUpgrade
 	on tick:lose (0.05*Kanaly) Kanaly
-	passive:if (Kanaly<=0) yield (Subskrybent*0.01) Subskrybent
+	passive:if (Kanaly>0) yield (Subskrybent*0.01) Subskrybent
 
 *Koparka1OFF
 	name:Wyłącz Koparkę
@@ -3423,7 +3430,7 @@ Upgrades
 	hidden
 	tag:eventUpgrade
 	on tick:lose (0.01*Kanaly) Kanaly
-	passive:if (Kanaly<=0) yield 1 CDZ
+	passive:if (Kanaly>0) yield 1 CDZ
 
 *Koparka2OFF
 	name:Wróć ze spaceru
@@ -3439,7 +3446,7 @@ Upgrades
 	hidden
 	tag:eventUpgrade
 	on tick:lose (0.01*Kanaly) Kanaly
-	passive:if (Kanaly<=0) yield 1 CDZ
+	passive:if (Kanaly>0) yield 1 CDZ
 
 *Koparka3OFF
 	name:Zamknij okno
