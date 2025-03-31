@@ -15351,7 +15351,7 @@ Shinies
   	movement:onBox:main
 	movement:spinRandom bounce anywhere
   	duration:10800
-  	icon:https://i.imgur.com/mrUmzls.jpeg
+  	icon:https://i.imgur.com/8CK7zU0.jpeg
 	on click:spawn AprilFool2
 
 	
