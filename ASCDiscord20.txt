@@ -3159,6 +3159,16 @@ Upgrades
 	on earn:spawn AprilFool1
 	on earn:spawn AprilFool1
 	on earn:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
+	on load:spawn AprilFool1
 
 
 
@@ -15339,7 +15349,7 @@ Shinies
 
 *AprilFool1 
   	movement:onBox:main
-	movement:spinRandom bounce
+	movement:spinRandom bounce anywhere
   	duration:10800
   	icon:https://i.imgur.com/mrUmzls.jpeg
 	on click:spawn AprilFool2
@@ -15347,7 +15357,7 @@ Shinies
 	
 *AprilFool2
   	movement:onBox:main
-	movement:spinRandom bounce
+	movement:spinRandom bounce anywhere
   	duration:10800
   	icon:https://i.imgur.com/GDCwhY7.jpeg
 	on click:spawn AprilFool1
