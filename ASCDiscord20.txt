@@ -1,7 +1,7 @@
 Let's make a game!
 	name: Arpiwum Clicker v.2.2
 	by:tehgreg
-	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 25.03.2025
+	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 31.03.2025
 
 
 
@@ -3140,11 +3140,23 @@ Upgrades
 		on tick:yield 1 TimePlayedReset
 		owned
 
-
 *GRATS
 	name:GRATULACJE!
 	desc:<b><#FFD700>Koniec.</b></#> <//> <//><b><#FFD700>Wygrałeś.</b></#> <//> <//><b><#FFD700>Osiągnąłeś rzecz (dosłownie) niemożliwą i masz nieskończoną ilość Subskrybentów.</b></#> <//> <//><b><#FFD700>Jeżeli to czytasz to nie ma tu już nic dla ciebie (chyba, że brakuje ci jeszcze wszystkich Osiągnięć).</b></#> <//> <//><b><#FFD700>Możesz spokojnie pójść po piwko do Alf-Reda i trochę odpocząć.</b></#> <//> <//><b><#FFD700>Kto wie, jaka przygoda może czyhać za rogiem w uniwersum Kompulika?</b></#><//> <//><b>Dziękuję za granie - Grzegorz Productions.</b>
 	req:Subskrybent>180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+*ApriFools
+	name:Szóstka w Totka
+	desc:Znajomi namówili ciebie na kupno losu w Euro Jackpota podczas gigantycznej kumulacji. Szkoda, że już posiadasz gigantyczne zasoby gotówki dzięki twojemu Youtubowemu Imperium, ale nie pogardzisz dodatkowym groszem.<//> <//><b><u>Efekt działania:</b></u><.>Każde włączenie gry miało szansę na wylosowanie tego ulepszenia z szansą poniżej <b>1%</b>.<.>Kliknij, aby otrzymać mnożnik 100x do twoich <b>Pieniędzy</b> na sekundę.
+	on earn:spawn PatroniteGVII
+	on earn:spawn PatroniteGVII
+	on earn:spawn PatroniteGVII
+	on earn:spawn PatroniteGVII
+	on earn:spawn PatroniteGVII
+	
+
+
 
 
 //TUTAJ POMOC WŁAŚCIWA
@@ -3390,6 +3402,7 @@ Upgrades
 //WYDARZENIA SEZONOWE
 
 
+
 *KanalyCap
 	name:Ochrona serwera
 	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to około 1+e304 do 1.8+e305 (z jakiegoś powodu bywa różnie).<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
@@ -3397,35 +3410,6 @@ Upgrades
 	owned
 	tag:eventUpgrade
 	passive:if (Kanaly>=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) Kanaly is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-
-*KanalyCap121
-	name:Ochrona serwera***
-	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to 1+e304.<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
-	hidden
-	owned
-	tag:eventUpgrade
-on click:yield 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 Kanaly
-
-*dajsub	
-name:daj subu
-on click:yield 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 Subskrybent
-
-
-*Koparka1ON
-	name:Kopalnia Kryptowalut
-	desc:Jeden z widzów namówił ciebie na kopanie kryptowalut. Kompletnie się na tym nie znasz, więc z jakiegoś powodu wykopujesz Subskrybentów zamiast Pieniędzy. Lepsze to niż nic.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia <b><#00ff00>zyskujesz</b></#> 1% bieżących Subskrybentów na sekundę.<.>Po uruchomieniu tego ulepszenia <b><#f00>tracisz</b></#> 5% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wyłącz Koparkę".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Subskrybentów, pomimo tego, że ulepszenie jest aktywne.
-	hidden
-	tag:eventUpgrade
-	on tick:lose (0.05*Kanaly) Kanaly
-	passive:if (Kanaly>0) yield (Subskrybent*0.01) Subskrybent
-
-*Koparka1OFF
-	name:Wyłącz Koparkę
-	desc:Kliknij w to ulepszenie, aby wyłączyć Kopalnię Kryptowalut.
-	on click:lose Koparka1ON
-	on click:lose Koparka1OFF
-	hidden
-	tag:eventUpgrade
 
 
 *Koparka2ON
@@ -3459,13 +3443,6 @@ on click:yield 10000000000000000000000000000000000000000000000000000000000000000
 	on click:lose Koparka3OFF
 	hidden
 	tag:eventUpgrade
-
-
-
-
-
-
-
 
 
 
@@ -3706,6 +3683,7 @@ on click:lose tag:normalbuilding
 on click:lose tag:normalupgrade
 on click:lose tag:spotifybuilding
 on click:lose tag:resetableprestige
+on click:lose tag:spotifyreset
 on click:lose Subskrybent
 on click:lose Minuty
 on click:lose PLN
@@ -3752,8 +3730,6 @@ on click:yield 1 Kieliszek
 		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000*pow(10,Button26)]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
 req:80000000000000000000000000000 Subskrybent
 req:NowyKanalPlus4
-on click:lose Koparka1ON
-on click:lose Koparka1OFF
 on click:lose Koparka2ON
 on click:lose Koparka2OFF
 on click:lose Koparka3ON
@@ -3779,6 +3755,7 @@ on click:lose tag:normalbuilding
 on click:lose tag:normalupgrade
 on click:lose tag:spotifybuilding
 on click:lose tag:resetableprestige
+on click:lose tag:spotifyreset
 on click:lose Subskrybent
 on click:lose Minuty
 on click:lose PLN
@@ -9550,7 +9527,7 @@ cost:180000 Kanaly
 *BuyAllPodcast1
 name:Sesja w Lokalnym Studio
 desc:Lokalne studio dźwiękowe w Stalowej daje ci możliwość użycia ich sprzętu do nagrania podcastów.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie Piwne Słuchowiska na poziom 300<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z podcastów.<.>Jeżeli podcast ma poziom większy niż 300 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
-tag:resetable spotifyupgrade
+tag:spotifyreset spotifyupgrade
 cost:100000000000000000000000000000000000000000000000 PLN
 hidden
 req:Build16MaxUpgrAchi3
@@ -9574,7 +9551,7 @@ on earn:if (ArpiwumMovie16Spot<300) ArpiwumMovie16Spot is 300
 *BuyAllPodcast2
 name:Sesja w Rzeszowie
 desc:Wyruszasz do Wielkiego Miasta, aby skorzystać z tamtejszych dobrodziejstw profesjonalnego studia nagrań. Kto wie, może spotkasz Steczkowską?<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie Piwne Słuchowiska na poziom 1000<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z podcastów.<.>Jeżeli podcast ma poziom większy niż 1000 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
-tag:resetable spotifyupgrade
+tag:spotifyreset spotifyupgrade
 cost:100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
 hidden
 req:Build16MaxUpgrAchi3
@@ -9598,7 +9575,7 @@ on earn:if (ArpiwumMovie16Spot<1000) ArpiwumMovie16Spot is 1000
 *BuyAllPodcast3
 name:Sesja w domu
 desc:Wszędzie dobrze, ale w domu najlepiej. Żona pojechała z dzieckiem do mamusi i nagrywasz sam w domowym zaciszu.<//> <//><b><u>Efekt działania:</b></u><.>Kliknij w to ulepszenie, aby zakupić wszystkie Piwne Słuchowiska na poziom 1500<.>Koszt tego ulepszenia będzie zawsze taki sam, nawet jeżeli już posiadasz niektóre z podcastów.<.>Jeżeli podcast ma poziom większy niż 1500 w trakcie zakupu tego ulepszenia to jego poziom nie ulegnie zmianie.
-tag:resetable spotifyupgrade
+tag:spotifyreset spotifyupgrade
 cost:1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 PLN
 hidden
 req:Build16MaxUpgrAchi3
