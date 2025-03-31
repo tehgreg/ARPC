@@ -1,5 +1,5 @@
 Let's make a game!
-	name: Arpiwum Clicker v.2.1.2
+	name: Arpiwum Clicker v.2.2
 	by:tehgreg
 	desc: Mirosław wyrusza na podóbj Youtuba. Pomóż mu uzyskać jak największą liczbę subskrybentów, sławy i pieniędzy! <//> <//>Projekt został utworzony: 13/3/2024<//>Ostatnia aktualizacja: 31.03.2025
 
@@ -3140,6 +3140,12 @@ Upgrades
 		on tick:yield 1 TimePlayedReset
 		owned
 
+*GRATS
+	name:GRATULACJE!
+	desc:<b><#FFD700>Koniec.</b></#> <//> <//><b><#FFD700>Wygrałeś.</b></#> <//> <//><b><#FFD700>Osiągnąłeś rzecz (dosłownie) niemożliwą i masz nieskończoną ilość Subskrybentów.</b></#> <//> <//><b><#FFD700>Jeżeli to czytasz to nie ma tu już nic dla ciebie (chyba, że brakuje ci jeszcze wszystkich Osiągnięć).</b></#> <//> <//><b><#FFD700>Możesz spokojnie pójść po piwko do Alf-Reda i trochę odpocząć.</b></#> <//> <//><b><#FFD700>Kto wie, jaka przygoda może czyhać za rogiem w uniwersum Kompulika?</b></#><//> <//><b>Dziękuję za granie - Grzegorz Productions.</b>
+	req:Subskrybent>180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
 
 //TUTAJ POMOC WŁAŚCIWA
 
@@ -3383,6 +3389,48 @@ Upgrades
 
 //WYDARZENIA SEZONOWE
 
+
+
+*KanalyCap
+	name:Ochrona serwera
+	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to około 1+e304 do 1.8+e305 (z jakiegoś powodu bywa różnie).<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
+	hidden
+	owned
+	tag:eventUpgrade
+	passive:if (Kanaly>=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) Kanaly is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+*Koparka2ON
+	name:Ruch to zdrowie
+	desc:Idziesz na spacerek, aby nabijć kroki, kwadraty i inne cyferki w przeróżnych aplikacjach.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia <b><#00ff00>zyskujesz</b></#> 1 punkt Chęci Do Życia na sekundę.<.>Po uruchomieniu tego ulepszenia <b><#f00>tracisz</b></#> 1% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Wróć ze spaceru".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Chęci Do Życia, pomimo tego, że ulepszenie jest aktywne.
+	hidden
+	tag:eventUpgrade
+	on tick:lose (0.01*Kanaly) Kanaly
+	passive:if (Kanaly>0) yield 1 CDZ
+
+*Koparka2OFF
+	name:Wróć ze spaceru
+	desc:Kliknij w to ulepszenie, aby wrócić ze spaceru.
+	on click:lose Koparka2ON
+	on click:lose Koparka2OFF
+	hidden
+	tag:eventUpgrade
+
+*Koparka3ON
+	name:Przewietrz w pokoju
+	desc:Otwierasz okno w dużym i wymieniasz aromaty pierdów i piwka na przyjemną bryzę. Aż chce się żyć.<//> <//><b><u>Efekt działania:</b></u><.>Po uruchomieniu tego ulepszenia <b><#00ff00>zyskujesz</b></#> 1 punkt Chęci Do Życia na sekundę.<.>Po uruchomieniu tego ulepszenia <b><#f00>tracisz</b></#> 1% Punktów Kanału na sekundę.<.>Ulepszenie to możesz w dowolnej chwili wyłączyć przyciskiem - "Zamknij okno".<.>Jeżeli nie masz Punktów Kanału to nie otrzymasz bonusu do Chęci Do Życia, pomimo tego, że ulepszenie jest aktywne.
+	hidden
+	tag:eventUpgrade
+	on tick:lose (0.01*Kanaly) Kanaly
+	passive:if (Kanaly>0) yield 1 CDZ
+
+*Koparka3OFF
+	name:Zamknij okno
+	desc:Kliknij w to ulepszenie, aby zamknąć okno.
+	on click:lose Koparka3ON
+	on click:lose Koparka3OFF
+	hidden
+	tag:eventUpgrade
 
 
 
@@ -3670,6 +3718,10 @@ on click:yield 1 Kieliszek
 		desc:<b><#f00>PRZECZYTAJ NIEUWAŻNIE:</#></b><//>Na tym etapie chyba nie muszę już przypominać co robi ten przycisk.<//> Tworząc Nowy Kanał, otrzymasz <b>"Punkty Kanału"</b> zależne od ilości posiadanych Subskrybentów w danym momencie według formuły: <//><b>Aktualni Subskrybenci / 80,000,000,000,000,000,000,000,000,000</b> <i>zaokrąglone w dół</i> (wreszcie bez limitu!). <//>W tym momencie otrzymałbyś: <b><#00ff00>[Subskrybent/80000000000000000000000000000*pow(10,Button26)]</#> Punktów Kanału</b>. <//>Po utworzeniu nowego kanału, <b><#f00>STRACISZ</#></b> następujące rzeczy: <.>Subskrybenci, <//><.>Czas Oglądania,<//> <.>Pieniądze,<.>Zakupione Ulepszenia z zakładki Ulepszenia,<.>Wszystkie filmy z zakładki Ulepszenia.
 req:80000000000000000000000000000 Subskrybent
 req:NowyKanalPlus4
+on click:lose Koparka2ON
+on click:lose Koparka2OFF
+on click:lose Koparka3ON
+on click:lose Koparka3OFF
 on click:yield ((Subskrybent / 80000000000000000000000000000 * pow(10,Button26))) Kanaly
 on click:if (have EkspertyzaUnlock) yield ArpiwumMovie1 Ekspertyza1Res
 on click:if (have EkspertyzaUnlock) yield ArpiwumMovie2 Ekspertyza2Res
