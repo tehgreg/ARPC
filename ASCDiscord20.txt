@@ -3148,7 +3148,7 @@ Upgrades
 
 *ApriFools
 	name:Szóstka w Totka
-	desc:Znajomi namówili ciebie na kupno losu w Euro Jackpota podczas gigantycznej kumulacji. Szkoda, że już posiadasz gigantyczne zasoby gotówki dzięki twojemu Youtubowemu Imperium, ale nie pogardzisz dodatkowym groszem.<//> <//><b><u>Efekt działania:</b></u><.>Każde włączenie gry miało szansę na wylosowanie tego ulepszenia z szansą poniżej <b>1%</b>.<.>Kliknij, aby otrzymać mnożnik <b><#00ff00>100x</b></#> do twoich <b>Pieniędzy</b> na sekundę.
+	desc:[?(have ApriFools)|<b>XD</b>|Znajomi namówili ciebie na kupno losu w Euro Jackpota podczas gigantycznej kumulacji. Szkoda, że już posiadasz gigantyczne zasoby gotówki dzięki twojemu Youtubowemu Imperium, ale nie pogardzisz dodatkowym groszem.<//> <//><b><u>Efekt działania:</b></u><.>Każde włączenie gry miało szansę na wylosowanie tego ulepszenia z szansą poniżej <b>1%</b>.<.>Kliknij, aby otrzymać mnożnik <b><#00ff00>100x</b></#> do twoich <b>Pieniędzy</b> na sekundę.]
 	on earn:spawn AprilFool1
 	on earn:spawn AprilFool1
 	on earn:spawn AprilFool1
