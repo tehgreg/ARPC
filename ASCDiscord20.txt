@@ -3143,8 +3143,8 @@ Upgrades
 
 *GRATS
 	name:GRATULACJE!
-	desc:<b><#FFD700>Koniec. <//> <//>Wygrałeś. <//> <//>Osiągnąłeś rzecz (dosłownie) niemożliwą i masz nieskończoną ilość Subskrybentów. <//> <//>Jeżeli to czytasz to nie ma tu już nic dla ciebie (chyba, że brakuje ci jeszcze wszystkikch Osiągnięć). <//> <//>Możesz spokojnie pójść po piwko do Alf-Reda i trochę odpocząć. <//> <//>Kto wie, jaka przygoda może czyhać za rogiem?</b></#><//> <//>Dziękuję za granie - Grzegorz Productions.
-	req:Subskrybent>100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	desc:<b><#FFD700>Koniec.</b></#> <//> <//><b><#FFD700>Wygrałeś.</b></#> <//> <//><b><#FFD700>Osiągnąłeś rzecz (dosłownie) niemożliwą i masz nieskończoną ilość Subskrybentów.</b></#> <//> <//><b><#FFD700>Jeżeli to czytasz to nie ma tu już nic dla ciebie (chyba, że brakuje ci jeszcze wszystkikch Osiągnięć).</b></#> <//> <//><b><#FFD700>Możesz spokojnie pójść po piwko do Alf-Reda i trochę odpocząć.</b></#> <//> <//><b><#FFD700>Kto wie, jaka przygoda może czyhać za rogiem?</b></#><//> <//><b>Dziękuję za granie - Grzegorz Productions.</b>
+	req:Subskrybent>180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
 	
 *GRATS12
