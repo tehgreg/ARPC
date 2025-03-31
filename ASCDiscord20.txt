@@ -3392,12 +3392,11 @@ Upgrades
 
 *KanalyCap
 	name:Ochrona serwera
-	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to 1+e304.<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
+	desc:Twoje Youtubowe imperum jest zbyt potężne i infrastruktura strony nie jest gotowa na taki ruch. Youtube postanawia wprowadzić pewne zabezpieczenie i ogranicza twoją maksymalną ilość Punktów Kanału do 1+e303.<//> <//><b><u>Efekt działania:</b></u><.>Limit dowolnego surowca w grze to około 1+e304 do 1.8+e305 (z jakiegoś powodu bywa różnie).<.>Gdy gracz posiada wartość powyżej tej liczby to dostaje nieskończoność danego surowca.<.>Aby zapobiec "zepsuciu" gry, gdy gracz uzyska więcej niż 1e+304 Punktów Kanału po założeniu Nowego Kanału, Punkty zostaną cofnięte do 1e+303.
 	hidden
 	owned
 	tag:eventUpgrade
 	passive:if (Kanaly>=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) Kanaly is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-	passive:if (Kanaly<0) Kanaly is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
 *KanalyCap121
 	name:Ochrona serwera***
