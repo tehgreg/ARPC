@@ -3146,30 +3146,6 @@ Upgrades
 	req:Subskrybent>180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
 
-	
-*ApriFools
-	name:Szóstka w Totka
-	desc:[?(have ApriFools)|<b>PRIMA APRILIS HEHE XDDDDDD</b>|Znajomi namówili ciebie na kupno losu w Euro Jackpota podczas gigantycznej kumulacji. Szkoda, że już posiadasz gigantyczne zasoby gotówki dzięki twojemu Youtubowemu Imperium, ale nie pogardzisz dodatkowym groszem.<//> <//><b><u>Efekt działania:</b></u><.>Każde włączenie gry miało szansę na wylosowanie tego ulepszenia z szansą poniżej <b>1%</b>.<.>Kliknij, aby otrzymać mnożnik <b><#00ff00>100x</b></#> do twoich <b>Pieniędzy</b> na sekundę.]
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on earn:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
-	on load:spawn AprilFool1
 
 
 
@@ -15346,18 +15322,3 @@ Shinies
 	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG<1000 and chance(5%)) do patronzlotybonus1
   	on click:if (have PatroniteZlotyBlock and have PatronZlotyProcent and PatroniteG>=1000 and chance(5%)) do patronzlotybonus2
 
-
-*AprilFool1 
-  	movement:onBox:main
-	movement:spinRandom bounce anywhere
-  	duration:99999
-  	icon:https://i.imgur.com/8CK7zU0.jpeg
-	on click:spawn AprilFool2
-
-	
-*AprilFool2
-  	movement:onBox:main
-	movement:spinRandom bounce anywhere
-  	duration:99999
-  	icon:https://i.imgur.com/GDCwhY7.jpeg
-	on click:spawn AprilFool1
